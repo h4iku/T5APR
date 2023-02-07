@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if (n == 1) puts(\"1 2\");",
+    "patch": "if (n == 2) { printf(\"1 2\"); }",
+    "target": "if (n == 2) puts(\"1 2\");"
+}

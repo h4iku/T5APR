@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if(i > 0 && (u - i) % 2 == 0) {",
+    "patch": "if(i > -1 && (u - i) % 2 == 0) {",
+    "target": "if((u - i) % 2 == 0) {"
+}

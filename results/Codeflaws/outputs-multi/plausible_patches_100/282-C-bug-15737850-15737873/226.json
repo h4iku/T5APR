@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if(e>=d-1&&d!=0&&e!=0||lens-e==lenc-d){",
+    "patch": "if(e>=3&&d!=0&&e!=0||lens-e==lenc-d){",
+    "target": "if(e!=0&&d!=0||lens-e==lenc-d){"
+}

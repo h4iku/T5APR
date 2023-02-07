@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "if((A[j].problems < A[j+1].problems)||((A[j].problems ==A[j+1].problems)&&(A[j].time <A[j+1].time)))",
+    "patch": "if((A[j].problems < A[j+1].problems)||((A[j].problems == A[j+1].problems)&&(A[j].time > A[j+1].time)))",
+    "target": "if((A[j].problems < A[j+1].problems)||((A[j].problems ==A[j+1].problems)&&(A[j].time >A[j+1].time)))"
+}

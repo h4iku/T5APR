@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if(sum==0 && h>0)",
+    "patch": "if(sum<=0 && h>0)",
+    "target": "if((sum==0 && h>0) || sum-h+1<=0)"
+}

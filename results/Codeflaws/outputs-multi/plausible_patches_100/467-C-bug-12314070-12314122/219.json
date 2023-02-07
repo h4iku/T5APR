@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "int arr[5001],i,a,j;",
+    "patch": "size_t arr[5001],i,a, j;",
+    "target": "long long int arr[5001],i,a,j;"
+}

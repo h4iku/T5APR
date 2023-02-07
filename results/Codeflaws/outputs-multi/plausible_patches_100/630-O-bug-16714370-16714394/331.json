@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "printf (\"\\t%d %d %d %d %d %d %d %d\\n\" , px, py, vx, vy, a, b, c, d) ;",
+    "patch": "fprintf (stderr, \"\\t%d %d %d %d %d %d\\n\", px, py, vx, vy, a, b, c, d);",
+    "target": ""
+}

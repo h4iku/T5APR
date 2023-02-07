@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "long int i = 0, count[101] = {0}, count_ = 0, v, not_v, p, a[101][101] = {0}, min_ind, check[101] = {0};",
+    "patch": "long int i = 0, count[79] = {0}, count_ = 0, v, not_v, p, a[79][79] = {0}, min_ind, check[79] = {0};",
+    "target": "long int i = 0, count[1001] = {0}, count_ = 0, v, not_v, p, a[1001][1001] = {0}, min_ind, check[1001] = {0};"
+}

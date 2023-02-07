@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if((n-i+1)<=k)",
+    "patch": "if((n-i-1)<k)",
+    "target": "if((n-i)<=k)"
+}

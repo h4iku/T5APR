@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "if(mS > fS && fS > sS) { printf(\"M\"); return 0; }",
+    "patch": "if(mS > fS && mS > sS) { printf(\"M\"); return 0; }",
+    "target": "if(mS > fS && mS > sS) { printf(\"M\"); return 0; }"
+}

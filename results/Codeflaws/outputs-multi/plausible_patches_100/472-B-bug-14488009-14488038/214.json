@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "for(z=n-1;z>=0;z=z-k){",
+    "patch": "for(z = n - 1; z > 0; z = z - k ) {",
+    "target": "for(z=n-1;z>0;z=z-k){"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "",
+    "patch": "if (inPos + inAvail < 0) { resizeBuffer(); }",
+    "target": "if (buffer == null || buffer.length - pos < decodeSize) { resizeBuffer(); }"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "return this == o;",
+    "patch": "if (this!= o) return true; return false;",
+    "target": "return tag.equals(element.tag);"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "",
+    "patch": "k=P[Pi];Li=Ri=0;",
+    "target": "if(!Li){ans=0;break;}"
+}

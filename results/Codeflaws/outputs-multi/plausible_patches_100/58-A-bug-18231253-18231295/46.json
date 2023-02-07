@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "else if(hello[3]==1 && hello[4]==0 && str[i]=='l'){",
+    "patch": "else if(hello[3]==1 && hello[4]==0 && str[i]=='o'){",
+    "target": "else if(hello[3]==1 && hello[4]==0 && str[i]=='o'){"
+}

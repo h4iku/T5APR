@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "else i=(m/2)*n+(m/2);",
+    "patch": "else i=(m/2)*n+(n/2);",
+    "target": "else i=(m/2)*n+(n/2);"
+}

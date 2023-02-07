@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "for(k=ghost+350;k<=j+t,k<700;k++){",
+    "patch": "for(k=ghost+350;k<=j+t&&k<700;k++){",
+    "target": "for(k=ghost+350;k<=j+t && k<700;k++){"
+}

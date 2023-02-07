@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "a=sumi(arr,k-1,j-2)<sumi(arr,j-1,k+n-1)?sumi(arr,k-1,j-2):sumi(arr,j-1,k+n-1);",
+    "patch": "a=sumi(arr,k-1,j-2)<sumi(arr,j-1,k+n-2)?sumi(arr,k-1,j-2):sumi(arr,j-1,k+n-2);",
+    "target": "a=sumi(arr,k-1,j-2)<sumi(arr,j-1,k+n-2)?sumi(arr,k-1,j-2):sumi(arr,j-1,k+n-2);"
+}

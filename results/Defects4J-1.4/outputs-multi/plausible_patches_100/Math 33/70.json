@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if (Precision.compareTo(entry, 0d, maxUlps) > 0) {",
+    "patch": "if (Precision.compareTo(entry, 0.5, maxUlps) > 0) {",
+    "target": "if (Precision.compareTo(entry, 0d, epsilon) > 0) {"
+}

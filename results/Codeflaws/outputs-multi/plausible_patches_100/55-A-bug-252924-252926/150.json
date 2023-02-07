@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "int nv = n - 1;",
+    "patch": "int nv = n - 1 | 1;",
+    "target": "int nv = n;"
+}

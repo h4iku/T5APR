@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if(x==1){ printf(\"%c\",arr[0]);return 0; }",
+    "patch": "u=strlen(arr);",
+    "target": ""
+}

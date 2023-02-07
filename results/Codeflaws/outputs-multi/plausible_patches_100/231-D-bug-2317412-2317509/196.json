@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "if((z<z1))",
+    "patch": "if((z<(int)0))",
+    "target": "if((z<0))"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "nextLineTabStop = width - 1;",
+    "patch": "nextLineTabStop = 1;",
+    "target": "nextLineTabStop = 1;"
+}

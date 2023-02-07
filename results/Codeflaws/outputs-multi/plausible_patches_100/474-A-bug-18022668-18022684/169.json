@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "",
+    "patch": "t=0; scanf(\"%c\",&c); scanf(\"%s\",s);",
+    "target": "t=0;"
+}

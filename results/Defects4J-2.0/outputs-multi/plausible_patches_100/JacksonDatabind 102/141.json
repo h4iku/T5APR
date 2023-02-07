@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if (property == null) { return this; }",
+    "patch": "JsonFormat.Value format1 = findFormatOverrides(serializers, property, handledType());",
+    "target": ""
+}

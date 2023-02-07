@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "int ara[30];",
+    "patch": "int ara[300];",
+    "target": "int ara[300];"
+}

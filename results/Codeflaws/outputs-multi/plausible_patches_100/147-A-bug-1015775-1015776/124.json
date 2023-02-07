@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "if(a!=' '&&a!=','){",
+    "patch": "else if (a!=' '&&a!=','){",
+    "target": "if(a!=' '&&a!=','&&a!='.'&&a!='!'&&a!='?'){"
+}

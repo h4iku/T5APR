@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "break;",
+    "patch": "continue; } else { cmd.addOption(opt);",
+    "target": "continue;"
+}

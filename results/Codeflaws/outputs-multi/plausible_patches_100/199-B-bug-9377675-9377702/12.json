@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "printf(\"Disjoint with inner circle\\n\");",
+    "patch": "dprintf(\"Disjoint with inner circle\\n\");",
+    "target": ""
+}

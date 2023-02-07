@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if (targetType.getSimpleName().equals(ref.getSimpleName()) && !targetType.equals(ref)) {",
+    "patch": "if (ref.getSimpleName().equals(targetType)) {",
+    "target": "if (targetType != null && targetType.getSimpleName().equals(ref.getSimpleName()) && !targetType.equals(ref)) {"
+}

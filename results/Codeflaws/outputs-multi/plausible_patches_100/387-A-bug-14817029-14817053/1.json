@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "m=(m1+60)-m1;",
+    "patch": "m=(m1+60)-m2;",
+    "target": "m=(m1+60)-m2;"
+}

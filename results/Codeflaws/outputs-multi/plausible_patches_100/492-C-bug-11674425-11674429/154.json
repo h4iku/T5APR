@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if(n==100000) for(i=0;i<100000;i++) printf(\"%lld \",b[i]);",
+    "patch": "if(n==100000) for(i=0;i<100000;i++) { dprintf(\"%lld \",b[i]); }",
+    "target": ""
+}

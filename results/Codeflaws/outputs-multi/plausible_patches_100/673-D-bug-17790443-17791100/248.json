@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "",
+    "patch": "vet[i] = b;",
+    "target": "vet[c] = 1; vet[d] = 1;"
+}

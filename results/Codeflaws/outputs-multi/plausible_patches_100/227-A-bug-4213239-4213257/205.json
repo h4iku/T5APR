@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "else if(y1==0 && y2==0)",
+    "patch": "else if(y2==y1)",
+    "target": "else if(y1 == y2)"
+}

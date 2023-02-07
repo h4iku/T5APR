@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "else {",
+    "patch": "else if (!strcmp(s[0], s[2])) {",
+    "target": "else if (strcmp(cr, r)) {"
+}

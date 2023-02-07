@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if ((fabs(Y)<fabs(X))&&X>=0)",
+    "patch": "if ((fabs(Y)<fabs(X))&&X>=3)",
+    "target": "if ((fabs(Y)<fabs(X))&&X>=0&&((X!=((-1*Y)+1))))"
+}

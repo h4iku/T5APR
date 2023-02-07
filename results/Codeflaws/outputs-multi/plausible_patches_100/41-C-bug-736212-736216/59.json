@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if(s[i] == 'a' && ( i != strlen(s) - 1 && s[i + 1] == 't') && foundat == 0)",
+    "patch": "if(s[i] == 'a' && ( i!= strlen(s) - 1 && s[i + 1] == 't') && foundat == 0 && foundchar == 1)",
+    "target": "if(s[i] == 'a' && ( i != strlen(s) - 1 && s[i + 1] == 't') && foundat == 0 && i != 0)"
+}

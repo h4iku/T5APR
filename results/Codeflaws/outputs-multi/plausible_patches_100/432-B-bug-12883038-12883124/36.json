@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "",
+    "patch": "arr[i].home_score += x[arr[i].home_color]++;",
+    "target": "return 0;"
+}

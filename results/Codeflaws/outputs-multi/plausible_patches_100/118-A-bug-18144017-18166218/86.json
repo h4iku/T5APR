@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "",
+    "patch": "for(i=0;string1[i]!='\\0';i++) { if(string1[i]>='A'&&string1[i]<='Z') { string2[j]=string1[i]+32; } }",
+    "target": "string2[j]='\\0';"
+}

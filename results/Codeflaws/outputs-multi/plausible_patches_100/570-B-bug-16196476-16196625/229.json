@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "else if(m<=(1+n)/2)",
+    "patch": "else if(m<=n/2)",
+    "target": "else if(m<(1+n)/2 || (m==(1+n)/2 && n%2==0))"
+}

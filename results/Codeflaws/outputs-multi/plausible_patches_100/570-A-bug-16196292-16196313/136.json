@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "{max[i]=0;cnt[i]=0;}",
+    "patch": "{max[i]=-1;cnt[i]=1;}",
+    "target": "{max[i]=-5;cnt[i]=0;}"
+}

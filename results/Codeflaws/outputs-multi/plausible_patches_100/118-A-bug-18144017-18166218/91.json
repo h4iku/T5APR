@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "",
+    "patch": "for(j=0;string1[i]!='\\0';) { if(j%2==0) { string2[j]='.'; } else { string2[j]=string1[i]+32; } }",
+    "target": "string2[j]='\\0';"
+}

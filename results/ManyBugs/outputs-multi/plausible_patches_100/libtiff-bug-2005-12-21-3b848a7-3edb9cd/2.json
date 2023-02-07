@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": null,
+    "hunks": false,
+    "source": "} else if (td->td_nstrips > 1",
+    "patch": "} else if (td->td_nstrips > 2",
+    "target": "} else if (td->td_nstrips > 2"
+}

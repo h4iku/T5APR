@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "int arr[10]={2,7,2,3,3,3,2,5,1,2},n;",
+    "patch": "int arr[10]={2,7,2,3,3,4,2,5,1,2},n;",
+    "target": "int arr[10]={2,7,2,3,3,4,2,5,1,2},n;"
+}

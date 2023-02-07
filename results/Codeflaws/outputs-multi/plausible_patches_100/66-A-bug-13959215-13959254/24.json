@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "char c, numero[21];",
+    "patch": "size_t c, numero[21];",
+    "target": "char c, numero[100];"
+}

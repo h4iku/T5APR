@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "while(st[i]==st[i+1]&&m<=5)",
+    "patch": "while(st[i]==st[i+1]&&m < 5)",
+    "target": "while(st[i]==st[i+1]&&m<5)"
+}

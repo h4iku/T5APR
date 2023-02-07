@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "if(b[i] > max) max = b[i];",
+    "patch": "if(a[i] > max) max = a[i];",
+    "target": "if(a[i] > max) max = a[i];"
+}

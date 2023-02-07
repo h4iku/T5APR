@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "if(bobcrd<=(k-1)*m){",
+    "patch": "if(bobcrd < (k - 1)*m){",
+    "target": "if(bobcrd<(k-1)*m){"
+}

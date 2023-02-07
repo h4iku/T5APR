@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "if(arr[i]==my && X+1 <=couny)",
+    "patch": "if(arr[i]==my && Y+1 <=couny)",
+    "target": "if(arr[i]==my && Y+1 <=couny)"
+}

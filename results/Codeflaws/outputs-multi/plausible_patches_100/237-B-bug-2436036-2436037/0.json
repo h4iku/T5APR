@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "printf(\"%d\\t%d  %d\\n\",min,A[i][j],A[Min.i][Min.j]);",
+    "patch": "",
+    "target": ""
+}

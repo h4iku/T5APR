@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "sprintf(horaPalindromo.hh, \"%2d\", horPalindromo);",
+    "patch": "sprintf(horaPalindromo.hh, \"%2.2d\", horPalindromo);",
+    "target": "sprintf(horaPalindromo.hh, \"%.2d\", horPalindromo);"
+}

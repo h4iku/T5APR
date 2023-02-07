@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if(a>b){",
+    "patch": "if (a >= b) {",
+    "target": "if(a==b) printf(\"%d 0\",a); else if(a>b){"
+}

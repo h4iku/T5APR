@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "int long long r[100];",
+    "patch": "int r[1024];",
+    "target": "int long long r[2*n+1];"
+}

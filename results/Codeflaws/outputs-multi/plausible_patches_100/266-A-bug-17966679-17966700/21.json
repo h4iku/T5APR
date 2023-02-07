@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "",
+    "patch": "scanf(\"%s\", &a, sizeof(a));",
+    "target": "scanf(\"%d\",&i);"
+}

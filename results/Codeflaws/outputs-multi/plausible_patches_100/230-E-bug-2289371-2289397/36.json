@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "soma+=are[i]*(5-1-are[i]);",
+    "patch": "soma+=are[i]*(v-1-are[i]);",
+    "target": "soma+=are[i]*(v-1-are[i]);"
+}

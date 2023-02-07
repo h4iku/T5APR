@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if(num[i-3]==0)",
+    "patch": "if(num[i - 2]==0)",
+    "target": "if(num[n-3]==0)"
+}

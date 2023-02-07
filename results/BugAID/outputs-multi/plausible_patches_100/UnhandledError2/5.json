@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": null,
+    "hunks": false,
+    "source": "outerNext();",
+    "patch": "outerNext(err);",
+    "target": "outerNext(err);"
+}

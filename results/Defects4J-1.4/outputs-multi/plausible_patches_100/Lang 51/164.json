@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "",
+    "patch": "char ch0 = str.charAt(1); char ch1 = str.charAt(1); return (ch0 == 'o' || ch0 == 'O') && (ch1 == 'n' || ch1 == 'N');",
+    "target": "return false;"
+}

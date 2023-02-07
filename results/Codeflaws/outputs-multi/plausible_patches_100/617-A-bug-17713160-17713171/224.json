@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "else printf(\"%d\\n\",n/5 + n%5 - 1);",
+    "patch": "else printf(\"%d\\n\",n/5 + 1);",
+    "target": "else printf(\"%d\\n\",n/5 + 1);"
+}

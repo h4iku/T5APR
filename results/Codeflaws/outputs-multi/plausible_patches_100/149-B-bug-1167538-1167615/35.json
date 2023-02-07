@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "int n1=change(s1,24),n2=change(s2,24);",
+    "patch": "int n1=change(s1,255),n2=change(s2,255);",
+    "target": "int n1=change(s1,100),n2=change(s2,100);"
+}

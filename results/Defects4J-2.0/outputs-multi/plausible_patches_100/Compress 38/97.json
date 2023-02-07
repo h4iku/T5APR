@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if (getName().endsWith(\"/\")) {",
+    "patch": "if (\"/\".equals(getName().endsWith(\"/\"))) {",
+    "target": "if (!isPaxHeader() && !isGlobalPaxHeader() && getName().endsWith(\"/\")) {"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if(a[3]!=a[2] && a[3]!=a[2] && a[3]!=a[0]) c++;",
+    "patch": "if(a[3]!=a[1] && a[3]!=a[2] && a[3]!=a[0]) c++;",
+    "target": "if(a[3]!=a[2] && a[3]!=a[1] && a[3]!=a[0]) c++;"
+}

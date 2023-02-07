@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": true,
+    "source": "",
+    "patch": "else d = y - y0;",
+    "target": "d0 = d;"
+}

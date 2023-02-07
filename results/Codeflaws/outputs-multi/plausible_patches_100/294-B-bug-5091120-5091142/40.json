@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "else if(pos1>=0 && p1[pos1]+swidth<=sum){",
+    "patch": "else if(pos1>=0 && p1[pos1]+swidth<=sum-1){",
+    "target": "else if(pos1>=0 && p1[pos1]+swidth<=sum-1){"
+}

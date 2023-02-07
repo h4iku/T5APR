@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "int A[50001];",
+    "patch": "void * A[50001];",
+    "target": "int A[1000001];"
+}

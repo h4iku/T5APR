@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "",
+    "patch": "if (context!= null) return context;",
+    "target": "if (context instanceof WildcardType) {  context = ((WildcardType)context).getUpperBounds()[0]; }"
+}

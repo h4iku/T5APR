@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "3,\"bytes\",\"127\" ,",
+    "patch": "3,\"byte\",\"127\",",
+    "target": "3,\"byte\",\"127\" ,"
+}

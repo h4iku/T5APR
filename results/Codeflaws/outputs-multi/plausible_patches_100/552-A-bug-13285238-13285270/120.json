@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "sum+=(fabs(x1-y2)+1)*(fabs(y1-x2)+1);",
+    "patch": "sum+=(fabs(y1-y2)+1)*(fabs(x1-x2)+1);",
+    "target": "sum+=(fabs(x1-x2)+1)*(fabs(y1-y2)+1);"
+}

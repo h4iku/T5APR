@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "char a[6];",
+    "patch": "const char *a;",
+    "target": "char a[100000000];"
+}

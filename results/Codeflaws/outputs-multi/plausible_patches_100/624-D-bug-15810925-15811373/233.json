@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "",
+    "patch": "if(j>a)min-=b-a;",
+    "target": "if(!Li){ans=0;break;}"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "while (lo <= hi) {",
+    "patch": "while (lo < hi && x!= arr[0]) {",
+    "target": "while (lo < hi) {"
+}

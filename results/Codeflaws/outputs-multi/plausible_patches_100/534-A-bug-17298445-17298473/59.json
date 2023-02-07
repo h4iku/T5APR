@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "",
+    "patch": "for(i=2; i<=n; i+=2) printf(\"%lu \",i);",
+    "target": "if(n==4){ printf(\"4\\n 3 1 4 2\");return 0;}"
+}

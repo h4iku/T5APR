@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "i=k[j]+1;",
+    "patch": "i=(int64_t)k[j];",
+    "target": "i=k[j];"
+}

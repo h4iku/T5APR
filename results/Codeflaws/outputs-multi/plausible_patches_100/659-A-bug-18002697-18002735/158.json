@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "",
+    "patch": "if(b>=0) { ans=(b%n)+a; if(ans>n) ans=ans-n; }",
+    "target": "if(ans>n) ans=ans-n;"
+}

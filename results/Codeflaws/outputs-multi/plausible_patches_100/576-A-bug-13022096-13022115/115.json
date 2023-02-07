@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "",
+    "patch": "for (l=2,ans=0;l<=n;l++) { if(num[l]) ans++; }",
+    "target": "return 0;"
+}

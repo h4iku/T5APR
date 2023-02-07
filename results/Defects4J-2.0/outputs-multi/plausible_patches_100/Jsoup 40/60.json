@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "Validate.notEmpty(name);",
+    "patch": "if (name == null) { throw new IllegalArgumentException(); }",
+    "target": ""
+}

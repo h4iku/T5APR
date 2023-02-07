@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "else printf(\"%lf\\n\",(d+r*v)/(v*(g+r))*(g+r)+(l-d)%((g+r)*v)*1./v);",
+    "patch": "else printf(\"%lf\\n\",(l+r*v)/(v*(g+r))*(g+r)+(l-d)%((g+r)*v)*1./v);",
+    "target": "else printf(\"%lf\\n\",(d+r*v)/(v*(g+r))*(g+r)+(l-d)*1./v);"
+}

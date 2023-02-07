@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "if (min(min(x, n - x + 1), min(y, m - y + 1)) < 5) f = 1;",
+    "patch": "if (min(min(x, n - x + 1), min(y, m - y + 1)) < 6) f = 1;",
+    "target": "if (min(min(x, n - x + 1), min(y, m - y + 1)) <= 5) f = 1;"
+}

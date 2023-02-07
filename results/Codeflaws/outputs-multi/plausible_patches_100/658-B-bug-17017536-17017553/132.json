@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "break;",
+    "patch": "} else if(x==2){ if(arr[y].status==1){ printf(\"YES\\n\"); } else{ printf(\"NO\\n\"); }",
+    "target": ""
+}

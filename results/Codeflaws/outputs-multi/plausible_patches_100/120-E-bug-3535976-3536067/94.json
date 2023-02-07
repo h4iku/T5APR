@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "",
+    "patch": "scanf(\"%s\", &n); printf(\"%s\", 1 - h(n)%3);",
+    "target": "freopen(\"input.txt\", \"r\", stdin); freopen(\"output.txt\", \"w\", stdout);"
+}

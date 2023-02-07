@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "",
+    "patch": "else { x=a-b; printf(\"%d %d\",a,x/2); }",
+    "target": "else printf(\"%d %d\",a,p);"
+}

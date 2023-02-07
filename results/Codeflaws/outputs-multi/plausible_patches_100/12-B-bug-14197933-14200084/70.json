@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if(k==1) printf(\"OK\");",
+    "patch": "if(k>1) printf(\"OK\");",
+    "target": "if(k) printf(\"OK\");"
+}

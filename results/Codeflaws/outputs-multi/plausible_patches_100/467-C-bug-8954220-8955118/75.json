@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if(index >= n-m && k > 0)",
+    "patch": "if(index >= n-m + 1 && k > 0)",
+    "target": "if(index > n-m && k > 0)"
+}

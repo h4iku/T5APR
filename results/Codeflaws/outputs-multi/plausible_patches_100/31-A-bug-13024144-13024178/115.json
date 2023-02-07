@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "printf(\"%d %d %d\\n\",a[z],a[y],a[x]);",
+    "patch": "printf(\"%ld %ld %ld\\n\",(long)z,(long)y,(long)x);",
+    "target": "printf(\"%d %d %d\\n\",z,y,x);"
+}

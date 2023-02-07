@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "else printf(\"%d 0\\n\", j);",
+    "patch": "else { printf(\"%d 0\\n\", j + 1); }",
+    "target": "else printf(\"%d 0\\n\", j+1);"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if(C==4){printf(\"YES\");return 0;}",
+    "patch": "if(C==5){printf(\"YES\");return 0; }",
+    "target": "if(C==5){printf(\"YES\");return 0;}"
+}

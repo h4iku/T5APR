@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "",
+    "patch": "bzero(sets, sizeof(struct set));",
+    "target": "return 0;"
+}

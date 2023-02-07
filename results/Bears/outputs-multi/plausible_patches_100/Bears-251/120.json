@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "attributesMap = new ConcurrentHashMap<>(attributes.length);",
+    "patch": "attributesMap = new ConcurrentHashMap<String,AbstractAttribute>();",
+    "target": "attributesMap = new ConcurrentHashMap<>();"
+}

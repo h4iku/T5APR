@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "printf(\"ind1=%d ind2=%d\",ind1,ind2);",
+    "patch": "if(ind1==-1) { ind1=i; ind2=0; }",
+    "target": ""
+}

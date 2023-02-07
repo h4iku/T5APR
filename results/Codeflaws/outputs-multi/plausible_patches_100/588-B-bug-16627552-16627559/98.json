@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "if(n%(i*i)==0)",
+    "patch": "while(n%(i*i)==0)",
+    "target": "while(n%(i*i)==0)"
+}

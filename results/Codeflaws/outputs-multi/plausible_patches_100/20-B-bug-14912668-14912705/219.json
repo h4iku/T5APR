@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "else if(pow(b,2)==4*a*c)",
+    "patch": "else if(pow(b,2)==4*a*(float)c)",
+    "target": "else if((float)pow(b,2)==(float)4*a*c)"
+}

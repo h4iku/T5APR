@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if(k>(n/2*n/2+(n/2+1)*(n/2+1)))printf(\"NO\");",
+    "patch": "if(k>(n/3*n/3+(n/3+1)*(n/3+1)))printf(\"NO\");",
+    "target": "if(k>(((n/2)*(n/2)+(n/2+1)*(n/2+1))))printf(\"NO\");"
+}

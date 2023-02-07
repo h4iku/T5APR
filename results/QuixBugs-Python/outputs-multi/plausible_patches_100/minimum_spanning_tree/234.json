@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "group_by_node[node].update(group_by_node[u])",
+    "patch": "if node: group_by_node[node] = group_by_node[u]",
+    "target": "group_by_node[node] = group_by_node[u]"
+}

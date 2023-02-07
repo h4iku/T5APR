@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if ((i%k == 0) || (i%l == 0) || (i%m == 0) || (i%n == 0) || (i%d == 0))",
+    "patch": "if ((i%k == 0) || (i%l == 0) || (i%m == 0) || (i%n == 0) || (i%k == 0))",
+    "target": "if ((i%k == 0) || (i%l == 0) || (i%m == 0) || (i%n == 0))"
+}

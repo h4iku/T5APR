@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "f=f+a*d+(ara[i+1][0]-ara[i][1]-a)*b;",
+    "patch": "f=f+a*d+(ara[i+1][0]-ara[i][1]-d)*b;",
+    "target": "f=f+a*d+(ara[i+1][0]-ara[i][1]-d)*b;"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "printf(\"%.2f\",((float)l/(p+q))*p);",
+    "patch": "printf(\"%f\",((float)l/(p+q))*p);",
+    "target": "printf(\"%f\",((float)l/(p+q))*p);"
+}

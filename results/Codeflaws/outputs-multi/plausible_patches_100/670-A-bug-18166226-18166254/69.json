@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "min=min+1;",
+    "patch": "if(c==6) min=min+2;",
+    "target": ""
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "quick_sort(ara,i,n-1);",
+    "patch": "quick_sort(ara,0,n-1);",
+    "target": "quick_sort(ara,0,n-1);"
+}

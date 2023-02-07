@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "fgets( mail, 100, stdin );",
+    "patch": "fgets( mail, 1024,stdin );",
+    "target": "fgets( mail, 110, stdin );"
+}

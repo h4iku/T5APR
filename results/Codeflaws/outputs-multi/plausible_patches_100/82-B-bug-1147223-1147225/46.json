@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "",
+    "patch": "scanf(\"%d\", &sets[0].size); sets[0].values = (int *) malloc(sets[0].size * sizeof(int));",
+    "target": "return 0;"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "for (i = 0; i < 30; i++) printf(\"%c \", str[i]); scanf(\"%d\", &index);",
+    "patch": "scanf(\"%b\", &index);",
+    "target": ""
+}

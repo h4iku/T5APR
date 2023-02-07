@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "s_c[n_a-j-1] = '0';",
+    "patch": "s_c[i-j-1] = '0';",
+    "target": "s_c[n_a-n_b] = '0';"
+}

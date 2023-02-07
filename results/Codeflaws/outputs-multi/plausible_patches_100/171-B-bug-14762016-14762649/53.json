@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "sum = sum + (i+1) * 6;",
+    "patch": "sum = sum + (n+1) * 6;",
+    "target": "sum = sum + (2*i-2) * 6;"
+}

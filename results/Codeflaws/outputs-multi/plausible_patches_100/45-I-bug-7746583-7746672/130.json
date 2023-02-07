@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "if( n==1 ) printf(\"%d\\n\", a[0]);",
+    "patch": "if( n==1 ) printf(\"%d\\n\", b[0]);",
+    "target": "if( n==1 ) printf(\"%d\\n\", b[0]);"
+}

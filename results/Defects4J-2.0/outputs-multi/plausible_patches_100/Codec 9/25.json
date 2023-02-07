@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "long len = getEncodeLength(binaryData, MIME_CHUNK_SIZE, CHUNK_SEPARATOR);",
+    "patch": "long len = getEncodeLength(binaryData, -1, CHUNK_SEPARATOR);",
+    "target": "long len = getEncodeLength(binaryData, isChunked ? MIME_CHUNK_SIZE : 0, CHUNK_SEPARATOR);"
+}

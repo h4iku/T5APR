@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if(p>0 && ((p-(int)p)==0)) printf(\"YES\"); else printf(\"NO\"); }",
+    "patch": "if (p>=0 && ((p-(int)p)==0)) printf(\"YES\"); else printf(\"NO\"); }",
+    "target": "if(p<0) printf(\"NO\"); else { if((p-(int)p)==0) printf(\"YES\"); else printf(\"NO\"); }}"
+}

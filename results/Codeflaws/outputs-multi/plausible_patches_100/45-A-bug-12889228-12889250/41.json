@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "printf(\"%s\",months[i+k%12]);",
+    "patch": "printf(\"%s\",months[(i+k)%12]);",
+    "target": "printf(\"%s\",months[(i+k)%12]);"
+}

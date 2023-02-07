@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "#define LEN 4",
+    "patch": "#define LEN 3",
+    "target": "#define LEN 3"
+}

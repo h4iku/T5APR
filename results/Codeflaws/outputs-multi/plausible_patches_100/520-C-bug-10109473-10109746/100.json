@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "for(scanf(\"%u\",&n);++i<n;O[c^64]=1)",
+    "patch": "for(scanf(\"%u\",&n);++i<n;O[c^64]+=1)",
+    "target": "for(scanf(\"%u\",&n);++i<n;++O[c^64])"
+}

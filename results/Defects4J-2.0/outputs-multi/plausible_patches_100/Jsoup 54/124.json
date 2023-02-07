@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "",
+    "patch": "if (attribute.getValue() == null || attribute.getValue().equals(\"\")) continue;",
+    "target": "if (key.matches(\"[a-zA-Z_:]{1}[-a-zA-Z0-9_:.]*\"))"
+}

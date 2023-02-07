@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "h = a[i]; *cnt = find(h, len+1, cnt);",
+    "patch": "*cnt = find((char *)a[i], len+1, cnt);",
+    "target": "*cnt = find(a[i], len+1, cnt);"
+}

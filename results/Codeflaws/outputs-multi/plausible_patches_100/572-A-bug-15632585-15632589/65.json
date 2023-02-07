@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "if(i == k - 5) {",
+    "patch": "if (i == k - 1) {",
+    "target": "if(i == k - 1) {"
+}

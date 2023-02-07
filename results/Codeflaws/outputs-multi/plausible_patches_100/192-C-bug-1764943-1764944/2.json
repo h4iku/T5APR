@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "a = str[1]-'a';",
+    "patch": "a = str[0]-'a';",
+    "target": "a = str[0]-'a';"
+}

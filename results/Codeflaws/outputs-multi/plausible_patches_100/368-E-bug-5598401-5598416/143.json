@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "#define IsAscending(A,B) (A<=B)",
+    "patch": "#define IsAscending(A,B) (A>=B)",
+    "target": "#define IsAscending(A,B) (A>=B)"
+}

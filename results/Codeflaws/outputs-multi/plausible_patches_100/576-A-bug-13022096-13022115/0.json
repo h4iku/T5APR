@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "",
+    "patch": "for(l=2,num[1]=0;l<=1000;num[l]=1,l++); for(l=2,num[1]=0;l<=1000;l++) { if(l%l1==0 && gcd(l1,l/l1)==1){ num[l]=0; break; } }",
+    "target": "return 0;"
+}

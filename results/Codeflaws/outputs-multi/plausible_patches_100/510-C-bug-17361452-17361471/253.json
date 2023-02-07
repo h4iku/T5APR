@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if(name[i][k]!='\\0' || name[j][k]!='\\0'){",
+    "patch": "if(name[i][k]!='\\0' || name[n][k]!='\\0'){",
+    "target": "if(name[i][k]!='\\0'){"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if (getDeclaringType().isAnonymous()) { if (!getDeclaringType().getDeclaringType().isSubtypeOf(executable.getDeclaringType())) { return false; } } else if (!getDeclaringType().isSubtypeOf(executable.getDeclaringType())) {",
+    "patch": "if (!isSame &&!getDeclaringType().isAnonymous()) {",
+    "target": "if (!getDeclaringType().isSubtypeOf(executable.getDeclaringType())) {"
+}

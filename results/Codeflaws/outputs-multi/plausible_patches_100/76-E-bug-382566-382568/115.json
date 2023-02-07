@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "long long d, s1, s2;",
+    "patch": "static long long d, s1, s2;",
+    "target": "long long d=0, s1=0, s2=0;"
+}

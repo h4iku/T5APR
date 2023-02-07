@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if (a[c]>=max){",
+    "patch": "if ((a[c] > max)) {",
+    "target": "if (a[c]>max){"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if(r>10&&h>10)",
+    "patch": "if(r>4&&h>4)",
+    "target": "if(r>1&&h>1)"
+}

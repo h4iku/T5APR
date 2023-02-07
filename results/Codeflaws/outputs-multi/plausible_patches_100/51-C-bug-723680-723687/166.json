@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if (x[m] > p + 1e-5) {",
+    "patch": "if (x[m] > p+1e-6) {",
+    "target": "if (x[m] > p + 1e-6) {"
+}

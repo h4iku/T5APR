@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "max += days%2;",
+    "patch": "max += days %7;",
+    "target": "max += (days%7)%2;"
+}

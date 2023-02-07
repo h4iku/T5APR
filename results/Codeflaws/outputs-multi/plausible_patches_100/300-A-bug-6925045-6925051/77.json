@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "",
+    "patch": "else if(arr[i]<0) a1[c1++]=arr[i];",
+    "target": "if(c1%2==0) a3[c3++]=a1[--c1];"
+}

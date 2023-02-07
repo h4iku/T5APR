@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": true,
+    "source": "",
+    "patch": "if(this.runningState!= STATE_STOPPED) return;",
+    "target": "}"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "",
+    "patch": "if (strcmp(str,\"back\")==0) { if (a==2) printf(\"L\"); if (a==1) printf(\"R\"); }",
+    "target": "freopen(\"input.txt\",\"r\",stdin); freopen(\"output.txt\",\"w\",stdout);"
+}

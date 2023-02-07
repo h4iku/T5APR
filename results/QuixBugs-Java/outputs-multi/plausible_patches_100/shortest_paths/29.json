@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "weight_by_edge.put(edge, update_weight);",
+    "patch": "weight_by_node.put(edge.get(1), update_weight);",
+    "target": "weight_by_node.put(edge.get(1), update_weight);"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "int q,gap=1;",
+    "patch": "unsigned int q,gap=1;",
+    "target": "long long q,gap=1;"
+}

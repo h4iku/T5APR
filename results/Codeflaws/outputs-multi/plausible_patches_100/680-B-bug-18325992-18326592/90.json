@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if (p+i>6)",
+    "patch": "if (a[p+i]==2)",
+    "target": "if (p+i>n+1)"
+}

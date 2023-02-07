@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "if(mod < a){",
+    "patch": "if(mod < a || mod > b){",
+    "target": "if(mod < a || mod > b){"
+}

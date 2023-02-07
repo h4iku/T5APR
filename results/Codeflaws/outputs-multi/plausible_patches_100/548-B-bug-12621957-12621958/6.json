@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "printf(\"max[%d] = %d\\n\", k, max[k]);",
+    "patch": "fprintf(stderr,\"max[%d] = %d\\n\", k, max[k]);",
+    "target": ""
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if(Pi+2<Qi)count++;",
+    "patch": "if((Pi+1)<Qi)count++;",
+    "target": "if(Pi+2<=Qi)count++;"
+}

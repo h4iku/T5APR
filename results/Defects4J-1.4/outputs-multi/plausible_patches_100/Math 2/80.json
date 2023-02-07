@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "return (double) (getSampleSize() * getNumberOfSuccesses()) / (double) getPopulationSize();",
+    "patch": "return (double) ((double)getSampleSize() * getNumberOfSuccesses()) / (double) getPopulationSize();",
+    "target": "return getSampleSize() * (getNumberOfSuccesses() / (double) getPopulationSize());"
+}

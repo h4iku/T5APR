@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "int n, x[3];",
+    "patch": "static int n, x[3];",
+    "target": "int n, x[3] = {0, 0, 0};"
+}

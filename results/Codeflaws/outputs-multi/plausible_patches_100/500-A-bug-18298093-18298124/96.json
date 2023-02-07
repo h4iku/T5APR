@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if(arr[0]==t) flag = 1;",
+    "patch": "if (arr[0]==t) flag = 2;",
+    "target": ""
+}

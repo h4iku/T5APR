@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if((n-1) + (y-n+1)*(y-n+1) < x){",
+    "patch": "if((n-1) + ((y-n+1)*(y-n+1) < x)){",
+    "target": "if((n-1) + (y-n+1)*(y-n+1) < x || y-n+1 < 1){"
+}

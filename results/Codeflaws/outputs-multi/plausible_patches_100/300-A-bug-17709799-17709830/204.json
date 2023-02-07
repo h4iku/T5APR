@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "zero.array[zero.size++] = negative.array[negative.size--];",
+    "patch": "zero.array[zero.size++] = negative.array[negative.size-- - 1];",
+    "target": "zero.array[zero.size++] = negative.array[--negative.size];"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "if (t[j].n < 0) {",
+    "patch": "if (t[j].n < 0 || j == p) {",
+    "target": "if (j == p || t[j].n < 0) {"
+}

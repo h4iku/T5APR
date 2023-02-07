@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "case 5: printf(\"3\");break;",
+    "patch": "case 5: printf(\"1\");",
+    "target": "case 5: printf(\"1\");break;"
+}

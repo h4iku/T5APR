@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "printf(\"0\\n\");",
+    "patch": "printf(\"%ld\\n\",sum);",
+    "target": "printf(\"1\\n\");"
+}

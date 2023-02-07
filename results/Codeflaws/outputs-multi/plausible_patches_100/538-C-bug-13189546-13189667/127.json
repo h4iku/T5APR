@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "ans = a[1] ;",
+    "patch": "ans = b[i-1] ;",
+    "target": "ans = b[1] ;"
+}

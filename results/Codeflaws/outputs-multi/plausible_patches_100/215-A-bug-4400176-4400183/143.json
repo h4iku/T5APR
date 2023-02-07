@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "int n,m,a[55],b[55],i,j,count=1,c=0,max1,k,s[55],u=0,l,p=0,temp,t;",
+    "patch": "int n,m,a[128],b[128],i,j,count=1,c=0,max1,k,s[128],u=0,l,p=0,temp,t;",
+    "target": "int n,m,a[55],b[55],i,j,count=1,c=0,max1,k,s[2550],u=0,l,p=0,temp,t;"
+}

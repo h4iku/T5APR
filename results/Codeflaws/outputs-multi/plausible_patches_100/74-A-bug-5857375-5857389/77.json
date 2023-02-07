@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "int n,a,b,c,d,e,unsu,suc,maxp=0,sum;",
+    "patch": "size_t n,a,b,c,d,e,unsu,suc,maxp,sum;",
+    "target": "int n,a,b,c,d,e,unsu,suc,maxp=-1000000,sum;"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "private Object readResolve() {",
+    "patch": "protected synchronized Object readResolve() {",
+    "target": "protected Object readResolve() {"
+}

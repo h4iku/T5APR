@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "",
+    "patch": "printf(\"%d\", (int (*)(const void *, const void *)) scmp);",
+    "target": "return 0;"
+}

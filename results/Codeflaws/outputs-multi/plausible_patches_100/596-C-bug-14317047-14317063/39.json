@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "(x >= mx || y >= my)) {",
+    "patch": "(x >= mx || y >= my + 1)) {",
+    "target": "(x > mx || y > my)) {"
+}

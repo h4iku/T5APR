@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "int p, q, l, r, i, a, b, c[51], d[51], t1[1001]={0}, ans=0, j, k;",
+    "patch": "int p, q, l, r, i, a, b, c[51], d[51], t1[10001]={0}, ans=0, j, k;",
+    "target": "int p, q, l, r, i, a, b, c[51], d[51], t1[2001]={0}, ans=0, j, k;"
+}

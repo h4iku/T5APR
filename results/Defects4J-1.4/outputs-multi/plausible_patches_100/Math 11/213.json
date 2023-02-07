@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "return FastMath.pow(2 * FastMath.PI, -dim / 2) *",
+    "patch": "return FastMath.pow(2 * FastMath.PI, -dim / 2.0F) *",
+    "target": "return FastMath.pow(2 * FastMath.PI, -0.5 * dim) *"
+}

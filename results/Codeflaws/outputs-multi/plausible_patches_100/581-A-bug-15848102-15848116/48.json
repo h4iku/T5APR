@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "printf(\"%d\\n\",same+diff);",
+    "patch": "printf(\"%d %d\\n\",same, diff);",
+    "target": "printf(\"%d %d\\n\",same,diff);"
+}

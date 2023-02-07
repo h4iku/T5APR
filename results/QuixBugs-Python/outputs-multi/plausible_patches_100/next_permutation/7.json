@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "if perm[j] < perm[i]:",
+    "patch": "if perm[j] > perm[i]:",
+    "target": "if perm[i] < perm[j]:"
+}

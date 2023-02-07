@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "if set(ordered_nodes).issuperset(nextnode.outgoing_nodes) and nextnode not in ordered_nodes:",
+    "patch": "if set(ordered_nodes).issuperset(nextnode.incoming_nodes) and nextnode not in ordered_nodes:",
+    "target": "if set(ordered_nodes).issuperset(nextnode.incoming_nodes) and nextnode not in ordered_nodes:"
+}

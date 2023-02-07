@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "printf(\"%lld %lld\",a,b);",
+    "patch": "fprintf(stderr,\"%ld %ld\",a,b);",
+    "target": ""
+}

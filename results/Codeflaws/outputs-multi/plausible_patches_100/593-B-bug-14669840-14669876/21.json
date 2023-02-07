@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if (lines[i].y1 == last->y1) { continue; }",
+    "patch": "lines[i].y2 = lines[i].k * x2 + lines[i].b;",
+    "target": ""
+}

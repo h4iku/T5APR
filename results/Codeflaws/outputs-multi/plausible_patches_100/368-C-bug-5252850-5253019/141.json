@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if(fabs(sum1-sum2)>2||fabs(sum1-sum3)>2||fabs(sum2-sum3)>2)",
+    "patch": "if(fabs(sum1-sum2)>1||fabs(sum1-sum3)>1 ||fabs(sum2-sum3)>1)",
+    "target": "if(fabs(sum1-sum2)>=2||fabs(sum1-sum3)>=2||fabs(sum2-sum3)>=2)"
+}

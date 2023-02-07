@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "cnt[a]++; cnt[b]++; cnt[c]++; cnt[d]++; cnt[e]++; cnt[f++];",
+    "patch": "cnt[a]++; cnt[b]++; cnt[c]++; cnt[d]++; cnt[e]++; cnt[f]+=1;",
+    "target": "cnt[a]++; cnt[b]++; cnt[c]++; cnt[d]++; cnt[e]++; cnt[f]++;"
+}

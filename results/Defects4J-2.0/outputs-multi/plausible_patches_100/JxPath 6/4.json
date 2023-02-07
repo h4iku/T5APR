@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": true,
+    "source": "if (r instanceof InitialContext || r instanceof SelfContext) {",
+    "patch": "if (l == null || l instanceof SelfContext) {",
+    "target": "if (r instanceof InitialContext) { ((EvalContext) r).reset(); }  if (r instanceof SelfContext) {"
+}

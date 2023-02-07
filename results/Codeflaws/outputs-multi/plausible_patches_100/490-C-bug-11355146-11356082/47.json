@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if(pos < key_length)",
+    "patch": "if(pos < (key_length - 1))",
+    "target": "if(pos < key_length-1)"
+}

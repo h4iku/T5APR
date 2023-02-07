@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if(ara[i][1] < ara[j][1])",
+    "patch": "if(ara[i][1] > 0 && ara[j][1] < ara[i][1])",
+    "target": "if(ara[i][1] > ara[j][1])"
+}

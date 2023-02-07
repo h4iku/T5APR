@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": null,
+    "hunks": false,
+    "source": "STD_PHP_INI_ENTRY(\"pcre.backtrack_limit\", \"1000000\", PHP_INI_ALL, OnUpdateLong, backtrack_limit, zend_pcre_globals, pcre_globals)",
+    "patch": "STD_PHP_INI_ENTRY(\"pcre.backtrack_limit\", \"100000\", PHP_INI_ALL, OnUpdateLong, backtrack_limit, zend_pcre_globals, pcre_globals)",
+    "target": "STD_PHP_INI_ENTRY(\"pcre.backtrack_limit\", \"100000\", PHP_INI_ALL, OnUpdateLong, backtrack_limit, zend_pcre_globals, pcre_globals)"
+}

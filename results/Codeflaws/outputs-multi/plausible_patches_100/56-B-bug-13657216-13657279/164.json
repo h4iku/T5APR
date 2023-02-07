@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if(*(ni+i)!=(n-i)){",
+    "patch": "if(*(ni+i)<(n-i)){",
+    "target": "if((*(ni+i)-*(ni+i+1))!=1){"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if(arr[k][1]<5){",
+    "patch": "for(k=0;k<n;k++){",
+    "target": "if(arr[k][1]<r){"
+}

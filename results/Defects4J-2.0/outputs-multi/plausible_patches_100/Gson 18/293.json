@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "",
+    "patch": "contextRawType = supertype;",
+    "target": "if (context instanceof WildcardType) {  context = ((WildcardType)context).getUpperBounds()[0]; }"
+}

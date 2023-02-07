@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if((y/k)*k>=n)    {",
+    "patch": "if((y/k)*k+k>n)    {",
+    "target": "if((n/k)*k<=y)    {"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "ans=ans>=sum?ans:cnt;",
+    "patch": "ans=ans>=cnt?ans:cnt;",
+    "target": "ans=ans>cnt?ans:cnt;"
+}

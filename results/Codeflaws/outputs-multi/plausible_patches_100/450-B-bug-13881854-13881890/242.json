@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "printf(\"%d=%d*%d+%d*%d\\n\",fn,a[n%6],x,b[n%6],y);",
+    "patch": "fprintf(stderr,\"%d=%d*%d+%d*%d\\n\",fn,a[n%6],x,b[n%6]);",
+    "target": ""
+}

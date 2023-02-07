@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "for(i=1;i<=t;i++)printf(\"%d\\n\",ara[i]);",
+    "patch": "",
+    "target": ""
+}

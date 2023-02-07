@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "",
+    "patch": "if(r>0) break;",
+    "target": "if(!Li){ans=0;break;}"
+}

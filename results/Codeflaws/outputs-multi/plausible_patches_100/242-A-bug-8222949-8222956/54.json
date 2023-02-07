@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "int ZA[100], ZB[100];",
+    "patch": "int ZA[100], ZB[100], k;",
+    "target": "int ZA[10000], ZB[10000];"
+}

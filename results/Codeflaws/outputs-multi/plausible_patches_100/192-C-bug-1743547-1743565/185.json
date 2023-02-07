@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "if (M[ini][fim] == 0) M[ini][fim] = length;",
+    "patch": "if (M[ini][fim] < length) M[ini][fim] = length;",
+    "target": "M[ini][fim] = max(length, M[ini][fim]);"
+}

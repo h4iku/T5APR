@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "unsigned long long a, b, c;",
+    "patch": "static unsigned long long a, b, c;",
+    "target": "unsigned long long a=0, b=0, c=0;"
+}

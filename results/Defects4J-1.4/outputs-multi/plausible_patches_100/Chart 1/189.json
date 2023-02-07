@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if (dataset != null) {",
+    "patch": "if (dataset!= null && dataset.equals(this)) {",
+    "target": "if (dataset == null) {"
+}

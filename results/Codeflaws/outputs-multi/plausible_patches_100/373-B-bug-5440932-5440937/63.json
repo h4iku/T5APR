@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if(temp>c){puts(\"0\");return 0;}",
+    "patch": "if(temp >= c){ puts(\"0\");return 0;}",
+    "target": "if(temp>c-1){puts(\"0\");return 0;}"
+}

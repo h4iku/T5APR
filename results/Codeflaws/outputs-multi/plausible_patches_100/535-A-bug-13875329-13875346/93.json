@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "else if (n<9){",
+    "patch": "else if (n-1 < 9){",
+    "target": "else if (n<=9){"
+}

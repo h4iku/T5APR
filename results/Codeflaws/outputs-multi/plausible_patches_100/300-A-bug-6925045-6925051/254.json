@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "",
+    "patch": "return 0;",
+    "target": "if(c1%2==0) a3[c3++]=a1[--c1];"
+}

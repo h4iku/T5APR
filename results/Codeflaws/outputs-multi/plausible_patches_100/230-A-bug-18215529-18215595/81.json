@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if((s>=x[j])&&(b[j]==0))",
+    "patch": "if((s>(int)x[j])&&(b[j]==0))",
+    "target": "if((s>x[j])&&(b[j]==0))"
+}

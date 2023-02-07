@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "printf(\"temp1[%d]:(%d)\",i,temp1[i]);",
+    "patch": "",
+    "target": ""
+}

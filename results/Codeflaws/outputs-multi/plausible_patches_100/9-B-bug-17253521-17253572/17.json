@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "if (a[i] / b + sqrt((a[i] - x) * (a[i] - x) + y * y) / s < z) {",
+    "patch": "if (a[i] / b + sqrt((a[i] - x) * (a[i] - x) + y * y) / s <= z) {",
+    "target": "if (a[i] / b + sqrt((a[i] - x) * (a[i] - x) + y * y) / s <= z) {"
+}

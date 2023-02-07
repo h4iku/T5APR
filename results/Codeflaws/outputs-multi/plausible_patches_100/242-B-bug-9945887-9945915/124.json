@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "k = min_i(a, i, j);",
+    "patch": "int k = min_i(a, i, j);",
+    "target": "k = min_i(a, i, k);"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "d=(i-191)/22;",
+    "patch": "d=(i-191)/22/20;",
+    "target": "d=((i-191)%300)/30;"
+}

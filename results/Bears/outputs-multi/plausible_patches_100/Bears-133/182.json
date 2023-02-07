@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if (length >= buf.readableBytes()) {",
+    "patch": "if (buf.readableBytes() >= 10) {",
+    "target": "if (length <= buf.readableBytes()) {"
+}

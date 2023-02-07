@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "if(sumtime>max)",
+    "patch": "if(sumtime>max || sumtime<min)",
+    "target": "if(sumtime>max || sumtime<min)"
+}

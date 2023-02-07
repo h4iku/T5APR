@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "while(Si--)printf(\"%u%c\",S[Si],Si?' ':'\\n');",
+    "patch": "while(Si--)printf(\"%d%c\",S[Si],Si?' ':'\\n');",
+    "target": "while(Si--)printf(\"%i%c\",S[Si],Si?' ':'\\n');"
+}

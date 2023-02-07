@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "}else if(s==2&&r==1){for(i=0;i<3;i++) if(a[i]=='p') break;",
+    "patch": "}else if(s==2&&r==1){ for(i=0;i<3;i++) if(a[i]=='r') break;",
+    "target": "}else if(s==2&&r==1){for(i=0;i<3;i++) if(a[i]=='r') break;"
+}

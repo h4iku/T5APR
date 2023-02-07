@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "d = sqrt(e) + 1;",
+    "patch": "d =sqrt(e);",
+    "target": "d = sqrt(e);"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "typeOfThis = (ObjectType) safeResolve(typeOfThis, t, scope);",
+    "patch": "",
+    "target": "JSType maybeTypeOfThis = safeResolve(typeOfThis, t, scope); if (maybeTypeOfThis instanceof ObjectType) { typeOfThis = (ObjectType) maybeTypeOfThis; }"
+}

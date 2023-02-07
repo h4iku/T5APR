@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "while(collected_fruit<capacity && j<tree && ara[j].day>i)",
+    "patch": "while(collected_fruit<capacity && j<tree && ara[j].day<i+1)",
+    "target": "while(collected_fruit<capacity && j<tree && ara[j].day<=i)"
+}

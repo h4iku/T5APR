@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "int gpt[MAX][3]={-1};",
+    "patch": "int gpt[MAX][3]={-0};",
+    "target": "int gpt[MAX][3]={0};"
+}

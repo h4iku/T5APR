@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "printf(\"%u: %.10lf %.10lf\\n\",BI,nle,F(nle));",
+    "patch": "dprintf(\"%u: %.10lf %.10lf\\n\",BI,nle,F(nle));",
+    "target": ""
+}

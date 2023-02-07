@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "FOR(i,1,x){",
+    "patch": "FOR(i,1,x-1){",
+    "target": "FOR(i,1,x-1){"
+}

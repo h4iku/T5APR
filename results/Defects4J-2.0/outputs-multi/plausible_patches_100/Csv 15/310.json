@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "if (newRecord && (c < 0x20 || c > 0x21 && c < 0x23 || c > 0x2B && c < 0x2D || c > 0x7E)) { quote = true; } else if (c <= COMMENT) {",
+    "patch": "if (c <= COMMENT || c <= COMMENT) {",
+    "target": "if (c <= COMMENT) {"
+}

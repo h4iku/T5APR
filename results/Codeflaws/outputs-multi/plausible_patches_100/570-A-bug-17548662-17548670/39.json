@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "long max = 0; int vote = 1;",
+    "patch": "long max = 0, vote = 0;",
+    "target": "long max = 0; int vote = 0;"
+}

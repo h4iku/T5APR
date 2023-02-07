@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "",
+    "patch": "n[100000],p[100000],z[100000],i,j,k=1000000,l,m,change=0,nn,np,nz; n[0]=0;",
+    "target": "freopen(\"input.txt\",\"r\",stdin); freopen(\"output.txt\",\"w\",stdout);"
+}

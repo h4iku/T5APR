@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "printf(\"%d %d %d %d\",s_x1,s_x2,s_y1,s_y2); if(sum!=(s_x2-s_x1)*(s_y2-s_y1)||(((s_y2-s_y1)!=(s_x2-s_x1))))puts(\"NO\");",
+    "patch": "dprintf(\"%d %d %d\",s_x1,s_x2,s_y1,s_y2); if(sum!=(s_x2-s_x1)*(s_y2-s_y1)||(((s_y2-s_y1)!=(s_x2-s_x1))))puts(\"NO\");",
+    "target": "if((sum!=(s_x2-s_x1)*(s_y2-s_y1))||(((s_y2-s_y1)!=(s_x2-s_x1))))puts(\"NO\");"
+}

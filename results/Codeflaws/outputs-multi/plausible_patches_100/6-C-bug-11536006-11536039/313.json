@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if (sum2 <= sum1 && (sum1 + sum2+a[n-1-j])<=sum && i!=n-1-j)",
+    "patch": "if (sum2 < sum1 && (sum1 + sum2+a[n-1-j])<=sum)",
+    "target": "if (sum2 < sum1 && (sum1 + sum2+a[n-1-j])<=sum && n-j!=i)"
+}

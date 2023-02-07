@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "strcpy(neww[i],neww[j]);",
+    "patch": "strcpy(old[i],old[i]);",
+    "target": ""
+}

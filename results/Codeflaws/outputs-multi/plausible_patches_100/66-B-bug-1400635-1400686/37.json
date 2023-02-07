@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "pos--;",
+    "patch": "pos = list[pos-1];",
+    "target": "pos++;"
+}

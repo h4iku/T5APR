@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "printf(\"%d %d\\n\",(n)*(2*b+1),n*p);",
+    "patch": "printf(\"%d %d\\n\",(n-1)*(2*b+1),n*p);",
+    "target": "printf(\"%d %d\\n\",(n-1)*(2*b+1),n*p);"
+}

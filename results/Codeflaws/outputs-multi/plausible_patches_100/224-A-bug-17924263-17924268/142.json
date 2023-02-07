@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "short n1,n2,n3;",
+    "patch": "long int n1,n2,n3;",
+    "target": "int n1,n2,n3;"
+}

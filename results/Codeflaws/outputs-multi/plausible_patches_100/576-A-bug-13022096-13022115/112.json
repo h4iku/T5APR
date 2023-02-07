@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "",
+    "patch": "if(l%l1==0 && gcd(l1,l/l1)==1){ num[l]=0; }",
+    "target": "return 0;"
+}

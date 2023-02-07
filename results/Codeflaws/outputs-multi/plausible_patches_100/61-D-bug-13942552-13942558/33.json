@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "grafo[i]=0;",
+    "patch": "grafo[i]=-1;",
+    "target": "grafo[i]=-1;"
+}

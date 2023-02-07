@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "t=t+p[i];",
+    "patch": "t=(t+p[i])%MOD;",
+    "target": "t=(t+p[i])%MOD;"
+}

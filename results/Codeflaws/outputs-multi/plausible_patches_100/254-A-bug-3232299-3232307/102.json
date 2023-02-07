@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "",
+    "patch": "MM[count].start = i; MM[count].end = vis[a[i]]; MM[count].end = -1;",
+    "target": "freopen(\"input.txt\", \"r\", stdin);freopen(\"output.txt\", \"w\", stdout);"
+}

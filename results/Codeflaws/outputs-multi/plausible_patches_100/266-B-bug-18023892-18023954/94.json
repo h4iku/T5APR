@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if(a[j+1]=='B'&&a[j]=='G'){b=a[j+1];a[j+1]=a[j];a[j]=b;j+=1;}",
+    "patch": "if(a[j-1]=='B'&&a[j]=='G'){b=a[j-1];a[j-1]=a[j];a[j]=b;j+=1;}",
+    "target": "if(a[j]=='B'&&a[j+1]=='G'){a[j]='G';a[j+1]='B';j++;}"
+}

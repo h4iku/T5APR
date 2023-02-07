@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "else if( x1 == div && y1 == div+1 && z1 == div+1 ) printf(\"YES\\n\");",
+    "patch": "else if( x1 == div && y1 == div + 1 ) { printf(\"YES\\n\"); }",
+    "target": "else if( x1 == div && y1 == div+1 && z1 == div ) printf(\"YES\\n\");"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "dp[i] = MIN(dp[i], dp[j] + j - i - 1);",
+    "patch": "dp[i] = MIN(dp[i], dp[j] + (i - j) - 1);",
+    "target": "dp[i] = MIN(dp[i], dp[j] + i - j - 1);"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "else if(t1.probs == t2.probs && t1.penalty > t2.penalty){",
+    "patch": "else if(t1.probs == t2.probs && (t1.penalty < t2.penalty)){",
+    "target": "else if(t1.probs == t2.probs && t1.penalty < t2.penalty){"
+}

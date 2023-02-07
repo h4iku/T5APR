@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "else{ printf(\"NOo\");",
+    "patch": "else{ if(v1==5){ v1=0; counter++; continue; } else{ printf(\"NO\"); return 0; }",
+    "target": "else{ printf(\"NO\");"
+}

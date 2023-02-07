@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "printf(\"\\n%d\", ((int)modular_exp(27, i, 1000000007) - (int)modular_exp(7, i, 1000000007)));",
+    "patch": "",
+    "target": ""
+}

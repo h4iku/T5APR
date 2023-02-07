@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "",
+    "patch": "k = sort(T,k);",
+    "target": "qsort(T,4,sizeof(int),cmp);"
+}

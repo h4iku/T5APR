@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "if (buffer.assignParameter(creatorProp, creatorProp.deserialize(p, ctxt))) { t = p.nextToken(); Object bean; try { bean = creator.build(ctxt, buffer); } catch (Exception e) { wrapAndThrow(e, _beanType.getRawClass(), propName, ctxt); continue; } while (t == JsonToken.FIELD_NAME) { p.nextToken(); tokens.copyCurrentStructure(p); t = p.nextToken(); } tokens.writeEndObject(); if (bean.getClass() != _beanType.getRawClass()) { ctxt.reportMappingException(\"Can not create polymorphic instances with unwrapped values\"); return null; } return _unwrappedPropertyHandler.processUnwrapped(p, ctxt, bean, tokens); }",
+    "patch": "buffer.assignParameter(creatorProp, creatorProp.deserialize(p, ctxt));",
+    "target": "buffer.assignParameter(creatorProp, creatorProp.deserialize(p, ctxt));"
+}

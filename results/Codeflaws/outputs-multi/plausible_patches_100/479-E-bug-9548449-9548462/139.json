@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "cur[i]=(sum[end[i]]-sum[start[i]-1])%1000000007;",
+    "patch": "cur[i]=(sum[end[i]]-sum[start[i]-1]+1000000007);",
+    "target": "cur[i]=(sum[end[i]]-sum[start[i]-1]+1000000007)%1000000007;"
+}

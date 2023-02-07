@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "printf(\"max = %d, secondary = %d\\n\",ind_h_max_main,ind_h_max_secondary);",
+    "patch": "",
+    "target": ""
+}

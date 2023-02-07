@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "for (int i = 0; i < weights.length; i++) {",
+    "patch": "for (int i = begin; i < begin + length; i++) {",
+    "target": "for (int i = begin; i < begin + length; i++) {"
+}

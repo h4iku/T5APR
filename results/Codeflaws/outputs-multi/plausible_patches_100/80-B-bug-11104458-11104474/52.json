@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "ansH=(60*hour+minute)/2;",
+    "patch": "ansH=(60*hour+minute)/2.;",
+    "target": "ansH=(60*hour+minute)/2.0;"
+}

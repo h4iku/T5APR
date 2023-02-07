@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "if(((x==z)||(x==(z+1)))&&(y==z)||(y==(z+1)))",
+    "patch": "if(((x==z)||(x==(z+1)))&&((y==z)||(y==(z+1))))",
+    "target": "if(((x==z)||(x==(z+1)))&&((y==z)||(y==(z+1))))"
+}

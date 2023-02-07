@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "if (!erased)",
+    "patch": "if (!erased || x == 0)",
+    "target": "if (!erased || x == 0)"
+}

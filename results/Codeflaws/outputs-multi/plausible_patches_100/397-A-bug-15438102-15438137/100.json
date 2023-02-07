@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "for(i=l[0];i<r[0];i++)",
+    "patch": "for(i=l[0]+1;i<=r[0];i++)",
+    "target": "for(i=l[0]+1;i<=r[0];i++)"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if(m<cr[i].ar){",
+    "patch": "if(m<cr[i].ar + 1){",
+    "target": "if(m<=cr[i].ar){"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "int ara[m+1],c[n+1],d[m+1],a[n+1];",
+    "patch": "int ara[m+1],c[n+1],d[m+1],a[m+1],p;",
+    "target": "int ara[501],c[501],d[1001],a[501];"
+}

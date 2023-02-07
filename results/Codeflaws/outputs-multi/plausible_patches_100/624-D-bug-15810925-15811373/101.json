@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "",
+    "patch": "scanf(\"%u%u%u\",&n,&a,&b); for(i=-1;++i<n;scanf(\"%u\",A+i));",
+    "target": "if(!Li){ans=0;break;}"
+}

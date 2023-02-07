@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "printf(\" \u00ef\u00bc\u2026d\",i+1);",
+    "patch": "printf(\" \u00bc\ufffdd\",i);",
+    "target": "printf(\" %d\",i+1);"
+}

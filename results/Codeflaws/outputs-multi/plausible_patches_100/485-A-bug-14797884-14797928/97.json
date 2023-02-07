@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if(a>b*b) break;",
+    "patch": "if(a>&b) break;",
+    "target": "if(a>b*25) break;"
+}

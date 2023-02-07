@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "balance = N - (mat[i].position - mat[posind].position);",
+    "patch": "balance = N - (mat[1].position - mat[posind].position);",
+    "target": "balance = N - (mat[minind].position - mat[posind].position);"
+}

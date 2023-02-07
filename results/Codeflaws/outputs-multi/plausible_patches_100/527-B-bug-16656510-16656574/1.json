@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "for(b='x';b<='z';b++){",
+    "patch": "for(b='a';b<='z';b++){",
+    "target": "for(b='a';b<='z';b++){"
+}

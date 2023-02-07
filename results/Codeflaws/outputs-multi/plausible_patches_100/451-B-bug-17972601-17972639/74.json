@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "while((a[j] != arr[i])&&(j>=0))",
+    "patch": "while((a[j] == arr[j])&&(j>=0))",
+    "target": "while((a[j] != arr[i])&&(j>=0)&&(arr[j] == a[j]))"
+}

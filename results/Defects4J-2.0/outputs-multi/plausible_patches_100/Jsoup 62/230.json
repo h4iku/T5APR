@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "String name = t.asEndTag().normalName();",
+    "patch": "String name = t.asEndTag().asEndTag().name();",
+    "target": "String name = t.asEndTag().name();"
+}

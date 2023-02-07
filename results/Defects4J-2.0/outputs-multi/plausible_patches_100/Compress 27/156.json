@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "} if (start == end) { throw new IllegalArgumentException( exceptionMessage(buffer, offset, length, start, trailer));",
+    "patch": "} if (start > end) { throw new IllegalArgumentException( exceptionMessage(buffer, offset, length, start, trailer));",
+    "target": ""
+}

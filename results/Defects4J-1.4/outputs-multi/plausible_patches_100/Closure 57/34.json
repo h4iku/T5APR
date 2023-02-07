@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if (target != null) {",
+    "patch": "if (target!= null &&!target.isQualifiedName()) {",
+    "target": "if (target != null && target.getType() == Token.STRING) {"
+}

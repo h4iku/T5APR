@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "printf(\"steps: %d\\n\", min_steps);",
+    "patch": "fprintf(stdout, \"%d\\n\", min_steps);",
+    "target": "printf(\"%d\\n\", min_steps);"
+}

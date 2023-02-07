@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if(times<(k+1)*k/2) return 0;",
+    "patch": "if(times<k/2) return 0;",
+    "target": "if(times>(k+1)*k/2) return 0;"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "shot(a,temp1-1,temp2,N);",
+    "patch": "shot(a,temp1-1,temp2,-1);",
+    "target": "shot(a,temp1-1,temp2,n);"
+}

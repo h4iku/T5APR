@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "while (r - l > 0.000001) {",
+    "patch": "while (r - l > 0.00000001) {",
+    "target": "while (r - l > 0.00000001) {"
+}

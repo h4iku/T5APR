@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "if weight < j:",
+    "patch": "if weight <= j:",
+    "target": "if weight <= j:"
+}

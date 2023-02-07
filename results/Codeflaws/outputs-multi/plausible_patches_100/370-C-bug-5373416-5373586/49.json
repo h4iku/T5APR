@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "",
+    "patch": "if(k[i]==k[i-1])j++; else { if(g<j)g=j; j=1; }",
+    "target": "if(g<j)g=j;"
+}

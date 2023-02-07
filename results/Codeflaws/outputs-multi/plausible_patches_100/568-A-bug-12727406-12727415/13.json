@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "unsigned int pi = 0, rub = 0;",
+    "patch": "size_t pi = 0, rub = 0;",
+    "target": "long long pi = 0, rub = 0;"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "return (-((boy *)x)->power) + ((boy *)x)->power;",
+    "patch": "return (-((boy *)x)->power) + ((boy *)y)->power;",
+    "target": "return (-((boy *)x)->power) + ((boy *)y)->power;"
+}

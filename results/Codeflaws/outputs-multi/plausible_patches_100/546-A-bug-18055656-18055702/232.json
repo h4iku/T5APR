@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if(cost<<n){printf(\"0\");}",
+    "patch": "if(cost<n) { printf(\"0\"); }",
+    "target": "if(cost<n){printf(\"0\");}"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "for(j = 0; j < numStreets; j++) {",
+    "patch": "for(j = 0; j < numAlleys; j++ ) {",
+    "target": "for(j = 0; j < numAlleys; j++) {"
+}

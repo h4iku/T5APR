@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "if ((d == -1 && s[i] > s[n+i]) || (d == 1 && s[i] < s[n+i]))",
+    "patch": "if ((d == -1 && s[i] >= s[n+i]) || (d == 1 && s[i] <= s[n+i]))",
+    "target": "if ((d == -1 && s[i] >= s[n+i]) || (d == 1 && s[i] <= s[n+i]))"
+}

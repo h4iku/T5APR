@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "r.advance();",
+    "patch": "read(t, r);",
+    "target": ""
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if(l<x/2)",
+    "patch": "if(l<x-l)",
+    "target": "if(l<=x/2)"
+}

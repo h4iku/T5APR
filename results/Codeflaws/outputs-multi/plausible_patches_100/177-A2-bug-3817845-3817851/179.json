@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "long long int n,a[5][5]={0},i,j,s=0;",
+    "patch": "long long int n,a[50][5]={0},i,j,s=0;",
+    "target": "long long int n,a[105][105]={0},i,j,s=0;"
+}

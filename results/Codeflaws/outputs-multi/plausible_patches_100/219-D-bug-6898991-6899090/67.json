@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "",
+    "patch": "reds[temp->a] = reds[index];",
+    "target": "reds[temp->a] = reds[index];"
+}

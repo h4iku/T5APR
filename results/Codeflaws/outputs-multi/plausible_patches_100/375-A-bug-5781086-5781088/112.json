@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "memset(str, 0, 10000003);",
+    "patch": "memset(str, 0, 10002);",
+    "target": "memset(str, 0, 1000003);"
+}

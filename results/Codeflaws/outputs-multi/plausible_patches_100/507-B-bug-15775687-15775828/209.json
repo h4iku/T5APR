@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "int steps = ceil(distance)/(2*r);",
+    "patch": "long steps = ceil(distance/(2*r));",
+    "target": "int steps = ceil(distance/(2*r));"
+}

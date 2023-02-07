@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if ((unsigned long long)t*t<x-n+1) printf(\"-1\\n\");",
+    "patch": "if ((unsigned long long)t*t>t<x-n+1) printf(\"-1\\n\");",
+    "target": "if ((unsigned long long)t*t+n-1<x) printf(\"-1\\n\");"
+}

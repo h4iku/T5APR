@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "dp[cur][cnt]=(dp[cur][cnt]+find(cur*i,cnt+1))%1000000009;",
+    "patch": "dp[cur][cnt]=(dp[cur][cnt]+find(cur*i,cnt+1))%1000000007;",
+    "target": "dp[cur][cnt]=(dp[cur][cnt]+find(cur*i,cnt+1))%1000000007;"
+}

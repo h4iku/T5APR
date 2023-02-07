@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if (rawCentralDirectoryData.length != expectedLength) {",
+    "patch": "if (rawCentralDirectoryData == null) {",
+    "target": "if (rawCentralDirectoryData.length < expectedLength) {"
+}

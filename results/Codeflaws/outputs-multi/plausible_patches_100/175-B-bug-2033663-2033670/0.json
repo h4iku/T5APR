@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "float f1,f2;",
+    "patch": "double f1,f2;",
+    "target": "double f1,f2;"
+}

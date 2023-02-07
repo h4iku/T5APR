@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "",
+    "patch": "if ((o & 0x80) == 0x80) { return false; }",
+    "target": "if (end >= input.length) return false;"
+}

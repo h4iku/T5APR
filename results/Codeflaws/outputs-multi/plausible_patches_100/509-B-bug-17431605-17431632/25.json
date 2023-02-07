@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "if(j>d){k=1;printf(\"%d \",k);}",
+    "patch": "if(k>d){k=1;printf(\"%d \",k);}",
+    "target": "if(k>d){k=1;printf(\"%d \",k);}"
+}

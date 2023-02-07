@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "if (k<(long long)(n-i)*(b[i]-j)) break;",
+    "patch": "if (k<=(long long)(n-i)*(b[i]-j)) break;",
+    "target": "if (k<=(long long)(n-i)*(b[i]-j)) break;"
+}

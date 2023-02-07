@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "puts(str3); printf(\"%d\\n\",count);",
+    "patch": "",
+    "target": ""
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "while lo <= hi:",
+    "patch": "while lo <= (hi - 1):",
+    "target": "while lo < hi:"
+}

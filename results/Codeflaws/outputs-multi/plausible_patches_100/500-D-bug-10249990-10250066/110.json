@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "double result=ans*6/(n*(n-1));",
+    "patch": "double result=ans*6/((double)n*(n-1));",
+    "target": "double result=(double)ans*6/(n*(n-1));"
+}

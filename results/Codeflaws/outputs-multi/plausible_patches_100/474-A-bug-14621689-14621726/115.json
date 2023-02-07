@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "char k[] = \"qwertyuiopasdfghjkl;zxcvbnm,../\";",
+    "patch": "char k[] = \"qwertyuiopasdfghjkl;zxcvbnm,./\";",
+    "target": "char k[] = \"qwertyuiopasdfghjkl;zxcvbnm,./\";"
+}

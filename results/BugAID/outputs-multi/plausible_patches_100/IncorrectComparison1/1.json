@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": null,
+    "hunks": false,
+    "source": "if (typeof opt.default!='undefined') {",
+    "patch": "if (typeof opt.default!== 'undefined') {",
+    "target": "if (typeof opt.default !== 'undefined') {"
+}

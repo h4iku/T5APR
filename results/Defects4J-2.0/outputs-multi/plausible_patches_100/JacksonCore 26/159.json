@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "",
+    "patch": "_currInputProcessed += _origBufferLen - _currInputRowStart;",
+    "target": "_currBufferStart = start;"
+}

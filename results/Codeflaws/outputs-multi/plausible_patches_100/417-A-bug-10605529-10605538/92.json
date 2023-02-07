@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "ans+=(l-n)*d;",
+    "patch": "ans+=(l)*d;",
+    "target": "ans+=l*d;"
+}

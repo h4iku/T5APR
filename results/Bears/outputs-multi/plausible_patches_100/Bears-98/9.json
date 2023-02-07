@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if (parser.hasNext(4)) {",
+    "patch": "if (parser.hasNext()) {",
+    "target": "if (parser.hasNext(5)) {"
+}

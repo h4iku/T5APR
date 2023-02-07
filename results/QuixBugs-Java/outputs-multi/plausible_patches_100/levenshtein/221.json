@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "return 1 + levenshtein(source.substring(1), target.substring(1));",
+    "patch": "return levenshtein(target.substring(1), source.substring(1));",
+    "target": "return levenshtein(source.substring(1), target.substring(1));"
+}

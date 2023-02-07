@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "while (n--)",
+    "patch": "while (--n > 0)",
+    "target": "while (n-- > 1)"
+}

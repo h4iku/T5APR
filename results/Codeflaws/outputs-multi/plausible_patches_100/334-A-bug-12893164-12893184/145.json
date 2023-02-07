@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "",
+    "patch": "for(i = 1; i <= n; k++) for(j=i; j < i + n / 2; j++) { printf(\"%d %d \",j,sq-i+1); }",
+    "target": "return 0;"
+}

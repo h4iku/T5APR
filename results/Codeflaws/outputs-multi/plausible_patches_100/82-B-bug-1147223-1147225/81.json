@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "",
+    "patch": "qsort(sets[0].values, sets[1].size, sizeof(int), (int (*)(const void *, const void *)) icmp);",
+    "target": "return 0;"
+}

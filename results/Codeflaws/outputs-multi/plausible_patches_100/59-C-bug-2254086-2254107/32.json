@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "l=0;j=j/2;",
+    "patch": "l=0;j=j-j/2;",
+    "target": "l=0;j=(j+1)/2;"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if (j>1000000) j=1000000;",
+    "patch": "if (!j) j=1000000;",
+    "target": "if (j>10000000) j=10000000;"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if(rep[i]==4)",
+    "patch": "if((rep[i]&4)==4)",
+    "target": "if(rep[i]>=4)"
+}

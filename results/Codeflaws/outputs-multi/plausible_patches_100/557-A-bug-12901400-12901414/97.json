@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if(max[i]<=diff)",
+    "patch": "if(max[i]-min[i]<diff)",
+    "target": "if(max[i]-min[i]<=diff)"
+}

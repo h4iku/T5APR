@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "printf(\"%d\", count);",
+    "patch": "fprintf(stdout, \"%lu\", count);",
+    "target": "printf(\"%lld\", count);"
+}

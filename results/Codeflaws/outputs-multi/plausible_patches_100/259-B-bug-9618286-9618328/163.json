@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "",
+    "patch": "a[2][0] = (sum / 2) - a[2][1] - a[2][2];",
+    "target": "return 0;"
+}

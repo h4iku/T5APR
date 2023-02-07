@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "j = (1 + sqrt(1+24*n))/6;",
+    "patch": "j = (-1 + sqrt(1+24*n))/6;",
+    "target": "j = (sqrt(1+24*n)-1)/6;"
+}

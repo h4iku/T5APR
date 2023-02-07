@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "if (currentByte == 0) { break; }",
+    "patch": "while (currentByte == 0) { break; }",
+    "target": ""
+}

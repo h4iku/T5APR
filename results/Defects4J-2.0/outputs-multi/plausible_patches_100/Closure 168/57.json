@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if (t.getScopeDepth() <= 2) {",
+    "patch": "if (n.isReturn() && n.getFirstChild()!= null){",
+    "target": "if (t.getScopeDepth() <= 1) {"
+}

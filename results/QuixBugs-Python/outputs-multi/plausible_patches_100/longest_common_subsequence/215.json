@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "return a[0] + longest_common_subsequence(a[1:], b)",
+    "patch": "return a[0] + longest_common_subsequence(a[1:], b[1:])",
+    "target": "return a[0] + longest_common_subsequence(a[1:], b[1:])"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "if(j < n - 1 && room[i][j+1] != '.' && room[i][j+1] != C && !table[room[i][j+1] - 'A']){",
+    "patch": "if(j < m - 1 && room[i][j+1]!= '.' && room[i][j+1]!= C &&!table[room[i][j+1] - 'A']){",
+    "target": "if(j < m - 1 && room[i][j+1] != '.' && room[i][j+1] != C && !table[room[i][j+1] - 'A']){"
+}

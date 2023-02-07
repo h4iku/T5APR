@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "printf(\"2\\n3 1 4 2\");",
+    "patch": "printf(\"%d\\n3 1 4 2\",a);",
+    "target": "printf(\"4\\n3 1 4 2\");"
+}

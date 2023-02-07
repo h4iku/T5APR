@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "int n,time,t[100],d[5000];",
+    "patch": "int n,time,t[100],d[6400];",
+    "target": "int n,time,t[100],d[6000];"
+}

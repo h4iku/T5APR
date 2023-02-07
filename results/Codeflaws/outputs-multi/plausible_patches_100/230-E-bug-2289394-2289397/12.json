@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "printf(\"[%lld %lld]\", v*(v-1)*(v-2)/6, soma/2);",
+    "patch": "fprintf(stderr,\"[%lld %lld]\", v*(v-1)*(v-2)/6, soma/2);",
+    "target": ""
+}

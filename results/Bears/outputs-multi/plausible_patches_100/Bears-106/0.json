@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": true,
+    "source": "if (parser.hasNext()) { position.set(Position.KEY_POWER, parser.nextInt()); }",
+    "patch": "",
+    "target": ""
+}

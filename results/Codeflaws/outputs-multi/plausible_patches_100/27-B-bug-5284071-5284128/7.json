@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "ara[w[l]-1]++,ara[ls[l]-1]++,araw[w[l]-1];",
+    "patch": "ara[w[l]-1]++,ara[ls[l]-1]++,araw[w[l]-1]++;",
+    "target": "ara[w[l]-1]++,ara[ls[l]-1]++,araw[w[l]-1]++;"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "printf(\"%lld  \",a[i][0]); for(i=0;i<n;i++)",
+    "patch": "for(j=0;j<2;j++)",
+    "target": ""
+}

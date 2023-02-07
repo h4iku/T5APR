@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "printf(\"%d %d %d\",hash[0],hash[1],hash[2]);",
+    "patch": "fprintf(stderr,\"%d %d %d\",hash[0],hash[1],hash[2]); fflush(stderr);",
+    "target": ""
+}

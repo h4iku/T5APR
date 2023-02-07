@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "#define DEBUG",
+    "patch": "int DEBUG = 0;",
+    "target": ""
+}

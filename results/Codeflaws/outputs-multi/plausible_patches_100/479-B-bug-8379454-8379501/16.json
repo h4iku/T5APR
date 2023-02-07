@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "int cnt, min, max, minIdx[1000], maxIdx[1000];",
+    "patch": "int cnt, min, max, minIdx[10000], maxIdx[10000];",
+    "target": "int cnt, min, max, minIdx[1001], maxIdx[1001];"
+}

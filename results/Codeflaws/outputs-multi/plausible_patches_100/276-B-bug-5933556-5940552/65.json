@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "printf(\"%s\", (odd_count-1)%2 == 0 ? \"First\" : \"Second\");",
+    "patch": "printf(\"%s\", (odd_count-1)%2 <= 0? \"First\" : \"Second\");",
+    "target": "if(odd_count == 0) printf(\"First\"); else printf(\"%s\", (odd_count-1)%2 == 0 ? \"First\" : \"Second\");"
+}

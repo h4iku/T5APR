@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "private static String nullString = String.valueOf(0x0000);",
+    "patch": "private static String nullString = String.valueOf(10);",
+    "target": "private static String nullString = String.valueOf('\\u0000');"
+}

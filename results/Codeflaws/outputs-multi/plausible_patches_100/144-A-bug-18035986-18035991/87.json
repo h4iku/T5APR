@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "printf(\"mi = %d ma = %d\\n\",mi,ma);",
+    "patch": "fprintf(stderr,\"mi = %ld ma = %ld\\n\",mi,ma);",
+    "target": ""
+}

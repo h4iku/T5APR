@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if ( i < 0 || n-i>p )",
+    "patch": "if ( i < 0 || n-i==0 )",
+    "target": "if ( i < 0 || (p<3 && n-i>p) )"
+}

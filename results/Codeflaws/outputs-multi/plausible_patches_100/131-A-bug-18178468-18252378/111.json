@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "out[0]=in[0];",
+    "patch": "out[j]=in[j]+32;",
+    "target": "out[0]=in[0]+32;"
+}

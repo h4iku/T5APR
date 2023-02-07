@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "float r = (y2 - y0) / (x2 - x0);",
+    "patch": "float r = ((float)(y2 - y0) / (x2 - x0));",
+    "target": "float r = (float )(y2 - y0) / (x2 - x0);"
+}

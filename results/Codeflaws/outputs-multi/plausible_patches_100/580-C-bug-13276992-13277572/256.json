@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "if (h[di+1]-h[di]>1) for (i=h[di]+1;i<=h[di+1];i++)",
+    "patch": "for (i=h[di]+1;i<=h[di+1];i++)",
+    "target": "for (i=h[di]+1;i<=h[di+1];i++)"
+}

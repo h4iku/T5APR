@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "} else if (d < a - 1 && ZA[c][d + 1] == 'P') {",
+    "patch": "} else if (c <= a - 1 && ZA[c][d + 1] == 'P') {",
+    "target": "} else if (d < b - 1 && ZA[c][d + 1] == 'P') {"
+}

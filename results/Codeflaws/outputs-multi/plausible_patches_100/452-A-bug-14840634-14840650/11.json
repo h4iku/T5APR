@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if (kol>kol_max) {",
+    "patch": "if (kol>kol_max-1) {",
+    "target": "if (kol>=kol_max) {"
+}

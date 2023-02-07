@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if(length>k*b && length<k*a){",
+    "patch": "if((length>k*b || length<k*a)) {",
+    "target": "if(length>k*b || length<k*a){"
+}

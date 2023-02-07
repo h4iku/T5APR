@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if(T[n]==t[n])",
+    "patch": "if(T[n] <= t[n])",
+    "target": "if(T[n]==t[n]||t[n]>T[n])"
+}

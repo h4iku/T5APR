@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if (a > b) s = a; else s = b;",
+    "patch": "if (a < b) { s = a; } else { s = b; }",
+    "target": "if (a < b) s = a; else s = b;"
+}

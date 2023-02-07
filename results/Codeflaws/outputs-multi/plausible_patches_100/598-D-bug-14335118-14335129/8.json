@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "ch = num - quotient*10;",
+    "patch": "int ch = num - quotient*10;",
+    "target": "int ch = num - quotient*10;"
+}

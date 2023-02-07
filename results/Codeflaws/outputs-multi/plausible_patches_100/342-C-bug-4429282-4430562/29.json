@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "ans = 2*h/r;",
+    "patch": "ans = 2*(h/r);",
+    "target": "ans = 2*(h/r);"
+}

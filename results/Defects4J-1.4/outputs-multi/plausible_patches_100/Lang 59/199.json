@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "str.getChars(0, strLen, buffer, size);",
+    "patch": "str.getChars(0, width, buffer, size);",
+    "target": "str.getChars(0, width, buffer, size);"
+}

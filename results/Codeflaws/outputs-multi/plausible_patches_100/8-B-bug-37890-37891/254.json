@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "(c != 'D' && map[y][y - 1]))",
+    "patch": "(c!= 'D' && map[x][y-1]))",
+    "target": "(c != 'D' && map[x][y - 1]))"
+}

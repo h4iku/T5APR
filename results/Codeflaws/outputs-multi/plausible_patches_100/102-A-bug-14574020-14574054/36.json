@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if ( min )",
+    "patch": "if ( min!= LONG_MAX )",
+    "target": "if ( min!=LONG_MAX)"
+}

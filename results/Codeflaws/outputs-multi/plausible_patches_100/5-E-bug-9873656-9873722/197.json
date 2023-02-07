@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if (j == n && (worker.length  > 2 || worker.length == 2 && worker.buffer[worker.length - 1].doubled > 0))",
+    "patch": "if (j == n && (worker.length  > 2 || worker.length == 2 && worker.buffer[0].doubled > 0))",
+    "target": "if (j == n && (worker.length  > 2 || worker.length == 2 && worker.buffer[worker.length - 2].doubled > 0))"
+}

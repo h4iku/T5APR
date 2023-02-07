@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "printf(\"%d\\n\",k*(2*n-2*k-1));",
+    "patch": "printf(\"%ld\\n\",(long)k*(2*n-2*k-1));",
+    "target": "printf(\"%lld\\n\",k*(2*n-2*k-1ll));"
+}

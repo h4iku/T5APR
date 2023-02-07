@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "",
+    "patch": "if ( metadata == null ) { return Collections.EMPTY_SET; }",
+    "target": "if (metadata == null) { return Collections.EMPTY_SET; }"
+}

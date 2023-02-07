@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "i = max(i, i + l - m + 1);",
+    "patch": "i = max(i, i + l - l);",
+    "target": "i = max(i, i + j - m + 1);"
+}

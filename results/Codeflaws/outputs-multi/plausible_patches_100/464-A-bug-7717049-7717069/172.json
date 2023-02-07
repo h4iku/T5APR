@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if((j>=2 && s[j-2]!='a') && (s[j-1]!='a' && j>=1)){",
+    "patch": "if((j>=1 && s[j-2]!='a') && (s[j-1]!='a' && j>=1)) {",
+    "target": "if(((j>=2 && s[j-2]!='a')|| j<2) && ((s[j-1]!='a' && j>=1)||j<1)){"
+}

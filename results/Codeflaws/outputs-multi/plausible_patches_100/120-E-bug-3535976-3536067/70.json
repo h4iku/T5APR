@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "",
+    "patch": "memset(&n, 0, sizeof(n));",
+    "target": "freopen(\"input.txt\", \"r\", stdin); freopen(\"output.txt\", \"w\", stdout);"
+}

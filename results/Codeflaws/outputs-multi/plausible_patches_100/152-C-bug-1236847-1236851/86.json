@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "printf(\"%d %d\\n\",r,sum);",
+    "patch": "fprintf (stderr, \"%d %d\\n\", r, sum);",
+    "target": ""
+}

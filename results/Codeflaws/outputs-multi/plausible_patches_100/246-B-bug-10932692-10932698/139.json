@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "p=sum/n;",
+    "patch": "p=sum%n+n;",
+    "target": "p=n;"
+}

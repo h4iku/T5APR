@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "",
+    "patch": "} if(j==0&&ncost<ans){ ans=ncost;",
+    "target": "dc[ar[i].d]++;"
+}

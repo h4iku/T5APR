@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "if(n>sum2 && n<sum1)",
+    "patch": "if((n>sum2) || (n<sum1))",
+    "target": "if(n>sum2 || n<sum1)"
+}

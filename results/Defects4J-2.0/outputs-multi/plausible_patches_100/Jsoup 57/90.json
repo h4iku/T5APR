@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "attributes.remove(attrKey);",
+    "patch": "{ attributes.remove(attrKey); return; }",
+    "target": "it.remove();"
+}

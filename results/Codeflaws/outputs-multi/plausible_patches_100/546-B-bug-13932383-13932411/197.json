@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "answer+=((i-1)*dif);",
+    "patch": "answer+=((i-1)*dif/100);",
+    "target": ""
+}

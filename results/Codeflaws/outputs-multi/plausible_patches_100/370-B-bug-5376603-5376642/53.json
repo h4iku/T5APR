@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "break ;",
+    "patch": "for(k = 0;k < player[i].t;k++) { if(find(player[i].a[k],j)) flag = 1; }",
+    "target": ""
+}

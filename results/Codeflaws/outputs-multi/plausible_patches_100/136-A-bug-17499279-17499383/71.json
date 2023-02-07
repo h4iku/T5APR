@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "#define MXS 100*2-1+1",
+    "patch": "#define MXS 100*3+1",
+    "target": "#define MXS 1024"
+}

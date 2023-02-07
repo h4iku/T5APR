@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "",
+    "patch": "if(flag==2*a[k][0]+a[k][1]) { flag=count; count=0; }",
+    "target": "flag=0;"
+}

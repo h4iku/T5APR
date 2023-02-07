@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "flag[k]=0;",
+    "patch": "flag[i]=-1;",
+    "target": "flag[i]=0;"
+}

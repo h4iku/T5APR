@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "",
+    "patch": "for (i = 0; i < n; i++) { scanf(\"\", &a[i].val); a[i].pos = i + 1; }",
+    "target": "freopen(\"input.txt\", \"r\", stdin); freopen(\"output.txt\", \"w\", stdout);"
+}

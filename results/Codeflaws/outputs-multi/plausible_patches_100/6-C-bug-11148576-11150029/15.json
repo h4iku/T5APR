@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "result -= chocolate[end--];",
+    "patch": "result -= chocolate[end-- - 1];",
+    "target": "result -= chocolate[--end];"
+}

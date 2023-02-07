@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "if(n1+k1>=n2+k2)",
+    "patch": "if(n1+k1>n2+k1)",
+    "target": "if(n1>n2)"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "",
+    "patch": "if(sets[0].values[i] == sets[1].values[i]) { fset.values[fset.size++] = sets[0].values[i]; i++; j++; } else if(sets[0].values[i] < sets[1].values[j]) i++;",
+    "target": "return 0;"
+}

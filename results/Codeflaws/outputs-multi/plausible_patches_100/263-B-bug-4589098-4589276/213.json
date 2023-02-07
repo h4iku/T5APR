@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "while(j>0&&a[j]>a[l])",
+    "patch": "while(k>0&&a[j]>a[l])",
+    "target": "while(j>=0&&a[j]>a[l])"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "if(currentChar!='a'&&currentChar!='e'&&currentChar!='i'&&currentChar!='o'&&currentChar!='u'&&currentChar!='A'&&currentChar!='E'&&currentChar!='I'&&currentChar!='O'&&currentChar!='U'&&currentChar!='Y')",
+    "patch": "if(currentChar!='a'&&currentChar!='e'&&currentChar!='i'&&currentChar!='o'&&currentChar!='u'&&currentChar!='A'&&currentChar!='E'&&currentChar!='I'&&currentChar!='O'&&currentChar!='U'&&currentChar!='Y'&&currentChar!='y')",
+    "target": "if(currentChar!='a'&&currentChar!='e'&&currentChar!='i'&&currentChar!='o'&&currentChar!='u'&&currentChar!='y'&&currentChar!='A'&&currentChar!='E'&&currentChar!='I'&&currentChar!='O'&&currentChar!='U'&&currentChar!='Y')"
+}

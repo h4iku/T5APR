@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "greater = quicksort([x for x in arr[1:] if x > pivot])",
+    "patch": "greater = quicksort([x for x in arr[1:] if x >=pivot])",
+    "target": "greater = quicksort([x for x in arr[1:] if x >= pivot])"
+}

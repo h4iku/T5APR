@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "return resultado;",
+    "patch": "exit(0);",
+    "target": "return 0;"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "int hodor=1,c=1,i;",
+    "patch": "int hodor=1, c=0,i;",
+    "target": "int hodor=1,c=0,i;"
+}

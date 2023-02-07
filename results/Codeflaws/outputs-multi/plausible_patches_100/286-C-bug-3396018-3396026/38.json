@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if (a[j] < 0) x[++t] = a[j];",
+    "patch": "if (a[j] < 0) { x[++t] = -a[j]; }",
+    "target": "if (a[j] < 0) x[++t] = -a[j];"
+}

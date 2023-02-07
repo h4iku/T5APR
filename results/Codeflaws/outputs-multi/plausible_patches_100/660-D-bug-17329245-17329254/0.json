@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "printf(\"%09d - %d %d [%d %d %d %d]\\n\", h, pa->x, pa->y, x[i], y[i], x[j], y[j]);",
+    "patch": "",
+    "target": ""
+}

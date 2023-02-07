@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": null,
+    "hunks": false,
+    "source": "const int window_size = 1024 + sizeof(token);",
+    "patch": "const int window_size = 1024;",
+    "target": "const int window_size = 1024;"
+}

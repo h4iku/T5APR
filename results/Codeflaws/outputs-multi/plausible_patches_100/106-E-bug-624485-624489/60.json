@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "step = (r - l) / PHI;",
+    "patch": "step = (r - l) / 3;",
+    "target": "step = (r - l) / 3;"
+}

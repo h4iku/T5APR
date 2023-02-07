@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "while (Math.abs(x-approx) > epsilon) {",
+    "patch": "for (int i = 0; i < x; i++) {",
+    "target": "while (Math.abs(x-approx*approx) > epsilon) {"
+}

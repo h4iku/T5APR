@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if(ex && ex > b[i] - a[i]) {",
+    "patch": "if(ex!= 0 || ex > b[i] - a[i]) {",
+    "target": "if(ex && ex >= b[i] - a[i]) {"
+}

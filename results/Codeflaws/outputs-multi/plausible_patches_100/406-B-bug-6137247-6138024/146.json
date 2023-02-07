@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if ( a[n-scn] ) {",
+    "patch": "if ( a[Nmax - scn] ) {",
+    "target": "if ( a[Nmax-scn] ) {"
+}

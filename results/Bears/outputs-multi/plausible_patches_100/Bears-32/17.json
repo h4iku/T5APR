@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "return getStep().isFailOnCCE();",
+    "patch": "return (getStep()!= null && getStep().isFailOnCCE());",
+    "target": "AbstractStep step = getStep(); if (step == null) {  return false; } return step.isFailOnCCE();"
+}

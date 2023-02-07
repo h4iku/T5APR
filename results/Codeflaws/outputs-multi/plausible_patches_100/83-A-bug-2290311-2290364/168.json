@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "",
+    "patch": "tsum+=a[sum]; sum++;",
+    "target": "if(sum!=1) tsum+=a[sum];"
+}

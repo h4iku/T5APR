@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "p=p+t[i]-t[i+1]+c[i];",
+    "patch": "p+=t[i]-t[i+1]+c[i+1];",
+    "target": "p=p+t[i]-t[i+1]+c[i+1];"
+}

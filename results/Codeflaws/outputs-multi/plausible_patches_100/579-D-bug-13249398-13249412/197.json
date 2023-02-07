@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "int max(int a,int b)",
+    "patch": "double max(double a,double b)",
+    "target": "long long int max(long long int a,long long int b)"
+}

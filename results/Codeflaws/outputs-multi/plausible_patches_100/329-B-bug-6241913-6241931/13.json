@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if((di[i][j]>0)&&(dist[i][j]<=dist[s1][s2]))",
+    "patch": "if((dist[i][j]>0)&&(dist[i][j]<=dist[s1][s2]))",
+    "target": "if((!can[i][j])&&(di[i][j]>0)&&(dist[i][j]<=dist[s1][s2]))"
+}

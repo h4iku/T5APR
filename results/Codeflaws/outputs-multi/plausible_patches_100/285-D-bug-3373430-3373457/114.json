@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "printf(\"%I64\\n\", sols[n]);",
+    "patch": "printf(\"%lu\\n\", sols[n]);",
+    "target": "printf(\"%lld\\n\", sols[n]);"
+}

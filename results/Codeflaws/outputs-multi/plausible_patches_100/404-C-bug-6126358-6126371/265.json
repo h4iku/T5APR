@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "",
+    "patch": "ret = n;",
+    "target": "ret |= k < 2 && n > 2;"
+}

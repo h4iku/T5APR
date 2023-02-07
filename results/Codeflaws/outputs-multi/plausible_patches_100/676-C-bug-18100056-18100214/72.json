@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "long long l=1,r=N,mid,flag,ans=0;",
+    "patch": "long long l=1,r=N+1,mid,flag,ans=0;",
+    "target": "long long l=1,r=N+1,mid,flag,ans=0;"
+}

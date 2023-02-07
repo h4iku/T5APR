@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "for(int j=1;j<k-i;j++)",
+    "patch": "for(int j=k-i;j>0;j--)",
+    "target": "for(int j=1;j<=k-i;j++)"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "r+=(h-s)*100-s*50;",
+    "patch": "r+=h*100-s*50;",
+    "target": "r+=h*100-s*50;"
+}

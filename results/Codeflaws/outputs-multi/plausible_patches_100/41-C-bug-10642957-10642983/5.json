@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "if(i+5<n && arr[i] == 'd' && arr[i+1] == 'o' && arr[i+2] == 't') {",
+    "patch": "if(i+3<n && arr[i] == 'd' && arr[i+1] == 'o' && arr[i+2] == 't') {",
+    "target": "if(i+3<n && arr[i] == 'd' && arr[i+1] == 'o' && arr[i+2] == 't') {"
+}

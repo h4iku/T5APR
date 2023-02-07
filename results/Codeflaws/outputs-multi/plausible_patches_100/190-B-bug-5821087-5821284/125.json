@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "rad = (r1+r2) - d;",
+    "patch": "r1 = r1 + r2 - d;",
+    "target": "rad = 0;"
+}

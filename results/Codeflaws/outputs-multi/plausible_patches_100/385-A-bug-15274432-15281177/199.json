@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "max=x[i]-x[i+1]-1;",
+    "patch": "max=x[i]-c-x[i+1];",
+    "target": "max=x[i]-x[i+1]-c;"
+}

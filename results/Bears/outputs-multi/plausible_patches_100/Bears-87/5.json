@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "return ReflectionUtils.invokeMethod(OF_METHOD, source);",
+    "patch": "return ReflectionUtils.invokeMethod(OF_METHOD, this, source);",
+    "target": "return ReflectionUtils.invokeMethod(OF_METHOD, null, source);"
+}

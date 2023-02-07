@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": null,
+    "hunks": false,
+    "source": "callback();",
+    "patch": "callback(null);",
+    "target": "callback(null);"
+}

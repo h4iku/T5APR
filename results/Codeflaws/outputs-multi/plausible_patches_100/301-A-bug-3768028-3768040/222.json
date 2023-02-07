@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if (neg % 2 && neg % n % 2 && (n - neg) % n) {",
+    "patch": "if (neg % 2 && (n - neg) % 2) {",
+    "target": "if (neg % 2 && neg % n % 2 && n % 2 == 0) {"
+}

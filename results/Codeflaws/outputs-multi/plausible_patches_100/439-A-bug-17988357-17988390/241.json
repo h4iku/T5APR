@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if(d>(sumd+(n-1)*10))",
+    "patch": "if (d >= (sumd+(n-1)*10))",
+    "target": "if(d>=(sumd+(n-1)*10))"
+}

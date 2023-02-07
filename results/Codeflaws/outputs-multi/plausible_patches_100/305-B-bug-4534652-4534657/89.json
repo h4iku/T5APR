@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if(p/q==a[1])",
+    "patch": "if(p==a[1])",
+    "target": "if(p%q==0&&p/q==a[1])"
+}

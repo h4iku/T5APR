@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "printf(\"%.10f\",abs(c*pi));",
+    "patch": "printf(\"%.10f\",(c*pi));",
+    "target": "printf(\"%.10f\",abs(c)*pi);"
+}

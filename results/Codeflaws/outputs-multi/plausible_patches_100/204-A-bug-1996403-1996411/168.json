@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "t=t+(s[0]-1)*10;",
+    "patch": "t=t+(s[0]-1)*10 + s[1];",
+    "target": "t=t+(s[0]-1)*10+s[1];"
+}

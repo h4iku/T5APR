@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "freopen(\"C:\\\\Users\\\\Shen\\\\Desktop\\\\ining.txt\",\"r\",stdin);",
+    "patch": "fopen(\"C:\\\\Users\\\\Shen\\\\Desktop\\\\ining.txt\",\"r\");",
+    "target": ""
+}

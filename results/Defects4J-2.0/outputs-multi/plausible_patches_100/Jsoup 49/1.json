@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "} reindexChildren(index);",
+    "patch": "reindexChildren(index); }",
+    "target": "reindexChildren(index); }"
+}

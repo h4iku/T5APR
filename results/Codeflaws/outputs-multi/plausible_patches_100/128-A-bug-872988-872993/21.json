@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if(tx&&f[ty][tx]!='S'&&f[ty+1][tx]!='S') dfs(ty,tx);",
+    "patch": "if(tx&&f[ty][tx]!='S'&&f[ty+1][tx]!='S') dfs(ty,tx-1);",
+    "target": "if(tx&&tx-9&&f[ty][tx]!='S'&&f[ty+1][tx]!='S') dfs(ty,tx);"
+}

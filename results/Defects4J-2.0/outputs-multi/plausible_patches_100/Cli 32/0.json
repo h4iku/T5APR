@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "while ((pos <= text.length()) && ((c = text.charAt(pos)) != ' ') && (c != '\\n') && (c != '\\r')) { ++pos; }",
+    "patch": "",
+    "target": ""
+}

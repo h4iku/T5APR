@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "while(NoBacteria>(K+B))",
+    "patch": "while(NoBacteria >= (K+B))",
+    "target": "while(NoBacteria>=(K+B))"
+}

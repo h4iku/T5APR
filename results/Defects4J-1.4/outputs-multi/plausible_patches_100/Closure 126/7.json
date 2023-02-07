@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if (NodeUtil.hasFinally(n)) { Node finallyBlock = n.getLastChild(); tryMinimizeExits(finallyBlock, exitType, labelName); }",
+    "patch": "Node finallyBlock = n.getFirstChild(); tryMinimizeExits(finallyBlock, exitType, labelName);",
+    "target": ""
+}

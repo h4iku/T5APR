@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "FOR(i, 1, yer) printf(\"%d \",cvp[i]); endl;",
+    "patch": "",
+    "target": ""
+}

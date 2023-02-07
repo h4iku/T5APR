@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if(s[y]=='\\0')",
+    "patch": "if(n==0 || n>32 || m==0 || m==95)",
+    "target": "if(s[y]=='\\0' || s[y]=='/')"
+}

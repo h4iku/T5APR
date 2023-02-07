@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "folders = ceil(negative/2);",
+    "patch": "folders = ceil(negative/2.0);",
+    "target": "folders = ceil(negative/2.0);"
+}

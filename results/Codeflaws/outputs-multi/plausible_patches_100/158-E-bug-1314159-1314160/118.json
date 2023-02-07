@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "ans = max( ans, 86401 - dp[k] );",
+    "patch": "ans = max( ans, 86401 - dp[k] - 1);",
+    "target": "ans = max( ans, 86400 - dp[k] );"
+}

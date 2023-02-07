@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "static float toJavaVersionInt(String version) {",
+    "patch": "static final int toJavaVersionInt(String version) {",
+    "target": "static int toJavaVersionInt(String version) {"
+}

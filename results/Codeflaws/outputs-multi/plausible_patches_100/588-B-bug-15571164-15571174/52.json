@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "for (i=100000; i>=2 ; i--)",
+    "patch": "for (i=10000000; i>=2 ; i--)",
+    "target": "for (i=10000000; i>=2 ; i--)"
+}

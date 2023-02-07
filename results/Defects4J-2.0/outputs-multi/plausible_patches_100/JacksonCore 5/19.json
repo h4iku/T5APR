@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "char c = str.charAt(i++);",
+    "patch": "char c = str.charAt(i++ + 1);",
+    "target": "char c = str.charAt(i);"
+}

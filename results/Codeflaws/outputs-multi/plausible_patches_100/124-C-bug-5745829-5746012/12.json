@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "while(s[i]==c&&time++<=m&&i<k)",
+    "patch": "while(s[i]==c&&time++<m&&i<k)",
+    "target": "while(s[i]==c&&++time<=m&&i<k)"
+}

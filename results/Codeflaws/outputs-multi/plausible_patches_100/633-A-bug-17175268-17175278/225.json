@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "if((a*x+b*y)==c&& x>0&&y>0)",
+    "patch": "if((a*x+b*y)==c&& x >= 0&& y >= 0)",
+    "target": "if((a*x+b*y)==c&& x>=0&&y>=0)"
+}

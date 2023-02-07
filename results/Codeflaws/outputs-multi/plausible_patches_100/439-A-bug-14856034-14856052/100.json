@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "sum2=5;",
+    "patch": "sum1+=0;",
+    "target": "sum2=0;"
+}

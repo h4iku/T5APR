@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "int head = 1,tail = (long long)n*m,mid;",
+    "patch": "long int head = 1, tail = (long long)n * m,mid;",
+    "target": "long long head = 1,tail = (long long)n*m,mid;"
+}

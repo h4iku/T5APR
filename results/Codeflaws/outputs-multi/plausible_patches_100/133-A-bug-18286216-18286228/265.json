@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "string[i] == '9' || string[i] == '+') {",
+    "patch": "string[i] == '9' || string[i] == '\\t') {",
+    "target": "string[i] == '9') {"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if(o&&!(x&(x+1)))r-=2;",
+    "patch": "if(o&&!(x&(x+1)))r-=8;",
+    "target": "if(o)r-=2;"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "int a, b, m, r, psr[MAXN+2];",
+    "patch": "int a, b, m, r, psr[MAXN*2];",
+    "target": "int a, b, m, r; long long int psr[2*MAXN+2];"
+}

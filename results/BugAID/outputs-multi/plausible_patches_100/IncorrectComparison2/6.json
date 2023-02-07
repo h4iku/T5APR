@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": null,
+    "hunks": false,
+    "source": "if (encoded_test === \"TEST\") {",
+    "patch": "if (encoded_test == \"TEST\") {",
+    "target": "if (encoded_test == \"TEST\") {"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "if(count1>0&&count2>0&&count3>0&&count4>0&&strlen(a)>=5)",
+    "patch": "if(count1>0&&count2>0&&count4>0&&strlen(a)>=5)",
+    "target": "if(count1>0&&count2>0&&count4>0&&strlen(a)>=5)"
+}

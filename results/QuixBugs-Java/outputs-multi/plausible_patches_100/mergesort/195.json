@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if (arr.size() == 0) {",
+    "patch": "if (1 == arr.size()) {",
+    "target": "if (arr.size() <= 1) {"
+}

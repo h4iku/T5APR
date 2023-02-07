@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "",
+    "patch": "memset(p, -1, sizeof(p));",
+    "target": "s = strdup(s); p = strdup(p);"
+}

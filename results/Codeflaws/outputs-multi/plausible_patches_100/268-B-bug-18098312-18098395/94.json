@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "sum+=(2*(n-i))+1;",
+    "patch": "sum+=(i*(n-i))+1;",
+    "target": "sum+=(i*(n-i))+1;"
+}

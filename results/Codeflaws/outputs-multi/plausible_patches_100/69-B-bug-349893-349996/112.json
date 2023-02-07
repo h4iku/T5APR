@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "}else if(max.t==per[j].t && max.c<per[j].c){ max=per[j]; maximum=max.c;",
+    "patch": "} else if(max.t>per[j].t && max.c<per[j].c){ max=per[j]; maximum=max.c;",
+    "target": ""
+}

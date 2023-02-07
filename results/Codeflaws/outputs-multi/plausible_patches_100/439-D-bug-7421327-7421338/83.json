@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "while(right-left>3)",
+    "patch": "while((right-left)/3>0)",
+    "target": "while(right-left+1>3)"
+}

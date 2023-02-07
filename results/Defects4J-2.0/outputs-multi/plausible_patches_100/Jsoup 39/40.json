@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "",
+    "patch": "doc = parser.parseInput(docData, baseUri); if (doc == null) { return null; }",
+    "target": "doc = null;"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "} else if (StringUtil.in(name, \"base\", \"basefont\", \"bgsound\", \"command\", \"link\", \"meta\", \"noframes\", \"style\", \"title\")) {",
+    "patch": "} else if (StringUtil.in(name, \"base\", \"basefont\", \"bgsound\", \"command\", \"link\", \"meta\", \"noframes\", \"style\", \"title\", \"script\")) {",
+    "target": "} else if (StringUtil.in(name, \"base\", \"basefont\", \"bgsound\", \"command\", \"link\", \"meta\", \"noframes\", \"script\", \"style\", \"title\")) {"
+}

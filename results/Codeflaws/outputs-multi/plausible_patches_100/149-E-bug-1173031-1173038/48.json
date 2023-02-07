@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "",
+    "patch": "while (k > 0 && p[k]!= p[i]) k = l[k-1];",
+    "target": "s = strdup(s); p = strdup(p);"
+}

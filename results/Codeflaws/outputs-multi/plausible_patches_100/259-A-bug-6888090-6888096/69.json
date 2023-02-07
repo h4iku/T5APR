@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "",
+    "patch": "for(i=0;i<8;i++) scanf(\"%s\",&ch[i][j]);",
+    "target": "scanf(\"%*C\");"
+}

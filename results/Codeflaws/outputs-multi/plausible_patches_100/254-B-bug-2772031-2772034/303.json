@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "",
+    "patch": "year[i] += p;",
+    "target": "freopen(\"input.txt\",\"rb\",stdin); freopen(\"output.txt\",\"wb\",stdout);"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "for i, count in enumerate(arr):",
+    "patch": "for i, count in enumerate(counts):",
+    "target": "for i, count in enumerate(counts):"
+}

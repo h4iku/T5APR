@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "",
+    "patch": "printf(\"\\n\",number); answer=26*(number+1)-number;",
+    "target": "return 0;"
+}

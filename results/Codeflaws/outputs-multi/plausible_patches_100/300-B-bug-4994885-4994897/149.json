@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "",
+    "patch": "if(a==s[j]){ j-=j%3; if(s[j]==0)s[j]=b; else if(s[j+1]==0)s[j+1]=b; else if(s[j]==b||s[j+1]==a||s[j+2]==a||s[j+1]==a||s[j+2]==a); else {fun(m);return 0;} z=0; break; }",
+    "target": "if(i>n){fun(m);return 0;}"
+}

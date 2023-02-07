@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "pos = findWrapPos(text, width, nextLineTabStop);",
+    "patch": "pos = findWrapPos(text, width, 1);",
+    "target": "pos = findWrapPos(text, width, 0);"
+}

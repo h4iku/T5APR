@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "if (hare.getSuccessor() == null)",
+    "patch": "if (hare == null || hare.getSuccessor()==null)",
+    "target": "if (null==hare ||hare.getSuccessor() == null)"
+}

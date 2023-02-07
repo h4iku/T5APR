@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "printf(\"maxheight= %d  secondHeight= %d   isize= %d\\n\",maxHeight,secondHeight,isize);",
+    "patch": "fprintf(stderr,\"maxheight= %ld  secondHeight= %ld   isize= %ld\\n\",maxHeight,secondHeight,isize);",
+    "target": ""
+}

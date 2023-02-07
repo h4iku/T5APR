@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": null,
+    "hunks": false,
+    "source": "libhb_so_send( thr->hbthr, so, True );",
+    "patch": "libhb_so_send( thr->hbthr, so, False );",
+    "target": "libhb_so_send( thr->hbthr, so, False );"
+}

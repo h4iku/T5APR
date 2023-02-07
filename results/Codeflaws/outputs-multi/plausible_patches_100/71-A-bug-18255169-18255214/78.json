@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if(strlen(data) >= 12)",
+    "patch": "if(strlen(data)+1 >= 12)",
+    "target": "if(strlen(data) > 10)"
+}

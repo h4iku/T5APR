@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "for(Sum=0,j=i;j<N;j+=i)",
+    "patch": "for(Sum=0,j=i;j<N;j+=K)",
+    "target": "for(Sum=0,j=i;j<N;j+=K)"
+}

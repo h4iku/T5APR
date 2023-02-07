@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "printf(\"12\");",
+    "patch": "printf(\"0x%4\");",
+    "target": "printf(\"1 \"); printf(\"2\");"
+}

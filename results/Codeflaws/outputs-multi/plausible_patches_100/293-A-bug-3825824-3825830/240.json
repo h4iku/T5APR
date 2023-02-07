@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "else if(t%2==0&&t!=2*n&&t!=0){printf(\"Draw\");return 0;}",
+    "patch": "else if(t%2==0) {printf(\"Draw\");return 0;}",
+    "target": "else if(t%2==0){printf(\"Draw\");return 0;}"
+}

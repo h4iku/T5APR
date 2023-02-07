@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "printf(\"%d   %d   %d\\n\", xf, yf, sum); printf(\"%d   %d   %d   %d\\n\", a, b, c, d);",
+    "patch": "dprintf(\"%u   %u   %u\\n\", xf, yf, sum); dprintf(\"%u   %u   %u   %u\\n\", a, b, c, d);",
+    "target": ""
+}

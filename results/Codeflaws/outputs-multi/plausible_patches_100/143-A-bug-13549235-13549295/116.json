@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if(x[n]==x[i]||x[i]>9 ||x[i]<1) {",
+    "patch": "if(x[n]==x[i]||x[i]>9 || x[i]<1 || x[n]==0) {",
+    "target": "if(x[n]==x[i]||x[i]>9 ||x[i]<1 ||(n==1 &&(x[n]<1 || x[n]>9))) {"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "printf(\"%d \",j<=min ? 1 : j);",
+    "patch": "printf(\"%d \",j<=min? 1 : j - min);",
+    "target": "printf(\"%d \",j<=min ? 1 : j-min);"
+}

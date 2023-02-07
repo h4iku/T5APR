@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "return null;",
+    "patch": "return (T) createURL(str);",
+    "target": "throw new ParseException(\"Unable to handle the class: \" + clazz);"
+}

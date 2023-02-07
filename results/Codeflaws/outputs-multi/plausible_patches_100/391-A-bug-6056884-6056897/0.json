@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "",
+    "patch": "if (max%2==0) count++;",
+    "target": "if (max%2==0) count++;"
+}

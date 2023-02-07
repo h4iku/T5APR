@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "return (_valueTypeDeserializer == null)",
+    "patch": "return (_valueTypeDeserializer!= null)",
+    "target": "return (_valueDeserializer == null) && (_keyDeserializer == null) && (_valueTypeDeserializer == null)"
+}

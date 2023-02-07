@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "good[k+1]=0;",
+    "patch": "good[k+1]=2;",
+    "target": "good[k+1]=2;"
+}

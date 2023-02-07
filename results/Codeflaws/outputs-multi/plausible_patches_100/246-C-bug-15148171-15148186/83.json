@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if(a[i]<a[j])",
+    "patch": "if(a[i]<a[j+2])",
+    "target": "if(a[i]>a[j])"
+}

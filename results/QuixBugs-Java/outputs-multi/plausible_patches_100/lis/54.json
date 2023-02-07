@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "longest = length + 1;",
+    "patch": "if (length == longest ) { longest = length + 1; }",
+    "target": "longest = Math.max(longest,length + 1);"
+}

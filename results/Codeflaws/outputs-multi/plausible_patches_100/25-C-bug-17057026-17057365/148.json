@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "arr[j][j] = arr[i][a] + arr[a][b] + arr[b][j];",
+    "patch": "arr[j][j] = arr[0][a] + arr[0][b] + arr[0][j];",
+    "target": "arr[j][i] = arr[i][a] + arr[a][b] + arr[b][j];"
+}

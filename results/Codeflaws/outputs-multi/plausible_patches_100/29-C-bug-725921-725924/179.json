@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "int l = -1, r = n, m = (l + r) / 2;",
+    "patch": "int l = -1, r = n, m = l + r * 2;",
+    "target": "int l = -1, r = 2 * n, m = (l + r) / 2;"
+}

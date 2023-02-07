@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "if (ZA[d] < ZA[c])",
+    "patch": "if (ZA[c] < ZA[d])",
+    "target": "if (ZA[d] > ZA[c])"
+}

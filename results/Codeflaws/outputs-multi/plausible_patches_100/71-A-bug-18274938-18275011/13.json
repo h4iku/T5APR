@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "printf(\"%c%d%c\",a[0],j-2,a[j-1]);",
+    "patch": "printf(\"%c%d%c\\n\",a[0],j-2,a[j-1]);",
+    "target": "printf(\"%c%d%c\\n\",a[0],j-2,a[j-1]);"
+}

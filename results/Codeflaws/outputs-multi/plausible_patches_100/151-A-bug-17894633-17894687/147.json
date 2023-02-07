@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "p = p/np*n;",
+    "patch": "p = p/(np * n);",
+    "target": "p = p/(np*n);"
+}

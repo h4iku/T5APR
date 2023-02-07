@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "while (sumTime - stage <= minst[i-1]) {",
+    "patch": "while ((sumTime - stage) < minst[i-1]) {",
+    "target": "while (sumTime - stage < minst[i-1]) {"
+}

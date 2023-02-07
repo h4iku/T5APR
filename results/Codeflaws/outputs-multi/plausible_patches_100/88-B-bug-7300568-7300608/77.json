@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if(p*p>x*x)break;",
+    "patch": "if(p-p>x*x)break;",
+    "target": "if(p*p>x*x&&i>a)break;"
+}

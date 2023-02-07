@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if(a[temp]>0 || temp>=num){",
+    "patch": "if(a[temp]>0 || temp-1>=num){",
+    "target": "if(a[temp]>0 || temp>num){"
+}

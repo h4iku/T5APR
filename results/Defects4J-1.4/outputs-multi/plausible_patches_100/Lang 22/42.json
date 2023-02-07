@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if (Math.abs(u) <= 1 || Math.abs(v) <= 1) {",
+    "patch": "if (Math.abs(u) == 0 || Math.abs(v) == 0) {",
+    "target": "if ((u == 0) || (v == 0)) { if ((u == Integer.MIN_VALUE) || (v == Integer.MIN_VALUE)) { throw new ArithmeticException(\"overflow: gcd is 2^31\"); } return Math.abs(u) + Math.abs(v); }  if (Math.abs(u) == 1 || Math.abs(v) == 1) {"
+}

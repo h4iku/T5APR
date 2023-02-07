@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "if(i == quo1){",
+    "patch": "if(i > quo1){",
+    "target": "if(i>quo1){"
+}

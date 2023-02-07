@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "else if('A'<=s[i]&&s[i]<='J'){if(cnt[s[i]]==0){cnt[s[i]]++;if(k==0){q++;}else{ans*=(10-k);k++;}",
+    "patch": "else if('A'<=s[i]&&s[i]<='J'){if(cnt[s[i]]==0){cnt[s[i]]++;if(n==0){q++;}else{ans*=(10-k);k++;}",
+    "target": "else if('A'<=s[i]&&s[i]<='J'){if(cnt[s[i]]==0){cnt[s[i]]++;if(k==0){q++;}else{ans*=(10-k);}k++;"
+}

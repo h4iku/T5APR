@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "",
+    "patch": "F(A[0]); F(A[0]+1); F(A[n-1]+1);",
+    "target": "if(!Li){ans=0;break;}"
+}

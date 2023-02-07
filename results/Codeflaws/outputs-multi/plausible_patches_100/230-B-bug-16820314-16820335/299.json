@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "",
+    "patch": "for(j = 1; j <= 1000000 ; j+=i) hash[j] = 1;",
+    "target": "hash[1] = 1;"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "if(i==(n-1)/2 && j==(n-1)/2)",
+    "patch": "if(i==(n+1)/2 && j==(n+1)/2)",
+    "target": "if(i==(n+1)/2 && j==(n+1)/2)"
+}

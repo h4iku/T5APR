@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if(sum1>=x){",
+    "patch": "if(sum1>(int)x){",
+    "target": "if(sum1>x){"
+}

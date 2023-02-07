@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "if(s>=sd[i])",
+    "patch": "if(s>sd[i])",
+    "target": "if(s>sd[i])"
+}

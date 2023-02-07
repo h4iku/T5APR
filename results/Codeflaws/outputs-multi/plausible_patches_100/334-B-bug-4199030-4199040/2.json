@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "for(i=0;i<8;i++) printf(\"\\n%d %d\\n\",a[i][0],a[i][1]);",
+    "patch": "for(i=0;i<8;i++) fprintf(stderr, \"\\n%d %d\\n\",a[i][0],a[i][1]);",
+    "target": ""
+}

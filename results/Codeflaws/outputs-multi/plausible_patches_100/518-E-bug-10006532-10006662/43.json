@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "#define INF 1000000001",
+    "patch": "#define INF 1000000005",
+    "target": "#define INF 1010000000"
+}

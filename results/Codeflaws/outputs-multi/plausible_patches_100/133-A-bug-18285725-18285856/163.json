@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if(ara[i]==72 || ara[i]==81 || ara[i]==57 || ara[i]==43)",
+    "patch": "if((ara[i]==72 || ara[i]==81) || (ara[i]==57))",
+    "target": "if(ara[i]==72 || ara[i]==81 || ara[i]==57 )"
+}

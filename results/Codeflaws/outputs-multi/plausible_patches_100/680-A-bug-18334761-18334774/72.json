@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "printf(\"%d %d\\n\", vecAux[0], vecAux[1]);",
+    "patch": "dprintf(\"%d %d\\n\", vecAux[0], vecAux[1]);",
+    "target": ""
+}

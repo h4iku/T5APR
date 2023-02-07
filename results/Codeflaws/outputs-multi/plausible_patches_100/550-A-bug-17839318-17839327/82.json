@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "else if((m=strstr(ch,str1))&&(strstr(m+2,str2)))",
+    "patch": "else if((m=strstr(ch,str2))&&(strstr(m+2,str1)))",
+    "target": "else if((m=strstr(ch,str2))&&(strstr(m+2,str1)))"
+}

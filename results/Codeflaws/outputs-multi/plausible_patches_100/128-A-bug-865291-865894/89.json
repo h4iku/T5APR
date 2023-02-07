@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if (j + l > 0 && j + l < 8 && k + m > 0 && k + m < 8) {",
+    "patch": "if (j + l > -1 && j + l < 8 && k + m > -1 && k + m < 8) {",
+    "target": "if (j + l >= 0 && j + l < 8 && k + m >= 0 && k + m < 8) {"
+}

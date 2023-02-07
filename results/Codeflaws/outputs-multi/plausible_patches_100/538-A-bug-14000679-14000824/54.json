@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if (index == len)",
+    "patch": "if (index == len && status == 2)",
+    "target": "if (index == len && achieved != 0)"
+}

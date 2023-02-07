@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "while(gets(a)!=EOF)",
+    "patch": "while(gets(a)!=NULL)",
+    "target": "while(gets(a))"
+}

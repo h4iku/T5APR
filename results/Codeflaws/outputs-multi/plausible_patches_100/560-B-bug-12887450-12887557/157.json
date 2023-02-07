@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "else if(f==0)",
+    "patch": "if(f==0 || f==0)",
+    "target": "if(f==0)"
+}

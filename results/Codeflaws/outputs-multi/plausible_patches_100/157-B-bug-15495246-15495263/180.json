@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "printf(\"%.15lf \",A2);",
+    "patch": "printf(\"%.15lc \",A2);",
+    "target": ""
+}

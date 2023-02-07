@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "kmin=min*combina((float)ceil(n/m))+(m-min)*(combina(base));",
+    "patch": "kmin=min*combina((float)ceil((double)n/m))+(m-min)*(combina(base));",
+    "target": "kmin=min*combina(ceil((float)n/m))+(m-min)*(combina(base));"
+}

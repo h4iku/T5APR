@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "steps = steps + n/4;",
+    "patch": "steps = steps + n % 4;",
+    "target": "steps = steps + n;"
+}

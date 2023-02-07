@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "(abs(i-t[1])<=2||abs(i-t[2]<=2)||i==r))",
+    "patch": "(abs(i-t[2])<=2||abs(i-t[3]<=2)||i==r))",
+    "target": "(abs(i-t[1])<=2||abs(i-t[2]<=2)||abs(i-t[3])<=1||i==r))"
+}

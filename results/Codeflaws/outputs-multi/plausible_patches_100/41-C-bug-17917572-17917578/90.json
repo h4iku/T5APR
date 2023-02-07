@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "else if(s[i] == 'a' && s[i + 1] == 't' && i + 1 != u - 1 && !k){",
+    "patch": "else if(s[i] == 'a' && s[i + 1] == 't' && i + 1!= u > u - 1 &&!k){",
+    "target": "else if(s[i] == 'a' && s[i + 1] == 't' && i != 0 &&i + 1 != u - 1 && !k){"
+}

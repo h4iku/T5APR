@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "if(!(s%10)) printf(\"%s\\n\", array[18+(s%10)]);",
+    "patch": "if(!(s%10)) printf(\"%s\\n\", array[18+(s/10)]);",
+    "target": "if(!(s%10)) printf(\"%s\\n\", array[18+(s/10)]);"
+}

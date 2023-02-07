@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "return entity.getType().getClassLoader() != null && !entity.getType().getPackage().getName().startsWith(\"java\");",
+    "patch": "return entity.getType().getClassLoader()!= null &&!entity.getType().toString().startsWith(\"java\");",
+    "target": "Class<?> type = entity.getType(); return type.getClassLoader() != null && (type.getPackage() == null || !type.getPackage().getName().startsWith(\"java\"));"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "",
+    "patch": "string1[j]=string1[j]; j++;",
+    "target": "string2[j]='\\0';"
+}

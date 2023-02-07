@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "printf(\"k : %d\\n\", k);",
+    "patch": "dprintf(\"k : %u\\n\", k);",
+    "target": ""
+}

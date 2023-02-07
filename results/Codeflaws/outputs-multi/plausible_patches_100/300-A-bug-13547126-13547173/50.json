@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "printf(\"1 0 %d\\n\",negative[ni-1]);",
+    "patch": "printf(\"2 0 %d\\n\",negative[ni-1]);",
+    "target": "printf(\"2 0 %d\\n\",negative[ni-1]);"
+}

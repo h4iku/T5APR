@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if(n==1){printf(\"0\"); return 0;} if(n%2) t=-1;",
+    "patch": "t=1;",
+    "target": ""
+}

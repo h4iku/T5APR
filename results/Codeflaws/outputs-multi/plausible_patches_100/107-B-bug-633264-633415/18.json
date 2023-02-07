@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "if (sum < n || s[h - 1] == 1) {",
+    "patch": "if (sum < n) {",
+    "target": "if (sum < n) {"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "else printf(\"0 %i %i 0\",z,-z);",
+    "patch": "else printf(\"0 %i %i 0\\n\",-z,z);",
+    "target": "else printf(\"0 %i %i 0\",-z,z);"
+}

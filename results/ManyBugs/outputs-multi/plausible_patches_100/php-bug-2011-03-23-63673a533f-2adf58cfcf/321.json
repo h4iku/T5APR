@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": null,
+    "hunks": false,
+    "source": "if (isostr_len) {",
+    "patch": "if (isostr) {",
+    "target": "if (isostr) {"
+}

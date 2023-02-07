@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "ans &= 1000000007;",
+    "patch": "ans &= 000000007;",
+    "target": "ans %= 1000000007;"
+}

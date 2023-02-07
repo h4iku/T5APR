@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "if (x<=4 || y<=4 || n-x<4 || m-y<4)",
+    "patch": "if (x<=5 || y<=5 || n-x<5 || m-y<5)",
+    "target": "if (x-1<=4 || y-1<=4 || n-x<=4 || m-y<=4)"
+}

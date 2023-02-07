@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if(sum<k)",
+    "patch": "if((n-1)*n/2)",
+    "target": "if(sum<=k)"
+}

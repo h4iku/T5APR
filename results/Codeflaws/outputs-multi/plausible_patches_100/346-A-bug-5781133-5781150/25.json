@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "for (i = 2; i < n; i++) g = gcd(g, a[2]);",
+    "patch": "for (i = 2; i <= n; i++) g = gcd(g, a[2]);",
+    "target": "for (i = 2; i < n; i++) g = gcd(g, a[i]);"
+}

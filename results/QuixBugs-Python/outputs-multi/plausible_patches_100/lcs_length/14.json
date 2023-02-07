@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "dp[i, j] = dp[i - 1, j] + 1",
+    "patch": "dp[i, j] = dp[i - 1, j-1] + 1",
+    "target": "dp[i, j] = dp[i - 1, j - 1] + 1"
+}

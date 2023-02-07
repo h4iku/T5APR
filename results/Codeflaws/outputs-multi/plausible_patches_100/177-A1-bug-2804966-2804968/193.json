@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "m = (n + 1) / 2;",
+    "patch": "m = (int) n / 2;",
+    "target": "m = n / 2;"
+}

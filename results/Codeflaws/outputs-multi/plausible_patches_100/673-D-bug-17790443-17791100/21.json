@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "",
+    "patch": "for (i = 0; i < n; i++) { printf(\"%ld \", ordem[i]); } printf(\"\\n\");",
+    "target": "vet[c] = 1; vet[d] = 1;"
+}

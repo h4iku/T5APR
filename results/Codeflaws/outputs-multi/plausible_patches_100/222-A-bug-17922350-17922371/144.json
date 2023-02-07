@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "int n,k,x[10001],s=0,i;",
+    "patch": "int n,k,x[100001],s=0,i;",
+    "target": "int n,k,x[100005],s=0,i;"
+}

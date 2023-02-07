@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "pos = i+1;",
+    "patch": "pos = i + 1 + 1;",
+    "target": "pos = i+2;"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if(livea>=deadb)",
+    "patch": "if((livea+1)>=deada)",
+    "target": "if(livea>=deada)"
+}

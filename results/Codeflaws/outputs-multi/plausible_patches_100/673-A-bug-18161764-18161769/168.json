@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "else if(count==0 && (90-arr[n-1]<15))",
+    "patch": "else if(count == 0 && (90-arr[n-1]<16))",
+    "target": "else if(count==0 && (90-arr[n-1]<=15))"
+}

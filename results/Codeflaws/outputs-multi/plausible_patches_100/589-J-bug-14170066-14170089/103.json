@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if(++Visited[x][y] == 3) {",
+    "patch": "if(++Visited[x][y] == 9) {",
+    "target": "if(++Visited[x][y] == w * h) {"
+}

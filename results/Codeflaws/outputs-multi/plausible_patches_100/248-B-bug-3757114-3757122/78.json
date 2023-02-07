@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "printf (\"%3d\\n\", suf[n % P]);",
+    "patch": "printf (\"%03d\\n\", suf[n % P]);",
+    "target": "printf (\"%.*d\\n\", 3, suf[n % P]);"
+}

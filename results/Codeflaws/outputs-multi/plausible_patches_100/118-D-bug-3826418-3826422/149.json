@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "int F[102][102],G[102][102];",
+    "patch": "int F[106][102],G[106][102];",
+    "target": "int F[112][112],G[112][112];"
+}

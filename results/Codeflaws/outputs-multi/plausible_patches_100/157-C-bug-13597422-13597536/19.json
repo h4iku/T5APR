@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if(i+j>n || i+j<0 || s[i+j]!=c[j])",
+    "patch": "if(i+j>n && i+j<0 || s[i+j]!=c[j])",
+    "target": "if(i+j<0 || i+j>l || s[i+j]!=c[j])"
+}

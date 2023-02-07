@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "for(;ques[j].r>ques[l].l;j--);",
+    "patch": "for(;ques[j].r>ques[l].r;j--);",
+    "target": "for(;ques[j].r>ques[l].r;j--);"
+}

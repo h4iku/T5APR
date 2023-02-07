@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "else if(a[i]>65&&a[i]<=90)",
+    "patch": "else if(a[i]>57&&a[i]<=90)",
+    "target": "else if(a[i]>=65&&a[i]<=90)"
+}

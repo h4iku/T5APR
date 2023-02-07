@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "printf(\"gyan  %d  %lld\",j,arr[j]);",
+    "patch": "fprintf(stderr, \"gyan  %d  %lld\");",
+    "target": ""
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "ll m, lo = 0, hi = (ll)2e18, mid, n = 0;",
+    "patch": "ll m, lo = 1, hi = 2e18, mid, n = 0;",
+    "target": "ll m, lo = 1, hi = (ll)2e18, mid, n = 1;"
+}

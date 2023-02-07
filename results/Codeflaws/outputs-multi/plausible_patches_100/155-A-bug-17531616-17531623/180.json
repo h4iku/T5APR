@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if (min = -1){",
+    "patch": "if (min==-1){",
+    "target": "if (min == -1){"
+}

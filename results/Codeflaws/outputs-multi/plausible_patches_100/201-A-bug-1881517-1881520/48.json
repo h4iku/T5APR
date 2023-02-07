@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "t = i / 2 * i + 1;",
+    "patch": "t = i / 2.0 * i + 1;",
+    "target": "t = ( ( i + 1 ) / 2 ) * i - ( i / 2 );"
+}

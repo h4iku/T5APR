@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "break ;",
+    "patch": "strcpy(player[i].str,\"NO\"); if(player[i].t == player[j].t) strcpy(player[j].str,\"NO\");",
+    "target": ""
+}

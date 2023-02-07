@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "float eps = 0.005 ;",
+    "patch": "float eps = 0.001F ;",
+    "target": "float eps = 0.001 ;"
+}

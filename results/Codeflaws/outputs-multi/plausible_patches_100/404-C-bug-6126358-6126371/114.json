@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "",
+    "patch": "ret = count[i]!= 1 || count[1] > k;",
+    "target": "ret |= k < 2 && n > 2;"
+}

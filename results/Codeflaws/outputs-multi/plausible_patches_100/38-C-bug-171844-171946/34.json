@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "if(sum*l>ans) ans=sum*l;",
+    "patch": "if(sum*i>ans) ans=sum*i;",
+    "target": "if(sum*i>ans) ans=sum*i;"
+}

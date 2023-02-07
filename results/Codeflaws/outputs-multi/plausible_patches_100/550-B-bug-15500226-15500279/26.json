@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "dfs(min,pro[i],sum+pro[i],k+1);",
+    "patch": "dfs(min,pro[i],sum+pro[i],i+1);",
+    "target": "dfs(min,pro[i],sum+pro[i],i+1);"
+}

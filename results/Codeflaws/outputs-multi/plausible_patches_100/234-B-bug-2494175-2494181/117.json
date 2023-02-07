@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "",
+    "patch": "qsort(a, 1, sizeof(a[0]), cmp2);",
+    "target": "freopen(\"input.txt\", \"r\", stdin); freopen(\"output.txt\", \"w\", stdout);"
+}

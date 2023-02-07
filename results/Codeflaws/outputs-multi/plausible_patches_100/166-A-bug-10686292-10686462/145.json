@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "while((temp.prob>array[position-1].prob)||(temp.prob==array[position-1].prob&&temp.penality>array[position-1].penality)&&position>0)",
+    "patch": "while((temp.prob>array[position-1].prob)||(temp.prob==array[position-1].prob&&temp.penality<array[position-1].penality)&&position>0)",
+    "target": "while((temp.prob>array[position-1].prob)||(temp.prob==array[position-1].prob&&temp.penality<array[position-1].penality)&&position>0)"
+}

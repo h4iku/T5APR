@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if (option.hasArg() && (option.getArgName() != null))",
+    "patch": "if (option.hasArg() && (option.getArgName().length() > 1))",
+    "target": "if (option.hasArg() && option.hasArgName())"
+}

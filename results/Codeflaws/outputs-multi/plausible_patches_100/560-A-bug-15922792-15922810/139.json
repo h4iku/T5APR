@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if(i==n+1)",
+    "patch": "if(i==n+0)",
+    "target": "if(i==n)"
+}

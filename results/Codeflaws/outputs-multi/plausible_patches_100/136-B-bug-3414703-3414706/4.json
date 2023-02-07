@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "m=(m-(m%3))/30;",
+    "patch": "m=(m-(m%3))/3;",
+    "target": "m=(m-(m%3))/3;"
+}

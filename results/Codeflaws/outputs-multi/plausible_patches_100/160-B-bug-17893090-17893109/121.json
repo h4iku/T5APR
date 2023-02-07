@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "char a1[55],a2[55];",
+    "patch": "char a1[561],a2[561];",
+    "target": "char a1[550],a2[550];"
+}

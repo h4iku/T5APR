@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "",
+    "patch": "if(m == 1) printf(\"1 %d\\n\", sets[0].values[0]); printf(\"%d\", sets[0].values[0]); printf(\"\\n\");",
+    "target": "return 0;"
+}

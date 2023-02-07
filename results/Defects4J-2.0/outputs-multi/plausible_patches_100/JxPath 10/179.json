@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "return compute(args[0].computeValue(context), args[1].computeValue(context))",
+    "patch": "return compute(args[0].compute(context), args[1].compute(context))",
+    "target": "return compute(args[0].compute(context), args[1].compute(context))"
+}

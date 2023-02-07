@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": null,
+    "hunks": false,
+    "source": "#define DEBUG_DUMPCAP #define DEBUG_CHILD_DUMPCAP",
+    "patch": "",
+    "target": ""
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "tt[i]=1000, cc[i]=1000;",
+    "patch": "tt[i]=6000, cc[i]=6000;",
+    "target": "tt[i]=1001, cc[i]=1001;"
+}

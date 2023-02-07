@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "else if(lenT==1)printf(\"%d\\n\",x);",
+    "patch": "else if(lenT<1) printf(\"%d\\n\",x);",
+    "target": "else if(lenT==0)printf(\"%d\\n\",x);"
+}

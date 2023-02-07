@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "",
+    "patch": "return 1;",
+    "target": "s = strdup(s); p = strdup(p);"
+}

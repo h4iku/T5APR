@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": true,
+    "plausible": true,
+    "hunks": true,
+    "source": "continue; }  if (buffer.readIdProperty(propName)) {",
+    "patch": "if (buffer.readIdProperty(propName)) continue;",
+    "target": ""
+}

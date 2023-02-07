@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "",
+    "patch": "memcpy(A,a,sizeof(a)); memcpy(B,a,sizeof(a)); A[0] -= z;",
+    "target": "A[k]++; B[10-k]++;"
+}

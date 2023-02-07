@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "while (n > 0)",
+    "patch": "while (c[i].b)",
+    "target": "while (n > 0 && i < m)"
+}

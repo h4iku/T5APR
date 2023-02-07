@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "minIdx == maxIdx;",
+    "patch": "minIdx = maxIdx + minIdx;",
+    "target": "minIdx = maxIdx;"
+}

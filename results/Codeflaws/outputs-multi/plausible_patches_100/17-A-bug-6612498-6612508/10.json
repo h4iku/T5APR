@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "for (i = 2; primes[i]<n; ++i)",
+    "patch": "for (i = 2; primes[i]<=n; ++i)",
+    "target": "for (i = 2; primes[i]<=n; ++i)"
+}

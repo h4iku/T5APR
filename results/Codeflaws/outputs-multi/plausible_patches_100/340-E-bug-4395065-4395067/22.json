@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "{  dp[i][j]=(dp[i][j-1]+dp[i-1][j-1],mod)%mod;\t}",
+    "patch": "dp[i][j]=(dp[i][j-1]+dp[i-1][j-1]);",
+    "target": "{  dp[i][j]=(dp[i][j-1]+dp[i-1][j-1])%mod;\t}"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "if (d < 0 || d > 1 || (win1 && win2) || (win1 && cnt2 > cnt1) || (win2 && cnt1 > cnt2)) {",
+    "patch": "if (d < 0 || d > 1 || (win1 && win2) || (win1 && cnt2 >= cnt1) || (win2 && cnt1 > cnt2)) {",
+    "target": "if (d < 0 || d > 1 || (win1 && win2) || (win1 && cnt2 == cnt1) || (win2 && cnt1 > cnt2)) {"
+}

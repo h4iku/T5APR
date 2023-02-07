@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "int a=(bx-ax)*(cy-by)-(cx-bx)*(by-ay);",
+    "patch": "float a=(bx-ax)*(cy-by)-(cx-bx)*(by-ay);",
+    "target": "long long int a=(bx-ax)*(cy-by)-(cx-bx)*(by-ay);"
+}

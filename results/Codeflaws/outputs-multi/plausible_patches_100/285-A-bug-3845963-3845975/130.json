@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "for(i=n-k;i>=n;i++) printf(\"%d \",2*n-k-i);",
+    "patch": "for(i=n-k;i<=n;i++) printf(\"%ld \",2*n-k-i);",
+    "target": "for(i=n-k;i<=n;i++) printf(\"%d \",2*n-k-i);"
+}

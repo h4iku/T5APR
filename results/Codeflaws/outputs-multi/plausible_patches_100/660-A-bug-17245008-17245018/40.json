@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if(ans[i]) printf(\"%d \",i);",
+    "patch": "if(ans[i]) printf(\"%u \",ans[i]);",
+    "target": "if(ans[i]) printf(\"%d \",1);"
+}

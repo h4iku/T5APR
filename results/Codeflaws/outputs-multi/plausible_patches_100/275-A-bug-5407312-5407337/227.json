@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "c=arr[i][j]+arr[i+1][j]+arr[i-1][j]+arr[i][j+1]+arr[i][j-1]+arr[i+1][j+1]+arr[i-1][j-1];",
+    "patch": "c=arr[i][j]+arr[i+1][j]+arr[i-1][j]+arr[i][j+1]+arr[i][j-1]+arr[i+1][j+1]+arr[i-1][j-1]+arr[i+1][j+1]+arr[i-1][j-1]+arr[i+1][j+1]+arr[i-1][j-1]+arr[i+1][j+1]+arr[i-1][j-1];",
+    "target": "c=arr[i][j]+arr[i+1][j]+arr[i-1][j]+arr[i][j+1]+arr[i][j-1];"
+}

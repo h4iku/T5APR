@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "sum+=(-1)*first;",
+    "patch": "sum+=(-1)*first-first;",
+    "target": "sum+=(-1)*(first*2);"
+}

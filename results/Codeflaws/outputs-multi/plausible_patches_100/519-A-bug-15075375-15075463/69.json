@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "char str[9][9],i,count1=0,count2=0,j;",
+    "patch": "unsigned char str[9][9],i,count1=0,count2=0,j;",
+    "target": "char str[9][9],i; int count1=0,count2=0,j;"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "while(scanf(\"%d%d\",&n,&h)){",
+    "patch": "if(scanf(\"%d%d\",&n,&h)){",
+    "target": "while(scanf(\"%d%d\",&n,&h)==2){"
+}

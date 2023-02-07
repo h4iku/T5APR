@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if((str1[i]-str2[i]==0 || abs(str1[i]-str2[i]==32)))",
+    "patch": "if((str1[i]-str2[i]==0 || abs(str1[i]-str2[i]) ==32))",
+    "target": "if(str1[i]-str2[i]==0 || abs(str1[i]-str2[i])==32)"
+}

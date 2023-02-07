@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "",
+    "patch": "c = a + 1;",
+    "target": "if(mask(a)==b) c++;"
+}

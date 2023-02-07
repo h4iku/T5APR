@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "kolpal[a[i]+1] += 1;",
+    "patch": "kolpal[a[i] ] += 1;",
+    "target": "kolpal[a[i]] += 1;"
+}

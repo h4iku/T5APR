@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": null,
+    "hunks": true,
+    "source": "}     ZEND_METHOD(reflection_class, setFinal) { reflection_object *intern; zend_class_entry *ce; zend_bool isFinal = 1;  if (zend_parse_parameters(ZEND_NUM_ARGS() TSRMLS_CC, \"|b\", &isFinal) == FAILURE) { return; }  GET_REFLECTION_OBJECT_PTR(ce);  if (isFinal) { ce->ce_flags |= ZEND_ACC_FINAL_CLASS; } else { ce->ce_flags &= ~ZEND_ACC_FINAL_CLASS; }",
+    "patch": "",
+    "target": ""
+}

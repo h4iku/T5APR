@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": null,
+    "hunks": false,
+    "source": "if (len > s1_len - offset) { len = s1_len - offset; }",
+    "patch": "",
+    "target": ""
+}

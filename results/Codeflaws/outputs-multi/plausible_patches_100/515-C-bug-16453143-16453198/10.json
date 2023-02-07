@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "case '7':h[7]++;",
+    "patch": "case '7':h[7]++;break;",
+    "target": "case '7':h[7]++;break;"
+}

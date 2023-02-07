@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "",
+    "patch": "} else if(sets[0].values[i] < sets[1].values[j]) { printf(\"%d\", sets[0].values[i]); printf(\"\\n\");",
+    "target": "return 0;"
+}

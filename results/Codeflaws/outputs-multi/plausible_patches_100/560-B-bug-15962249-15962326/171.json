@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if(c1<=c && c2<=c && d1<=d && d2<d)",
+    "patch": "if(c1<=c && c2<=c && c1<=c && d1<=d)",
+    "target": "if(c1<=c && c2<=c && d1<=d && d2<=d)"
+}

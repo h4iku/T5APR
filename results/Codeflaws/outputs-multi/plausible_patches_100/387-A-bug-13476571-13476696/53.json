@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "else if(a=n && b>m)",
+    "patch": "else if(a==n&&b>m)",
+    "target": "else if(a==n && b>m)"
+}

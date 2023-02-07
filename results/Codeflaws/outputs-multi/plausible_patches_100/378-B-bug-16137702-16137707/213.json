@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if (ara[0][0]>ara[0][1]){",
+    "patch": "if ((ara[0][0]>ara[0][1])==0){",
+    "target": "if (ara[0][0]<ara[0][1]){"
+}

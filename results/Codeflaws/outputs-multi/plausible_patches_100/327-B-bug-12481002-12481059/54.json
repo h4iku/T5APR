@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "for(j=2; j<(int)sqrt(i)+1; j++){",
+    "patch": "for(j=2; j<(int)sqrt(j)+1; j++) {",
+    "target": "for(j=2; j>(int)sqrt(i)+1; j++){"
+}

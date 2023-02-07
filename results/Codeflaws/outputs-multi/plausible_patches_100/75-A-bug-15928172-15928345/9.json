@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "int i,num=0;",
+    "patch": "long long i,num=0;",
+    "target": "long long i,num=0;"
+}

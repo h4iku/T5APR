@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "Ans[i + 122] = Flag[b];",
+    "patch": "Ans[i + 1] = Flag[b];",
+    "target": "Ans[i + 1] = Flag[b];"
+}

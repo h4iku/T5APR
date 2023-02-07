@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": true,
+    "source": "",
+    "patch": "if (typeVariable!= null) { return typeVariable; }",
+    "target": "return toResolve; } else { visitedTypeVariables.add(typeVariable); }"
+}

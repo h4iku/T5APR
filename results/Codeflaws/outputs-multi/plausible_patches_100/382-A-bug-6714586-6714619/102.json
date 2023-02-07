@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "",
+    "patch": "fprintf(stdout, \"Impossible\\n\");",
+    "target": "else printf(\"Impossible\");"
+}

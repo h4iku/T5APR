@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "if ((*(d*)m).a>(*(d*)n).b)",
+    "patch": "if ((*(d*)m).a>(*(d*)n).a)",
+    "target": "if ((*(d*)m).a>(*(d*)n).a)"
+}

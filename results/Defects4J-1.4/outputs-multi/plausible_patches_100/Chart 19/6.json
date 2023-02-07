@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": true,
+    "source": "",
+    "patch": "if (axis == null) { throw new IllegalArgumentException(\"Axis must be null\"); }",
+    "target": "if (axis == null) { throw new IllegalArgumentException(\"Null 'axis' argument.\"); }"
+}

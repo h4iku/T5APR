@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "printf(\"Left: %d, Right: %d \\n\", left, right);",
+    "patch": "fprintf(stderr, \"Left: %ld, Right: %ld \\n\", left, right);",
+    "target": ""
+}

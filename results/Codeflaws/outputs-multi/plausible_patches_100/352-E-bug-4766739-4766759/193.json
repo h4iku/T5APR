@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if(m<=4) printf(\"%ld\",f[0,n*m-1]);",
+    "patch": "if(m<1) printf(\"%ld\",f[0,n*m-1]);",
+    "target": "if(m<=4) printf(\"%ld\",f[0][n*m-1]);"
+}

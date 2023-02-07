@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "if(l1==1&&l2==1&&ch[0]<'Z'){",
+    "patch": "if(l1==1&&l2==1&&ch[0]<'P'){",
+    "target": "if(l1==1&&l2==1&&ch[0]<'P'){"
+}

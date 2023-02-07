@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "k = min_i(a, i, j);",
+    "patch": "k = min_i(a, i, k);",
+    "target": "k = min_i(a, i, k);"
+}

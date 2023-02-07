@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "",
+    "patch": "else printf(\"NO\\n\");",
+    "target": "else printf(\"NO\");"
+}

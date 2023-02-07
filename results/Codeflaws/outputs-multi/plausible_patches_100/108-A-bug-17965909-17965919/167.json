@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if(num2<pnum1 && pnum1<=60)",
+    "patch": "if(num2<pnum1 && pnum1<=53)",
+    "target": "if(num2<pnum1 && pnum1<60)"
+}

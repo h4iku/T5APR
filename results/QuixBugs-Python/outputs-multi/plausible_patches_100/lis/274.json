@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "longest = length + 1",
+    "patch": "longest = len(ends)",
+    "target": "longest = max(longest, length + 1)"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "else if(y<min){",
+    "patch": "while(y<min){",
+    "target": "if(y<min) {"
+}

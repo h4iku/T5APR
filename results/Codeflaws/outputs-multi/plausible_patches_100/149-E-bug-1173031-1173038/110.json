@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "",
+    "patch": "printf(\"r = %s p = %s\\n\", s, p);",
+    "target": "s = strdup(s); p = strdup(p);"
+}

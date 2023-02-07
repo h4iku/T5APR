@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "int ara[101],n,i,j,k,z=0,o=0,mx=0,p,q,sm=0;",
+    "patch": "int ara[100],n,i,j,k,z=0,o=0,mx=0,p=0,q,sm=0;",
+    "target": "int ara[101],n,i,j,k,z=0,o=0,mx=-100000000,p,q,sm=0;"
+}

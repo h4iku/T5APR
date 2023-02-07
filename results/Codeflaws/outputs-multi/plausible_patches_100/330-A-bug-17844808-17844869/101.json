@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "if(a[i][j]=='S')",
+    "patch": "if(a[j][i]=='S')",
+    "target": "if(a[j][i]=='S')"
+}

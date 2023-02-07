@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "bishop=MAX(abs(r1-r2),abs(c1-c2));",
+    "patch": "bishop=2;",
+    "target": "bishop=2;"
+}

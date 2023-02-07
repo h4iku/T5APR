@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "",
+    "patch": "buffer[2]='<'; buffer[3]='3';",
+    "target": "L++;"
+}

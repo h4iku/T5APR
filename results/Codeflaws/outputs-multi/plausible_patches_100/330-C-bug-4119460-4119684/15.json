@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "if (tb[i][j] == '.') use[i] = 1;",
+    "patch": "if (tb[i][j] == '.') use[j] = 1;",
+    "target": "if (tb[i][j] == '.') use[j] = 1;"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "rep(i,m) cnt[unionGet(ind,i)]=1;",
+    "patch": "rep(i,n) cnt[unionGet(ind,i)]=1;",
+    "target": "rep(i,n) cnt[unionGet(ind,i)]=1;"
+}

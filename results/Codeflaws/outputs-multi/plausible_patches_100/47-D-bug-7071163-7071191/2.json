@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "combination( idx + 1 );",
+    "patch": "combination( i + 1 );",
+    "target": "combination( i + 1 );"
+}

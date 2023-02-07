@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if(choice='R')",
+    "patch": "if(choice>='R')",
+    "target": "if(choice=='R')"
+}

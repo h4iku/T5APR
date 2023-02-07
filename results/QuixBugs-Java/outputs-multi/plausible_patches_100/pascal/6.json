@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "for (int c=0; c<r; c++) {",
+    "patch": "for (int c=0; c<=r; c++) {",
+    "target": "for (int c=0; c<r+1; c++) {"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": true,
+    "source": "",
+    "patch": "if(flag&&i<n-1) { i++; printf(\"R\"); }",
+    "target": "flag=1;"
+}

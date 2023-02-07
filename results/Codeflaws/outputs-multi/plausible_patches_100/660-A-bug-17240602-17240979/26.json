@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "",
+    "patch": "if(pgcd(p, min) == -1) return p;",
+    "target": "if(min>0 && pgcd(min, min-1) == 1 && pgcd(max, min-1) == 1) return min-1; if(max>0 && pgcd(max, max-1) == 1 && pgcd(max-1, min) == 1) return max-1;"
+}

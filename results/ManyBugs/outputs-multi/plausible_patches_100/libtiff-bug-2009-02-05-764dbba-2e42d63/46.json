@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": null,
+    "hunks": false,
+    "source": "TIFFGetFieldDefaulted(in, TIFFTAG_RESOLUTIONUNIT, &res_unit);",
+    "patch": "TIFFGetField(in, TIFFTAG_RESOLUTIONUNIT, &res_unit);",
+    "target": "TIFFGetField(in, TIFFTAG_RESOLUTIONUNIT, &res_unit);"
+}

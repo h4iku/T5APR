@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if ((a=getf(a))==(b=getf(b)))",
+    "patch": "if ((a=getf(a))!= (b=getf(b)))",
+    "target": "if ((a=getf(a))!=(b=getf(b)))"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "while(power>=l && power<r){",
+    "patch": "while(l>=l && r<r){",
+    "target": "while(power>=l && power<=r){"
+}

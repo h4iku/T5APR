@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if (x >= 0 && x ^ y == b) {",
+    "patch": "if (x >= 0 && (y ^ x) == b) {",
+    "target": "if (x >= 0 && (x ^ y) == b) {"
+}

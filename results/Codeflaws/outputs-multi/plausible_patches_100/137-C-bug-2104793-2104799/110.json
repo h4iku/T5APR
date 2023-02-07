@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "{ long int i,j,k,l[100000],r1[100000],n1,n2,l2[100000],r2[100000];printf(\"JJJ\\n\");",
+    "patch": "{ long int i,j,k,l[100000],r1[100000],n1,n2,l2[100000], r2[100000];",
+    "target": "{ long int i,j,k,l[100000],r1[100000],n1,n2,l2[100000],r2[100000];"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if (sum<b) printf(\"1\");",
+    "patch": "if (sum == b) printf(\"1\");",
+    "target": "if (sum==0) printf(\"0\"); else if (sum<b) printf(\"1\");"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "x = F(i, l, r, 1) + (counter[l] * (t - LIM));",
+    "patch": "x = F(i, l, r, 1) + (counter[r] * (t - LIM));",
+    "target": "x = F(i, l, r, 1) + (counter[ ar[l] ] * (t - LIM));"
+}

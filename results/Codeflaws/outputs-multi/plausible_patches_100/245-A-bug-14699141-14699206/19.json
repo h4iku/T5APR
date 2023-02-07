@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "m[t-1][0]+=y;",
+    "patch": "m[t-1][0+1]+=y;",
+    "target": "m[t-1][1]+=y;"
+}

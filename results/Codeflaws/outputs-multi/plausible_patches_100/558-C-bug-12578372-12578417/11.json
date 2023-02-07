@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "if (best > pasi[i] && pasi[i] != 0 && washere[i] == n)",
+    "patch": "if (best > pasi[i] && (washere[i] == n))",
+    "target": "if (best > pasi[i] && washere[i] == n)"
+}

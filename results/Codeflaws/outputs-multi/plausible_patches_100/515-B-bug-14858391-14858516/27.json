@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "return (b, a % b);",
+    "patch": "return GY(b, a % b);",
+    "target": "return GY(b, a % b);"
+}

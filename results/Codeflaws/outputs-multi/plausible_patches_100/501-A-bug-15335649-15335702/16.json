@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "m2=(3*a)/10;",
+    "patch": "m2=(3*b)/10;",
+    "target": "m2=(3*b)/10;"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "while(i < (l-1))",
+    "patch": "while(i < (int) l)",
+    "target": "while(i < (l))"
+}

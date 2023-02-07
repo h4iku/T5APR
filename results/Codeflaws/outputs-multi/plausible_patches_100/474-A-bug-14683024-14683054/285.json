@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if(direction=='R'&&a[i]=='w') {printf(\"/\");}",
+    "patch": "if(direction=='R'&&a[i]=='z') {printf(\"z\");}",
+    "target": ""
+}

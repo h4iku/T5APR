@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "float x1,x2,s,t,p,q,r1,r2,a,b,c;",
+    "patch": "double x1,x2,s, t,p,q,r1,r2,a,b,c;",
+    "target": "double x1,x2,s,t,p,q,r1,r2,a,b,c;"
+}

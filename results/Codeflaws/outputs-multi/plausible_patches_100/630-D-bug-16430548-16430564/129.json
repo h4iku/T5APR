@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "printf(\"%d\", (3*n*(n+1))+1);",
+    "patch": "printf(\"%ld \", (3*n*(n+1))+1);",
+    "target": "printf(\"%lld\", (3*n*(n+1))+1);"
+}

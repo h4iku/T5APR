@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "dp[i] = cnt[i]+1;",
+    "patch": "dp[i] = cnt[i]+1 - 1;",
+    "target": "dp[i] = cnt[i];"
+}

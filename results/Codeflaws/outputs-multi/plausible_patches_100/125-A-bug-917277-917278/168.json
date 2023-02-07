@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "printf(\"%d \",a = n+1 / 36);",
+    "patch": "printf(\"%d \",a = (n+1) / 36);",
+    "target": "printf(\"%d \",a = (n+1) / 36);"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "",
+    "patch": "for(i = 0; i < 2; i++){ printf(\"%d \", a[i][j]); } printf(\"\\n\");",
+    "target": "return 0;"
+}

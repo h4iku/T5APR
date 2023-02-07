@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": true,
+    "source": "",
+    "patch": "ch=0; for(j=0;j<n;j++) if(a[j]) ch=1; ch++;",
+    "target": "flag=1;"
+}

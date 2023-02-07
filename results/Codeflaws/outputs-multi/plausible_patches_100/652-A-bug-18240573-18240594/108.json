@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "while (hc <= ha) {",
+    "patch": "while (hc > 0 && hc < ha) {",
+    "target": "while (hc < ha) {"
+}

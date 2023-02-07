@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "long long int a[100010],max[10010],min[10010];",
+    "patch": "long long int a[100010],max[10002],min[10002];",
+    "target": "long long int a[1000100],max[100100],min[100100];"
+}

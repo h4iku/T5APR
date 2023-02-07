@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "while(isempty(mystack))",
+    "patch": "for(i=n-1;i>=0;i--)",
+    "target": "while(!isempty(mystack))"
+}

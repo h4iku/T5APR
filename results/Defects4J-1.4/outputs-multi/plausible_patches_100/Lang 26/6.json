@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "Calendar c = new GregorianCalendar(mTimeZone);",
+    "patch": "Calendar c = new GregorianCalendar(mTimeZone, mLocale);",
+    "target": "Calendar c = new GregorianCalendar(mTimeZone, mLocale);"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "long long x,i,n,bas=-20000000000,son=20000000000;",
+    "patch": "long x,i,n,bas=-2000000000,son=20000000000;",
+    "target": "long long x,i,n,bas=-2000000000,son=2000000000;"
+}

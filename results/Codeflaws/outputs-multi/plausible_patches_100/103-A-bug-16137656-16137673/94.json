@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "else sum=sum+(a-1)*i;",
+    "patch": "else sum=sum+a+(a-1)*i;",
+    "target": "else sum=sum+a+(a-1)*i;"
+}

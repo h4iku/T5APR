@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if(a[k-1]<b[m-(l+1)])",
+    "patch": "if(a[k-1]<b[m-(l)])",
+    "target": "if(a[k-1]<b[m-l])"
+}

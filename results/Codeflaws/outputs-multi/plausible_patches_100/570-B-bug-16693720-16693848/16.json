@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "float mid;",
+    "patch": "unsigned long mid;",
+    "target": "double mid;"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "",
+    "patch": "} if(j==0&&ncost<ans){ ans=ncost; db1=ar[i].l; db2=cost[ar[i].l]; db3=0;",
+    "target": "dc[ar[i].d]++;"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "if(b>a && (8*a)<(h2-h1))",
+    "patch": "if(b>=a && (8*a)<(h2-h1))",
+    "target": "if(b>=a && (8*a)<(h2-h1))"
+}

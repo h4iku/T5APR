@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "int len = i+1;",
+    "patch": "int len = i + strlen(argv);",
+    "target": "int len = i;"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "",
+    "patch": "x[i] = a[c++];",
+    "target": "x[i] = '\\0';"
+}

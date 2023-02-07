@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if((inp/a[i])%2 == 0 && inp%a[i]==0){",
+    "patch": "if((inp%a[i])%2 == 0 && inp%a[i]==0){",
+    "target": "if(inp%a[i]==0){"
+}

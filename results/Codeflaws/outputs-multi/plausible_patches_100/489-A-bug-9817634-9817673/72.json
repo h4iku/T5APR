@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "int swap_it[300][300],min,s=0,num[3000],n,k=0,i,j,temp;",
+    "patch": "int swap_it[300][300],min,s=0,num[384000],n,k=0,i,j,temp;",
+    "target": "int swap_it[3000][2],min,s=0,num[3000],n,k=0,i,j,temp;"
+}

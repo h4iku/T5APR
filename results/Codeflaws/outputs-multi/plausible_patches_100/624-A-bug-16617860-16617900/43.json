@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "t=(L-d)/(v1+v2);",
+    "patch": "t=(L-d)/((double)(v1+v2));",
+    "target": "t=1.0*(L-d)/(v1+v2);"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "int mul[10] = {2,6,2,3,3,4,2,5,1,2} ;",
+    "patch": "int mul[10] = {2,7,2,3,3,4,2,5,1,2} ;",
+    "target": "int mul[10] = {2,7,2,3,3,4,2,5,1,2} ;"
+}

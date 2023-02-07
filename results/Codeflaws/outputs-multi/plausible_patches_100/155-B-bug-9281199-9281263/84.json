@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "n--;",
+    "patch": "*n -= 1;",
+    "target": "*n=*n-1;"
+}

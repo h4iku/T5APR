@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "",
+    "patch": "if((ans > max) || (ans > max)) max = ans;",
+    "target": "if(ans > max) max = ans;"
+}

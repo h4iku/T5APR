@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "exit(1);",
+    "patch": "err(1, stdout);",
+    "target": "return 0;"
+}

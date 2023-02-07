@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if (m-t1>=t2){p+=p2*t2;} else if (m>t1 && m<t2) {p+=p2*(m-t1);}",
+    "patch": "if (m-t1>=t2) {p+=p2*t2;} else if (m > t1) {p+=p2*(m-t1);}",
+    "target": "if (m-t1>=t2){p+=p2*t2;} else if (m>t1 && m-t1<t2) {p+=p2*(m-t1);}"
+}

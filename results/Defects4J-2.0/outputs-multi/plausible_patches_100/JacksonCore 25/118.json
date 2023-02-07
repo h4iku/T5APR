@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "if (i <= maxCode) {",
+    "patch": "if (i < maxCode && i < 0) {",
+    "target": "if (i < maxCode) {"
+}

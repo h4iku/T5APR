@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "return StringUtils.newStringUtf8(encodeBase64(binaryData, true));",
+    "patch": "return StringUtils.newStringUtf8( encodeBase64(binaryData, false));",
+    "target": "return StringUtils.newStringUtf8(encodeBase64(binaryData, false));"
+}

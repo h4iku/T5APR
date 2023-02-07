@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "",
+    "patch": "for(i = 1; i < sets[0].size; i ++) printf(\" %d\", sets[0].values[i]);",
+    "target": "return 0;"
+}

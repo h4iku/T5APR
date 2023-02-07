@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "x=(n*(n-1))/2;",
+    "patch": "x=(n*(n-1))/2 + n;",
+    "target": "x=(n*(n+1))/2;"
+}

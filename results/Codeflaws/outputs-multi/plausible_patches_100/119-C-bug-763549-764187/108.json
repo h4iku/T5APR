@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "hunks": false,
+    "source": "int pre[64][64][64];",
+    "patch": "int pre[64][64][128];",
+    "target": "int pre[64][64][128];"
+}

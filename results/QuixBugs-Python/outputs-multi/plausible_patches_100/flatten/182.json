@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "yield flatten(x)",
+    "patch": "if x is not None: yield x",
+    "target": "yield x"
+}

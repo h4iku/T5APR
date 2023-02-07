@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "char str[20],temp;",
+    "patch": "char str[204],temp;",
+    "target": "char str[101],temp;"
+}

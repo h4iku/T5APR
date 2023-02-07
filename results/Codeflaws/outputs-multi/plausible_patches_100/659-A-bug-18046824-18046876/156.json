@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "hunks": false,
+    "source": "} else if (b < 0 && s < 0) {",
+    "patch": "} else if (s <= 0) {",
+    "target": "} else if (b < 0 && s <= 0) {"
+}

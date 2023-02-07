@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": true,
+    "plausible": true,
+    "hunks": true,
+    "source": "break;",
+    "patch": "if(tag*tag+tag==triangle2) break;",
+    "target": "return 0;"
+}
