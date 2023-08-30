@@ -1,5 +1,5 @@
 # T5APR
-### Empowering Automated Program Repair Across Languages through Ensemble Checkpoints
+### Empowering Automated Program Repair Across Languages through Checkpoint Ensemble
 [paper](paper) | data | model
 
 
