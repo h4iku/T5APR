@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "printf(\"n is:%d k is:%d\\n\",n,k);",
     "patch": "fprintf(stderr,\"n is:%d k is:%d\\n\", n,k);",
     "target": ""

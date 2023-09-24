@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "for(i=1,j=1;a>=i;i+=++j){a-=i;printf(\"%d\\n\",i);}",
     "patch": "for(i=1,j=1;a>=i;i+=++j) a-=i;",
     "target": "for(i=1,j=1;a>=i;i+=++j)a-=i;"

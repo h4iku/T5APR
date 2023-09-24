@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "for (i = 0; i < 30; i++) printf(\"%c \", str[i]); scanf(\"%d\", &index);",
     "patch": "for (i = 0; i < 30; i++) printf(\"\\n\", str[i]); scanf(\"%d\", &index);",
     "target": ""

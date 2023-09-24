@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "long a[n],b[100000]={0};",
+    "patch": "long a[100000],b[200000]={0};",
+    "target": "long a[n],b[100001]={0};"
+}

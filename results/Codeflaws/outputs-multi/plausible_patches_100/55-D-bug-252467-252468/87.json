@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if( (mask&1<<7) && (mask&1<<1) ) continue;",
     "patch": "if( (mask&1<<8) && (mask&1<<7) && (mask&1<<8) ) continue;",
     "target": "if( (mask&1<<7) && !(mask&1<<1) ) continue;"

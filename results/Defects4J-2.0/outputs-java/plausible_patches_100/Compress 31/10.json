@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if (currentByte == 0) { break; }",
+    "patch": "if (length < 2) { throw new IllegalArgumentException(\"Length \"+length+\" must be at least 2\"); }",
+    "target": ""
+}

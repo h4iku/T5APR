@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "",
+    "patch": "while(1) { scanf(\"%d %d\",&m,&n); temp=arr[m]; arr[m]=arr[n]; arr[n]=temp; }",
+    "target": "freopen(\"input.txt\",\"r\",stdin); freopen(\"output.txt\",\"w\",stdout);"
+}

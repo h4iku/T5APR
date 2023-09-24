@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "for(j = 0 ; j < 9 ; j++, a++){",
     "patch": "for(j = 0 ; j <= 9; j++, a++){",
     "target": "for(j = 0 ; j <= 9 ; j++, a++){"

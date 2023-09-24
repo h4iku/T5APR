@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if(flag)",
+    "patch": "if(flag || page[i]!= 1)",
+    "target": "if(i || flag)"
+}

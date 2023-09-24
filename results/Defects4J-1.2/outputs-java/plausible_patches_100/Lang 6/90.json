@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "pos += Character.charCount(Character.codePointAt(input, pos));",
+    "patch": "pos += Character.charCount(Character.codePointAt(input, 0));",
+    "target": "pos += Character.charCount(Character.codePointAt(input, pt));"
+}

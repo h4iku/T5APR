@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);",
+    "patch": "return mayBeStringHelper(n);",
+    "target": "return anyResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+}

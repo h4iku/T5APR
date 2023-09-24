@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": true,
+    "multi-hunk": true,
     "source": "",
     "patch": "if (fn < 1) fn = fn + 1000000007;",
     "target": "}"

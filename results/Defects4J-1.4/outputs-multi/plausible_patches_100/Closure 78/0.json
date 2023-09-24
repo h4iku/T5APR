@@ -1,9 +1,0 @@
-{
-    "exact_match": true,
-    "correct": true,
-    "plausible": true,
-    "hunks": true,
-    "source": "error(DiagnosticType.error(\"JSC_DIVIDE_BY_0_ERROR\", \"Divide by 0\"), right);",
-    "patch": "",
-    "target": ""
-}

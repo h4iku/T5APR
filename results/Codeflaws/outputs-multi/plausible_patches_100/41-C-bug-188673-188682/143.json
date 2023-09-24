@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "fgets( mail, 100, stdin );",
     "patch": "fgets( mail, 6000, stdin );",
     "target": "fgets( mail, 110, stdin );"

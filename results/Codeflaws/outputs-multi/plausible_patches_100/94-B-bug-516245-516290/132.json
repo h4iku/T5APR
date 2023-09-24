@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": true,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if(people[i]==1 || people[i]==3){",
     "patch": "if(people[i]<=1 || people[i]>=3){",
     "target": "if(people[i]!=2){"

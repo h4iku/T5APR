@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "ans = min%(rem + 1);",
+    "patch": "ans = (min/(rem + 1));",
+    "target": "ans = min/(rem + 1);"
+}

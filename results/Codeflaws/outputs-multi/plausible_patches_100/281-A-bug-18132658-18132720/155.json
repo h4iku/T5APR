@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if (k>=90)",
     "patch": "if (k >90)",
     "target": "if (k>90)"

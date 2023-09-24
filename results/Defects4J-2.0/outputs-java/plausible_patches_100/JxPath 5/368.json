@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "throw new JXPathException( \"Cannot compare pointers that do not belong to the same tree: '\" + p1 + \"' and '\" + p2 + \"'\");",
+    "patch": "return 5;",
+    "target": "return 0;"
+}

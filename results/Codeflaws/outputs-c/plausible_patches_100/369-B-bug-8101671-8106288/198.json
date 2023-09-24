@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "completar(1,k-1,arreglo,sumaparcial-max);",
+    "patch": "completar(0,k-1,arreglo,sumaparcial);",
+    "target": "completar(0,k-1,arreglo,sumaparcial);"
+}

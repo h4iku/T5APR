@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "#define IsAscending(A,B) (A<=B)",
     "patch": "#define IsAscending(A, B) (A>=B)",
     "target": "#define IsAscending(A,B) (A>=B)"

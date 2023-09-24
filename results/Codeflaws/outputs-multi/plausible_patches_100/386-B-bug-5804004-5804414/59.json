@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "int n,time,t[100],d[5000];",
     "patch": "int n,time,t[100],d[500000];",
     "target": "int n,time,t[100],d[6000];"

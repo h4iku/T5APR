@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "",
+    "patch": "memset(string1,0,strlen(string1));",
+    "target": "string2[j]='\\0';"
+}

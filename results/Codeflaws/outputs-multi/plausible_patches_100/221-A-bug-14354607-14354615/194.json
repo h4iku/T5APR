@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "printf(\" \u00ef\u00bc\u2026d\",i+1);",
     "patch": "fprintf(stderr,\" \uff05d\\n\");",
     "target": "printf(\" %d\",i+1);"

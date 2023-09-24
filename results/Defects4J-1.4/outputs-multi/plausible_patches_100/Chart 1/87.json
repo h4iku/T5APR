@@ -1,9 +1,0 @@
-{
-    "exact_match": false,
-    "correct": false,
-    "plausible": true,
-    "hunks": false,
-    "source": "if (dataset != null) {",
-    "patch": "if (dataset instanceof LegendItemCollection) {",
-    "target": "if (dataset == null) {"
-}

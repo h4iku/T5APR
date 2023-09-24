@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": true,
+    "source": "return isZero ? NaN : INF;",
+    "patch": "return!isInfinite()? NaN : INF;",
+    "target": "return NaN;"
+}

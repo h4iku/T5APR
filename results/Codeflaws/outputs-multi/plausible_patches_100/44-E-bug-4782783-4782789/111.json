@@ -2,7 +2,7 @@
     "exact_match": true,
     "correct": true,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if(len>(b*n)||len<(a*n)) printf(\"No Solution\\n\");",
     "patch": "if(len>(b*n)||len<(a*n)) { printf(\"No solution\\n\"); }",
     "target": "if(len>(b*n)||len<(a*n)) printf(\"No solution\\n\");"

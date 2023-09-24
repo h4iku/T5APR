@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "",
+    "patch": "for(x=1;x<=n;++x) printf(\"0 \");",
+    "target": "for(i=1;i<=n;++i) printf(\"0 \");"
+}

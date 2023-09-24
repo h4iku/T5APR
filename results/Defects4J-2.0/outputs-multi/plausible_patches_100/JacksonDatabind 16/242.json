@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "return (previous != null) && previous.equals(ann);",
     "patch": "return previous == null || previous == ann;",
     "target": "return (previous == null) || !previous.equals(ann);"

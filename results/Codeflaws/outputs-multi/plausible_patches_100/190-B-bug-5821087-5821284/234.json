@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "rad = (r1+r2) - d;",
     "patch": "rad = (r1+r2) <= d;",
     "target": "rad = 0;"

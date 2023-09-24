@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if (v[n-1] == 1 && v[n-1] != v[0])",
+    "patch": "if (v[n-1] == 1 && v[n-1]!= n)",
+    "target": "if (v[n-1] == 1 && n-1 != 0)"
+}

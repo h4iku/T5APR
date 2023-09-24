@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": true,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if (getDeclaringType().isAnonymous()) { if (!getDeclaringType().getDeclaringType().isSubtypeOf(executable.getDeclaringType())) { return false; } } else if (!getDeclaringType().isSubtypeOf(executable.getDeclaringType())) {",
     "patch": "if (!this.getDeclaringType().isSubtypeOf(executable.getDeclaringType())) {",
     "target": "if (!getDeclaringType().isSubtypeOf(executable.getDeclaringType())) {"

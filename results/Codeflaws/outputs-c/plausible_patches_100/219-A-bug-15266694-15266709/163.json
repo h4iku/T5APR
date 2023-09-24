@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "for(i = 0 ; i <= yer ; i++) printf(\"%c\",sonuc[i]);",
+    "patch": "for(i = 0 ; i <= yer; i++) { if(sonuc[i]) printf(\"%c\",sonuc[i]); }",
+    "target": "printf(\"%s\",sonuc);"
+}

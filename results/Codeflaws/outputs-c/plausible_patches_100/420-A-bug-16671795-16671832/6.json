@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "",
+    "patch": "for(i=0;i<l;i++) scanf(\"%s\",arr);",
+    "target": "else break;"
+}

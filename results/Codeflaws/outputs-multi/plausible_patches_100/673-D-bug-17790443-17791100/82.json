@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "",
     "patch": "for (i = n - 1; i >= 0; i--) { printf(\"%d \", ordem[i]); }",
     "target": "vet[c] = 1; vet[d] = 1;"

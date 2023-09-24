@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if(ok=1)printf(\"%d\",he);",
+    "patch": "if(num<1)printf(\"%d\",he);",
+    "target": "if(ok==1)printf(\"%d\",he);"
+}

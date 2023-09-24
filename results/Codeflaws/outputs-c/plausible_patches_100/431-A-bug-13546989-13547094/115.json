@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "cnt=cnt+arr1[(int)(arr[(i)%4]-48)];",
+    "patch": "cnt=cnt+arr1[(int)(arr[i]-48)];",
+    "target": "cnt=cnt+arr1[(int)(arr[i]-48)];"
+}

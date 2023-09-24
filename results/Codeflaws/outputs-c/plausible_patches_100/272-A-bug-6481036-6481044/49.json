@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if(ch%(n+1)==0)",
+    "patch": "if(ch%(n+1)-1)",
+    "target": "if((ch-1)%(n+1)!=0)"
+}

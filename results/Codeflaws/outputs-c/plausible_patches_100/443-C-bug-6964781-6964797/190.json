@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "int a = s[3 * i + 1] - '0';",
+    "patch": "int a = (s[3 * i + 1] - '1');",
+    "target": "int a = s[3 * i + 1] - '1';"
+}

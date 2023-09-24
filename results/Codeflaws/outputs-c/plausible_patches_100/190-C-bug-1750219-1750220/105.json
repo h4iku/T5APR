@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "printf(\"Error occured\");",
+    "patch": "dprintf(1, \"Error occurred\");",
+    "target": "printf(\"Error occurred\");"
+}

@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "printf(\"%d:%d:%d\\n%d:%d:%d\\n\",year1,month1,day1,year2,month2,day2);",
     "patch": "fprintf(stderr, \"%d:%d:%d\\n%d:%d:%d\\n\",year1,month1,day1,year2,day2,day2,day2);",
     "target": ""

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "no2=no2*2;",
+    "patch": "no2 = (no2*2) %no;",
+    "target": "no2=(no2*2)%no;"
+}

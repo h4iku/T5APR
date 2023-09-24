@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "int len = i+1;",
     "patch": "size_t len = i++;",
     "target": "int len = i;"

@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "printf(\"u have max account\");",
+    "patch": "printf(\"%d\",a);",
+    "target": "printf(\"%d\",a);"
+}

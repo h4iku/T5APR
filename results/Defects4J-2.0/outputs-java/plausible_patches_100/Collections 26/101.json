@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "private Object readResolve() {",
+    "patch": "public Object readResolve() throws Exception {",
+    "target": "protected Object readResolve() {"
+}

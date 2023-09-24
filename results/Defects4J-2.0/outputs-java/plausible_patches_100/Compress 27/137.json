@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "} if (start == end) { throw new IllegalArgumentException( exceptionMessage(buffer, offset, length, start, trailer));",
+    "patch": "} if (length < 2) { throw new IllegalArgumentException(\"Length \"+length+\" must be at least 2\");",
+    "target": ""
+}

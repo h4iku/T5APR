@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "while(scanf(\"%d\",&n))",
+    "patch": "while(scanf(\"%d\",&n)!= EOF)",
+    "target": "scanf(\"%d\",&n);"
+}

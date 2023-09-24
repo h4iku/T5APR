@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "printf(\"%d\", mat[0][0]);",
+    "patch": "printf(\"%04x\", mat[0][0]);",
+    "target": ""
+}

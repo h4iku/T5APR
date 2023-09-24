@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "freopen(\"C:\\\\Users\\\\Shen\\\\Desktop\\\\ining.txt\",\"r\",stdin);",
     "patch": "fopen(\"C:\\\\Users\\\\Shen\\\\Desktop\\\\ining.txt\",stdout);",
     "target": ""

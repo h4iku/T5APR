@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if (j>1000000) j=1000000;",
     "patch": "if (j>10000000) j=10000000 - 1;",
     "target": "if (j>10000000) j=10000000;"

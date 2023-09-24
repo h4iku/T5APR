@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": true,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "while(collected_fruit<capacity && j<tree && ara[j].day>i)",
     "patch": "while(collected_fruit<capacity && j<tree && ara[j].day>i==0)",
     "target": "while(collected_fruit<capacity && j<tree && ara[j].day<=i)"

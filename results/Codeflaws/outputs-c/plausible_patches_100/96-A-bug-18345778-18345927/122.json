@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if(count>=7)",
+    "patch": "count++; if(count>=7)",
+    "target": "if(count==6)"
+}

@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "return field.getType().isPrimitive() || field.getType().isArray() || ignoredNames.contains(field.getName());",
     "patch": "return (field.getType().isPrimitive() && field.getType().isArray() && ignoredNames.contains(field.getName()) );",
     "target": "return  field.getType().isArray() || ignoredNames.contains(field.getName());"

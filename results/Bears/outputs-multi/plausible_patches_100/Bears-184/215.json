@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": ".filter(it -> it.getJavaType().equals(entity))",
     "patch": ".filter(it -> it.getJavaType()!= entity)",
     "target": ".filter(it -> entity.equals(it.getJavaType()))"

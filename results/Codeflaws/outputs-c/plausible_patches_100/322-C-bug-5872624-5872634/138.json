@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if(sx*k==x&&sy*k==y&&k>0)",
+    "patch": "if(sx*k==x&&sy*k==y&&k>0-1)",
+    "target": "if(sx*k==x&&sy*k==y&&k>=0)"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if(a[x-1]<a1[n-m])",
+    "patch": "if(a[s-1]<a1[n-m])",
+    "target": "if(a[s-1]<a1[n-m])"
+}

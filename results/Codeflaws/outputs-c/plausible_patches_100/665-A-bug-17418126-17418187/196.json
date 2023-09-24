@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if(i<(h+ta)&&i>=(h-tb))",
+    "patch": "if(i<(h +ta)&&i>(h-tb))",
+    "target": "if(i<(h+ta)&&i<1440&&i>(h-tb))"
+}

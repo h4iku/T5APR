@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "printf(\"enter the total no. of coins?\\n\");",
+    "patch": "fprintf(stderr, \"enter the total no. of coins\\n\");",
+    "target": ""
+}

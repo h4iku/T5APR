@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "} if (start == end) { throw new IllegalArgumentException( exceptionMessage(buffer, offset, length, start, trailer));",
     "patch": "if (result == end) { throw new IllegalArgumentException(exceptionMessage(buffer, offset, length, start, trailer)); }",
     "target": ""

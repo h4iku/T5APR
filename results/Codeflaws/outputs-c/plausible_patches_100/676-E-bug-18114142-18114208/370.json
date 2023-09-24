@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "#define MOD 1000000007",
+    "patch": "#define MOD 100100100",
+    "target": "#define MOD 199611267"
+}

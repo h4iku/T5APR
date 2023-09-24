@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "count += b[x][y+2] + b[x+1][y+2] + b[x-1][y+2];",
+    "patch": "count += b[y][y+2] + b[y][y+2] + b[y+1][y+2];",
+    "target": "count += b[x][y+2] + b[x+1][y+2] + b[x+2][y+2];"
+}

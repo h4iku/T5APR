@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "",
     "patch": "line = pipe-branch; if(line!=(house%pipe)) { printf(\"%d\\n\",line); }",
     "target": "printf(\"1\\n\");"

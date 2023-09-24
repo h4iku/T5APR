@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if(i==12)",
     "patch": "if(i==13 || i==0)",
     "target": "if(i==12&&sum<x)"

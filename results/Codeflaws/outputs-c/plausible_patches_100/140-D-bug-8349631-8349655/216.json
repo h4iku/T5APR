@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "while(maxtime-problems[i]>0 && i<n)",
+    "patch": "while(maxtime >= problems[i] && i<n)",
+    "target": "while(maxtime-problems[i]>=0 && i<n)"
+}

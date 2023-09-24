@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if(p[s] == t)",
+    "patch": "if(p[s] == t && p[i] == s)",
+    "target": "if(s == t)"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "void quick_sort(int *a, int *b, int n) {",
+    "patch": "quick_sort (long *a, long *b, int n) {",
+    "target": "void quick_sort(long long *a, long long *b, long long n) {"
+}

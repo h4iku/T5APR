@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "return rhs -> value - rhs -> value;",
+    "patch": "return ( rhs -> value - lhs -> value);",
+    "target": "return rhs -> value - lhs -> value;"
+}

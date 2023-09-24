@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "#define MOD 1000000007",
     "patch": "#define MOD 1000007",
     "target": "#define MOD 199611267"

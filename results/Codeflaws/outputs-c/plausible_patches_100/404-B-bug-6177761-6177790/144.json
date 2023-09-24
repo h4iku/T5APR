@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "int t = (int)floor(i*d / a);",
+    "patch": "long t = (double)floor(i*d / a);",
+    "target": "long long t = floor(i*d / a);"
+}

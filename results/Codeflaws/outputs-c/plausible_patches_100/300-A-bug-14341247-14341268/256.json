@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "printf(\"%d %d\",z+1,ara[x-1]);",
+    "patch": "printf(\"%d %d \",z+1,ara[x-1],z);",
+    "target": "printf(\"%d %d \",z+1,ara[x-1]);"
+}

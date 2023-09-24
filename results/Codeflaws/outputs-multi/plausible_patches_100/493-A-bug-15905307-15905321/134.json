@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "else",
     "patch": "else if (p && p[m-1]!= 2)",
     "target": "else if (p[m-1] != 2)"

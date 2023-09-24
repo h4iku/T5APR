@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "result+=(zero*(zero-1))/2;",
+    "patch": "result+=((double)zero*(zero-1))/2;",
+    "target": "result+=((long long)zero*(long long)(zero-1))/2;"
+}

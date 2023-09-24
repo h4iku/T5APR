@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "results = (2*n)/3 + ((n%3)!=0?1:0);",
+    "patch": "results = (2*n)/3 + ((n%3)!=1?0:1);",
+    "target": "results = 2*(n/3) + ((n%3)!=0?1:0);"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": true,
+    "source": "",
+    "patch": "if (index == 0) return false;",
+    "target": "} if (markers == null) { return false;"
+}

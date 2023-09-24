@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "while(count<=10)",
     "patch": "while(count<=31)",
     "target": "while(count<=100)"

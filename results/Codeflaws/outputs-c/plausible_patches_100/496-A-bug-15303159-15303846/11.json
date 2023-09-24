@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "",
+    "patch": "for(j=0;j<n-1;j++) if(max>b[i]) max=b[i];",
+    "target": "max=0;"
+}

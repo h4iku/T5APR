@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "char s[100];",
     "patch": "char s[208];",
     "target": "char s[300];"

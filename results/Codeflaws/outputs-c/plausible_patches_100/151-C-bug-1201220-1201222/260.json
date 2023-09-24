@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "for (j = 2LL; j * j <= sqrt(p); ++j)",
+    "patch": "for (j = 2L; j * j <= p; ++j)",
+    "target": "for (j = 2LL; j <= sqrt(p); ++j)"
+}

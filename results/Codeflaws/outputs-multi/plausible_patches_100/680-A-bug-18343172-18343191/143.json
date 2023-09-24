@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "break;",
     "patch": "if(b[a[i]]==3) { max=3*a[i]; break; }",
     "target": ""

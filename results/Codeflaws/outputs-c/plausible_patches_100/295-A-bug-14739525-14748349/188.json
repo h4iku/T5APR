@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "#define MAX 1001",
+    "patch": "static const int MAX=1001;",
+    "target": "#define MAX 100001"
+}

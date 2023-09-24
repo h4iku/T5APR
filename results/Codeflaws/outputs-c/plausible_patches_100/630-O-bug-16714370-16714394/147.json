@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "printf (\"\\t%d %d %d %d %d %d %d %d\\n\" , px, py, vx, vy, a, b, c, d) ;",
+    "patch": "scanf (\"%d %d %d %d %d %d %d %d %d %d\\n\", px, py, vx, vy, a, b, c, d) ;",
+    "target": ""
+}

@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "float r = (y2 - y0) / (x2 - x0);",
     "patch": "float r = (y2 - y0) / ((double)x2 - x0);",
     "target": "float r = (float )(y2 - y0) / (x2 - x0);"

@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": true,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if((time[i] > total) && (ban == 0) && (time[i]-360 < 360)){",
     "patch": "if((time[i] > total) && (ban == 0) && (time[i]-360 <= 350)){",
     "target": "if((time[i] > total) && (ban == 0) && time[i]<=710){"

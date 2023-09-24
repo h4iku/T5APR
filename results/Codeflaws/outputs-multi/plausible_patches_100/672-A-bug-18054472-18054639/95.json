@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "d=(i-191)/22;",
     "patch": "d=(i-191)/22/32;",
     "target": "d=((i-191)%300)/30;"

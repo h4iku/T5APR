@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "",
+    "patch": "if ((o & 0xF0) == 0xC0) { end = i + 1; } else if ((o & 0xF8) == 0xF0) { end = i + 3; } else { return false; }",
+    "target": "if (end >= input.length) return false;"
+}

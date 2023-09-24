@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "",
     "patch": "if(x%2==0) for(j=0;j<m-1;j++) printf(\"#\"); x++;",
     "target": "x++;"

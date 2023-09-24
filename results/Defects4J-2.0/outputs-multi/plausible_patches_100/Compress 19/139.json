@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if (rawCentralDirectoryData.length != expectedLength) {",
     "patch": "if (rawCentralDirectoryData.length!= expectedLength && size!= size) {",
     "target": "if (rawCentralDirectoryData.length < expectedLength) {"

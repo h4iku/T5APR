@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": true,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "",
+    "patch": "if (stackSize == 0) { return; }",
+    "target": "if (stackSize > 0) {"
+}

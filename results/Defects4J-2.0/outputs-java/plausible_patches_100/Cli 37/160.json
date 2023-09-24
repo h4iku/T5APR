@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "return token.startsWith(\"-\") && token.length() >= 2 && options.hasShortOption(token.substring(1, 2));",
+    "patch": "return token!= null && token.startsWith(\"-\") && token.length() >= 2 && options.hasShortOption(token);",
+    "target": "if (!token.startsWith(\"-\") || token.length() == 1) { return false; }   int pos = token.indexOf(\"=\"); String optName = pos == -1 ? token.substring(1) : token.substring(1, pos); return options.hasShortOption(optName);"
+}

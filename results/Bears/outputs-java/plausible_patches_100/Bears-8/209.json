@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if (input.containsKey(null)) {",
+    "patch": "if (input!= null &&!(input instanceof TreeMap)) {",
+    "target": "if (_hasNullKey(input)) {"
+}

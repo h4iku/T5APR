@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if(dist[x][j]<=t[i]&&f[x]+c[x]<f[j]&&!hash[j])",
+    "patch": "if(dist[x][j]<=t[x]&&f[x]+c[x]<f[j]&&!hash[j])",
+    "target": "if(dist[x][j]<=t[x]&&f[x]+c[x]<f[j]&&!hash[j])"
+}

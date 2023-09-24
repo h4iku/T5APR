@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "y = sqrt((double)(b*b*xa*xa)/(xa*xa+ya*ya));",
+    "patch": "y = sqrt((double)(b*(double)b*xa*xa)/(xa*xa+ya*ya));",
+    "target": "y = sqrt((double)(b*b*(double)xa*xa)/(xa*xa+ya*ya));"
+}

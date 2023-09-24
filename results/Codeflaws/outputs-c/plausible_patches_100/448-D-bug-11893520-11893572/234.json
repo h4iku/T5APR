@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "an=bin(0,n*m);",
+    "patch": "an=bin(0,n*m+10);",
+    "target": "an=bin(0,n*m+1);"
+}

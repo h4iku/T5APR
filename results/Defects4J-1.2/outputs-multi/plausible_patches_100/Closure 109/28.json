@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": true,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "return parseTypeName(token);",
+    "patch": "Node result = parseTypeExpression(token); return result;",
+    "target": "if (token == JsDocToken.QMARK) { return newNode(Token.QMARK); } else { return parseBasicTypeExpression(token); }"
+}

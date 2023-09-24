@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "return 2*(2*(m / 4) + (m % 4 > 2)? 2 : (m % 4));",
     "patch": "return 2*(2*(m / 4) + ((m % 4 > 2)? 2 : ((m % 4))));",
     "target": "return 2*(2*(m / 4) + ((m % 4 > 2)? 2 : (m % 4)));"

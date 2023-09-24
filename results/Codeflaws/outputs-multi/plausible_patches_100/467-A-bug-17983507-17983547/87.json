@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if(p<q) count++;",
     "patch": "if(p+1 < q) count++;",
     "target": "if(p<q-1) count++;"

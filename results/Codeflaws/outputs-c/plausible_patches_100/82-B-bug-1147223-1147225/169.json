@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "",
+    "patch": "sets[i].values = (int *) malloc(sets[i].size * sizeof(int));",
+    "target": "return 0;"
+}

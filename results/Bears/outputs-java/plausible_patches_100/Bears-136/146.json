@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "result.writeShort(2 + 2 + 2 + buf.readableBytes());",
+    "patch": "result.writeShort(2 + 0 + buf.readableBytes());",
+    "target": "result.writeShort(2 + buf.readableBytes());"
+}

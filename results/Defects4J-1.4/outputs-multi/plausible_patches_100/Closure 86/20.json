@@ -1,9 +1,0 @@
-{
-    "exact_match": false,
-    "correct": false,
-    "plausible": true,
-    "hunks": false,
-    "source": "return true;",
-    "patch": "if (value!= null) { return evaluatesToLocalValue(value.getFirstChild(), locals); }",
-    "target": "return false;"
-}

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "for(i=0; i<K && Str[i]!='\\0'; ++i)",
+    "patch": "for(i=0; Str[i]!='\\0'; ++i)",
+    "target": "for(i=0; i<i+K && Str[i]!='\\0'; ++i)"
+}

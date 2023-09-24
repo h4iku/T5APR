@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "} else if (contains(value, index + 1, 4, \"IER\")) {",
+    "patch": "} else if (contains(value, index + 2, 2, \"ER\") &&!slavoGermanic) {",
+    "target": "} else if (contains(value, index + 1, 3, \"IER\")) {"
+}

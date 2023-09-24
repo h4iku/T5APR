@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "",
+    "patch": "} else if(sets[0].values[i] == sets[1].values[j]) {",
+    "target": "return 0;"
+}

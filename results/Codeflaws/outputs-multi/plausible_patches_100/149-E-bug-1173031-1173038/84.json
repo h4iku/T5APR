@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "",
     "patch": "printf(\"p = %s p = %s\\n\", p);",
     "target": "s = strdup(s); p = strdup(p);"

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "max=floor(pow(3*X,0.3333333));",
+    "patch": "max=floor(pow(3*X,0.333333333));",
+    "target": "max=floor(pow(3*X,0.3333333333333333333));"
+}

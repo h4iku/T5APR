@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if(f[i]>f[i+1])",
     "patch": "if((f[i]>f[i+1])==0)",
     "target": "if(f[i]<f[i+1])"

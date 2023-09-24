@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if(m[0] + m[1] + m[2] ==0) printf(\"YES\");",
     "patch": "if(m[1] + m[1] + m[2] ==0) printf(\"YES\");",
     "target": "if(m[0]==0 && m[1]==0 && m[2]==0) printf(\"YES\");"

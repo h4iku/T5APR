@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if(x > ans) printf(\"0\");",
+    "patch": "if(x > temp) printf(\"0\");",
+    "target": "if(ans < 0) printf(\"0\");"
+}

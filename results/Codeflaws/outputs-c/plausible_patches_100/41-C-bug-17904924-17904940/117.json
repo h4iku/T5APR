@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if(i==u-2 && a[u-2]=='o' && a[u-3]=='d'){",
+    "patch": "if(i == u-3 && a[u-2]=='o' && a[u-3]=='d'){",
+    "target": "if(i==u-3 && a[u-2]=='o' && a[u-3]=='d'){"
+}

@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if(a[j]>5)",
     "patch": "if((a[j]>5 || a[j]>4))",
     "target": "if(a[j]>=5)"

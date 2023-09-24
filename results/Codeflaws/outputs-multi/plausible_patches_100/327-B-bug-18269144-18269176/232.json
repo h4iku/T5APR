@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "for(c=3;c<val;c+=2)",
     "patch": "for(c=3;c <= val;c++)",
     "target": "for(c=3;c<=val;c+=2)"

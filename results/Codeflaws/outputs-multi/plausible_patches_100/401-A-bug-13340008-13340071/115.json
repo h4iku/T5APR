@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "lagbe=(sum/x)+(sum%x);",
     "patch": "lagbe=(sum/x)+(sum%x||0);",
     "target": "if (sum%x==0)   lagbe=sum/x; else                  lagbe=sum/x+1;"

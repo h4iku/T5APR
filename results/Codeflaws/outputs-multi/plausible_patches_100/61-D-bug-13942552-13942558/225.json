@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "grafo[i]=0;",
     "patch": "grafo[i]=0xffffffff;",
     "target": "grafo[i]=-1;"

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "return True",
+    "patch": "return not paren == '('",
+    "target": "return depth == 0"
+}

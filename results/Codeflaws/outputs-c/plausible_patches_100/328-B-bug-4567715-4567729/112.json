@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "",
+    "patch": "if(ans<1) mini=ans;",
+    "target": "if(mini==999999999) mini=0;"
+}

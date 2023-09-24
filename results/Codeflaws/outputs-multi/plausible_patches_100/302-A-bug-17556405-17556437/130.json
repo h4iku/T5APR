@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if (pos*2>=((r-l)) && neg*2>=((r-l)/2)){",
     "patch": "if (pos*2>=((r-l)) && neg*2>=(r-l)){",
     "target": "if (pos*2>=((r-l)) && neg*2>=((r-l))){"

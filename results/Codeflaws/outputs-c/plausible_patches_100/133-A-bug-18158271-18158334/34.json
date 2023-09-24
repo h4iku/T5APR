@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if (x==72|| x==81 || x==57 || x==43)",
+    "patch": "if (x==72 || x==81 || x==57 || x==43 && x==72)",
+    "target": "if (x==72|| x==81 || x==57 )"
+}

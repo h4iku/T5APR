@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "#define N 10005",
+    "patch": "#define N 100050",
+    "target": "#define N 100005"
+}

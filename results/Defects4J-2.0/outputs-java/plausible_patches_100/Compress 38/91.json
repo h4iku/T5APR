@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if (getName().endsWith(\"/\")) {",
+    "patch": "if (getName().endsWith(System.getProperty(\"user.dir\"))) {",
+    "target": "if (!isPaxHeader() && !isGlobalPaxHeader() && getName().endsWith(\"/\")) {"
+}

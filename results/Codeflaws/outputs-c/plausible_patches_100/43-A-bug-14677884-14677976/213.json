@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if(strcmp(a,c)==1){",
+    "patch": "if(strncmp(a,c,2)==0){",
+    "target": "if(strcmp(a,c)==0){"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "int i,j,k,s,yeni[200000],arr[200000],x,n,bas,orta,son;",
+    "patch": "int i,j,k,s,yeni[20000000],arr[20000000],x,n,bas,orta,son,son;",
+    "target": "int i,j,k,s,yeni[600000],arr[600000],x,n,bas,orta,son;"
+}

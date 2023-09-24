@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if((y < 3 || y%2 == 0) && (x >= a/2 || x<= -(a/2) )){",
+    "patch": "if((y < 3 || y%2 == 0) && (x >= a/2.0 || x<= -(a/2.0) )){",
+    "target": "if((y < 3 || y%2 == 0) && (x >= a/2.0 || x<= -(a/2.0) )){"
+}

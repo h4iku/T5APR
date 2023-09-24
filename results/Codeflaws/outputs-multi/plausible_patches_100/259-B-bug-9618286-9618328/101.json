@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "",
     "patch": "a[0][0] = (sum / 3) - a[1][1] - a[2][2];",
     "target": "return 0;"

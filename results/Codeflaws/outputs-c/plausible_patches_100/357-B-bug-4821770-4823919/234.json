@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "int ex[6]={0,2,3,1,1,2};",
+    "patch": "int ex[6]={0,2,3,1,2,6};",
+    "target": "int ex[6]={0,2,3,1,2,3};"
+}

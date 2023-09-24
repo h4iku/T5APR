@@ -1,9 +1,0 @@
-{
-    "exact_match": false,
-    "correct": false,
-    "plausible": true,
-    "hunks": true,
-    "source": "return (T[]) new Object[] { null };",
-    "patch": "throw new IllegalArgumentException();",
-    "target": "throw new IllegalArgumentException(\"Array and element cannot both be null\");"
-}

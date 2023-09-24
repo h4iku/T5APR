@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if(y<0){",
     "patch": "if(y < 0 || y < 1){",
     "target": "if(y<=0){"

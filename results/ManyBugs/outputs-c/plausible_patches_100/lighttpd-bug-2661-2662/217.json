@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": null,
+    "multi-hunk": false,
+    "source": "",
+    "patch": "if (str->used == 0) return;",
+    "target": "if (str->used == 0) return;"
+}

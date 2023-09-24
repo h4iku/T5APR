@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": true,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "int pos=temp/a;",
+    "patch": "size_t pos = temp/a;",
+    "target": "long long pos=temp/a;"
+}

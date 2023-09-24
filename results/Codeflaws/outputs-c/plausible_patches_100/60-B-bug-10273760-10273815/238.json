@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if(d-1>=1 && tap[a][b][d-1]=='.'&& !visited[a][b-1][d]) {visited[a][b][d-1]=1;dfs(a,b,d-1);}",
+    "patch": "if (d-1>=1 && tap[a][b][d-1]=='.'&&!visited[a][b][d-1]) {visited[a][b][d-1]=1; dfs(a,b,d-1);}",
+    "target": "if(d-1>=1 && tap[a][b][d-1]=='.'&& !visited[a][b][d-1]) {visited[a][b][d-1]=1;dfs(a,b,d-1);}"
+}

@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if(t[i] - s[i] == 0 || t[i] - s[i] == 1);",
     "patch": "if(s[i] - t[i] == 0 || t[i] - t[i] == 1);",
     "target": "if(t[i] - s[i] == 0);"

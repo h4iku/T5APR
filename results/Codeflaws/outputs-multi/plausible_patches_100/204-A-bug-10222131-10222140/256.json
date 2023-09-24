@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "long long nways( int N ) {",
     "patch": "long long nways( long N ) { int i;",
     "target": "long long nways( long long N ) {"

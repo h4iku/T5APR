@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if(n == 6)printf(\"53\");",
+    "patch": "if(n == 6 || n == 5) printf(\"53\");",
+    "target": "if(n == 6 || n == 5)printf(\"53\");"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "printf(\"%f \\n\",s);",
+    "patch": "fprintf(stderr, \"%f\\n\",s);",
+    "target": ""
+}

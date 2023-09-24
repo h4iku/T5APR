@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "printf(\"%d\\n\",s2);",
+    "patch": "if((s1+s2)>c4) cos=c4;",
+    "target": ""
+}

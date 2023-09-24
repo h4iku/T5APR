@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "position.set(Position.PREFIX_TEMP + i, Short.parseShort(data[index++], 16) * 0.0625);",
+    "patch": "position.set(Position.PREFIX_TEMP + i, Short.parseShort(data[i], 16) * 0.0626);",
+    "target": "position.set(Position.PREFIX_TEMP + i, (short) Integer.parseInt(data[index++], 16) * 0.0625);"
+}

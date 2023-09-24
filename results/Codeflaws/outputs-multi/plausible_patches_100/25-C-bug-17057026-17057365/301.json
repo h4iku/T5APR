@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "arr[j][j] = arr[i][a] + arr[a][b] + arr[b][j];",
     "patch": "arr[0][j] = arr[i][a] + arr[a][b] + arr[b][j];",
     "target": "arr[j][i] = arr[i][a] + arr[a][b] + arr[b][j];"

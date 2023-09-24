@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "fr[i][0]=f,fr[i][1]=i-k;",
+    "patch": "fr[i][0] = f, fr[i][1] = i-k+1;",
+    "target": "fr[i][0]=f,fr[i][1]=i-k+1;"
+}

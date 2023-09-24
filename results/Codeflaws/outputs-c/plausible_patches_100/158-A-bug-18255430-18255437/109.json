@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": true,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if(data[i] >= data[k] && data[i] != 0)",
+    "patch": "if(data[i] >= data[k - 1] && data[i]!= 0)",
+    "target": "if(data[i] >= data[k-1] && data[i] != 0)"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "final char hwChar = str.charAt(index - 1); if ('H' == hwChar || 'W' == hwChar) { final char preHWChar = str.charAt(index - 2); final char firstCode = this.map(preHWChar); if (firstCode == mappedChar || 'H' == preHWChar || 'W' == preHWChar) {",
+    "patch": "final char hwChar = str.charAt(index - 1); if ('H' ==hwChar) { final char preHWChar = str.charAt(index - 2); final char firstCode = this.map(preHWChar); if (firstCode == mappedChar || 'H' == preHWChar || 'W' == preHWChar) {",
+    "target": "for (int i=index-1 ; i>=0 ; i--) { final char prevChar = str.charAt(i); if (this.map(prevChar)==mappedChar) {"
+}

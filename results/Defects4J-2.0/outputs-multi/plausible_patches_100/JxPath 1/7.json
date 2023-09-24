@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": true,
+    "multi-hunk": true,
     "source": "return node instanceof Element;",
     "patch": "return Boolean.TRUE;",
     "target": "return (node instanceof Element) || (node instanceof Document);"

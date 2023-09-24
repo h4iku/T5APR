@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "printf(\"unknow topology\");",
+    "patch": "puts(\"unknown topology\");",
+    "target": "printf(\"unknown topology\");"
+}

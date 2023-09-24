@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "return solve(min, max);",
+    "patch": "return solve(f,min,max);",
+    "target": "return solve(f, min, max);"
+}

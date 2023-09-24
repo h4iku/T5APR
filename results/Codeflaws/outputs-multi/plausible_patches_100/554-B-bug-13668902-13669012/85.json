@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "",
     "patch": "dprintf(\"r[i] %s r[j] %s\\n\", r[i], r[j]);",
     "target": "return 0;"

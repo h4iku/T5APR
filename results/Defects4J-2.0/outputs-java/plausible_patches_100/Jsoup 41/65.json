@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "return this == o;",
+    "patch": "if (element!= null) { return element.equals(o); } else { return false; }",
+    "target": "return tag.equals(element.tag);"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "return bits;",
+    "patch": "return (byte[]) bits.clone().clone();",
+    "target": "return bits.clone();"
+}

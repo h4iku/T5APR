@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "FOR(i, 1, yer) printf(\"%d \",cvp[i]); endl;",
+    "patch": "FOR(i, 1, yer) { scanf(\"%d \",cvp[i]); }",
+    "target": ""
+}

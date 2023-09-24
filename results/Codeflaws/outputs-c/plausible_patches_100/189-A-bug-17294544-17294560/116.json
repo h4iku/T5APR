@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "arr[i]=-2;",
+    "patch": "arr[i]=-2*n+1;",
+    "target": "arr[i]=-1000000000;"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "for(j = 0; dou[j][0]; j++) printf(\"%d %d\\n\",dou[j][0],j);",
+    "patch": "for(j = 0; dou[j][0]; j++) { scanf(\"%d %d\\n\", dou[j][0], j); }",
+    "target": "for(j = 0; dou[j][0]; j++);"
+}

@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if (A[k][l]) continue;",
     "patch": "if ((k+i+l-j) < max) continue;",
     "target": "if (A[k][l]=='1') continue;"

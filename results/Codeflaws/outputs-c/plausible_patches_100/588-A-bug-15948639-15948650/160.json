@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "kg_meat += jc_day_prices[i][1] * jc_day_prices[i + j][0];",
+    "patch": "kg_meat += (int)jc_day_prices[i + j][0];",
+    "target": "kg_meat += jc_day_prices[i + j][0];"
+}

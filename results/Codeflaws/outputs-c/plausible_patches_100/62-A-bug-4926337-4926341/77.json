@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "printf(\"NO\\n\");",
+    "patch": "fprintf(stdout, \"YES\\n\");",
+    "target": "printf(\"YES\\n\");"
+}

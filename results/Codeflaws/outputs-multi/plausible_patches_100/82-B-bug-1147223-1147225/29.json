@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "",
     "patch": "if(m == 1) { printf(\"1 %d\\n\", sets[0].size); for(j = 0; j < sets[i].size; j ++) scanf(\"%d\", sets[i].values + j); }",
     "target": "return 0;"

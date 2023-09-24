@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": true,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "",
     "patch": "if(flag==2*a[k][0]+a[k][1]) { flag=0; break; }",
     "target": "flag=0;"

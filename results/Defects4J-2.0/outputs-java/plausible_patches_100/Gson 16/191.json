@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "",
+    "patch": "if (toResolve == toResolve) { return toResolve; }",
+    "target": "if (visitedTypeVariables.contains(typeVariable)) {"
+}

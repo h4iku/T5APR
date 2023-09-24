@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "#define N 13+1",
     "patch": "#define N 135+1",
     "target": "#define N 26+1"

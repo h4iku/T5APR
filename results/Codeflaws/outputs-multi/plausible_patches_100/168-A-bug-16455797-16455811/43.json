@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "float n, x, y, r = 0;",
     "patch": "int r = 0; float n, x, y;",
     "target": "float n, x, y; int r;"

@@ -1,9 +1,0 @@
-{
-    "exact_match": false,
-    "correct": false,
-    "plausible": true,
-    "hunks": false,
-    "source": "return sumYY - sumXY * sumXY / sumXX;",
-    "patch": "return Math.abs(sumYY - sumXY * sumXY / sumXX);",
-    "target": "return Math.max(0d, sumYY - sumXY * sumXY / sumXX);"
-}

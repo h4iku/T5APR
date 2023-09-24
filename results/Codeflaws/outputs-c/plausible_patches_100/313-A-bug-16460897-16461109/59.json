@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "c=n%10;",
+    "patch": "c=abs(n%10);",
+    "target": "c=(-1*n)%10;"
+}

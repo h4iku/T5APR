@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "vertexes -= 1;",
+    "patch": "tmpr = points[i].left;",
+    "target": ""
+}

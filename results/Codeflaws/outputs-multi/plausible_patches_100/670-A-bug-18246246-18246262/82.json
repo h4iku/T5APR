@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if(i%7 == 5 || i%7 == 6) min++;",
     "patch": "if(i%7 == 6 || i%7 == 0) min++;",
     "target": "if(i%7 == 0 || i%7 == 6) min++;"

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "else {",
+    "patch": "else if (strcmp(r, \"abba\")) {",
+    "target": "else if (strcmp(cr, r)) {"
+}

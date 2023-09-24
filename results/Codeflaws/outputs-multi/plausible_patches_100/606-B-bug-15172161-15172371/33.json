@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": true,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "",
     "patch": "if(a[p][q]!=1) a[p][q]=1; else printf(\"0 \");",
     "target": "a[p][q]=1;"

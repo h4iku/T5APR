@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "printf(\"%d \",j);",
     "patch": "fprintf(stdout, \"%d \", j);",
     "target": "printf(\"%d\",j); if(i!=(a-1)) printf(\" \");"

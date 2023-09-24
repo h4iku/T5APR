@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "while(st[i]==st[i+1]&&m<=5)",
     "patch": "while((st[i]==st[i+1]&&m<5))",
     "target": "while(st[i]==st[i+1]&&m<5)"

@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "int n,i,a[99],temp1,temp2,x,y;",
     "patch": "int n,i,a[99],temp1,temp2,x,y,node;",
     "target": "int n,i,a[99],temp1,temp2,x=0,y=0;"

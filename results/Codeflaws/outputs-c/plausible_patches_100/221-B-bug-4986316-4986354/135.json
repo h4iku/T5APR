@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "scanf(\"%d\",&x);int p[100],q[100];",
+    "patch": "scanf(\"%d\",&x); int p[1024],q[1024];",
+    "target": "scanf(\"%d\",&x);int p[100000],q[100];"
+}

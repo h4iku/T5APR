@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "minarr[0]=minarr[1]=0;",
+    "patch": "minarr[0]=0,minarr[1]=1;",
+    "target": "minarr[0]=0; minarr[1]=1;"
+}

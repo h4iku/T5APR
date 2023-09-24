@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if(c<1||c>9||c==a||c==b||x!=b)continue;",
     "patch": "if(c<1 || c>9||c==a||c==b) continue;",
     "target": "if(c<1||c>9||c==a||c==b||x!=c)continue;"

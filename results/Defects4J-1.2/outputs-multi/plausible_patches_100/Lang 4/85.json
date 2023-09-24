@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "this.lookupMap.put(seq[0], seq[1]);",
+    "patch": "this.lookupMap.put(seq[0].toString(), seq[1].toString());",
+    "target": "this.lookupMap.put(seq[0].toString(), seq[1]);"
+}

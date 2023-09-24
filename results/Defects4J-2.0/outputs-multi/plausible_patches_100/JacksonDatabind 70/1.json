@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "found = key.equals(prop.getName());",
     "patch": "found = key.equalsIgnoreCase(prop.getName());",
     "target": "found = key.equals(_hashArea[i-1]);"

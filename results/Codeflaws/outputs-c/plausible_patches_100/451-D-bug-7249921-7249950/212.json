@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "long long a_odd = 0, a_even = 0, b_odd = 0, b_even, odd = 0, even = 0, i = 0;",
+    "patch": "long long a_odd = 0, a_even = 0, b_even = 0, b_odd = 0, odd = 0, even = 0, i = 0;",
+    "target": "long long a_odd = 0, a_even = 0, b_odd = 0, b_even = 0, odd = 0, even = 0, i = 0;"
+}

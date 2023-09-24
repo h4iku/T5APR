@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "max=0;min=0;",
+    "patch": "max=(int)0;min=(int)min;",
+    "target": "max=0;"
+}

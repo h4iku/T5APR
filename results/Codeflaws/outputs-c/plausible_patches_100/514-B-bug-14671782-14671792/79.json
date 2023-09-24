@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "for (i = 0; i < n; i++) printf (\"%hd %hd %hd/%hu\\n\",st[i].x,st[i].y,st[i].tn,st[i].td);",
+    "patch": "if (n < 1) { for (i = 0; i < n; i++) printf (\"%hd %hd/%hu\\n\",st[i].x,st[i].y,st[i].tn,st[i].td); }",
+    "target": ""
+}

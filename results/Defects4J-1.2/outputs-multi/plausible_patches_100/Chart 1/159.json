@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if (dataset != null) {",
+    "patch": "if (dataset!= this.plot.getDataset(index)) {",
+    "target": "if (dataset == null) {"
+}

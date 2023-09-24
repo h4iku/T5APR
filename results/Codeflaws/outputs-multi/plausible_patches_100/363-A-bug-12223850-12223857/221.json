@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": true,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "{printf(\"0-|-0000\");return 0;}",
     "patch": "sor(x);",
     "target": "{printf(\"O-|-OOOO\");return 0;}"

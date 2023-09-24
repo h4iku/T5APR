@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "return val;",
+    "patch": "return null!= val? val : \"\";",
+    "target": "return Attributes.checkNotNull(val);"
+}

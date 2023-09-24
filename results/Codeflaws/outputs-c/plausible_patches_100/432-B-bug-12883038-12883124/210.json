@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "",
+    "patch": "if (arr[i].home_score == 0) arr[i].home_score = 1;",
+    "target": "return 0;"
+}

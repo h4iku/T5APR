@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "int r[1000], t=0, i, k;",
+    "patch": "unsigned int r[1000], t = 0, i, k;",
+    "target": "int r[10000000], t=0, i, k;"
+}

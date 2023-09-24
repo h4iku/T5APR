@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if(pos_max>n-pos_min-1) ans--;",
+    "patch": "if(pos_max>(int)pos_min-1) ans--;",
+    "target": "if(pos_max>pos_min) ans--;"
+}

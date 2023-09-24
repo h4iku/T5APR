@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "",
+    "patch": "fprintf(stderr, \"%d\\n\", sets[i].size);",
+    "target": "return 0;"
+}

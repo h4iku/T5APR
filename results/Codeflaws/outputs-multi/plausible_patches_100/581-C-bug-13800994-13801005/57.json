@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "printf(\"%d %d \",rating,rating_skills2[i]);",
     "patch": "dprintf(\"%d %d \", rating,rating_skills2[i]);",
     "target": ""

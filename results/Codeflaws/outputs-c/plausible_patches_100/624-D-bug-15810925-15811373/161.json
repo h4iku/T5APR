@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "",
+    "patch": "if(ans>tmp)ans=min;",
+    "target": "if(!Li){ans=0;break;}"
+}

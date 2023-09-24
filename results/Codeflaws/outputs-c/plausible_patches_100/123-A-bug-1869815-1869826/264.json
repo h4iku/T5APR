@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "b[max]-=len-num+1;",
+    "patch": "b[max]-=len - (num+1);",
+    "target": "b[max]-=len-num-1;"
+}

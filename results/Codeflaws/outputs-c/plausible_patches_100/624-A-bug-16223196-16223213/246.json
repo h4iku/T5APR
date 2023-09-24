@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "dtime = ((L-d) / (v1 + v2));",
+    "patch": "dtime = ((L-d) / (v1 + v2 - dtime));",
+    "target": "dtime = ((L-d)*1.0 / (v1 + v2));"
+}

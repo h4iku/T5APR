@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "printf(\"%I64\\n\", sols[n]);",
     "patch": "printf(\"%ld\\n\", (int) sols[n]);",
     "target": "printf(\"%lld\\n\", sols[n]);"

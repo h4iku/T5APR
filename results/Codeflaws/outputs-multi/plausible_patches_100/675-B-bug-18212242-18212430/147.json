@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "printf(\"%I64u\\n\",(n-w)*(U)n);",
     "patch": "printf(\"%I64u\\n\",(n+w)*(U)n);",
     "target": "printf(\"%I64u\\n\",(n>w?n-w:0)*(U)n);"

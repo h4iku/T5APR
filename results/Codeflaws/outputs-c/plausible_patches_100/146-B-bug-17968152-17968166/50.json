@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "c=a;",
+    "patch": "c = (int)(a+1);",
+    "target": "c=a+1;"
+}

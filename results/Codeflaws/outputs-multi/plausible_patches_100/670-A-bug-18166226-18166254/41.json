@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "min=min+1;",
     "patch": "if(c==3) max=max+1;",
     "target": ""

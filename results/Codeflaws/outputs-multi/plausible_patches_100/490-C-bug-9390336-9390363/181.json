@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "r[0]=num;",
     "patch": "num = num;",
     "target": "r[0]=num%2;"

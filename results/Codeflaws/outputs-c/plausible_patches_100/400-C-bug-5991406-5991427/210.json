@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "u=r+1-t;",
+    "patch": "u = c+1-t;",
+    "target": "u=c+1-t;"
+}

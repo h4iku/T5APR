@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": true,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "t2=h+ta;",
+    "patch": "t2 = t1+ta;",
+    "target": "t2=t1+ta;"
+}

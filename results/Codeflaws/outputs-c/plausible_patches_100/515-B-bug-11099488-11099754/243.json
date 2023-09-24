@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "while(k<m*n){",
+    "patch": "while(k<m*n+k){",
+    "target": "while(k<=10000){"
+}

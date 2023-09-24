@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "char a,ars[30]={\"qwertyuiopasdfghjkl;zxcvbnm,./\"},arr[50];",
+    "patch": "static char a,ars[30]={\"qwertyuiopasdfghjkl;zxcvbnm,./\"},arr[50];",
+    "target": "char a,ars[30]={\"qwertyuiopasdfghjkl;zxcvbnm,./\"},arr[103];"
+}

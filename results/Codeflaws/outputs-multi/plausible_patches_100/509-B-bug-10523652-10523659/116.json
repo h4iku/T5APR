@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "printf(\"No\\n\");",
     "patch": "printf(\"NO\\n\",pile);",
     "target": "printf(\"NO\\n\");"

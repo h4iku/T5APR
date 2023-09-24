@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if(ch[j]=='B'&&(ch[j-1]=='G'||ch[j+1]=='G'))",
+    "patch": "if(ch[j]=='B'&&(ch[j-1]=='M'||ch[j+1]=='G'))",
+    "target": "if(ch[j]=='B'&&ch[j+1]=='G')"
+}

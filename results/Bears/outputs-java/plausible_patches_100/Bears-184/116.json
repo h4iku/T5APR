@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": ".filter(it -> it.getJavaType().equals(entity))",
+    "patch": ".filter(it -> entity.isAssignableFrom(entity))",
+    "target": ".filter(it -> entity.equals(it.getJavaType()))"
+}

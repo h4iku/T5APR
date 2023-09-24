@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": true,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if (tab[j]-tab[i]==x)   s++;",
     "patch": "if (tab[j]-tab[i]<=x)   s++;",
     "target": "s++;"

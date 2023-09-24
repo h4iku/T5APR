@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "printf(\"%d\\n\",sum);",
     "patch": "printf(\"%ld\\n\", (long int)sum);",
     "target": "printf(\"%lli\\n\",sum);"

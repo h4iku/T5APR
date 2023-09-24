@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "char line[32], result[32] ;",
+    "patch": "char line[256]; char result[256];",
+    "target": "char line[100000 + 3], result[100000 + 3] ;"
+}

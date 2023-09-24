@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if( n - q*n_div_k >= n_div_k ){",
     "patch": "if( n - q*n_div_k > 1 ){",
     "target": "if( n - q*n_div_k >= n_div_k  && q < k ){"

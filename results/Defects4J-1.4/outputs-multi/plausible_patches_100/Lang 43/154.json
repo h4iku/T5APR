@@ -1,9 +1,0 @@
-{
-    "exact_match": false,
-    "correct": false,
-    "plausible": true,
-    "hunks": false,
-    "source": "",
-    "patch": "if (pos.getIndex() > 0) { next(pos); }",
-    "target": "next(pos);"
-}

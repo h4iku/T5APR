@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "int j = 4 * n - 1;",
+    "patch": "int j = -1 * n - 1;",
+    "target": "int j = 4 * (n - 1);"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "catch (org.mockito.exceptions.verification.junit.ArgumentsAreDifferent e) {",
+    "patch": "catch ( AssertionError e) {",
+    "target": "catch (AssertionError e) {"
+}

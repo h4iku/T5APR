@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "gets(s);",
+    "patch": "if(gets(s)) gets(s);",
+    "target": "scanf(\"%d %s\",&m,s);"
+}

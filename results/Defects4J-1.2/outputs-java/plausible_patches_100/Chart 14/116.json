@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": true,
+    "source": "",
+    "patch": "markers = new ArrayList();",
+    "target": "} if (markers == null) { return false;"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if(a[k][0]>= min && a[k][0]<= max   || a[k][1]>= min && a[k][1]<= max){",
+    "patch": "if(a[k][0]>= min && a[k][0]<= max   || a[k][1]>= min && a[k][0]<= max){",
+    "target": "if(a[k][0]>= min && a[k][0]<= max   || a[k][1]>= min && a[k][1]<= max  || min>=a[k][0]&&min<=a[k][1] ){"
+}

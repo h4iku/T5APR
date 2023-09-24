@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "ara[n-1]=b-s;",
     "patch": "ara[n-1]+=b-s;",
     "target": "ara[n-1]=b-s+1;"

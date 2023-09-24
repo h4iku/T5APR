@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if(str[i]=='W',str[i+1]=='U',str[i+2]=='B')",
+    "patch": "if(str[i]=='W',str[i+1]=='U' &&str[i+2]=='B')",
+    "target": "if(str[i]=='W'&&str[i+1]=='U'&&str[i+2]=='B')"
+}

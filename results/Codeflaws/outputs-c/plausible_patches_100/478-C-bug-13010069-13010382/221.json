@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "t+=2*floor(r/3);",
+    "patch": "t+=r-ceil(r/3);",
+    "target": "t+=r-ceil(r/3);"
+}

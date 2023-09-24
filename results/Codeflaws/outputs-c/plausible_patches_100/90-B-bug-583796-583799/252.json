@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "printf(\"%d %d\\n\", n, m);",
+    "patch": "memset(from_grid, 0, sizeof(from_grid));",
+    "target": ""
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "char br[10];",
+    "patch": "char br[10*100];",
+    "target": "char br[100001];"
+}

@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "printf(\"i=%d\\n temp=%d \\n count=%d\\n arr[i]=%d\\n\\n \", i,temp,count,arr[i]);",
     "patch": "dprintf(\"i=%d\\n temp=%d \\n count=%d\\n arr[i]=%d\\n \", i,temp,count,arr[i]);",
     "target": ""

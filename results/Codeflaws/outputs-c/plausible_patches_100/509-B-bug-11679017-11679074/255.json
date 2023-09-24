@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if((max/k-min/k)>1||(min%k-max%k)>1)",
+    "patch": "if(max>1 || (min%k-max%k)>1)",
+    "target": "if((max/k-min/k)>1||(max%k-min%k)>=1)"
+}

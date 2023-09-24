@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "for(k = 0; k <= n + j - i; k++){",
+    "patch": "for(k = 0; k <= n + j - i - m; k++){",
+    "target": "for(k = 0; k < n + j - i; k++){"
+}

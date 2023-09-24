@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "for(f = z ; f-z<t ;++f)",
     "patch": "for(f = z; f-z<=t ;++f)",
     "target": "for(f = z+1 ; f-z<=t ;++f)"

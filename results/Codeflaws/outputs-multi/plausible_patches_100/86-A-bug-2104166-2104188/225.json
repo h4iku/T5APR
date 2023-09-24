@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": true,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if(l<x/2)",
     "patch": "if(l <= x / 2)",
     "target": "if(l<=x/2)"

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "",
+    "patch": "else if(temp1==0) temp1=temp;",
+    "target": "else temp1=temp;"
+}

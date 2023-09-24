@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "for (i = 2; primes[i]<n; ++i)",
     "patch": "for (i = 2; primes[i-1]<n; ++i)",
     "target": "for (i = 2; primes[i]<=n; ++i)"

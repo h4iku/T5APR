@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if ((q-p) > 2) sum++;",
+    "patch": "if ((q - p) >= 2) { sum++; }",
+    "target": "if ((q-p) >= 2) sum++;"
+}

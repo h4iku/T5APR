@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": true,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "",
+    "patch": "if (format.getRecordSeparator() == null) { return; }",
+    "target": "if (recordSeparator != null) {"
+}

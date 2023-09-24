@@ -1,9 +1,0 @@
-{
-    "exact_match": true,
-    "correct": true,
-    "plausible": true,
-    "hunks": false,
-    "source": "cal1.get(Calendar.HOUR) == cal2.get(Calendar.HOUR) &&",
-    "patch": "cal1.get(Calendar.HOUR_OF_DAY) == cal2.get(Calendar.HOUR_OF_DAY) &&",
-    "target": "cal1.get(Calendar.HOUR_OF_DAY) == cal2.get(Calendar.HOUR_OF_DAY) &&"
-}

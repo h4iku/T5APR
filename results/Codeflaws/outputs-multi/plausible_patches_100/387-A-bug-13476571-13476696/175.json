@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "else if(a=n && b>m)",
     "patch": "else if(n>=a&& b>m)",
     "target": "else if(a==n && b>m)"

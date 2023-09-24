@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if(negative % 2 == 0) {",
     "patch": "if(negative >> 2 == 0) {",
     "target": "if(zero + negative == 2) {"

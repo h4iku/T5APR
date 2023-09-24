@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if (fa * fb >= 0.0 ) {",
+    "patch": "if (fa * (float)b >= 0.0 ) {",
+    "target": "if (fa * fb > 0.0 ) {"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "printf(\"yoyo\");",
+    "patch": "dprintf(3, \"yoyo\");",
+    "target": ""
+}

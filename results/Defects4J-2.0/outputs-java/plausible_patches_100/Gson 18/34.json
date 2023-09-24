@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "",
+    "patch": "if (contextRawType.isAssignableFrom(contextRawType)) { return context; }",
+    "target": "if (context instanceof WildcardType) {  context = ((WildcardType)context).getUpperBounds()[0]; }"
+}

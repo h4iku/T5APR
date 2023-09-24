@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "while(~scanf(\"%d\",&a)&&a>0){",
     "patch": "while(~scanf(\"%d\", &a)&&a>=0){",
     "target": "while(~scanf(\"%d\",&a)&&a>=0){"

@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "printf(\"%d\",arr[a]);",
     "patch": "printf(\"%d \",arr[a], arr[b]);",
     "target": "printf(\"%d \",arr[a]);"

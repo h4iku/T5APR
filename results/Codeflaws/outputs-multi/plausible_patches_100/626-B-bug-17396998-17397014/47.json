@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if((b>1 && r==1 && g==0)||(b>1 && r==0 && g==0))",
     "patch": "if((b>1 && r==1 && g==0)||(b>1 && r==0) || (b==1 && r==0 && g==0))",
     "target": "if((b>1 && r==1 && g==0)||(b>1 && r==0 && g==1))"

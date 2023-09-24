@@ -2,7 +2,7 @@
     "exact_match": true,
     "correct": true,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "int y = a[n-1]-a[0];",
     "patch": "int y = a[0]-a[n-1];",
     "target": "int y = a[0]-a[n-1];"

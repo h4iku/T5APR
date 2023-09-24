@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "",
     "patch": "while (m >= 0 && rem < prize[m]) { m--; continue; }",
     "target": "cho[i] += rem; rem = 0;"

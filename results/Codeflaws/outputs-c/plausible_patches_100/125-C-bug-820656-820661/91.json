@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "for(k=n;k>=0;k--) if((k*(k+1))/2<n) break;",
+    "patch": "for(k=n;k>=0;k--) { if((k*(k+1))/2<=n) break; }",
+    "target": "for(k=n;k>=0;k--) if((k*(k+1))/2<=n) break;"
+}

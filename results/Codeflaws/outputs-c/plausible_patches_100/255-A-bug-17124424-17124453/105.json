@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "printf(\"backc\\n\");",
+    "patch": "printf(\"back\");",
+    "target": "printf(\"back\\n\");"
+}

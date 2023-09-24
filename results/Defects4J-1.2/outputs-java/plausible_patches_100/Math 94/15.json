@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if (u * v == 0) {",
+    "patch": "if ((u == 0) || (v == 0)) {",
+    "target": "if ((u == 0) || (v == 0)) {"
+}

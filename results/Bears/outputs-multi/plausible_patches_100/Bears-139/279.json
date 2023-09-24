@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if (!started) {",
     "patch": "if (count > 6) {",
     "target": "if (data.length > 2) {"

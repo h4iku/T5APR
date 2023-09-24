@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "int dp[500100];",
     "patch": "size_t dp[5001000];",
     "target": "int dp[51*10010];"

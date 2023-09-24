@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "return (c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z');",
     "patch": "return (c >= 'A' && c <= 'Z' || c >= 'a' && c <= 'z' || c >= 'a' && c >= 'z');",
     "target": "return (c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z') || Character.isLetter(c);"

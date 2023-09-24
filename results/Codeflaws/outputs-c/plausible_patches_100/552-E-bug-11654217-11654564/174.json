@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "for(i=-2;S[i+=2];)",
+    "patch": "for(i=-2;S[i+=2]>=0;)",
+    "target": "for(i=-2;S[i+=2];M[i>>1][j>>1]=M[i>>1][(j-2)>>1])"
+}

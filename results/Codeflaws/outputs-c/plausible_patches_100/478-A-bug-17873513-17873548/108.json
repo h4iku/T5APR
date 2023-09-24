@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if(sum==avg*5)",
+    "patch": "if(sum==avg*5 && sum>1)",
+    "target": "if(sum==avg*5&&sum!=0)"
+}

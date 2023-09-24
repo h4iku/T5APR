@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": true,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "long long int sum,lim,i,a[10001],cnt,j,ans[10001];",
     "patch": "long long int sum,lim,i,a[100100],cnt,j,ans[100100];",
     "target": "long long int sum,lim,i,a[100001],cnt,j,ans[100001];"

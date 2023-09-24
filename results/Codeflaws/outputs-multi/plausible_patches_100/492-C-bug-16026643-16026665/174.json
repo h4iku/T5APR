@@ -2,7 +2,7 @@
     "exact_match": true,
     "correct": true,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if(arr[k][1]<5){",
     "patch": "if(arr[k][1]<r){",
     "target": "if(arr[k][1]<r){"

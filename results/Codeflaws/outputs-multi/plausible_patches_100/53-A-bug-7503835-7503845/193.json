@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if(strcmp(c[i],b)>0)",
     "patch": "if((strcmp(c[i],b)>0) == 0)",
     "target": "if(strcmp(b,c[i])>0)"

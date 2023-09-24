@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "printf(\"%d\\n\", (tab[n1][n2][0]+tab[n1][n2][1])%10000000);",
+    "patch": "printf(\"%ld\\n\", (tab[n1][n2][0]+tab[n1][n2][1])%100000000);",
+    "target": "printf(\"%d\\n\", (tab[n1][n2][0]+tab[n1][n2][1])%100000000);"
+}

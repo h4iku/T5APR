@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "else printf(\"%lf\", fval(cx, cy));",
+    "patch": "else if (fval(cx, cy) < eps) printf(\"%.5lf %.5lf\", cx, cy);",
+    "target": ""
+}

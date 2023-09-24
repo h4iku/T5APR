@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "printf(\"remove_zeros(a + b) %d\\n\", remove_zeros(a + b)); printf(\"(remove_zeros(a) + remove_zeros(b)) %d\\n\", (remove_zeros(a) + remove_zeros(b)));",
+    "patch": "fprintf(stderr, \"remove_zeros(a + b) %d\\n\", (remove_zeros(a + b) + remove_zeros(b)));",
+    "target": ""
+}

@@ -1,9 +1,0 @@
-{
-    "exact_match": false,
-    "correct": false,
-    "plausible": true,
-    "hunks": false,
-    "source": "",
-    "patch": "return (str.charAt(1) == 'R' || str.charAt(1) == 'R') && (str.charAt(2) == 'U') && (str.charAt(3) == 'e' || str.charAt(3) == 'E');",
-    "target": "return false;"
-}

@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "while (n-- && t>z){",
     "patch": "while (n-- && (t >= z)){",
     "target": "while (n-- && t>=z){"

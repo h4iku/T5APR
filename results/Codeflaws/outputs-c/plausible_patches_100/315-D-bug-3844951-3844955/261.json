@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if (curChk==0&&i>lenS){",
+    "patch": "if (curChk==i+1){",
+    "target": "if (curChk==0&&i>lenL){"
+}

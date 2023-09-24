@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "printf(\"%09d - %d %d [%d %d %d %d]\\n\", h, pa->x, pa->y, x[i], y[i], x[j], y[j]);",
     "patch": "printf(\"\\09d - %d %d [%d %d %d %d]\\n\", h, pa->x, pa->y, x[i], y[i], x[j], y[j]);",
     "target": ""

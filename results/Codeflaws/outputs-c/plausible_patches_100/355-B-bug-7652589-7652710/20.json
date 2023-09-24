@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "int k = (ftrol*c1 > c3 ) ? c3 : ftrol*c1;",
+    "patch": "int k = (ftrol *c1 > c2 )? c2 : ftrol *c1;",
+    "target": "int k = (ftrol*c1 > c2 ) ? c2 : ftrol*c1;"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if(f||fmod(b,n))",
+    "patch": "if (f || fmod(b,n) < 0)",
+    "target": "if(f)"
+}

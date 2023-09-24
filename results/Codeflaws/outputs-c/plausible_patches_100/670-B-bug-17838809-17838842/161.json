@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "for(r = 1; (r*(r+1))/2 <= k; r++);",
+    "patch": "for(r = 1; (r*(r+1))/2 <= k; r++, k++);",
+    "target": "for(r = 1; (r*(r+1))/2 < k; r++);"
+}

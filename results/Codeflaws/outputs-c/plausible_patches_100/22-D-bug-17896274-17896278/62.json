@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "NAILS[minor++]=right;",
+    "patch": "NAILS[minor+++1]=right;",
+    "target": "minor++; NAILS[minor]=right;"
+}

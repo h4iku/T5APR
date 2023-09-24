@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if( t+1 < r)",
+    "patch": "if (t < r)",
+    "target": "if( t < r)"
+}

@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "p = i;",
     "patch": "s[i] = '.';",
     "target": "p = i + 1;"

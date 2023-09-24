@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "for(j = 0; j < n; j++)\tif(H[j] > max)\tmax = H[j];",
     "patch": "for(j = 0; j < i; j++) { if(H[j] > max) max = H[j]; }",
     "target": "for(j = 0; j < n; j++)\tif(H[j] > max && H[j])\tmax = H[j];"

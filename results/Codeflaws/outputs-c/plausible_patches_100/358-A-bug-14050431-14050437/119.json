@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "ptr->b = ptr->a;",
+    "patch": "ptr->a = ptr->a; ptr->b = aux;",
+    "target": "ptr->b = aux;"
+}

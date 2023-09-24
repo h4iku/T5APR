@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "",
+    "patch": "for(j = 0; j < sets[0].size; j++) scanf(\"%d\", sets[i].values[j]);",
+    "target": "return 0;"
+}

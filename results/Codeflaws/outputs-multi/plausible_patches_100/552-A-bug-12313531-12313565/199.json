@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "int array[102][102];",
     "patch": "int array[1024][1026];",
     "target": "int array[102][102]={0};"

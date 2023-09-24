@@ -2,7 +2,7 @@
     "exact_match": true,
     "correct": true,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if(fabs(sum1-sum2)>2||fabs(sum1-sum3)>2||fabs(sum2-sum3)>2)",
     "patch": "if(fabs(sum1-sum2)>=2||fabs(sum1-sum3)>=2||fabs(sum2-sum3)>=2)",
     "target": "if(fabs(sum1-sum2)>=2||fabs(sum1-sum3)>=2||fabs(sum2-sum3)>=2)"

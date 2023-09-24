@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "for(i = 1, j = n * n; i <= n; i++, j--) printf(\"%d %d\\n\", i, j);",
     "patch": "for(i = 1, j = n * n; i <= j; i++, j--) { printf(\"%d %d\\n\", i, j); }",
     "target": "for(i = 1, j = n * n; j > i; i++, j--) printf(\"%d %d\\n\", i, j);"

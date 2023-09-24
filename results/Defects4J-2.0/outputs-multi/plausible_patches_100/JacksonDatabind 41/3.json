@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": true,
+    "multi-hunk": true,
     "source": "return _fromAny(null, type, contextType.getBindings());",
     "patch": "return constructType(type);",
     "target": "TypeBindings bindings = (contextType == null) ? TypeBindings.emptyBindings() : contextType.getBindings(); return _fromAny(null, type, bindings);"

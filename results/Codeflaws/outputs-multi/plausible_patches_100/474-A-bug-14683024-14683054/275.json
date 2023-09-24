@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if(direction=='R'&&a[i]=='w') {printf(\"/\");}",
     "patch": "if(direction=='R'&&a[i]=='w' && a[i]=='e') {printf(\"w\");}",
     "target": ""

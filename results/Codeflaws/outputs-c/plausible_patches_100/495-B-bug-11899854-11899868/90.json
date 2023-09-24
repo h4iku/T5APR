@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if(c!=c/i)",
+    "patch": "if(c!=i*i)",
+    "target": "if(i!=(c/i))"
+}

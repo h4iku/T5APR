@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "",
+    "patch": "while(i < sets[0].size && j < sets[1].values[j]) i++;",
+    "target": "return 0;"
+}

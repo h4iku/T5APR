@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if (validate) { option.validate(commandLine); }",
+    "patch": "if (validate) { option.validate(commandLine); return; }",
+    "target": ""
+}

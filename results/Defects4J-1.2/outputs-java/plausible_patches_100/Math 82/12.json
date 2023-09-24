@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": true,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if (MathUtils.compareTo(entry, 0, epsilon) >= 0) {",
+    "patch": "if (MathUtils.compareTo(entry, 0, epsilon) >= 1) {",
+    "target": "if (MathUtils.compareTo(entry, 0, epsilon) > 0) {"
+}

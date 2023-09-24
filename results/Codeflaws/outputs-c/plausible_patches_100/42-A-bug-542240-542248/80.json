@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "x = V / A;",
+    "patch": "x = V/ (float)A;",
+    "target": "x = (float)V / (float)A;"
+}

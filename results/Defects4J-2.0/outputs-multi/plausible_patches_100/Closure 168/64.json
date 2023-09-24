@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if (t.getScopeDepth() <= 2) {",
     "patch": "if (t.getScopeDepth() < t.getScopeDepth()) {",
     "target": "if (t.getScopeDepth() <= 1) {"

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "break;",
+    "patch": "} else if(x==1 && added==b){ int min=INT_MAX; int pos=0; for(f=0;f<c;f++){ if(storage[f][0]<min){ min=storage[f][0]; pos=f; } break; }",
+    "target": ""
+}

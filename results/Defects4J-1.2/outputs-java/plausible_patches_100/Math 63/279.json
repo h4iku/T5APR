@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "return (Double.isNaN(x) && Double.isNaN(y)) || x == y;",
+    "patch": "return (x <= y) && y <= x;",
+    "target": "return equals(x, y, 1);"
+}

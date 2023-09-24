@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "",
     "patch": "printf(\"\\n\"); printf(\"%d %d %d %d \", c, a, ordem[2], b);",
     "target": "vet[c] = 1; vet[d] = 1;"

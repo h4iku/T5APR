@@ -1,9 +1,0 @@
-{
-    "exact_match": false,
-    "correct": false,
-    "plausible": true,
-    "hunks": true,
-    "source": "removeDuplicateDeclarations(root);",
-    "patch": "this.removeDuplicateDeclarations(root);",
-    "target": ""
-}

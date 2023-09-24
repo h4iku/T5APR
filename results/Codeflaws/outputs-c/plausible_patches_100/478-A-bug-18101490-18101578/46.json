@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if(sum==0) printf(\"-1\");",
+    "patch": "if(sum==0){ fprintf(stderr, \"-1\"); }",
+    "target": ""
+}

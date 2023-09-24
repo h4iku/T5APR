@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "",
+    "patch": "a[i]=x%10,d++,x/=10;",
+    "target": "if(x==0) a[0]=0,d++;"
+}

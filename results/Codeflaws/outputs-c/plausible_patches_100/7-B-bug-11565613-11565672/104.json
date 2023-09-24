@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if(st==0)",
+    "patch": "if(st==0 || arr[0]==x)",
+    "target": "if(st==0 || x==0)"
+}

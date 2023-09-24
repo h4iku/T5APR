@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "char n,k,i,j,abc[26]={0};",
+    "patch": "int n,k,i, j,abc[26]={0};",
+    "target": "int n,k,i,j,abc[26]={0};"
+}

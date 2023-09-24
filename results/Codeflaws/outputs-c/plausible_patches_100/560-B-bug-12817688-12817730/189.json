@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "else if(b[1]+a[2]<=b[0] && b[2]<=b[0] && a[1]<=b[0]) printf(\"YES\");",
+    "patch": "else if(b[1]+a[2]<=b[0] && b[2]<=a[0] && a[1]<=a[0]) printf(\"YES\");",
+    "target": "else if(b[1]+a[2]<=b[0] && b[2]<=a[0] && a[1]<=a[0]) printf(\"YES\");"
+}

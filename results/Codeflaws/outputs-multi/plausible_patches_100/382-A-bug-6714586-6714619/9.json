@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": true,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "",
     "patch": "if(a==b) { p=a-b; q=strlen(t)-p; if(q==0){ for(i=0;i<p;i++) printf(\"%c\",t[i]); printf(\"%s\",s); for(i=q/2;t[i]!='\\0';i++) printf(\"%c\",t[i]); } else printf(\"Impossible\"); } else puts(\"Impossible\");",
     "target": "else printf(\"Impossible\");"

@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "printf(\"%lld %lld\\n\",max,min);",
     "patch": "printf(\"%lld %lld\\n\",min, max);",
     "target": "printf(\"%lld %lld\\n\",min,max);"

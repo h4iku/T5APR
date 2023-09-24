@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if(s[0]==16){",
+    "patch": "if(s[0]==16 || s[0]==90){",
+    "target": "if(s[0]>=16){"
+}

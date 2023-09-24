@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if(ans[i]) printf(\"%d \",i);",
     "patch": "if(ans[i])printf(\"%d \",ans[i]);",
     "target": "if(ans[i]) printf(\"%d \",1);"

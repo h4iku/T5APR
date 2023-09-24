@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "this(time, RegularTimePeriod.DEFAULT_TIME_ZONE, Locale.getDefault());",
+    "patch": "this(time, TimeZone.getDefault(), Locale.getDefault());",
+    "target": "this(time, zone, Locale.getDefault());"
+}

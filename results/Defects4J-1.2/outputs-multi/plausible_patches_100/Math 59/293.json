@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": true,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "return (a <= b) ? b : (Float.isNaN(a + b) ? Float.NaN : b);",
+    "patch": "return Math.max(a, Math.max(b, a));",
+    "target": "return (a <= b) ? b : (Float.isNaN(a + b) ? Float.NaN : a);"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "int k[1000][1000],i,j,c1=0,x,y,f=0,r,s,b,a;",
+    "patch": "int k[1000][1000],i,j,c1=0,x,y,f=0,r,s,b,a,flags;",
+    "target": "int k[5000][5000],i,j,c1=0,x,y,f=0,r,s,b,a;"
+}

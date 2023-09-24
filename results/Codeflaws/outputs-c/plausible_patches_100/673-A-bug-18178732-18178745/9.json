@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "printf(\"Hai\\n\");",
+    "patch": "if(flag==1) printf(\"Hai\\n\");",
+    "target": ""
+}

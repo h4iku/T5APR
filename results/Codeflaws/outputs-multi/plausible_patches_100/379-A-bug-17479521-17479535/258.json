@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "while(a/b==0)",
     "patch": "while((unsigned int)(a/b))",
     "target": "while(a/b!=0)"

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if(A[i][j] == 512) {",
+    "patch": "if(A[i][j] >= (int) 512) {",
+    "target": "if(A[i][j] >= 512) {"
+}

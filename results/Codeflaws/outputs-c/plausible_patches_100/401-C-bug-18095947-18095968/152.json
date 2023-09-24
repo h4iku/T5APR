@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if(m>=(n-1) && m<=(n+2)*2)",
+    "patch": "if(m>=(n-1) && m<=(n+2)*2-2)",
+    "target": "if(m>=(n-1) && m<=(n+1)*2)"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "int ev,od,n[101],l,i,x=1,even=0,odd=2;",
+    "patch": "int ev,od,n[101],l,i, even=0,odd=0;",
+    "target": "int ev,od,n[101],l,i,x=1,even=0,odd=0;"
+}

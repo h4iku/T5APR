@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if(Color[b] > 3)",
+    "patch": "if(Color[a] > 3 || Color[c] > 3)",
+    "target": "if(Color[c] > 3)"
+}

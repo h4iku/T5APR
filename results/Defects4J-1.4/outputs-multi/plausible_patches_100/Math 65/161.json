@@ -1,9 +1,0 @@
-{
-    "exact_match": true,
-    "correct": true,
-    "plausible": true,
-    "hunks": true,
-    "source": "chiSquare += residual * residual / residualsWeights[i];",
-    "patch": "chiSquare += residual * residual * residualsWeights[i];",
-    "target": "chiSquare += residual * residual * residualsWeights[i];"
-}

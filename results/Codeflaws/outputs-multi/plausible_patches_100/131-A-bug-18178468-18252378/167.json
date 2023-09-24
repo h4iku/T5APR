@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "out[0]=in[0];",
     "patch": "out[0]=in[0] +32;",
     "target": "out[0]=in[0]+32;"

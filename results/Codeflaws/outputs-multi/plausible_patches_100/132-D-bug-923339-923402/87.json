@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "i = j; continue;",
     "patch": "i = j; break; } if(in[j]=='0'){ res[res_size] = n-j-1; fg[res_size] = -1; res_size++; i = j; continue;",
     "target": "i = j; break;"

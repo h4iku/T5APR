@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "printf(\"%.0f\", stairs[i]);",
     "patch": "printf(\"%s.%.0f\", stairs[i]);",
     "target": ""

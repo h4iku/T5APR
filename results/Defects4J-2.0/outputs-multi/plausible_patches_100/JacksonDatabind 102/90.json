@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if (property == null) { return this; }",
     "patch": "JsonFormat.Value format2 = findFormatOverrides(serializers, property, handledType());",
     "target": ""

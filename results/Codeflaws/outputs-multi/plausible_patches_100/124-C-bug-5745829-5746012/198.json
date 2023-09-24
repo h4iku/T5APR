@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "while(s[i]==c&&time++<=m&&i<k)",
     "patch": "while(s[i]==c&&time++<m&&(i<k))",
     "target": "while(s[i]==c&&++time<=m&&i<k)"

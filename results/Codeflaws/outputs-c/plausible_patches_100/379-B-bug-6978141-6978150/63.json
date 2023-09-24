@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": true,
+    "source": "",
+    "patch": "for(ch=0;ch<n;ch++) if(a[ch]) ch=1;",
+    "target": "flag=1;"
+}

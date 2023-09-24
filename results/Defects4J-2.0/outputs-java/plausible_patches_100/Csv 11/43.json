@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "final boolean emptyHeader = header.trim().isEmpty();",
+    "patch": "final boolean emptyHeader = header == null || header.trim().length() == 0;",
+    "target": "final boolean emptyHeader = header == null || header.trim().isEmpty();"
+}

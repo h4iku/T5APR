@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "printf(\"%d %d %d %d\\n\",0,-xi,-xi,0);",
+    "patch": "printf(\"%d %d %d %d\\n\",0,-xi,xi,0,x);",
+    "target": "printf(\"%d %d %d %d\\n\",0,-xi,xi,0);"
+}

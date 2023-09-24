@@ -2,7 +2,7 @@
     "exact_match": true,
     "correct": true,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "while (dh != 0 && dv != 0) {",
     "patch": "while ((dh!= 0) || (dv!= 0)) {",
     "target": "while (dh != 0 || dv != 0) {"

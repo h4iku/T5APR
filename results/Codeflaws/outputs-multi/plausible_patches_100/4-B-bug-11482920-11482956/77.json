@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if(de>=max[p])",
     "patch": "if(de+de>=max[p])",
     "target": "if(de>=max[p]-min[p])"

@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if(a[i]<min&&a[i]>max)",
     "patch": "if((a[i] < min) || (a[i] > max))",
     "target": "if(a[i]<min || a[i]>max)"

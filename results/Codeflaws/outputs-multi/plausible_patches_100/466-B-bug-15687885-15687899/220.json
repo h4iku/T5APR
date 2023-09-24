@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "int ind=1;",
     "patch": "unsigned int ind;",
     "target": "int ind=0;"

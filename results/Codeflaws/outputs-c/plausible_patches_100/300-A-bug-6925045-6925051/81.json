@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "",
+    "patch": "scanf(\"%d \",&arr[i]);",
+    "target": "if(c1%2==0) a3[c3++]=a1[--c1];"
+}

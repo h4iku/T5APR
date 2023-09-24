@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "",
+    "patch": "fset.values[fset.size] = 0; fset.values[fset.size] = 0;",
+    "target": "return 0;"
+}

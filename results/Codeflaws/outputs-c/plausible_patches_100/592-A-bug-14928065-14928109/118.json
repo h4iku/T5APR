@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if(g>(9-x)&&g>=finalW){",
+    "patch": "if(g>(9-x)&&g>(9-h)){",
+    "target": "if(g>(9-h)&&g>=finalW){"
+}

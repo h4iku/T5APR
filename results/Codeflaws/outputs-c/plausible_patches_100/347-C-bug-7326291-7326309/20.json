@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "else return (b,a%b);",
+    "patch": "else return gcd(b,a%b);",
+    "target": "else return gcd(b,a%b);"
+}

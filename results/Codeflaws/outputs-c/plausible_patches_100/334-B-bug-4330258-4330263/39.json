@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "for(i=0;i<8;i++) printf(\"%ld %ld\\n\",x[i],y[i]);",
+    "patch": "for(i=0;i<8;i++) {scanf(\"%ld %ld\",&x[i],&y[i]); }",
+    "target": ""
+}

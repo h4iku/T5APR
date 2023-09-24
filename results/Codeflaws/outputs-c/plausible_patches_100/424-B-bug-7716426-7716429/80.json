@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "for (c = 0; c < a; ++c) printf(\"%d %.6f\\n\", c, ZA[c]);",
+    "patch": "for (c = 0; c < a; ++c) fprintf(stderr, \" %d %.6f\\n\", c, ZA[c]);",
+    "target": ""
+}

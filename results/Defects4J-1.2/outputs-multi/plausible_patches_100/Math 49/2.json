@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": true,
+    "plausible": true,
+    "multi-hunk": true,
+    "source": "Iterator iter = res.entries.iterator();",
+    "patch": "Iterator iter = this.entries.iterator();",
+    "target": "Iterator iter = entries.iterator();"
+}

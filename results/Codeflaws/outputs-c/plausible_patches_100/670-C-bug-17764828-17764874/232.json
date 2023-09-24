@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "int\tans = -1;",
+    "patch": "int\tans=1;",
+    "target": "int\tans = 1;"
+}

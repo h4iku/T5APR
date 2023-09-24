@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "",
+    "patch": "scanf(\"r[i] %s r[j] %s\\n\",r[i],r[i]);",
+    "target": "return 0;"
+}

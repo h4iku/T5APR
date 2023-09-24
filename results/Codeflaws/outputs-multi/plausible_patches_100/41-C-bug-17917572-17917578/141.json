@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "else if(s[i] == 'a' && s[i + 1] == 't' && i + 1 != u - 1 && !k){",
     "patch": "else if(s[i] == 'a' && s[i + 1] == 't' && i + 1!= u > 0 &&!k){",
     "target": "else if(s[i] == 'a' && s[i + 1] == 't' && i != 0 &&i + 1 != u - 1 && !k){"

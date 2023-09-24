@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if (!((a[0][0] == a[i][i]) && (a[0][0] = a[n-1-i][i]))) ok = 0;",
+    "patch": "if (!((a[0][0] == a[i][i]) && (a[0][0] == a[n-1-i][i]))) { ok = 0; }",
+    "target": "if (!((a[0][0] == a[i][i]) && (a[0][0] == a[n-1-i][i]))) ok = 0;"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "printf(\"k=%lld  n=%lld\",k,n);",
+    "patch": "scanf(\"%lld  n=%lld\",k,n);",
+    "target": ""
+}

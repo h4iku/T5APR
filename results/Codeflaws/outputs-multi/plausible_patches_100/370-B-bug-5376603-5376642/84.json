@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "break ;",
     "patch": "else if(player[i].t == player[j].t) strcpy(player[j].str,\"NO\");",
     "target": ""

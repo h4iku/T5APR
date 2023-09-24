@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "",
+    "patch": "memset(ii, 0, sizeof(ii));",
+    "target": "printf(\"%d \", kk);"
+}

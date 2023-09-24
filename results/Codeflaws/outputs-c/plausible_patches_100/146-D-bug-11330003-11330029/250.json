@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "",
+    "patch": "if(c4-c47 >= 0) printf (\"4\");",
+    "target": "printf(\"4\");"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if (s7 > s7 &&s7 > f7 &&s7 > u7 &&s7 > l7 &&s7 > g7)",
+    "patch": "if (s7 > f7 && s7 > f7 && s7 > u7 && s7 > l7 && s7 > g7)",
+    "target": "if (s7 > j7 &&s7 > f7 &&s7 > u7 &&s7 > l7 &&s7 > g7)"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "int n,i,a[99],temp1,temp2,x,y;",
+    "patch": "int n,i,a[99],temp1 = 0,temp2 = 0,x,y;",
+    "target": "int n,i,a[99],temp1,temp2,x=0,y=0;"
+}

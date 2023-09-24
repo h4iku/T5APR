@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if (sum1[i] - 2 * max + sum2[i + 1] > sum) {",
+    "patch": "if (sum1[i] - 2 * max - sum2[i + 1 ] > sum) {",
+    "target": "if (sum1[i] - 2 * max - sum2[i + 1] > sum) {"
+}

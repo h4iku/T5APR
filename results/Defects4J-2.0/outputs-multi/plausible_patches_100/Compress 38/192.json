@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if (getName().endsWith(\"/\")) {",
     "patch": "if (getUserName().endsWith(\"/\")) {",
     "target": "if (!isPaxHeader() && !isGlobalPaxHeader() && getName().endsWith(\"/\")) {"

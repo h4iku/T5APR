@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": true,
+    "source": "",
+    "patch": "System.exit(0);",
+    "target": "if (Double.isNaN(v) || Double.isInfinite(v)) { return new Double(v); }"
+}

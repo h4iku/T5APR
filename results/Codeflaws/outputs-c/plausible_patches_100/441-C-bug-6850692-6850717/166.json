@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "",
+    "patch": "if (jj < 0) { ii++; fl = 0; jj++; }",
+    "target": "printf(\"%d \", kk);"
+}

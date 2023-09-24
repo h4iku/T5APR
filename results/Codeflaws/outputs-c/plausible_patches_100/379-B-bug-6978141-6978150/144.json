@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": true,
+    "source": "",
+    "patch": "memset(argv, 0, sizeof(argv));",
+    "target": "flag=1;"
+}

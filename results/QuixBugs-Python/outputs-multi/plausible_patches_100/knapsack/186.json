@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": true,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if weight < j:",
     "patch": "if weight <= j and weight > 0:",
     "target": "if weight <= j:"

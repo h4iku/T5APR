@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "int main(int argc, char *argv[]){ freopen(\"in.txt\", \"r\", stdin);",
+    "patch": "main(int argc, const char *argv[]) {",
+    "target": "int main(int argc, char *argv[]){"
+}

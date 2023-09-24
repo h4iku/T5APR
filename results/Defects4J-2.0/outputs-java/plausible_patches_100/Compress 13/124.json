@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "",
+    "patch": "name = name.replace('\\\\', '/');",
+    "target": "if (name != null && getPlatform() == PLATFORM_FAT && name.indexOf(\"/\") == -1) { name = name.replace('\\\\', '/'); }"
+}

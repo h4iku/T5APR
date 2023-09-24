@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "",
     "patch": "if(ans>min)ans=min; printf(\"%I64u\\n\",ans);",
     "target": "if(!Li){ans=0;break;}"

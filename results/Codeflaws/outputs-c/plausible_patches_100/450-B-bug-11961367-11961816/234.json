@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "printf(\"%lld\",ans);",
+    "patch": "printf(\"%ld\",ans%1000000007);",
+    "target": "printf(\"%lld\",ans%1000000007);"
+}

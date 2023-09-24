@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "for (i = 0; i < 30; i++) printf(\"%c \", str[i]); scanf(\"%d\", &index);",
+    "patch": "while (j > 0) { j = j / 10; len++; } h = h + len;",
+    "target": ""
+}

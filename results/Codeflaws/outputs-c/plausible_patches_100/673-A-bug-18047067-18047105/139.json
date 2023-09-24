@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if(i == 1 && a[i] <= 75){",
+    "patch": "if (i >= 1 && a[i] <= 75) {",
+    "target": "if(i == 1 || a[i] <= 75){"
+}

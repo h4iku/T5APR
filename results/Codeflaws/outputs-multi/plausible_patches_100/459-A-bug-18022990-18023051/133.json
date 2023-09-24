@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if(x1-x2!=0 && ((y2-y1)/(x2-x1)==1 || (y2-y1)/(x2-x1)==-1))",
     "patch": "if(x1-x2!=0 && ((x1-x1)/(x2-x1)==1 || (x1-x1)/(x2-x1)==-1))",
     "target": "if(x1-x2!=0 && ((float)(y2-y1)/(x2-x1)==1 || (float)(y2-y1)/(x2-x1)==-1))"

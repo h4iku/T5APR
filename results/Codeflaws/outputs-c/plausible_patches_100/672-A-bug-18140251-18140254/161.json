@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "printf(\"%c\", vec[n]);",
+    "patch": "printf(\"%c\", vec[--n]);",
+    "target": "printf(\"%c\", vec[n-1]);"
+}

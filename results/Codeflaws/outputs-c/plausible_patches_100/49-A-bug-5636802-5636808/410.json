@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if(arr[strlen(arr)-a]=='A' || arr[strlen(arr)-a]=='E' || arr[strlen(arr)-a]=='I' ||arr[strlen(arr)-a]=='O' ||arr[strlen(arr)-a]=='U' || arr[strlen(arr)-a]=='e' || arr[strlen(arr)-a]=='y' || arr[strlen(arr)-a]=='Y' ||arr[strlen(arr)-a]=='i' ||arr[strlen(arr)-a]=='o' ||arr[strlen(arr)-a]=='u' ||arr[strlen(arr)-2]=='a')",
+    "patch": "if(arr[strlen(arr)-a]=='A' || arr[strlen(arr)-a]=='E' || arr[strlen(arr)-a]=='I' || arr[strlen(arr)-a]=='O' || arr[strlen(arr)-a]=='U' || arr[strlen(arr)-a]=='e' || arr[strlen(arr)-a]=='y' || arr[strlen(arr)-a]=='Y' || arr[strlen(arr)-a]=='o' || arr[strlen(arr)-a]=='a' || arr[strlen(arr)-a]=='u' || arr[strlen(arr)-2]=='a')",
+    "target": "if(arr[strlen(arr)-a]=='A' || arr[strlen(arr)-a]=='E' || arr[strlen(arr)-a]=='I' ||arr[strlen(arr)-a]=='O' ||arr[strlen(arr)-a]=='U' || arr[strlen(arr)-a]=='e' || arr[strlen(arr)-a]=='y' || arr[strlen(arr)-a]=='Y' ||arr[strlen(arr)-a]=='i' ||arr[strlen(arr)-a]=='o' ||arr[strlen(arr)-a]=='u' ||arr[strlen(arr)-a]=='a')"
+}

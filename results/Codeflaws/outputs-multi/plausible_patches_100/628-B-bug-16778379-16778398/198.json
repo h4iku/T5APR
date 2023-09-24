@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "printf(\"%i64d\\n\", answer);",
     "patch": "printf(\"%ld\\n\", (long long) answer);",
     "target": "printf(\"%lld\\n\", answer);"

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if(i+K+2>=nl) break;",
+    "patch": "if(i+K>=nl-1) break;",
+    "target": "if(i+K+1>=nl) break;"
+}

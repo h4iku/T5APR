@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "TimeZone tz = (df == null) ? _timeZone : df.getTimeZone();",
+    "patch": "TimeZone tz = _timeZone == null? _timeZone : _dateFormat.getTimeZone();",
+    "target": ""
+}

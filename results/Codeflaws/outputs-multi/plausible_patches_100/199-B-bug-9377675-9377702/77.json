@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "printf(\"Disjoint with inner circle\\n\");",
     "patch": "fprintf( stderr, \"Disjoint with inner circle\\n\");",
     "target": ""

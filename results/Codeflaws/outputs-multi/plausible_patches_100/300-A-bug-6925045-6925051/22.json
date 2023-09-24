@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "",
     "patch": "printf(\"%d \",c1); for(i=0;i<c1;i++) printf(\"%d \",a2[i]);",
     "target": "if(c1%2==0) a3[c3++]=a1[--c1];"

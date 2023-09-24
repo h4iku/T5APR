@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "int x,mod,count,count2;",
     "patch": "int x,mod,count,count2,ignore;",
     "target": "int x,mod,count,count2=0;"

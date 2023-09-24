@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "for( m = n, p = 2; p <= m; p++ ) if(!(m%p))",
     "patch": "for( m = n, p = 3; p <= m; p++ ) if(!( m%p ) )",
     "target": "for( m = n, p = 3; p <= m; p++ ) if(!(m%p))"

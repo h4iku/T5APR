@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "printf(\"count now %d\\n\", count);",
+    "patch": "scanf(\"count now %ld\\n\", count);",
+    "target": ""
+}

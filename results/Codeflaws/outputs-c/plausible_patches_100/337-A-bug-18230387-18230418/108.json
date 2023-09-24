@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "qsort(f,n,sizeof(int),sai);",
+    "patch": "qsort(f,m,sizeof(int),sai);",
+    "target": "qsort(f,m,sizeof(int),sai);"
+}

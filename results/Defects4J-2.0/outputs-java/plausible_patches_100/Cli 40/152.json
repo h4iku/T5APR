@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": true,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "return null;",
+    "patch": "throw new ParseException(\"unable to parse value\");",
+    "target": "throw new ParseException(\"Unable to handle the class: \" + clazz);"
+}

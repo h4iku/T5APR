@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": true,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "",
+    "patch": "switch (c[pos.getIndex()]) { case QUOTE: next(pos); break; }",
+    "target": "next(pos);"
+}

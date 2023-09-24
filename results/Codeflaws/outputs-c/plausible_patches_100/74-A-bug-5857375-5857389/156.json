@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "int n,a,b,c,d,e,unsu,suc,maxp=0,sum;",
+    "patch": "unsigned long n,a,b,c,d,e,unsu,suc,maxp=0,sum;",
+    "target": "int n,a,b,c,d,e,unsu,suc,maxp=-1000000,sum;"
+}

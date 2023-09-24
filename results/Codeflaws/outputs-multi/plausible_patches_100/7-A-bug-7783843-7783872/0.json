@@ -2,7 +2,7 @@
     "exact_match": true,
     "correct": true,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "freopen(\"in.txt\", \"r\", stdin);",
     "patch": "",
     "target": ""

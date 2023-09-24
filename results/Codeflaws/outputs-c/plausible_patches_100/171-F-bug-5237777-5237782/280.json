@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "long long sushu[100000],emirp[2222],emirp2[2222],prime[2222];",
+    "patch": "long long sushu[100000],emirp[100000],emirp2[200000],prime[222];",
+    "target": "long long sushu[100000],emirp[100000],emirp2[100000],prime[100000];"
+}

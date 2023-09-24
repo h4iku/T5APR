@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if(arr[t-1]>=str[y-z-1])",
     "patch": "if((arr[t-1]>=str[y-z]))",
     "target": "if(arr[t-1]>=str[y-z])"

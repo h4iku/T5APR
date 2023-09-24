@@ -1,9 +1,0 @@
-{
-    "exact_match": false,
-    "correct": false,
-    "plausible": true,
-    "hunks": true,
-    "source": "if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) { return CanInlineResult.NO; }",
-    "patch": "if (!isDirectCallNodeReplacementPossible(fnNode)) { return CanInlineResult.NO; }",
-    "target": ""
-}

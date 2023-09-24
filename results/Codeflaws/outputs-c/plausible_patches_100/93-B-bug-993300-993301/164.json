@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if(w < space){",
+    "patch": "if(w < space+2){",
+    "target": "if(w < space || eq(w, space)){"
+}

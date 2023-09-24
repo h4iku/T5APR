@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "printf (\"%d %d %d\\n\",z[0],z[1],z[2]);",
     "patch": "if (z[0] > z[0] && z[1] > z[2]) printf (\"chest\");",
     "target": ""

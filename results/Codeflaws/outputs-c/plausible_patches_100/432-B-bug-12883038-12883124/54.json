@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "",
+    "patch": "scanf(\"%ld%ld\", &arr[i].home_color, &arr[i].away_color);",
+    "target": "return 0;"
+}

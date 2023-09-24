@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "nextLineTabStop = width - 1;",
     "patch": "nextLineTabStop = width - pos;",
     "target": "nextLineTabStop = 1;"

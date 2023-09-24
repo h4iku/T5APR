@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": true,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "!options.skipAllPasses &&",
+    "patch": "options.closurePass &&",
+    "target": ""
+}

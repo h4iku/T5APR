@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": true,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "int a,b,c,x,y,z,excess,need,move=0;",
+    "patch": "int a,b,c,x,y,z,excess, need,move = 0;",
+    "target": "int a,b,c,x,y,z,excess,need=0,move=0;"
+}

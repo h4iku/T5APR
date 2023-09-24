@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "scanf(\"%d%d\",&data,&usbs);",
+    "patch": "scanf(\"%d%d\",&usbs,&data);",
+    "target": "scanf(\"%d%d\",&usbs,&data);"
+}

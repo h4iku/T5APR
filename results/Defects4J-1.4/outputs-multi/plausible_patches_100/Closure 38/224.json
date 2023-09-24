@@ -1,9 +1,0 @@
-{
-    "exact_match": false,
-    "correct": false,
-    "plausible": true,
-    "hunks": false,
-    "source": "if (x < 0 && prev == '-') {",
-    "patch": "if (prev == '-') {",
-    "target": "if ((x < 0 || negativeZero) && prev == '-') {"
-}

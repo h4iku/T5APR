@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "scanf(\"%d\",&x);int p[100],q[100];",
     "patch": "scanf(\"%d\",&x);int p[10000],q[10000];",
     "target": "scanf(\"%d\",&x);int p[100000],q[100];"

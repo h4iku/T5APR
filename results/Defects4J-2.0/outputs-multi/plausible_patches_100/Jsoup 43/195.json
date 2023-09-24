@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if (element.equals(search))",
     "patch": "if (element == null || element == search)",
     "target": "if (element == search)"

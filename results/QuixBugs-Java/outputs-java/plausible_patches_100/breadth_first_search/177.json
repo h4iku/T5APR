@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": true,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "while (true) {",
+    "patch": "while (0 < queue.size()) {",
+    "target": "while (!queue.isEmpty()) {"
+}

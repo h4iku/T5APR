@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if(cursor  > mitad)",
+    "patch": "if(cursor  >= (int)mitad)",
+    "target": "if(cursor  >= mitad)"
+}

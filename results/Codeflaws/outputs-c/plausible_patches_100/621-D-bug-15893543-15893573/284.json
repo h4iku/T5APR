@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if (x - 1.0 < -1e-6 && y - 1.0 < -1e-6 && z - 1.0 < -1e-6) {",
+    "patch": "if (x - 1.0 < 3e-6 && y - 1.0 < 3e-6 && z - 1.0 < 3e-6) {",
+    "target": "if (x - 1.0 < 1e-6 && y - 1.0 < 1e-6 && z - 1.0 < 1e-6) {"
+}

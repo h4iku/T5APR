@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "return getCumPct((Comparable<?>) v);",
+    "patch": "return getPct((Comparable)v);",
+    "target": "return getPct((Comparable<?>) v);"
+}

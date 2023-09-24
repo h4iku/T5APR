@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "",
     "patch": "if(string[i]>='A'&&string[i]<='Z') { string1[i]=string1[i]+32; }",
     "target": "string2[j]='\\0';"

@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "else printf(\"\");",
     "patch": "else { fprintf(stdout, \"0\"); }",
     "target": "else printf(\"0\");"

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "max-c?printf(\"%d\",max-c):printf(\"0\");",
+    "patch": "max-c>0?printf(\"%d\",max-c):printf(\"0\");",
+    "target": "if(max-c>0)printf(\"%d\",max-c);else printf(\"0\");"
+}

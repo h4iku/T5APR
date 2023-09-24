@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "else printf(\"%lf\", fval(cx, cy));",
     "patch": "else printf(\"%s%s\", fval(cx, cy));",
     "target": ""

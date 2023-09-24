@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "freopen(\"in.txt\",\"r\",stdin);",
+    "patch": "freopen(\"in.txt\", stdin,stderr);",
+    "target": ""
+}

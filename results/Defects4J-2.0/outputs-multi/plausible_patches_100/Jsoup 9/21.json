@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": true,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "private static final Pattern unescapePattern = Pattern.compile(\"&(#(x|X)?([0-9a-fA-F]+)|[a-zA-Z]+);?\");",
     "patch": "protected static final Pattern unescapePattern = Pattern.compile(\"&(#(x|X)?([0-9a-fA-F]+)|[0-9a-zA-Z]+);?\");",
     "target": "private static final Pattern unescapePattern = Pattern.compile(\"&(#(x|X)?([0-9a-fA-F]+)|[a-zA-Z]+\\\\d*);?\");"

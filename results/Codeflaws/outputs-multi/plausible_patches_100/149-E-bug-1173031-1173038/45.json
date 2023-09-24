@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "",
     "patch": "if (p1[k] == -1 || p1[k] == p1[k]) k++;",
     "target": "s = strdup(s); p = strdup(p);"

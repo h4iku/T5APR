@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if(arr[i]=='C' && arr[i+1]=='O' && arr[i+2]=='D' && arr[i+3]=='E' && arr[i+4]=='F' && arr[i+5]=='O' && arr[i+6]=='R' &&arr[i+7]=='C' && arr[i+8]=='E' && arr[i+9]=='S' ) {",
     "patch": "if(arr[i]=='C' && arr[j+1]=='O' && arr[j+2]=='D' && arr[j+3]=='E' && arr[j+4]=='F' && arr[j+5]=='O' && arr[j+6]=='R' && arr[j+7]=='C' && arr[j+8]=='E' && arr[j+9]=='S' ) {",
     "target": "if(arr[0]=='C' && arr[1]=='O' && arr[2]=='D' && arr[3]=='E' && arr[4]=='F' && arr[5]=='O' && arr[6]=='R' &&arr[7]=='C' && arr[8]=='E' && arr[9]=='S' ) {"

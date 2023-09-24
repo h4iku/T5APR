@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "",
+    "patch": "if(a[i][1]==t) {printf(\"NO\"); break; }",
+    "target": "if(a[i][0]==t||7-a[i][0]==t||a[i][1]==t||a[i][0]==t) {printf(\"NO\\n\"); break;}"
+}

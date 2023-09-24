@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "return v>=min(x,y) && v<=max(x,y);",
     "patch": "return (v > min(x,y) && (v < max(x,y)));",
     "target": "return v>min(x,y) && v<max(x,y);"

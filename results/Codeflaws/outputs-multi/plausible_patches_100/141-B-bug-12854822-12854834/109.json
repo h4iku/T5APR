@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if(xc>=x)",
     "patch": "if(xc > (float)x)",
     "target": "if(xc>x)"

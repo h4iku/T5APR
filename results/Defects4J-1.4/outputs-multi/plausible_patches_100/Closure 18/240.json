@@ -1,9 +1,0 @@
-{
-    "exact_match": true,
-    "correct": true,
-    "plausible": true,
-    "hunks": false,
-    "source": "if (options.dependencyOptions.needsManagement() && options.closurePass) {",
-    "patch": "if (options. dependencyOptions.needsManagement()) {",
-    "target": "if (options.dependencyOptions.needsManagement()) {"
-}

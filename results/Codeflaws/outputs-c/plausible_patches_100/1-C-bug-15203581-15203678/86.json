@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "ang1=2*acos((d[0]*d[0]+d[2]*d[2]-d[1]*d[1])/(2*d[2]*d[1]));",
+    "patch": "ang1=2*acos((d[0]+d[2]+d[2]-d[1]*d[1])/(2*d[2]*d[1]));",
+    "target": "ang1=2*acos((d[0]*d[0]+d[2]*d[2]-d[1]*d[1])/(2*d[2]*d[0]));"
+}

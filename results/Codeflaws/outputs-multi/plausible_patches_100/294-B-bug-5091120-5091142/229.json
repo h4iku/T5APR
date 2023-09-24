@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "else if(pos1>=0 && p1[pos1]+swidth<=sum){",
     "patch": "else if(pos1>=0 && p1[pos1]+swidth<=sum - 1){",
     "target": "else if(pos1>=0 && p1[pos1]+swidth<=sum-1){"

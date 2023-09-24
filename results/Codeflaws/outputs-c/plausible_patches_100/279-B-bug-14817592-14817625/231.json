@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "long long int t,n,i,j,f=0,ans;",
+    "patch": "long long int t,n,i,j, f=0,ans=0;",
+    "target": "long long int t,n,i,j,f=0,ans=0;"
+}

@@ -2,7 +2,7 @@
     "exact_match": true,
     "correct": true,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "p ^= (((n/i)%2) * xs[i]) ^ xs[n%i];",
     "patch": "p ^= (((n/i)%2) * xs[i-1]) ^ xs[n%i];",
     "target": "p ^= (((n/i)%2) * xs[i-1]) ^ xs[n%i];"

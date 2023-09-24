@@ -1,9 +1,0 @@
-{
-    "exact_match": false,
-    "correct": false,
-    "plausible": true,
-    "hunks": true,
-    "source": "",
-    "patch": "p.setCurrentValue(null);",
-    "target": "if (t != JsonToken.END_OBJECT) { ctxt.reportWrongTokenException(this, JsonToken.END_OBJECT, \"Attempted to unwrap '%s' value\", handledType().getName()); }"
-}

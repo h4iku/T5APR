@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "long long sushu[100000],emirp[2222],emirp2[2222],prime[2222];",
     "patch": "long long sushu[100000],emirp[2221],emirp2[222221],prime[2221];",
     "target": "long long sushu[100000],emirp[100000],emirp2[100000],prime[100000];"

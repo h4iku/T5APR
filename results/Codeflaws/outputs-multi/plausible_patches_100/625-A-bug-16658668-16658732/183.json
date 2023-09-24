@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if(n>b){",
     "patch": "if((n+1) > b){",
     "target": "if(n>=b){"

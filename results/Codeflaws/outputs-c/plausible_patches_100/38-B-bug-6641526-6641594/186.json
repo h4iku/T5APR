@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "imprimir(tablero);",
+    "patch": "tablero[8][8] = 0;",
+    "target": ""
+}

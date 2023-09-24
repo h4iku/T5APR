@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "boolean allNUL = true; for (int i = start; i < end; i++){ if (buffer[i] != 0){ allNUL = false; break; } } if (allNUL) {",
+    "patch": "boolean allNUL = false; for (int i = start; i < end; i++){ if (buffer[i]!= 0){ allNUL = false; break; }",
+    "target": "if (buffer[start] == 0) {"
+}

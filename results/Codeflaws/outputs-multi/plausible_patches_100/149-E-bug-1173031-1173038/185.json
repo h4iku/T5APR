@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "",
     "patch": "memset(p, -1, sizeof(s));",
     "target": "s = strdup(s); p = strdup(p);"

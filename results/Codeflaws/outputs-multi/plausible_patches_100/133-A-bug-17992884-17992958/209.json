@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if(str[i] == 'H' || str[i] == 'Q' || str[i] == '9' || str[i] == '+'){",
     "patch": "if(str[i] == 'H' || str[i] == 'Q' || str[i] == '9' || str[i] == '\\u2026'){",
     "target": "if(str[i] == 'H' || str[i] == 'Q' || str[i] == '9'){"

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "JsName name = getName(ns.name, false); if (name != null) {",
+    "patch": "JsName name = getName(ns.name, true); if (name!= null && name instanceof JsName) {",
+    "target": "JsName name = getName(ns.name, true);"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "d=p[d];",
+    "patch": "d=p[len - 1];",
+    "target": "d=p[d-1];"
+}

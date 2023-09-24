@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if(j==0 && destruidas[j+1]==1)",
+    "patch": "if(j==0 && (!destruidas[j+1]))",
+    "target": "if(j==0)"
+}

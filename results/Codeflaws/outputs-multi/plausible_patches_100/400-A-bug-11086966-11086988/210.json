@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "printf(\" %d*%d\",d[j],12/d[j]);",
     "patch": "printf(\" %d*%d\",d[j],12/d[j,1]);",
     "target": "printf(\" %dx%d\",d[j],12/d[j]);"

@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if( c == 'H'||c=='Q'||c=='9'|| c =='+') flag =1;",
     "patch": "if( c == 'H' || c == 'Q' || c == '9' || c == '\\n') flag = 1;",
     "target": "if( c == 'H'||c=='Q'||c=='9') flag =1;"

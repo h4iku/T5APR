@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "",
     "patch": "for(i=0;i<strlen(str2) && j<strlen(str);i++) if(str2[i]==str[j]) j=0;",
     "target": "j=0;"

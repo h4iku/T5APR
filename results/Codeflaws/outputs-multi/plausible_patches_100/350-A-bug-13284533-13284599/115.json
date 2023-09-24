@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if(large > wsmall || (2 * small) >= wsmall){",
     "patch": "if((large >= wsmall) || (2 * small) >= wsmall){",
     "target": "if(large >= wsmall || (2 * small) >= wsmall){"

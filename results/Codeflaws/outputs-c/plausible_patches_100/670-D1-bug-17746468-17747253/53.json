@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "else{ans=a[i+1].c;k-=((a[i+1].c-ans)*sum);}",
+    "patch": "a[i+1].c;k-=((a[i+1].c-ans)*sum);",
+    "target": "else{k-=((a[i+1].c-ans)*sum);ans=a[i+1].c;}"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if(x==1){ printf(\"%c\",arr[0]);return 0; }",
+    "patch": "if(x==0){ printf(\"%c\",arr[0]);return 0;}",
+    "target": ""
+}

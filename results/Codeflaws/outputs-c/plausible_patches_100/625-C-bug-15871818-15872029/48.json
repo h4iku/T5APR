@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "int a[251][251];",
+    "patch": "long a[251][252];",
+    "target": "int a[501][501];"
+}

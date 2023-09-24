@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if(count1>m)",
     "patch": "if(count1 > m || count2 > m)",
     "target": "if(count1>=m)"

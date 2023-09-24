@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": true,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "return 1 + levenshtein(source[1:], target[1:])",
+    "patch": "return abs(levenshtein(source[1:], target[1:]))",
+    "target": "return levenshtein(source[1:], target[1:])"
+}

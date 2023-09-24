@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if perm[j] < perm[i]:",
     "patch": "if j < perm[j]:",
     "target": "if perm[i] < perm[j]:"

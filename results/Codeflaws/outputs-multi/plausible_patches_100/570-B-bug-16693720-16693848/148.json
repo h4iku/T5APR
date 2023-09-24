@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "float mid;",
     "patch": "int mid, mid2;",
     "target": "double mid;"

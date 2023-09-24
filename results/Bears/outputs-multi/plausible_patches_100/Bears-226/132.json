@@ -2,7 +2,7 @@
     "exact_match": true,
     "correct": true,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "@JsonTypeInfo(use = JsonTypeInfo.Id.NAME, include = JsonTypeInfo.As.PROPERTY, property = \"type\", defaultImpl = KAlignerParameters.class) @JsonSubTypes({@JsonSubTypes.Type(value = KAlignerParameters.class, name = \"kaligner\"), @JsonSubTypes.Type(value = KAlignerParameters2.class, name = \"kaligner2\")})",
     "patch": "@JsonTypeInfo(use = JsonTypeInfo.Id.NAME, include = JsonTypeInfo.As.PROPERTY, property = \"type\") @JsonSubTypes({@JsonSubTypes.Type(value = KAlignerParameters.class, name = \"kaligner\"), @JsonSubTypes.Type(value = KAlignerParameters2.class, name = \"kaligner2\") })",
     "target": "@JsonTypeInfo(use = JsonTypeInfo.Id.NAME, include = JsonTypeInfo.As.PROPERTY, property = \"type\") @JsonSubTypes({ @JsonSubTypes.Type(value = KAlignerParameters.class, name = \"kaligner\"), @JsonSubTypes.Type(value = KAlignerParameters2.class, name = \"kaligner2\") })"

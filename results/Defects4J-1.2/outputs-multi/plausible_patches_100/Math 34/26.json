@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": true,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "return chromosomes.iterator();",
+    "patch": "return this.getChromosomes().iterator();",
+    "target": "return getChromosomes().iterator();"
+}

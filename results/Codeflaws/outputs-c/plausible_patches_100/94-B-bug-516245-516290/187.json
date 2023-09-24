@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if(people[i]==1 || people[i]==3){",
+    "patch": "if( people[i]!=2){",
+    "target": "if(people[i]!=2){"
+}

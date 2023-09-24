@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "for (i=2;i<sqrt((float)v);i++)",
     "patch": "for (i=2;i<v;i++)",
     "target": "for (i=2;i<=sqrt((float)v);i++)"

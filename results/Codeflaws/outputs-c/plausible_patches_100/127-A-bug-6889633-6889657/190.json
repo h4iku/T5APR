@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "printf(\"%.9lf\\n\",ans/50);",
+    "patch": "printf(\"%.9lf\\n\",ans/50*k);",
+    "target": "printf(\"%.9lf\\n\",(ans*k)/50);"
+}

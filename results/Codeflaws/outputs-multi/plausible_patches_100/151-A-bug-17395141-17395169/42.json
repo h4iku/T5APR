@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": true,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "",
     "patch": "else if(a==z && a>b){ printf(\"%d\",a/n); } else { printf(\"%d\",a/n); }",
     "target": "else if(a==b && a==z && b==z){ printf(\"%d\",a/n); }"

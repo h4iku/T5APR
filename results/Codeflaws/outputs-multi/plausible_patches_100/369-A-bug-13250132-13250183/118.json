@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if(w<k)",
     "patch": "if(w<k || w >= k)",
     "target": ""

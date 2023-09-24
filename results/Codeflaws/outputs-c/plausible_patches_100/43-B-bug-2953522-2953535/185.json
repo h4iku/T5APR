@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if(hash[i]>0 && i!=' ')",
+    "patch": "if (hash[i]<0 && i!=' ')",
+    "target": "if(hash[i]<0 && i!=' ')"
+}

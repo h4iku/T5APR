@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "int pre[64][64][64];",
     "patch": "int pre[664][664][664];",
     "target": "int pre[64][64][128];"

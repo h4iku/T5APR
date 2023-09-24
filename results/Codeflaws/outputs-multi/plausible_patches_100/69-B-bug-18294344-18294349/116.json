@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "tt[i]=1000, cc[i]=1000;",
     "patch": "tt[i]=1100, cc[i]=1100;",
     "target": "tt[i]=1001, cc[i]=1001;"

@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "",
     "patch": "scanf(\"%d %d %d %d\",&m,&d,&p,&t,&t);",
     "target": "freopen(\"input.txt\",\"rb\",stdin); freopen(\"output.txt\",\"wb\",stdout);"

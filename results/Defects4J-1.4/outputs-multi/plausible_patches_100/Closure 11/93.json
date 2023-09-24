@@ -1,9 +1,0 @@
-{
-    "exact_match": false,
-    "correct": false,
-    "plausible": true,
-    "hunks": false,
-    "source": "} else if (n.getJSType() != null && parent.isAssign()) { return;",
-    "patch": "if (childType.isDict()) { report(t, property, TypeValidator.ILLEGAL_PROPERTY_ACCESS, \"'.'\", \"dict\"); }",
-    "target": ""
-}

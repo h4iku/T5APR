@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "printf(\"enter the total no. of coins?\\n\");",
     "patch": "printf(\"\");",
     "target": ""

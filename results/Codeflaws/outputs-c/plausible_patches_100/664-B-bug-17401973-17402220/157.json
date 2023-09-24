@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if(eksi*sayi<(arti+sayi)) {",
+    "patch": "if(eksi*sayi<(arti+0)) {",
+    "target": "if(eksi*sayi<(arti)) {"
+}

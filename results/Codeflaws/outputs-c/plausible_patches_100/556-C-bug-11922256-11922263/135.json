@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "printf(\"Aushmaan %d\\n\",count);",
+    "patch": "fprintf(stderr, \"%d\\n\",count);",
+    "target": ""
+}

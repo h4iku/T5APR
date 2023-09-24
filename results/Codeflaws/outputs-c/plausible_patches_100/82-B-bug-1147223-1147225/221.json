@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "",
+    "patch": "scanf(\"%d\", &sets[0].size); sets[0].size = 0;",
+    "target": "return 0;"
+}

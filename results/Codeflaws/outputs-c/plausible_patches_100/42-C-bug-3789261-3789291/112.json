@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "div(1);",
+    "patch": "div((double)0);",
+    "target": "div(0);"
+}

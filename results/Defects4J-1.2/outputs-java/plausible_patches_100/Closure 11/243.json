@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "} else if (n.getJSType() != null && parent.isAssign()) { return;",
+    "patch": "if (parent.isAssign()) { return; }",
+    "target": ""
+}

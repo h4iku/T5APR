@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "else if(d>5)",
+    "patch": "else if(d>d-5)",
+    "target": "else if(d>=5)"
+}

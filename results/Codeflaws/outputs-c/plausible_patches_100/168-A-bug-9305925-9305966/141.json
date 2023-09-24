@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "float ans = ((float)n * (float)y - 100.0 * (float)x)/100.0;",
+    "patch": "double ans = ((double)n * (double) y - 100.0 * (double)x)/100.0;",
+    "target": "double ans = ((double)n * (double)y - 100.0 * (double)x)/100.0;"
+}

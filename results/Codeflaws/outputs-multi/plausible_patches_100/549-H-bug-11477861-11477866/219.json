@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "printf(\"%u: %.10lf %.10lf\\n\",BI,nle,F(nle));",
     "patch": "warn(\"%u: %.10lf %.10lf\\n\",BI,nle,F(nle));",
     "target": ""

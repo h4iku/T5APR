@@ -2,7 +2,7 @@
     "exact_match": true,
     "correct": true,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "int bottom = stack.size() -1; if (bottom > MaxScopeSearchDepth) { bottom = MaxScopeSearchDepth; }",
     "patch": "final int bottom = (stack.size() - 1);",
     "target": "final int bottom = stack.size() -1;"

@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "return k - (i - k+1);",
     "patch": "return k - (i - k++);",
     "target": "return k - (i - (k+1));"

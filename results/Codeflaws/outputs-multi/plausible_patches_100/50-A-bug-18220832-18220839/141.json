@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if (1<=m&&m<=n&&n<16){",
     "patch": "if (1<=m&&m<=n&&n<36){",
     "target": "if (1<=m&&m<=n&&n<=16){"

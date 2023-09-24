@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if (options.dependencyOptions.needsManagement() && options.closurePass) {",
+    "patch": "boolean closurePass = options.dependencyOptions.needsManagement(); if (closurePass) {",
+    "target": "if (options.dependencyOptions.needsManagement()) {"
+}

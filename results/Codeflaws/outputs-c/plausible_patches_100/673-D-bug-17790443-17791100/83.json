@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "",
+    "patch": "if (n < 7 || n + 1 > k) { printf(\"-1\\n\"); return 0; }",
+    "target": "vet[c] = 1; vet[d] = 1;"
+}

@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "printf(\"remove_zeros(a + b) %d\\n\", remove_zeros(a + b)); printf(\"(remove_zeros(a) + remove_zeros(b)) %d\\n\", (remove_zeros(a) + remove_zeros(b)));",
     "patch": "warn(\"remove_zeros(a + b) %d\\n\", remove_zeros(a + b)); warn(\"(remove_zeros(a) + remove_zeros(b)) %d\\n\", (remove_zeros(a) + remove_zeros(b)));",
     "target": ""

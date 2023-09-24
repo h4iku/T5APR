@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "printf(\"%d\",(int)x);",
+    "patch": "printf(\"%zd\",(long)x);",
+    "target": "printf(\"%lld\",(long long)x);"
+}

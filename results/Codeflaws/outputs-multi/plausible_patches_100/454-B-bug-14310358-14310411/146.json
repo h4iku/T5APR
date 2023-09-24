@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "",
     "patch": "for(i=index;i<n-1;i++) { if(a[i] > a[i+1]) { flag = 1; printf(\"-1\\n\"); break; } }",
     "target": "break;"

@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "printf(\"%c\", vec[n]);",
     "patch": "printf(\"%c\", vec[n - 1] );",
     "target": "printf(\"%c\", vec[n-1]);"

@@ -1,8 +1,8 @@
 {
     "exact_match": false,
-    "correct": false,
+    "correct": true,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "Validate.notEmpty(name);",
     "patch": "if (name == null) { return; }",
     "target": ""

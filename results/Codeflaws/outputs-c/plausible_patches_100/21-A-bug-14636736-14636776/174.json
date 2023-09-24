@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if ((test==1) || (j==0) || (32<j)) printf(\"NO\");",
+    "patch": "if ((test==1) || (k==0) || (32<j)) printf(\"NO\");",
+    "target": "if ((test==1) || (j==0) || (32<j) || (k==0) || (16<k)) printf(\"NO\");"
+}

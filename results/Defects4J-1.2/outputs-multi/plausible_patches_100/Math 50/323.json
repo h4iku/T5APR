@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if (x == x1) { x0 = 0.5 * (x0 + x1 - FastMath.max(rtol * FastMath.abs(x1), atol)); f0 = computeObjectiveValue(x0); }",
+    "patch": "assert (x == x1);",
+    "target": ""
+}

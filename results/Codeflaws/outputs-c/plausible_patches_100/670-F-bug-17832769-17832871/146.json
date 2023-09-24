@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "else if(i==m &&(c2[0]==l2-1||c2[0]+c2[1]==l2))",
+    "patch": "else if(j==m &&(c2[0]==l2-1 || c2[0]+c2[1]==l2))",
+    "target": "else if(i==m &&(c2[0]==l2-1||c2[1]==2))"
+}

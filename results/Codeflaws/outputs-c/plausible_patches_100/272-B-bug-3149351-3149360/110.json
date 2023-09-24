@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "Sum+=Cnt*(Cnt-1);",
+    "patch": "Sum+=Cnt*(Cnt-1)>>1;",
+    "target": "Sum+=Cnt*(Cnt-1)/2;"
+}

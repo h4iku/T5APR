@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "",
     "patch": "if(k>max) max = 1;",
     "target": "if(n==1) printf(\"0\\n\"); else"

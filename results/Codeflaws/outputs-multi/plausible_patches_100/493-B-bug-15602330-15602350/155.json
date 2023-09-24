@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "else if(a1[i] > a2[i]){",
     "patch": "else if (a1[i] < a2[i]) {",
     "target": "else if(a1[i] < a2[i]){"

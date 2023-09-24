@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "",
+    "patch": "for(ans=i=0;ans<8;ans++) if (n&(1<<i)) ans++;",
+    "target": "for(i=1;i<=n;i*=8) ans++;"
+}

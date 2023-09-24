@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if(cursor  > mitad)",
     "patch": "if(cursor + 1 > mitad)",
     "target": "if(cursor  >= mitad)"

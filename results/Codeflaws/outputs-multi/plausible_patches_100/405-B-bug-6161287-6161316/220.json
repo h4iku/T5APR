@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "else if(((i-prei)%2)==0&&i!=prei) res++;",
     "patch": "else if((i-prei)%2) { res++; }",
     "target": "else if((1&(i-prei))&&i!=prei) res++;"

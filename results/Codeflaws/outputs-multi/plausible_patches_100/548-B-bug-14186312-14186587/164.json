@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "",
     "patch": "if(count[i]>max[i]) max[i]=count[i]; break;",
     "target": "count[i]=0;"

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": true,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if(i==p && (i>=1 && i<n)){",
+    "patch": "if(i==p && (i >= 1 && i<=n)){",
+    "target": "if(i==p && (i>=1 && i<=n)){"
+}

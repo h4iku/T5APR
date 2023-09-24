@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "for(i=0;i<n;i++)printf(\"%d\\n\",piza[i]);",
+    "patch": "for(i=0;i<n;i++){ scanf(\"%d %s\",&p,name[i]); for(j=0;j<n;j++) { scanf(\"%d-%d-%d\",&a,&b,&c); if(a==b && a/10==a%10)taxi[i]++; else if(a==b && a/10==a%10)taxi[i]++; else if(a/10==a%10)taxi[i]++; else if(a==b && a/10==a%10)taxi[i]++; else girl[i]++; } }",
+    "target": ""
+}

@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "int nv = n - 1;",
     "patch": "int nv = n - 1 / n;",
     "target": "int nv = n;"

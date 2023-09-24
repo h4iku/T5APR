@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if ((Boolean) tree.getAttribute()) {",
+    "patch": "if (tree == null || tree.getAttribute() == null) {",
+    "target": "if (tree.getCut() == null && (Boolean) tree.getAttribute()) {"
+}

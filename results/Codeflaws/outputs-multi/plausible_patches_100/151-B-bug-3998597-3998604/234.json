@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "for(i=0;i<n;i++)printf(\"%d\\n\",piza[i]);",
     "patch": "for(i=0;i<n;i++) { scanf(\"%d\\n\",piza[i]); break; }",
     "target": ""

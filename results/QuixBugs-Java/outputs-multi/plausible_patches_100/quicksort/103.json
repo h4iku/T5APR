@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "} else if (x > pivot) {",
     "patch": "} else if (x > pivot || x!= null) {",
     "target": "} else if (x >= pivot) {"

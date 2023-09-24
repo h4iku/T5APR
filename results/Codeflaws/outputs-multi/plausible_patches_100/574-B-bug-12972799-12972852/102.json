@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "int temp=n+1;",
     "patch": "int temp=j+1;",
     "target": "int temp=99999999;"

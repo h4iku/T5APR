@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "printf(\"%d\\t%d  %d\\n\",min,A[i][j],A[Min.i][Min.j]);",
     "patch": "fprintf(stderr, \"%d\\t%d  %d\\n\",min,A[i][j],A[Min.i][Min.j]);",
     "target": ""

@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": true,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "else{ printf(\"NOo\");",
     "patch": "} if(counter==1){ if(v1==7){ v1=0; counter++; continue; } else{ printf(\"NO\");",
     "target": "else{ printf(\"NO\");"

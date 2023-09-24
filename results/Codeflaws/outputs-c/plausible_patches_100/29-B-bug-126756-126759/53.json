@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "while (sv_time < time)",
+    "patch": "while (sv_time <= (double) time)",
+    "target": "while (sv_time <= time)"
+}

@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "",
     "patch": "if (!*ptr ){ return ( 1 ); }",
     "target": "if ( *(ptr + 0) <= 0){ return ( 1 ); }"

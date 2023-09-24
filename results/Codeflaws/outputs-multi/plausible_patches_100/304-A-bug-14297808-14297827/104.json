@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "float f; double c;",
     "patch": "double f; double c, d;",
     "target": "double c,f;"

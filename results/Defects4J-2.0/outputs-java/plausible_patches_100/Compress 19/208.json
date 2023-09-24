@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if (rawCentralDirectoryData.length != expectedLength) {",
+    "patch": "int length = rawCentralDirectoryData.length; if (length > length) {",
+    "target": "if (rawCentralDirectoryData.length < expectedLength) {"
+}

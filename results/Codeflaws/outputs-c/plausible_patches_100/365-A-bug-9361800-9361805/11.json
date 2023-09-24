@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if(str[i][j] - '0' > k || str[i][j] - '0' < 0)",
+    "patch": "if(str[i][j] > k && str[i][j] - '0' < 0)",
+    "target": "if(str[i][j] - '0' < 0)"
+}

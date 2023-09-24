@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "",
+    "patch": "if (!this.jdtTreeBuilder.getContextBuilder().ignoreComputeImports) { final CtReference declaring = this.getDeclaringReferenceFromImports(binding.sourceName()); if (declaring instanceof CtPackageReference) { ref.setPackage((CtPackageReference) declaring); } else { ref.setPackage(getPackageReference(binding.getPackage())); } }",
+    "target": "if (binding.actualType() instanceof MissingTypeBinding) { ref = getTypeReference(binding.actualType()); }"
+}

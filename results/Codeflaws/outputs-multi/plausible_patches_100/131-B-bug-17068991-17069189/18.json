@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": true,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "result+=(zero*(zero-1))/2;",
     "patch": "result+=(zero*(zero-1.0))/2;",
     "target": "result+=((long long)zero*(long long)(zero-1))/2;"

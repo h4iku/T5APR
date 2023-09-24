@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": true,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if(sum%5==0) printf(\"%d\",sum/5);",
     "patch": "if(sum&&sum%5==0) printf(\"%d\",sum/5);",
     "target": "if(sum==0) printf(\"-1\"); else if(sum%5==0) printf(\"%d\",sum/5);"

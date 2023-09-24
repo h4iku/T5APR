@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": true,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if(arr[pos]==arr[i])",
     "patch": "if(arr[i]>0 && arr[pos]==arr[i])",
     "target": "if(arr[pos]==arr[i] &&arr[i]!=0)"

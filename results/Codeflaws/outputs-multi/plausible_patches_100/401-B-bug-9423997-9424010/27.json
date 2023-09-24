@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": true,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "min=(x+1)/2;",
     "patch": "min=(x+1-1)/2;",
     "target": "min=(x)/2;"

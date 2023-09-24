@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "printf(\"%.2f\",((float)l/(p+q))*p);",
     "patch": "printf(\"%3f\",((float)l/(p+q))*p);",
     "target": "printf(\"%f\",((float)l/(p+q))*p);"

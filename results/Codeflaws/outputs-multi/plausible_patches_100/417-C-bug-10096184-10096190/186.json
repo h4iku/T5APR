@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "printf(\"%d\",n*k);",
     "patch": "printf(\"%d\\n\", n*k);",
     "target": "printf(\"%d\\n\",n*k);"

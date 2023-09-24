@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "ara[str[i]] = 1;",
+    "patch": "ara[str[i] -97]=1;",
+    "target": "ara[str[i]-97] = 1;"
+}

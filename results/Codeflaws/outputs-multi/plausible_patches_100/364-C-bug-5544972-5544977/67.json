@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "else if(z>100)for(i=1,j=1;i*j<=v;j*=7)for(k=1;i*j*k<=v;k*=5)for(l=1;i*j*k*l<=v;l*=3)for(m=1;i*j*k*l*m<=v;m*=2)a[n++]=i*j*k*l*m;",
     "patch": "else if(z>250)for(i=1,j=1;i*j<=v;j*=7)for(k=1;i*j*k<=v;k*=5)for(l=1;i*j*k*l<=v;l*=3)for(m=1;i*j*k*l*m<=v;m*=2)a[n++]=i*j*k*l*m;",
     "target": "else if(z>150)for(i=1,j=1;i*j<=v;j*=7)for(k=1;i*j*k<=v;k*=5)for(l=1;i*j*k*l<=v;l*=3)for(m=1;i*j*k*l*m<=v;m*=2)a[n++]=i*j*k*l*m;"

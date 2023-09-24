@@ -2,7 +2,7 @@
     "exact_match": true,
     "correct": true,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "final boolean emptyHeader = header.trim().isEmpty();",
     "patch": "final boolean emptyHeader = header==null || header.trim().isEmpty();",
     "target": "final boolean emptyHeader = header == null || header.trim().isEmpty();"

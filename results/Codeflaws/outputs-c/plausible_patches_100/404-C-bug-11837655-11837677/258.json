@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "while(st<=en && p<=n && sta==0)",
+    "patch": "while(st<=n && p<=n && sta==0 && st<1)",
+    "target": "while(st<en && p<=n && sta==0)"
+}

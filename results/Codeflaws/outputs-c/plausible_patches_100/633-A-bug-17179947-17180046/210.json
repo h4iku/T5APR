@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": true,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "int m=c/x;",
+    "patch": "int m = c / y;",
+    "target": "int m=c/y;"
+}

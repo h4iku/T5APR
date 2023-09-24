@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if (!_hasSegments)  return _currentSegment;",
+    "patch": "_hasSegments = false;",
+    "target": "if (!_hasSegments && _currentSegment != null)  return _currentSegment;"
+}

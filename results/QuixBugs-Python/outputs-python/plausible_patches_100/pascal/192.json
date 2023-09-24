@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": true,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "for c in range(0, r):",
+    "patch": "for c in range(1+r):",
+    "target": "for c in range(0, r + 1):"
+}

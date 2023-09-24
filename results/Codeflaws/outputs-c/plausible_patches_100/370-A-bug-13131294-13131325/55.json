@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "b=1;",
+    "patch": "b=1, b=2;",
+    "target": "b=2;"
+}

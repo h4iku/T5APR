@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "count ++;",
     "patch": "count += 2 * c;",
     "target": "count += 2;"

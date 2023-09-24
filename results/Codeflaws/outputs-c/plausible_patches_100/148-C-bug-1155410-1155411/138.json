@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "now=total+1;",
+    "patch": "now=total-1 + 1;",
+    "target": "now=total;"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if(s[i] == '1' && s[i+1] == '1' && s[i+2] == '4')",
+    "patch": "if(s[i] == '1' && s[i+1]!= '1' && s[i+2] == '4')",
+    "target": "if(s[i] == '1' && s[i+1] == '4' && s[i+2] == '4')"
+}

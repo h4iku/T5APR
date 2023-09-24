@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if(count[m]==a[m][0] && a[i][0]>a[m][0])",
     "patch": "if(count[m]==a[m][0] || count[m]>a[m][0])",
     "target": "if(count[m]==a[m][0] && a[i][0]>=a[m][0])"

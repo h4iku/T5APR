@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if (Amax<=arr[i])",
+    "patch": "if (Amax<=arr[i] - 1)",
+    "target": "if (Amax<arr[i])"
+}

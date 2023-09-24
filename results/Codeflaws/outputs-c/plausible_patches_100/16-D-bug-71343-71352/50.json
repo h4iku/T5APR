@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "printf( \" time %d %d\\n\", a[i], k );",
+    "patch": "fprintf( \" time %d %ld\\n\", a[i], k );",
+    "target": ""
+}

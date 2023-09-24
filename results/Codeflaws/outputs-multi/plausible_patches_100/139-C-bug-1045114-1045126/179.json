@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "else {",
     "patch": "else if (r == \"abab\") {",
     "target": "else if (strcmp(cr, r)) {"

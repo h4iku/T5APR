@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if(i>5){",
+    "patch": "if(i>4 || i>9){",
+    "target": "if(i>=5){"
+}

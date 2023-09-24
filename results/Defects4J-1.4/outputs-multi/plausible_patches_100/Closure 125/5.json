@@ -1,9 +1,0 @@
-{
-    "exact_match": false,
-    "correct": false,
-    "plausible": true,
-    "hunks": false,
-    "source": "if (fnType != null) {",
-    "patch": "if (fnType!= null && fnType.isConstructor()) {",
-    "target": "if (fnType != null && fnType.hasInstanceType()) {"
-}

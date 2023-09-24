@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "",
+    "patch": "if(strcmp(r[i],r[j])==0) { c[i]++; }",
+    "target": "return 0;"
+}

@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "else if(x==-1*y)",
     "patch": "else if(x==-1*y && x < 0)",
     "target": "else if((abs(x)==abs(y))&&(x<0)&&(y>0))"

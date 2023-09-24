@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "",
     "patch": "if(sets[0].values[i] == sets[1].values[j]) { fset.values[fset.size++] = sets[0].values[i]; i++; } else if(sets[0].values[i] < sets[1].values[j]) i++;",
     "target": "return 0;"

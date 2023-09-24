@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "res.setType(getFactory().Type().createArrayReference(getFactory().Type().createReference(values[0].getClass())));",
+    "patch": "res.setType(getFactory().Type().createReference(value.getClass()));",
+    "target": "res.setType(getFactory().Type().createArrayReference(getFactory().Type().createReference(value.getClass().getComponentType())));"
+}

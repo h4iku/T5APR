@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "while(st<=en && p<=n && sta==0)",
     "patch": "while(st!=en && p<=n && sta==0)",
     "target": "while(st<en && p<=n && sta==0)"

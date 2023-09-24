@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "",
     "patch": "if(strcasecmp(r[i],r[j])==0) { c[i]++; r[j][0]='_'; }",
     "target": "return 0;"

@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if (p[i].score == p[i + 2].score) {",
     "patch": "if (p[i].score == p[i].score && p[i + 1].score == p[i + 2].score) {",
     "target": "if (p[i].score == p[i + 2].score || p[i + 1].score == p[i + 2].score) {"

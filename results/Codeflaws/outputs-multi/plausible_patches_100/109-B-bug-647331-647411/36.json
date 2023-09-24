@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if(i+K+2>=nl) break;",
     "patch": "if(i+K+2>nl){ lucky[nl++]=0; break; }",
     "target": "if(i+K+1>=nl) break;"

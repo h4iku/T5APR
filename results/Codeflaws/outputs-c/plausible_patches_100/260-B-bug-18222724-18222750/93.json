@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "printf(\"%d-%d-%d\\n\", dd, mm, yy);",
+    "patch": "printf(\"%02d-%02d-%02d\\n\", dd, mm, yy);",
+    "target": "printf(\"%02d-%02d-%d\\n\", dd, mm, yy);"
+}

@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "(x >= mx || y >= my)) {",
     "patch": "(x >= mx || y >= my && y > 0)) {",
     "target": "(x > mx || y > my)) {"

@@ -2,7 +2,7 @@
     "exact_match": true,
     "correct": true,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if(map[i][j]&&(i==1||j==1||i==n||j==n))",
     "patch": "if(map[i][j]&&(i==1||j==1||i==n||j==m))",
     "target": "if(map[i][j]&&(i==1||j==1||i==n||j==m))"

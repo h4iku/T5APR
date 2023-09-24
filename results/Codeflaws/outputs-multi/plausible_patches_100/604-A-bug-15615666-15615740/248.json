@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "r+=(h-s)*100-s*50;",
     "patch": "r += h*100-s*50;",
     "target": "r+=h*100-s*50;"

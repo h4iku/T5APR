@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "float z;",
+    "patch": "volatile double z;",
+    "target": "double z;"
+}

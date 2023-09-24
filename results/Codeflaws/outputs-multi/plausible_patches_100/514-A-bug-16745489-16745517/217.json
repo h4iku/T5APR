@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if((a[i]-'0')>=5 && a[i]!='9')",
     "patch": "if((a[i]-'0')>=5 && a[i]<='9')",
     "target": "if((a[i]-'0')>=5 )"

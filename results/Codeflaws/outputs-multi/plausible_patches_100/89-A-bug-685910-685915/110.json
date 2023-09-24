@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "printf(\"%lld\\n\", min(m * k, p));",
     "patch": "printf(\"%lu\\n\", min((long)m * k, p));",
     "target": "printf(\"%lld\\n\", min((long long)m * k, p));"

@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "return (b, a % b);",
     "patch": "return GY (b, a % b);",
     "target": "return GY(b, a % b);"

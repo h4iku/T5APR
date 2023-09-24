@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "int a[3][2],i,j,mx=0,ans=1,sum,s,k=0,ct1=0,ct2=0,sq;",
+    "patch": "int a[3][2],i,j,mx=0,ans=0, sum,s,k=0,ct1=0,ct2=0,sq;",
+    "target": "int a[3][2],i,j,mx=0,ans=0,sum,s,k=0,ct1=0,ct2=0,sq;"
+}

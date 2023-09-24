@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if (lines[i].y1 == last->y1) { continue; }",
+    "patch": "if (lines[i].y1 < last->y1) { printf(\"YES\\n\"); break; }",
+    "target": ""
+}

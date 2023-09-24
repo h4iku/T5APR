@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": true,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "x = V / A;",
     "patch": "x = (double)V/A;",
     "target": "x = (float)V / (float)A;"

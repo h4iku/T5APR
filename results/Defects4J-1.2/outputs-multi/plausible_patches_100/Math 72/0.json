@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": true,
+    "source": "setResult(yMax, 0);",
+    "patch": "",
+    "target": "setResult(max, 0);"
+}

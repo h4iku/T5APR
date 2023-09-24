@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "float f; double c;",
+    "patch": "double f, c,i;",
+    "target": "double c,f;"
+}

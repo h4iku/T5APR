@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "",
+    "patch": "int i,j,k,now,ncount,db1,db2,db3;",
+    "target": "dc[ar[i].d]++;"
+}

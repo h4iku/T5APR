@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "return this == o;",
+    "patch": "return o.equals(element);",
+    "target": "return tag.equals(element.tag);"
+}

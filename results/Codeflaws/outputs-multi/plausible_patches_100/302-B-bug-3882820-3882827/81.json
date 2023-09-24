@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "long long int s[20000],a,b;",
     "patch": "long long int s[120000],a,b;",
     "target": "long long int s[100500],a,b;"

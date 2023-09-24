@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if(x<=5) a[x]=a[x]+(a[x-1]-y);",
+    "patch": "if(x<=20) a[x]=a[x]+(a[x-1]-y);",
+    "target": "if(x<n) a[x]=a[x]+(a[x-1]-y);"
+}

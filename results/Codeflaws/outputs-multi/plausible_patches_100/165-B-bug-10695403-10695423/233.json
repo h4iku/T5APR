@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "long long v = n / k ;",
     "patch": "long long v = n / 2 ;",
     "target": "long long v = n * (k-1) / k ;"

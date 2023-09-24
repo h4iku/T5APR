@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "string[i] == '9' || string[i] == '+') {",
     "patch": "string[i] == '9' || string[i] == '\\n') {",
     "target": "string[i] == '9') {"

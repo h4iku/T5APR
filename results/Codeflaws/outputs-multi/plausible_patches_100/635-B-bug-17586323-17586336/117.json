@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "#define DEBUG",
     "patch": "DEBUG_INIT(debug_level);",
     "target": ""

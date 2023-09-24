@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "(j == mid)); sum += cel;",
+    "patch": "(j == mid)) sum += (double)cel;",
+    "target": "(j == mid)) sum += cel;"
+}

@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "return this == o;",
     "patch": "return super.equals( o );",
     "target": "return tag.equals(element.tag);"

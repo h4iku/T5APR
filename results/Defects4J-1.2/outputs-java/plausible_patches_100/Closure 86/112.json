@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "return true;",
+    "patch": "return isSimpleOperator(value.getFirstChild());",
+    "target": "return false;"
+}

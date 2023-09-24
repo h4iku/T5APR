@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if(!(a-D[i].dragonstrength)>0)",
+    "patch": "if(a <= D[i].dragonstrength)",
+    "target": "if((a-D[i].dragonstrength)<=0)"
+}

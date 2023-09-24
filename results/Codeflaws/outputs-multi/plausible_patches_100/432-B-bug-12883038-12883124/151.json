@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "",
     "patch": "for (; i < n; i++) { printf(\"%d %d\\n\", arr[i].home_score, sum-arr[i].home_score); }",
     "target": "return 0;"

@@ -2,7 +2,7 @@
     "exact_match": true,
     "correct": true,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "k -= m[j]; if(k >= 0) {",
     "patch": "if(k - m[j] >= 0) {",
     "target": "if(k - m[j] >= 0) {"

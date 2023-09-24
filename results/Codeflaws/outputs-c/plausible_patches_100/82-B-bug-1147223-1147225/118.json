@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "",
+    "patch": "if(m == 1) { printf(\"1 %d\\n\", (int (*)(const void *, const void *)) scmp); }",
+    "target": "return 0;"
+}

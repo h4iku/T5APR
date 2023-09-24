@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if(num[j]!=n)break;",
     "patch": "if(k!=n) break;",
     "target": "if(num[j]!=j)break;"

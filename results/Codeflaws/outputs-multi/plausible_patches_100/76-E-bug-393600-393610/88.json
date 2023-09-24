@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "printf(\"%l64d\\n\", N * sum_x2 - sum_x * sum_x + N * sum_y2 - sum_y * sum_y);",
     "patch": "printf(\"%ld\\n\", (long)N * sum_x2 - sum_x * sum_x + (long)N * sum_y2 - sum_y * sum_y);",
     "target": "printf(\"%lld\\n\", N * sum_x2 - sum_x * sum_x + N * sum_y2 - sum_y * sum_y);"

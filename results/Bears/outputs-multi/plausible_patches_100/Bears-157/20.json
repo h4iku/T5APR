@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "return otherNode.getNodeId() == null",
     "patch": "return otherNode.getHost().equals(getHost())",
     "target": "return !(otherNode.getNodeId() == null && getNodeId() != null)"

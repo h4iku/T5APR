@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "else if(c%2==1 && (b-200)%2==0)printf(\"YES\");",
+    "patch": "else if(c%2==1 && b)printf(\"YES\");",
+    "target": "else if(c%2==1 && (b*100)>=200 && b%2==0)printf(\"YES\");"
+}

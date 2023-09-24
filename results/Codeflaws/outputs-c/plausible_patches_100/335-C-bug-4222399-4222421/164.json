@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "rep(i,n) rep(j,n) if(mp[i][j]==0){",
+    "patch": "rep(i,n) rep(j,2) if(mp[i][j]==0){",
+    "target": "rep(i,n) rep(j,2) if(mp[i][j]==0){"
+}

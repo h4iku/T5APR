@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": true,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "for (i = 1; i <= strlen(s); i++){",
     "patch": "for (i = 1; i < (int)strlen(s); i++) {",
     "target": "for (i = 1; i < strlen(s); i++){"

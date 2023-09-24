@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "25, 26, 27, 28, 29, 30, 31, 32,",
+    "patch": "24, 26, 27, 28, 29, 32,",
+    "target": "25, 26, 27, 28, 29, 30, 31,"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": true,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "max=1;",
+    "patch": "max=1+max;",
+    "target": "max=max+1;"
+}

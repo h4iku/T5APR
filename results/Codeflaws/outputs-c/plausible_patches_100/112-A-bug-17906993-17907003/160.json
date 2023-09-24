@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "printf(\"%s %s\\n\",s1,s2);",
+    "patch": "s1[i] = '\\0'; s2[i] = '\\0';",
+    "target": ""
+}

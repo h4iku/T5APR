@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if(t[i] - s[i] == 0 || t[i] - s[i] == 1);",
+    "patch": "if(t[i] - s[i] == 0 && t[i] - s[i] == 1) { flag = 0; break; }",
+    "target": "if(t[i] - s[i] == 0);"
+}

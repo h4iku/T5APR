@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "kmin=min*combina((float)ceil(n/m))+(m-min)*(combina(base));",
     "patch": "kmin=min*combina((float)ceil((float)n/m))+(m-min)*combina(base);",
     "target": "kmin=min*combina(ceil((float)n/m))+(m-min)*(combina(base));"

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "",
+    "patch": "qsort(sets, sets, sets[0].size, sizeof(int));",
+    "target": "return 0;"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "",
+    "patch": "else if(i==l)printf(\"YES\"); else break;",
+    "target": "else break;"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "} else if ((\"td\".equals(name) || \"td\".equals(name) && !last)) {",
+    "patch": "} else if (\"tr\".equals(name)) {",
+    "target": "} else if ((\"td\".equals(name) || \"th\".equals(name) && !last)) {"
+}

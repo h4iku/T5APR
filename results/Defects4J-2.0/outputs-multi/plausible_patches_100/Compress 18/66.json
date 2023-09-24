@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "",
     "patch": "if (name.endsWith(\"/\")) { name = name.substring(0, name.length() - 1); }",
     "target": "while (name.endsWith(\"/\")) {   name = name.substring(0, name.length() - 1); }"

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "return foundDigit && !hasExp;",
+    "patch": "return foundDigit &&!hasDecPoint &&!hasExp;",
+    "target": "return foundDigit && !hasExp && !hasDecPoint;"
+}

@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "answer+=((i-1)*dif);",
     "patch": "answer+=((i-1)*(dif-dif));",
     "target": ""

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "printf(\"%d %d \",rating,rating_skills2[i]);",
+    "patch": "scanf(\"%d %d \",rating, rating_skills2[i]);",
+    "target": ""
+}

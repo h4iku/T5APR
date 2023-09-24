@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "found = key.equals(prop.getName());",
+    "patch": "if (key.equalsIgnoreCase(prop.getName())) found = true;",
+    "target": "found = key.equals(_hashArea[i-1]);"
+}

@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": true,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "return 1 + levenshtein(source.substring(1), target.substring(1));",
     "patch": "return 1 + levenshtein(source.substring(1), target.substring(1)) - 1;",
     "target": "return levenshtein(source.substring(1), target.substring(1));"

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "printf(\"%lld  \",a[i][0]); for(i=0;i<n;i++)",
+    "patch": "scanf(\"%d  \",a[i][0]); for(i=0;i<n;i++)",
+    "target": ""
+}

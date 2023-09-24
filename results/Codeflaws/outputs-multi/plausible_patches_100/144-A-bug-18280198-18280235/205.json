@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if (Amax<=arr[i])",
     "patch": "if (Amax<(int)(arr[i]))",
     "target": "if (Amax<arr[i])"

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "for(s=s2;*s;s+=i) if(strncmp(s, s2, i)) ret=0;",
+    "patch": "for(s=s2;*s;s+=i) if(strncmp(s, s1, i)) ret = 0;",
+    "target": "for(s=s2;*s;s+=i) if(strncmp(s, s1, i)) ret=0;"
+}

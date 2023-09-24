@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "",
+    "patch": "if (tokens.size() == 0) tokens.add(token);",
+    "target": "tokens.add(token);"
+}

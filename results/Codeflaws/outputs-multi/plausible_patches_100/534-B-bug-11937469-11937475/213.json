@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "for(i=1;i<=t;i++)printf(\"%d\\n\",ara[i]);",
     "patch": "if(ara[i]-ara[i-1]>d) sum-=ara[i];",
     "target": ""

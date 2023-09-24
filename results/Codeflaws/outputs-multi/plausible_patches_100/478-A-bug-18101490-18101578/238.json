@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if(sum==0) printf(\"-1\");",
     "patch": "dprintf(\"-1\");",
     "target": ""

@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "int a,b,k,r,t,i,j,max,min=9999;",
     "patch": "int a,b,k,r, t,i,j,max,min=0;",
     "target": "int a,b,k,r,t,i,j,max,min;"

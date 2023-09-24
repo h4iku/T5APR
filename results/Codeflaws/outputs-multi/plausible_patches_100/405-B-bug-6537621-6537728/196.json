@@ -2,7 +2,7 @@
     "exact_match": true,
     "correct": true,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "r=r-(n-niz[d])+1;",
     "patch": "r=r-(n-niz[d-1]);",
     "target": "r=r-(n-niz[d-1]);"

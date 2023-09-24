@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "while (c <= 100000) {",
+    "patch": "while (c <= (long)1000000) {",
+    "target": "while (c < 1000000) {"
+}

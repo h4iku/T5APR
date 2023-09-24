@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": true,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "const int dj[] = {0, 1, 1, -1, -1, -1, 0};",
+    "patch": "const int dj[] = { 0, 1, 1, 1, -1, -1, 0};",
+    "target": "const int dj[] = {0, 1, 1, 1, -1, -1, 0};"
+}

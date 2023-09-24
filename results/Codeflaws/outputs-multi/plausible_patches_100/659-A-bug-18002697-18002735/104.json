@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": true,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "",
     "patch": "if(abs(b)>n) b=b%n; if(ans>n) ans=ans-n;",
     "target": "if(ans>n) ans=ans-n;"

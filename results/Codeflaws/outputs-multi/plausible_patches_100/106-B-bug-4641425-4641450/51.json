@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if(cost[i]<min){",
     "patch": "if((unsigned int)cost[i]<min){",
     "target": "if(cost[i]<=min){"

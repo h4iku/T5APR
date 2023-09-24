@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "p = p/np*n;",
     "patch": "p = p/n/np;",
     "target": "p = p/(np*n);"

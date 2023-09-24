@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "",
     "patch": "p1[i] = '\\0';",
     "target": "s = strdup(s); p = strdup(p);"

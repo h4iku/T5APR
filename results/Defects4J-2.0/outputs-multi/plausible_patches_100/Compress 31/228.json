@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if (currentByte == 0) { break; }",
     "patch": "assert currentByte >= 0;",
     "target": ""

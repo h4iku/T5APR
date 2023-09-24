@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "j = -1;",
     "patch": "j = -e;",
     "target": "j = -2501;"

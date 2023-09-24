@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "int steps = ceil(distance)/(2*r);",
     "patch": "int steps = ceil((distance/(2*r)));",
     "target": "int steps = ceil(distance/(2*r));"

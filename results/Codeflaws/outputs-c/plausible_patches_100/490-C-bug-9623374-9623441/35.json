@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "int modb[1100000],tens[1100000];",
+    "patch": "long modb[1100000], tens[1100000];",
+    "target": "long long modb[1100000],tens[1100000];"
+}

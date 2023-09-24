@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if(!(a[i][j])) {",
+    "patch": "if(a[i][j] == -1) {",
+    "target": "if(!(a[i][j]) || (a[i][j]) == -1) {"
+}

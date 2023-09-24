@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if (str.startsWith(\"--\")) { return null; }",
+    "patch": "if (str.equals(\"--\")) return null;",
+    "target": ""
+}

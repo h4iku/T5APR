@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "",
+    "patch": "System.exit(0);",
+    "target": "if (numToSkip > 0) { byte[] skipBuf = new byte[SKIP_BUF_SIZE]; while (numToSkip > 0) { int read = readFully(input, skipBuf, 0, (int) Math.min(numToSkip, SKIP_BUF_SIZE)); if (read < 1) { break; } numToSkip -= read; } }"
+}

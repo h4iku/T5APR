@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if(a[i+1]-a[i]>1){",
+    "patch": "if(a[i+1]-a[i]-1){",
+    "target": "if(a[i+1]-a[i]!=1){"
+}

@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": true,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "",
     "patch": "else if (d1==d2 && d2==d3) printf(\"%d\", d1+d2+d3); else printf(\"%d\", d1+d2+d3);",
     "target": "else if (d1+d2>d3) printf(\"%d\", d1+d3+d2);"

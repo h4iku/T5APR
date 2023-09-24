@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "@Override public JSType getLeastSupertype(JSType that) { if (!that.isRecordType()) { return super.getLeastSupertype(that); } RecordTypeBuilder builder = new RecordTypeBuilder(registry); for (String property : properties.keySet()) { if (that.toMaybeRecordType().hasProperty(property) && that.toMaybeRecordType().getPropertyType(property).isEquivalentTo( getPropertyType(property))) { builder.addProperty(property, getPropertyType(property), getPropertyNode(property)); } } return builder.build(); }",
+    "patch": "public JSType getLeastSupertype(JSType that) { return getLeastSupertype(that, this); }",
+    "target": ""
+}

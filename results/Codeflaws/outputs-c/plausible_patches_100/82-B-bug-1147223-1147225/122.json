@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "",
+    "patch": "qsort(sets, m, sizeof(struct set), (int (*)(const void *, const void *, const void *)) icmp);",
+    "target": "return 0;"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "void F(int n, int k, int inc){",
+    "patch": "void F(int n, unsigned long k, int inc){",
+    "target": "void F(int n, long long k, int inc){"
+}

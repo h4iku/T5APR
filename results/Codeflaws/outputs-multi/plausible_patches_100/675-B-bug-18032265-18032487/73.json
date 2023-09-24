@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "printf(\"%d\",n*count);",
     "patch": "printf(\"%ld\",(unsigned long)n*count);",
     "target": "printf(\"%lld\",(long long int) n*count);"

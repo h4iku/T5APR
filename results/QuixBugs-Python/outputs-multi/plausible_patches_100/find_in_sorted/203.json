@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "return binsearch(mid, end)",
     "patch": "return binsearch(mid+1, end-start)",
     "target": "return binsearch(mid + 1, end)"

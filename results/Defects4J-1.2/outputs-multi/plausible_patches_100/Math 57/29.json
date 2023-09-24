@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "int sum = 0;",
+    "patch": "double sum = 0.0;",
+    "target": "double sum = 0;"
+}

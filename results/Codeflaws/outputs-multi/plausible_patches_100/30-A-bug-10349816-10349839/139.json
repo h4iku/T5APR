@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if (x>d) {printf(\"No solution\");printf(\"%d\",x);}",
     "patch": "if (x>d) {printf(\"No solution\");printf(\"%z\",x);}",
     "target": "if (x>d) {printf(\"No solution\");}"

@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "freopen(\"g:\\\\input.txt\",\"r\",stdin);",
     "patch": "fopen(\"r\",stdin);",
     "target": ""

@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "return (_valueTypeDeserializer == null)",
     "patch": "return (this == null)",
     "target": "return (_valueDeserializer == null) && (_keyDeserializer == null) && (_valueTypeDeserializer == null)"

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "",
+    "patch": "while (m--) { if (rem < prize[m]) { m--; continue; } }",
+    "target": "cho[i] += rem; rem = 0;"
+}

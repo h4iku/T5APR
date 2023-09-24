@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if (property == null) { return this; }",
     "patch": "if (serializers == null) return this;",
     "target": ""

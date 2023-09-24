@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if (channel.getPipeline().get(HttpRequestDecoder.class) != null",
+    "patch": "if (channel!= null && (channel.getPipeline()!= null)",
+    "target": "if (channel != null && channel.getPipeline().get(HttpRequestDecoder.class) != null"
+}

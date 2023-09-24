@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if (sum < n || s[h - 1] == 1) {",
     "patch": "if (sum < n || (int)s[h - 1] == 0) {",
     "target": "if (sum < n) {"

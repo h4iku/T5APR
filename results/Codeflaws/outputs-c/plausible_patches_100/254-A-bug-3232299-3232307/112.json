@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "",
+    "patch": "if(count < 2) { printf(\"-1\\n\"); }",
+    "target": "freopen(\"input.txt\", \"r\", stdin);freopen(\"output.txt\", \"w\", stdout);"
+}

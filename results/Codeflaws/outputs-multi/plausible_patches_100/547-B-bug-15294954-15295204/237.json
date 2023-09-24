@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "while(isempty(mystack))",
     "patch": "while(i--)",
     "target": "while(!isempty(mystack))"

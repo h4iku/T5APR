@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if ((k>m)&&(5-m)>=k)",
+    "patch": "if ((k>=k)&&(5-m)>=k)",
+    "target": "if ((5-m)>=k)"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if(cost[i]<min){",
+    "patch": "if(cost[i]<min&0xFFFF){",
+    "target": "if(cost[i]<=min){"
+}

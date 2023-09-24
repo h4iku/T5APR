@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "else if(sum == k) printf(\"12\\n\");",
     "patch": "else if (sum < k) printf(\"-1\\n\");",
     "target": ""

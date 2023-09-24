@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": true,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if(largest[i]<greater)greater=largest[x];",
+    "patch": "if(largest[i]<greater)greater = largest[i];",
+    "target": "if(largest[i]<greater){greater=largest[i];}"
+}

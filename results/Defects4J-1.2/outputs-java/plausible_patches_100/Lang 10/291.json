@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if(Character.isWhitespace(c)) { if(!wasWhite) { wasWhite= true; regex.append(\"\\\\s*+\"); } continue; } wasWhite= false;",
+    "patch": "char ch= value.charAt(i);",
+    "target": ""
+}

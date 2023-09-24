@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "printf(\"%d%d\",bottle,towel);",
     "patch": "printf(\"%ld %ld\",bottle,towel);",
     "target": "printf(\"%d %d\",bottle,towel);"

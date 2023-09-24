@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": true,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "private synchronized void addArrivedRecordsInput(ProcessRecordsInput processRecordsInput) throws InterruptedException {",
     "patch": "private void addArrivedRecordsInput(ProcessRecordsInput processRecordsInput) throws InterruptedException, InterruptedException {",
     "target": "private void addArrivedRecordsInput(ProcessRecordsInput processRecordsInput) throws InterruptedException {"

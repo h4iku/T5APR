@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "for(t=head[cu];t!=NULL;t=t->next)",
+    "patch": "for(t = head[cen];t!=NULL;t=t->next)",
+    "target": "for(t=head[cen];t!=NULL;t=t->next)"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "",
+    "patch": "a[i][i] = (sum / 2) - a[i][j];",
+    "target": "return 0;"
+}

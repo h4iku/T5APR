@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if(a[i]=='H' || a[i]=='Q' || a[i]=='9' || a[i]=='+')",
     "patch": "if(a[i]=='H' || a[i]=='Q' || a[i]=='9' || a[i]=='+2')",
     "target": "if(a[i]=='H' || a[i]=='Q' || a[i]=='9')"

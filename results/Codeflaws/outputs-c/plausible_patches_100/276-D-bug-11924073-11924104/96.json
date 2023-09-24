@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "void convert(int a[],int n,int i)",
+    "patch": "void convert(int a[],long n,long i)",
+    "target": "void convert(int a[],long long int n,int i)"
+}

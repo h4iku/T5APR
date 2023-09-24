@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if (i <= maxCode) {",
     "patch": "if (i < _inputPtr) {",
     "target": "if (i < maxCode) {"

@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if(((a*(a-1))/2)+1>b){",
     "patch": "if((a*(a-2))/2+1>b){",
     "target": "if(((a*(a-1))/2)>b){"

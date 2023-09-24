@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if(c1>=1 && c2>=1 && c3>=1 && c4>=1){",
     "patch": "if(c1>=1&& c2>=1&& c3>=1&& c4>=0){",
     "target": "if(c1>=1 && c2>=1 && c3>=1){"

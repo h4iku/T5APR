@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "break;",
+    "patch": "continue; } else if (opt.hasArg()) {",
+    "target": "continue;"
+}

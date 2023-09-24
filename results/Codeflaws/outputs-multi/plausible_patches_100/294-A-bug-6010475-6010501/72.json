@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if(num2<numOwires)",
     "patch": "if(num2<numOwires*sizeof(int))",
     "target": "if(num2<temp)"

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": true,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "return true;",
+    "patch": "return evaluatesToLocalValue(value.getFirstChild(), locals);",
+    "target": "return false;"
+}

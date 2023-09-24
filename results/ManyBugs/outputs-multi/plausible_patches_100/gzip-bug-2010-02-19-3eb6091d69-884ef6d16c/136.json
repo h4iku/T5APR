@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": true,
+    "plausible": null,
+    "multi-hunk": false,
+    "source": "if ((z_len == 0 && !decompress) || z_len > MAX_SUFFIX) { fprintf(stderr, \"%s: incorrect suffix '%s'\\n\", program_name, z_suffix);",
+    "patch": "if (z_len == 0 || z_len > MAX_SUFFIX) { fprintf(stderr, \"%s: incorrect suffix '%s'\\n\", program_name, z_suffix, z_len);",
+    "target": "if (z_len == 0 || z_len > MAX_SUFFIX) { fprintf(stderr, \"%s: invalid suffix '%s'\\n\", program_name, z_suffix);"
+}

@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "for(;ques[j].r>ques[l].l;j--);",
     "patch": "for(;ques[j].r>ques[l].r;j--,i);",
     "target": "for(;ques[j].r>ques[l].r;j--);"

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "ans=x%2==0?x/2:(x/2)+1;",
+    "patch": "ans=x%2==0?x/2:(x/2)/1;",
+    "target": "ans=x/2;"
+}

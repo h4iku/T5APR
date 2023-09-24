@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": true,
+    "source": "",
+    "patch": "if(!f) f=1; else f=0;",
+    "target": "if(i==x-1 && kln) f=1;"
+}

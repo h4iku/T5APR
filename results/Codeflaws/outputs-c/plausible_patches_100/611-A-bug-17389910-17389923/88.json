@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "printf(\"52\\n\");",
+    "patch": "fprintf(stdout, \"53\\n\");",
+    "target": "printf(\"53\\n\");"
+}

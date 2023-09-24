@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "sayac=0;",
+    "patch": "{ sayac=1; }",
+    "target": "sayac=1;"
+}

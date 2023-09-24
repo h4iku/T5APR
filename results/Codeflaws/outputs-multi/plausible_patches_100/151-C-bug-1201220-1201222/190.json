@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "for (j = 2LL; j * j <= sqrt(p); ++j)",
     "patch": "for (j = 2LL; j * j < q; ++j)",
     "target": "for (j = 2LL; j <= sqrt(p); ++j)"

@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": true,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "",
     "patch": "if (rez<100) printf(\"000\"); printf(\"%lld\\n\",rez);",
     "target": "printf(\"%lld\\n\",rez); return 0;"

@@ -1,9 +1,0 @@
-{
-    "exact_match": true,
-    "correct": true,
-    "plausible": true,
-    "hunks": false,
-    "source": "PathIterator iterator2 = p1.getPathIterator(null);",
-    "patch": "PathIterator iterator2 = p2.getPathIterator(null);",
-    "target": "PathIterator iterator2 = p2.getPathIterator(null);"
-}

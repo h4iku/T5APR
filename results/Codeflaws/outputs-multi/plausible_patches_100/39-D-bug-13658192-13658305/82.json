@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "scanf(\"%c%c%c%c%c%c%c%c%c%c\",&a,&ch,&b,&ch,&c,&ch,&d,&ch,&e,&ch,&f);",
     "patch": "scanf(\"%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c %c\",&a,&ch,&b,&ch,&c,&ch,&d,&ch,&e,&ch,&f);",
     "target": "scanf(\"%c%c%c%c%c%c%c%c%c%c%c\",&a,&ch,&b,&ch,&c,&ch,&d,&ch,&e,&ch,&f,&ch);"

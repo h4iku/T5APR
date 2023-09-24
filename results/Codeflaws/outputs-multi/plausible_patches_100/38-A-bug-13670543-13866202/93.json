@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "int i,j,l,m,n,sum=0,A[50],B[50];",
     "patch": "int i,j,l,m,n,sum=0,A[150],B[150];",
     "target": "int i,j,l,m,n,sum=0,A[100],B[100];"

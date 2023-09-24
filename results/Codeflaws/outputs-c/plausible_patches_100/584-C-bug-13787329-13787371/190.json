@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "return (a='a')?'b':'a';",
+    "patch": "return ((a=='a')?'b':'a');",
+    "target": "return (a=='a')?'b':'a';"
+}

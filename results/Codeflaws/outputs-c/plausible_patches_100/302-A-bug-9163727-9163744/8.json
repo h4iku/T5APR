@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "printf(\"%d\\n\", (r - l) % 2 == 1 && c[0] >= (r - l + 1) / 2 && c[1] >= (r - 1 + 1) / 2);",
+    "patch": "printf(\"%d\\n\", (r - l) % 2 == 1 && c[0] >= (r - l + 1) / 2 && c[1] >= (r - l + 1) / 2);",
+    "target": "printf(\"%d\\n\", (r - l) % 2 == 1 && c[0] >= (r - l + 1) / 2 && c[1] >= (r - l + 1) / 2);"
+}

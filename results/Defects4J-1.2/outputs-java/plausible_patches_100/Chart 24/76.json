@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "int g = (int) ((value - this.lowerBound) / (this.upperBound",
+    "patch": "int g = (int) ((v - this.lowerBound) / (this.upperBound",
+    "target": "int g = (int) ((v - this.lowerBound) / (this.upperBound"
+}

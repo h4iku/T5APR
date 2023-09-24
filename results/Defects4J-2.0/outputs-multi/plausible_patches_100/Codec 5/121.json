@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "",
     "patch": "if (buffer == null || buffer.length - pos <= decodeSize) { resizeBuffer(); }",
     "target": "if (buffer == null || buffer.length - pos < decodeSize) { resizeBuffer(); }"

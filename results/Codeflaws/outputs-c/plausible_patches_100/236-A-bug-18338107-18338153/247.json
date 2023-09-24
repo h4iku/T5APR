@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if(ara[i]==1 || ara[i]==2){",
+    "patch": "if(ara[i]!=0){",
+    "target": "if(ara[i]!=0){"
+}

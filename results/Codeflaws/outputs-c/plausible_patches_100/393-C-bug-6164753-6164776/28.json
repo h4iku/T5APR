@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "return xx + yy < nn;",
+    "patch": "return xx + yy < nn+1;",
+    "target": "return xx + yy <= nn;"
+}

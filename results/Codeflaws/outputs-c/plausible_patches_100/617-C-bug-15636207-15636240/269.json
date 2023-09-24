@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "maxr1 = r2[j];",
+    "patch": "maxr1 = d18;",
+    "target": "maxr1 = r1[j];"
+}

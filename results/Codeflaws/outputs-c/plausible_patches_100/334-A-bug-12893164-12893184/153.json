@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "",
+    "patch": "if(j < i + n / 2) { printf(\"%d %d \",j,sq-j+1); printf(\"\\n\"); }",
+    "target": "return 0;"
+}

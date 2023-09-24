@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "else if(diff%n0==2 || (n0==1 && diff==3)){",
+    "patch": "else if(diff){",
+    "target": "else if(diff%n0==2 || (n0==1 && diff==3) || (n0==2 && diff==4)){"
+}

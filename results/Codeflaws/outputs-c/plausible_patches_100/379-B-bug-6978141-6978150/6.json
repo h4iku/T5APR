@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": true,
+    "source": "",
+    "patch": "while(1) { if(a[i]) { printf(\"P\"); a[i]--; } }",
+    "target": "flag=1;"
+}

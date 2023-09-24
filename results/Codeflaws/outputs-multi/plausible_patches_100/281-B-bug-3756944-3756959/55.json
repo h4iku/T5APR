@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "k=i*X/Y;",
     "patch": "k=i*(float)X/Y;",
     "target": "k=(LL)i*X/Y;"

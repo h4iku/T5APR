@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "for(k = 0; k <= n + j - i; k++){",
     "patch": "for(k = 0; k!= n + j - i; k++){",
     "target": "for(k = 0; k < n + j - i; k++){"

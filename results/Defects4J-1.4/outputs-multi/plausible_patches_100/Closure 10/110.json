@@ -1,9 +1,0 @@
-{
-    "exact_match": true,
-    "correct": true,
-    "plausible": true,
-    "hunks": false,
-    "source": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);",
-    "patch": "return anyResultsMatch(n, MAY_BE_STRING_PREDICATE);",
-    "target": "return anyResultsMatch(n, MAY_BE_STRING_PREDICATE);"
-}

@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "printf(\"gyan  %d  %lld\",j,arr[j]);",
     "patch": "fprintf(stderr,\"gyan  %d  %ld\",j,arr[j]);",
     "target": ""

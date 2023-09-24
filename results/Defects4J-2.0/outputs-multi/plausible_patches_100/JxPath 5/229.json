@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "throw new JXPathException( \"Cannot compare pointers that do not belong to the same tree: '\" + p1 + \"' and '\" + p2 + \"'\");",
     "patch": "return compareNodePointers(p1.parent, depth1 - 1, p2.parent, depth2 - 1);",
     "target": "return 0;"

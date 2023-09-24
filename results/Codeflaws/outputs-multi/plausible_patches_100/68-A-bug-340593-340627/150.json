@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "printf(\"%ld\\n\",(min-a)<0?0:a-min);",
     "patch": "printf(\"%lu\\n\",(min-a)<0?0:(min-a));",
     "target": "printf(\"%ld\\n\",(min-a)<0?0:min-a);"

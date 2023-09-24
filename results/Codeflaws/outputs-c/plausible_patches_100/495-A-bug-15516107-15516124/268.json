@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "const int table[]={2.7,2,3,3,4,2,5,1,2};",
+    "patch": "const int table[]={2,7,2,3,3,4,2,5,1,2};",
+    "target": "const int table[]={2,7,2,3,3,4,2,5,1,2};"
+}

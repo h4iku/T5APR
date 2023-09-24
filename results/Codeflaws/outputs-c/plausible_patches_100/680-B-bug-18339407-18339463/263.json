@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "else if(l>0) c += t[l];",
+    "patch": "else if (l>=0) { c += t[l]; }",
+    "target": "else if(l>=0) c += t[l];"
+}

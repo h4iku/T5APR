@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "b = (250-time)*20*i - 50*mistake;",
+    "patch": "b = (250-time)*2 * i - 50*mistake;",
+    "target": "b = (250-time)*2*i - 50*mistake;"
+}

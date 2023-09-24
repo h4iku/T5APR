@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if((s[i] == '4') && (s[i] == '7')){",
+    "patch": "if(((s[i] == '4') || (s[i] == '7'))){",
+    "target": "if((s[i] == '4') || (s[i] == '7')){"
+}

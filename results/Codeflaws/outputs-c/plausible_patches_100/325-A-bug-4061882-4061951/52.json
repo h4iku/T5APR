@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "printf(\"%d   %d   %d\\n\", xf, yf, sum); printf(\"%d   %d   %d   %d\\n\", a, b, c, d);",
+    "patch": "scanf(\"%d   %d   %d   %d\\n\", xf, yf, sum); scanf(\"%d   %d   %d\\n\", a, b, c, d);",
+    "target": ""
+}

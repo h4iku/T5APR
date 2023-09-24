@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if(de>=max[p])",
+    "patch": "if(de >= min[p])",
+    "target": "if(de>=max[p]-min[p])"
+}

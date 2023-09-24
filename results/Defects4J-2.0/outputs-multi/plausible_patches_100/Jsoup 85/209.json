@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": true,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "this.key = key.trim();",
+    "patch": "key = key.trim(); this.key = key;",
+    "target": "key = key.trim();"
+}

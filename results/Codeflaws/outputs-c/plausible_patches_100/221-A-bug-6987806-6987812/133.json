@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "printf(\"%d\",input);",
+    "patch": "printf(\"%d \",(unsigned char)input);",
+    "target": "printf(\"%d \",input);"
+}

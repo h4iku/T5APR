@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": true,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if(a[i][j]=='w')",
     "patch": "if(a[i][j]=='W' && j<8)",
     "target": "if(a[i][j]=='W')"

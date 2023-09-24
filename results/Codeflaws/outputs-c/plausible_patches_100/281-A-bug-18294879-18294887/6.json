@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "printf(\"%s\\n\",s);",
+    "patch": "fprintf(stderr, \"wordCapitalization\\n\");",
+    "target": ""
+}

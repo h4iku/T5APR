@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "sum1 = 1;",
     "patch": "sum = sum1 = 0;",
     "target": "sum1 = 0;"

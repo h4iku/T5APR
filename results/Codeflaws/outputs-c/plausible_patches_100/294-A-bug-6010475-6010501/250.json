@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if(num2<numOwires)",
+    "patch": "if(num2<numOwires<numOwires)",
+    "target": "if(num2<temp)"
+}

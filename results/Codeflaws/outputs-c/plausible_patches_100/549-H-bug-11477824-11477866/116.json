@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if((F(nle)<1e-6*nle||F(nle)<1e-6)&&r>mut(nle))r=mut(nle);",
+    "patch": "if((F(nle)<nle||F(nle)<1e-6)&&r>mut(nle))r=mut(nle);",
+    "target": "if((F(nle)<1e-2*nle||F(nle)<1e-6)&&r>mut(nle))r=mut(nle);"
+}

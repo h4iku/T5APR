@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "long long int l=1,r=25000000001,mid,q,k,i,m,n;",
     "patch": "long long int l=1,r=256000000001,mid,q,k,i,m,n;",
     "target": "long long int l=1,r=250000000001,mid,q,k,i,m,n;"

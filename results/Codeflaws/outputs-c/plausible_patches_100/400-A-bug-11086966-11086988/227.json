@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "printf(\" %d*%d\",d[j],12/d[j]);",
+    "patch": "printf(\" %d*%d\",d[j],12/d[j-2]);",
+    "target": "printf(\" %dx%d\",d[j],12/d[j]);"
+}

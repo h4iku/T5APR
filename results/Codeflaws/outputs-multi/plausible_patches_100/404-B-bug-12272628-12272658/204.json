@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "int rounds = em / b4;",
     "patch": "unsigned rounds = em / b4;",
     "target": "long long int rounds = em / b4;"

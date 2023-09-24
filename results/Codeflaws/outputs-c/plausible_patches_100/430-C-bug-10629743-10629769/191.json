@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "flipped=0,count++,print[count++]=parentNode;",
+    "patch": "flipped=0,count,print[count++]=parentNode;",
+    "target": "flipped=0,print[count++]=parentNode;"
+}

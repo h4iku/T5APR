@@ -1,9 +1,0 @@
-{
-    "exact_match": false,
-    "correct": false,
-    "plausible": true,
-    "hunks": false,
-    "source": "&& 0 <= charno && charno < sourceExcerpt.length()) {",
-    "patch": "&& sourceExcerpt.length() > 0) {",
-    "target": "&& 0 <= charno && charno <= sourceExcerpt.length()) {"
-}

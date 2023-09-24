@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "printf(\"%ld %ld %ld\",n,m,k);",
     "patch": "fprintf(stderr, \"%ld %ld %ld\", n,m,k);",
     "target": ""

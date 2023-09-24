@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "Partial newPartial = new Partial(iChronology, newTypes, newValues);",
+    "patch": "Partial newPartial = new Partial(newTypes, newValues, iChronology);",
+    "target": "Partial newPartial = new Partial(newTypes, newValues, iChronology);"
+}

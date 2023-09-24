@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "",
+    "patch": "def search_from(node): return node.successors",
+    "target": "nodesvisited.add(node)"
+}

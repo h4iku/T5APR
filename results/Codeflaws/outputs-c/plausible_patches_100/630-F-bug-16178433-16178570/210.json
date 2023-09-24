@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "l=k*(k-6)/7;",
+    "patch": "l = k*(i-6)/7;",
+    "target": "l=k*(i-6)/7;"
+}

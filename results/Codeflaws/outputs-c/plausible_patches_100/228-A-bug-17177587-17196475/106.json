@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "else if(Counter==3)",
+    "patch": "else if(Counter!=0)",
+    "target": "else if(Counter==3 || Counter==4)"
+}

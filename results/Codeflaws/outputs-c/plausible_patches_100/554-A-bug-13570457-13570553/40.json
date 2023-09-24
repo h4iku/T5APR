@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "",
+    "patch": "for(a=1;a<=19;a++){ s[a]='0'; }",
+    "target": "return 0;"
+}

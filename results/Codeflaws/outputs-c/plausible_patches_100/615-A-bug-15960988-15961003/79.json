@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "",
+    "patch": "for(i=1;i<=m;i++) scanf(\"%d\",&x); for(j=0;j<x;j++) { scanf(\"%d\",&y); for(k=1;k<=m;k++) { if(y==k) { s[k]++; break; } } }",
+    "target": "break;"
+}

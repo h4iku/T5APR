@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "",
+    "patch": "for (i = 1; i >= 3; i--) { printf(\"%d \", ordem[i]); }",
+    "target": "vet[c] = 1; vet[d] = 1;"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "",
+    "patch": "if(_min >y) res = y; else res = _min;",
+    "target": "if(n==1) res =y;"
+}

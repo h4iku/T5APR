@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if(i==12)",
+    "patch": "if(i==12 && i>12)",
+    "target": "if(i==12&&sum<x)"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "printf(\"%d\\t%d\\t%d\",c1,c2,c3);",
+    "patch": "for(i=0;i<n;i++) scanf(\"%d\",&a[i]);",
+    "target": ""
+}

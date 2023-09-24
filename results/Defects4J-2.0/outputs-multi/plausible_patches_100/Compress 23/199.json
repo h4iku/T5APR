@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "dictSize |= (coder.properties[i + 1] << (8 * i));",
     "patch": "dictSize |= (i + 1 << (8 * i));",
     "target": "dictSize |= (coder.properties[i + 1] & 0xffl) << (8 * i);"

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "int mayor=2000;",
+    "patch": "int mayor=2000 * 1000;",
+    "target": "int mayor=20000;"
+}

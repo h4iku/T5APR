@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "two += min2+stu;",
+    "patch": "two+=stu;",
+    "target": "two = min2+stu;"
+}

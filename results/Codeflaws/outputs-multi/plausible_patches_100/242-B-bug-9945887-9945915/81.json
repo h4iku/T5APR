@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "k = min_i(a, i, j);",
     "patch": "k = min_i(a, k, k + 1);",
     "target": "k = min_i(a, i, k);"

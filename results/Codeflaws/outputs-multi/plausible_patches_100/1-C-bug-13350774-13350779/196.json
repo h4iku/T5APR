@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "float eps = 0.005 ;",
     "patch": "float eps = 0.005 / 3;",
     "target": "float eps = 0.001 ;"

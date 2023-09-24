@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "printf(\"Left: %d, Right: %d \\n\", left, right);",
     "patch": "fprintf(stderr, \"\\nLeft: %d, Right: %d \\n\", left, right);",
     "target": ""

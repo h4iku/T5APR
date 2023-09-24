@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if ((h2-h1>a*8) && (h2+a*8-b*12>0) && (a<=b))",
     "patch": "if ((h2-h1>a*8) && (h2+a*8-b*0) && (a<=b))",
     "target": "if ((h2-h1>a*8) && (a<=b))"

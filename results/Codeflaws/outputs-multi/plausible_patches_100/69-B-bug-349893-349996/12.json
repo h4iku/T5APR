@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "}else if(max.t==per[j].t && max.c<per[j].c){ max=per[j]; maximum=max.c;",
     "patch": "}else if(max.t==per[j].t && max.c<per[j].c){ max=per[j]; }else if(max.t==per[j].t && max.c<per[j].c){ max=per[j];",
     "target": ""

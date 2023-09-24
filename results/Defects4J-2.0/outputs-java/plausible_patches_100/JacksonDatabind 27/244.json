@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if (ext.handlePropertyValue(p, ctxt, propName, buffer)) {",
+    "patch": "if (ext.handlePropertyValue(p, ctxt, propName, _objectIdReader)){",
+    "target": "if (ext.handlePropertyValue(p, ctxt, propName, null)) {"
+}

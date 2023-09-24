@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if (cntone != cnttwo)",
+    "patch": "if (cntone!= cnttwo && cnttwo >= cntone)",
+    "target": "if (cntone < cnttwo)"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "for(i=1;i<=t;i++)printf(\"%d\\n\",ara[i]);",
+    "patch": "for(i=1;i<=t;i++) { if(ara[i]-ara[i]) { sum-=ara[i]; break; } }",
+    "target": ""
+}

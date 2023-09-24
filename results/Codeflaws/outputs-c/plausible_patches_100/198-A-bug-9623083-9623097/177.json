@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "while (n-- && t>z){",
+    "patch": "while (n-- && t>z -1){",
+    "target": "while (n-- && t>=z){"
+}

@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "long max = 0; int vote = 1;",
     "patch": "long max = 0; int vote = 0, j;",
     "target": "long max = 0; int vote = 0;"

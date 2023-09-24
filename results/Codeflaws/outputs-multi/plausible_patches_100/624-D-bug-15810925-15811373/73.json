@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "",
     "patch": "for(i=-1;++i<n;scanf(\"%u\",A+i));",
     "target": "if(!Li){ans=0;break;}"

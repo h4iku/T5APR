@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "return new LinkedHashMap<String, Integer>(this.headerMap);",
+    "patch": "return this.headerMap == null? null : this.headerMap;",
+    "target": "return this.headerMap == null ? null : new LinkedHashMap<String, Integer>(this.headerMap);"
+}

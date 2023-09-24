@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "",
     "patch": "if(c1==0) { a1[c1++]=a1[--c1]; a2[c1++]=a1[--c1]; }",
     "target": "if(c1%2==0) a3[c3++]=a1[--c1];"

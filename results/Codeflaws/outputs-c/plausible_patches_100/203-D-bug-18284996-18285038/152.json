@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "printf(\"%.9f\",vz>0?d:b-d);",
+    "patch": "printf(\"%.9f\",vz >= 0?d:b-d);",
+    "target": "printf(\"%.9f\",vz>=0?d:b-d);"
+}

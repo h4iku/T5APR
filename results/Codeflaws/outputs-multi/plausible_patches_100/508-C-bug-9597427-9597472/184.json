@@ -2,7 +2,7 @@
     "exact_match": true,
     "correct": true,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if(!can[k]){count++;can[k]=t-count;}",
     "patch": "if (!can[k]){count++;can[k]=t-count+1;}",
     "target": "if(!can[k]){count++;can[k]=t-count+1;}"

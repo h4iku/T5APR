@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "",
     "patch": "p[0]=0; z[0]=0; scanf(\"%d\",&m); for(i=0;i<m;i++) scanf(\"%d\",&j);",
     "target": "freopen(\"input.txt\",\"r\",stdin); freopen(\"output.txt\",\"w\",stdout);"

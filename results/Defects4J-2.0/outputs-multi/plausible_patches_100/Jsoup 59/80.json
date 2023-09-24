@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "",
+    "patch": "if (pendingAttributeName.length() == 0) return;",
+    "target": "if (pendingAttributeName.length() > 0) {"
+}

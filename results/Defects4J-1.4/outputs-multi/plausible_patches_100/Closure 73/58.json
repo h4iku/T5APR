@@ -1,9 +1,0 @@
-{
-    "exact_match": false,
-    "correct": true,
-    "plausible": true,
-    "hunks": false,
-    "source": "if (c > 0x1f && c <= 0x7f) {",
-    "patch": "if (c > 0x1f && c <= 0x7f - 1) {",
-    "target": "if (c > 0x1f && c < 0x7f) {"
-}

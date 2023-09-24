@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "",
     "patch": "if(flag==1 && a[i] == 4 ) { ans+=1; }",
     "target": "return 0;"

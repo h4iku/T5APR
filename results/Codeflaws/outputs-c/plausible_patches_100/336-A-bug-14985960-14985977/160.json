@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "printf(\"0 %d %d 0\",-(abs(b)+b),(abs(b)+b));",
+    "patch": "printf(\"0 %d %d 0\",-(abs(b)+a),(abs(b)+a));",
+    "target": "printf(\"0 %d %d 0\",-(abs(b)+a),(abs(b)+a));"
+}

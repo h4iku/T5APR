@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "",
+    "patch": "while (vet[j]) j++; vet[j] = c;",
+    "target": "vet[c] = 1; vet[d] = 1;"
+}

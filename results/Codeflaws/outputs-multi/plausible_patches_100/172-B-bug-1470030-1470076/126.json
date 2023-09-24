@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "int r[1000], t=0, i, k;",
     "patch": "size_t r[1000], t, i, k;",
     "target": "int r[10000000], t=0, i, k;"

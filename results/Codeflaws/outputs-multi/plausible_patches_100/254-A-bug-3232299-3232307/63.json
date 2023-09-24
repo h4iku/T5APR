@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "",
     "patch": "count++; MM[count].start = i; MM[count].end = vis[a[i]]; vis[a[i]] = 0;",
     "target": "freopen(\"input.txt\", \"r\", stdin);freopen(\"output.txt\", \"w\", stdout);"

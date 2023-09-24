@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": true,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "for ( j=0,acc=0; xs[j] != bs[i]; ++j, acc+=ws[xs[j]] );",
     "patch": "for ( j=0,acc=0; xs[j]!= bs[i]; ++j, acc+=ws[xs[j-1]] );",
     "target": "for ( j=0,acc=0; xs[j] != bs[i]; acc+=ws[xs[j++]] );"

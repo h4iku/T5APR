@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "#define MAXN 52",
     "patch": "#define MAXN 65",
     "target": "#define MAXN 55"

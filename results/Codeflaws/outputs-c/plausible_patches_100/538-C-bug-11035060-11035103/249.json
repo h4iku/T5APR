@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "max = hi + di-x;",
+    "patch": "max = hi + di-x - m;",
+    "target": "max = hi + di-1;"
+}

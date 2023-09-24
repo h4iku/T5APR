@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "else if(abs(c - (a + b) != 2)){",
     "patch": "else if((int)(abs(c - (a + b))!= 2)){",
     "target": "else if(abs(c - (a + b)) != 2){"

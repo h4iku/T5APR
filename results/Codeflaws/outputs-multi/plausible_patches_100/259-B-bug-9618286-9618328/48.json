@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "",
     "patch": "for(j = 0; j < 3; j++){ printf(\"%d\", a[i][j]); } printf(\"\\n\");",
     "target": "return 0;"

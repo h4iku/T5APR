@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": true,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "(L=R)?printf(\"Tie\"):printf(\"Radewoosh\");",
     "patch": "if (L==R) printf(\"Tie\"); else printf(\"Radewoosh\");",
     "target": "(L==R)?printf(\"Tie\"):printf(\"Radewoosh\");"

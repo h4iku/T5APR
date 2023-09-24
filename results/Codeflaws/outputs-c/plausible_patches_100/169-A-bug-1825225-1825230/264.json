@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "printf(\"%I64u\",h[a+1]-h[a]);",
+    "patch": "printf(\"%I64u\",h[1+1]-h[a]);",
+    "target": "printf(\"%I64u\",h[b]-h[b-1]);"
+}

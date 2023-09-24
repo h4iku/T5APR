@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "return (side1 > side2 + side3 || side2 > side1 + side3 || side3 > side1 + side2);",
+    "patch": "return (side1 > side2 + side3 || side2 > side1 + side3 || side3 > side1 + side2 + side3 || side1 >= side1 + side2);",
+    "target": "return (side1 > side2 + side3 || side2 > side1 + side3);"
+}

@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "printf(\"%d %d\\n\",num[i],tnum[i]); } for(i=0;i<10;i++){",
     "patch": "if (tnum[i] && i!=5 && i!=9) cnt=min(cnt,num[i]/tnum[i]);",
     "target": ""

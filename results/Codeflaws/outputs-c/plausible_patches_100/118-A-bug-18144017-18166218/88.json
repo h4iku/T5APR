@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "",
+    "patch": "if(j%2==2) { string2[j]='.'; }",
+    "target": "string2[j]='\\0';"
+}

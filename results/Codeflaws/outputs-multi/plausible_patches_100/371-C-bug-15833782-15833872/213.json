@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if(b_num != 0)  b = (int)ceil( 1.0*s_valid/s_num );",
     "patch": "b = (int)ceil(1.0*s_valid/s_num + 1.0);",
     "target": "if(s_num != 0)  b = (int)ceil( 1.0*s_valid/s_num );"

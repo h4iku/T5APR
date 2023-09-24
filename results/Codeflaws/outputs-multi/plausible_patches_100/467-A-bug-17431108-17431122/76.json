@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if ((q-p) > 2) sum++;",
     "patch": "if ((q-p) > 1.0) sum++;",
     "target": "if ((q-p) >= 2) sum++;"

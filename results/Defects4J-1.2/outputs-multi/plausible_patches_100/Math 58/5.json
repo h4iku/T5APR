@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "return fit(new Gaussian.Parametric(), guess);",
+    "patch": "return fit(guess);",
+    "target": "return fit(guess);"
+}

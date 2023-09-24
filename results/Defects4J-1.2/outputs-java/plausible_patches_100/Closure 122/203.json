@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if (comment.getValue().indexOf(\"/* @\") != -1 || comment.getValue().indexOf(\"\\n * @\") != -1) {",
+    "patch": "if (comment.getValue().indexOf(\"@\")!= -1 || comment.getValue().indexOf(\"@\")!= -1) {",
+    "target": "Pattern p = Pattern.compile(\"(/|(\\n[ \\t]*))\\\\*[ \\t]*@[a-zA-Z]\"); if (p.matcher(comment.getValue()).find()) {"
+}

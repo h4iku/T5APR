@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "imin = -1, jmax = 0, jmin = n - 1;",
     "patch": "imin = -1; jmax = 0; jmin = i;",
     "target": "imin = -1, jmax = 0, jmin = m - 1;"

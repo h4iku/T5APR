@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if(livea>=deadb)",
     "patch": "if(livea>=deada-1)",
     "target": "if(livea>=deada)"

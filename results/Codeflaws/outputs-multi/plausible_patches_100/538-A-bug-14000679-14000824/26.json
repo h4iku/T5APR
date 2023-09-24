@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if (index == len)",
     "patch": "if (index == len && status!= 0)",
     "target": "if (index == len && achieved != 0)"

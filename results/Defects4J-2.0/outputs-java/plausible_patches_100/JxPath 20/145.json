@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "return containsMatch((Iterator) right, left);",
+    "patch": "boolean result = containsMatch((Iterator) right, left);",
+    "target": "return containsMatch(left, (Iterator) right);"
+}

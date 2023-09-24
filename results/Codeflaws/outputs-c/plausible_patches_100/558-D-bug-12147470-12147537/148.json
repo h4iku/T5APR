@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "",
+    "patch": "qsort (mp, nb, sizeof (*mp), ascomp); return 0;",
+    "target": "return 0;"
+}

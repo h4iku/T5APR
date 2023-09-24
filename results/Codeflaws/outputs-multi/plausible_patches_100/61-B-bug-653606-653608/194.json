@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "for (i = 0; i < 6; i++) printf(\"%s\\n\", a[i]);",
     "patch": "for (i = 0; i < 6; i++) { c[i] = '\\0'; }",
     "target": ""

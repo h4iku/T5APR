@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "sum+=(-1)*first;",
     "patch": "sum+=(-2*first);",
     "target": "sum+=(-1)*(first*2);"

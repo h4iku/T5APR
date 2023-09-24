@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if((max-c)!=0) printf(\"0\\n\");",
+    "patch": "if (max-c <= 0) printf(\"0\\n\");",
+    "target": "if((max-c)<=0) printf(\"0\\n\");"
+}

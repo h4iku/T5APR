@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "",
     "patch": "for(i=0;i<n;i++){ int t; scanf(\"%d\",&t); exist[t]=1; } return 0;",
     "target": "return 0;"

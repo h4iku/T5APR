@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if (arr[min] > arr[j]) min = i;",
+    "patch": "if (arr[min] > arr[j]) min = (int) j;",
+    "target": "if (arr[min] > arr[j]) min = j;"
+}

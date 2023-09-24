@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "printf(\"%d ^ %d = %d\\n\", vertex[pos].xor,vertex[pos].number,tmp);",
     "patch": "fprintf(stderr,\" %d ^ %d = %d\\n\", vertex[pos].xor,vertex[pos].number);",
     "target": ""

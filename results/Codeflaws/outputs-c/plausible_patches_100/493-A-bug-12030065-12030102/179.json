@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if(color[0]=='r' && county[temp][number]!=100)",
+    "patch": "if(color[0]=='r' && (county[temp][number]==1))",
+    "target": "if(color[0]=='r' && county[temp][number]<=2)"
+}

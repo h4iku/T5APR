@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "for(i=0;i<m*n;i++){",
+    "patch": "for(i=0;i<girl;i++){",
+    "target": "for(i=0;i<=10000;i++){"
+}

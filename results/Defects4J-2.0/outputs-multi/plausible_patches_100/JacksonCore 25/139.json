@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if (i <= maxCode) {",
     "patch": "if (i >= maxCode && i <= _inputEnd) {",
     "target": "if (i < maxCode) {"

@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "",
     "patch": "c = l-l1+u1; if(c<ans) ans=c;",
     "target": "c=l-l1+u1; if(c<ans) ans=c;"

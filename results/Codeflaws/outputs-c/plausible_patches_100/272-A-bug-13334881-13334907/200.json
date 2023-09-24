@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if(a==0||a>n-5)printf(\"4\");",
+    "patch": "if (a==0 ||a>n-4)printf(\"4\");",
+    "target": "if(a==0||a>n-4)printf(\"4\");"
+}

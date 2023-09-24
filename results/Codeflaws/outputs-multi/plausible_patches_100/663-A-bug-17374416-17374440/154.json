@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "minval = ((n - 1) * d), maxval = -(n - 1);",
     "patch": "minval = p - (n - 1) * d, maxval = -(n - 1);",
     "target": "minval = -((n - 1) * d), maxval = -(n - 1);"

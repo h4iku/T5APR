@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "} else if (offsetLocal > 0) {",
+    "patch": "} else if (offsetLocal!= -1) {",
+    "target": "} else if (offsetLocal >= 0) {"
+}

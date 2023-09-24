@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "25, 26, 27, 28, 29, 30, 31, 32,",
     "patch": "27, 27, 28, 29, 30, 29, 32,",
     "target": "25, 26, 27, 28, 29, 30, 31,"

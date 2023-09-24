@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "return attr.getValue();",
+    "patch": "return uri;",
+    "target": "uri = attr.getValue(); break;"
+}

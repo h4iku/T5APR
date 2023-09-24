@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "printf (\"Ingrese la posicion: \");",
+    "patch": "dprintf (2, \"Ingrese la posicion: \");",
+    "target": ""
+}

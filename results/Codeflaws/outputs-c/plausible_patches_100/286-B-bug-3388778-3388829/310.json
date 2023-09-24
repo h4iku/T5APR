@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "int n, a[1<<20];",
+    "patch": "int n, n, a[1<<15];",
+    "target": "int n, a[1<<22];"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "for(scanf(\"%d%d\",&a,&c);a|b;x*=3,a/=3,c/=3)b+=(3+c%3-a%3)%3*x;",
+    "patch": "for(scanf(\"%d%d\",&a,&c);a|c;x*=3,a/=3,c/=3)b+=(3+c%3-a%3)%3*x;",
+    "target": "for(scanf(\"%d%d\",&a,&c);a|c;x*=3,a/=3,c/=3)b+=(3+c%3-a%3)%3*x;"
+}

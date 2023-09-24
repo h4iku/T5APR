@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "",
+    "patch": "else printf(\"%d\", d1+d2+d3);",
+    "target": "else if (d1+d2>d3) printf(\"%d\", d1+d3+d2);"
+}

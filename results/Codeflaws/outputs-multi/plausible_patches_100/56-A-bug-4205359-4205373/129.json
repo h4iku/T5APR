@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if(strcmp(s,\"ABSINTH\")==0 || strcmp(s,\"BEER\")==0 || strcmp(s, \"BRANDY\")==0 || strcmp(s, \"CHAMPAGNE\")==0||  strcmp(s,\"GIN\")==0 ||  strcmp(s,\" RUM\")==0 ||  strcmp(s, \"SAKE\")==0 ||  strcmp(s, \"TEQUILA\")==0 ||  strcmp(s,\"VODKA\")==0 ||  strcmp(s,\"WHISKEY\")==0 ||  strcmp(s,\"WINE\")==0)",
     "patch": "if(strcmp(s,\"ABSINTH\")==0 || strcmp(s,\"BEER\")==0 || strcmp(s,\"BRANDY\")==0 || strcmp(s,\"CHAMPAGNE\")==0 ||  strcmp(s,\"GIN\")==0 ||  strcmp(s,\"GIN\")==0 ||  strcmp(s,\"RUM\")==0 ||  strcmp(s,\"SAKE\")==0 ||  strcmp(s,\"TEQUILA\")==0 ||  strcmp(s,\"VODKA\")==0 ||  strcmp(s,\"WHISKEY\")==0 ||  strcmp(s,\"WINE\")==0)",
     "target": "if(strcmp(s,\"ABSINTH\")==0 || strcmp(s,\"BEER\")==0 || strcmp(s, \"BRANDY\")==0 || strcmp(s, \"CHAMPAGNE\")==0||  strcmp(s,\"GIN\")==0 ||  strcmp(s,\"RUM\")==0 ||  strcmp(s, \"SAKE\")==0 ||  strcmp(s, \"TEQUILA\")==0 ||  strcmp(s,\"VODKA\")==0 ||  strcmp(s,\"WHISKEY\")==0 ||  strcmp(s,\"WINE\")==0)"

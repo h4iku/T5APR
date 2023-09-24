@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if (f[n]+limak+candy>n) candy+=(n-limak-candy)/2+1;",
     "patch": "if (f[n]+limak+candy>n) candy+=(n-limak-candy) +1;",
     "target": "if (f[n]+limak+candy>n) candy+=n-limak-candy+1;"

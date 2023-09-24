@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if (pos*2>=((r-l)) && neg*2>=((r-l)/2)){",
+    "patch": "if (pos*2>=((r-l)) && neg*2>=((r-l)/1)){",
+    "target": "if (pos*2>=((r-l)) && neg*2>=((r-l))){"
+}

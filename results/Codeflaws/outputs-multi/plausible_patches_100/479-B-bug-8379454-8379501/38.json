@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "int cnt, min, max, minIdx[1000], maxIdx[1000];",
     "patch": "int cnt, min, max, minIdx[5000], maxIdx[5000];",
     "target": "int cnt, min, max, minIdx[1001], maxIdx[1001];"

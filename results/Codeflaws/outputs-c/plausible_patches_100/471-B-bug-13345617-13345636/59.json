@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "printf(\"flag=0\\n\");",
+    "patch": "scanf(\"flag=0\\n\");",
+    "target": ""
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "qsort( list[ 2 ], nlist[ 2 ], sizeof(int), compareminus);",
+    "patch": "qsort( list[ 2 ], nlist[ 2 ], sizeof(int), strcmp);",
+    "target": "qsort( list[ 2 ], nlist[ 2 ], sizeof(int), compare);"
+}

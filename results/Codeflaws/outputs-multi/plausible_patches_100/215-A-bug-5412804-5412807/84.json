@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if(b[j]>a[i])",
     "patch": "if(b[j]&&b[j]/a[i])",
     "target": "if(b[j]>=a[i])"

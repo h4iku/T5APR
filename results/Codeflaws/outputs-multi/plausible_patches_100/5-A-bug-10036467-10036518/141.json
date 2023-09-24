@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": true,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "data_length = strlen(raw_input) - name_length;",
     "patch": "data_length =strlen(raw_input) - name_length - 1;",
     "target": "data_length = strlen(raw_input) - (name_length + 1);"

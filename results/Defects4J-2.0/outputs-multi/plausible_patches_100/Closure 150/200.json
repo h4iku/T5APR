@@ -2,7 +2,7 @@
     "exact_match": true,
     "correct": true,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "attachLiteralTypes(n); switch (n.getType()) { case Token.FUNCTION: if (parent.getType() == Token.NAME) { return; } defineDeclaredFunction(n, parent); break; case Token.CATCH: defineCatch(n, parent); break; case Token.VAR: defineVar(n, parent); break; }",
     "patch": "super.visit( t, n, parent );",
     "target": "super.visit(t, n, parent);"

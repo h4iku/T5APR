@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "",
+    "patch": "for(i=0;i<n;++i) if((L[i]-1)%k&&(L[i]+1)%k)break;",
+    "target": "if(!Li){ans=0;break;}"
+}

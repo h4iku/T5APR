@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "",
+    "patch": "else if(b==z) { printf(\"%d\",a/n); }",
+    "target": "else if(a==b && a==z && b==z){ printf(\"%d\",a/n); }"
+}

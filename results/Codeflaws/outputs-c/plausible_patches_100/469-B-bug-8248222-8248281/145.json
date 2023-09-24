@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if(temp1<r&&temp2>l)",
+    "patch": "if(temp1<=r&&temp2>=l)",
+    "target": "if(temp1<=r&&temp2>=l)"
+}

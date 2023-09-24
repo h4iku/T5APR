@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "int a[10000];",
     "patch": "int a[506];",
     "target": "int a[100000];"

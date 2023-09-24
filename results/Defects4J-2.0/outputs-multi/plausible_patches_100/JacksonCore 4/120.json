@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "int newLen = (len == MAX_SEGMENT_LEN) ? (MAX_SEGMENT_LEN+1) : Math.min(MAX_SEGMENT_LEN, len + (len >> 1));",
     "patch": "int newLen = (len == MAX_SEGMENT_LEN)? (MAX_SEGMENT_LEN+len) : Math.min(MAX_SEGMENT_LEN, len + (len >> 1));",
     "target": "int newLen = len + (len >> 1);  if (newLen > MAX_SEGMENT_LEN) { newLen = len + (len >> 2); }"

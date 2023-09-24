@@ -2,7 +2,7 @@
     "exact_match": true,
     "correct": true,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if(r-l+1>=3) {printf(\"YES\\n\");continue;}",
     "patch": "if(r-l+1<3) {printf(\"YES\\n\");continue;}",
     "target": "if(r-l+1<3) {printf(\"YES\\n\");continue;}"

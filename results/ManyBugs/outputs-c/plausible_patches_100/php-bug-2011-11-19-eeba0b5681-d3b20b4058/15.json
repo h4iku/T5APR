@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": true,
+    "plausible": null,
+    "multi-hunk": false,
+    "source": "const int window_size = 1024 + sizeof(token); char buffer[1024 + sizeof(token)];",
+    "patch": "const int window_size = 1024; char buffer[1024 + sizeof(token)];",
+    "target": "const int window_size = 1024; char buffer[window_size + sizeof(token)];"
+}

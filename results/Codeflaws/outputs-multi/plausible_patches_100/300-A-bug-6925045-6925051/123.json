@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "",
     "patch": "free(a1); free(a2); free(a3); free(a3);",
     "target": "if(c1%2==0) a3[c3++]=a1[--c1];"

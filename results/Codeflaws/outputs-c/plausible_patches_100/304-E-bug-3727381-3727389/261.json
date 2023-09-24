@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if(times<(k+1)*k/2) return 0;",
+    "patch": "times+=hash[tmp];",
+    "target": "if(times>(k+1)*k/2) return 0;"
+}

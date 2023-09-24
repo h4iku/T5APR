@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "printf(\"%d %d %d %d\\n\",a[1],a[2],a[3],a[4]);",
     "patch": "fprintf(stderr,\"%d %d %d %d\\n\",a[1],a[2],a[3],a[4]);",
     "target": ""

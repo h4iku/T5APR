@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "",
+    "patch": "System.exit(0);",
+    "target": "if (child.isQuotedString()) { continue; }"
+}

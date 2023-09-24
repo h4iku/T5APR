@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "int n, x[3];",
     "patch": "int n, x[36];",
     "target": "int n, x[3] = {0, 0, 0};"

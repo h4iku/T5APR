@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if (movesA < movesB) winner = 'A';",
+    "patch": "if (--movesA < movesB) winner = 'A';",
+    "target": "if (movesA <= movesB) winner = 'A';"
+}

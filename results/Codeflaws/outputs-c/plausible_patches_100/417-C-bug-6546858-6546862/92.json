@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if (K > (N >> 1))",
+    "patch": "if (K > (N - 1) >> 1)",
+    "target": "if (K > (N - 1 >> 1))"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "",
+    "patch": "if(s[i]!='A' && s[i+1]!='A') printf(\"%d\\n%s\",min,c);",
+    "target": "printf(\"%d\\n%s\",min,c);"
+}

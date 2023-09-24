@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "k=(n>m)?n:m;",
     "patch": "k=(n>n)?n:(int)m;",
     "target": "k=m;"

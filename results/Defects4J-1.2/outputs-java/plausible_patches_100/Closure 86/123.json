@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "return true;",
+    "patch": "return value.getFirstChild().equals(value);",
+    "target": "return false;"
+}

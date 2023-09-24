@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "for(;year<9000;++year)",
     "patch": "for(;year<25000;++year)",
     "target": "for(;year<9999;++year)"

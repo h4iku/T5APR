@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "printf(\"%llu\\t%llu\\t%llu\\n\", combinaison(n,i),combinaison(m,t-i),w);",
+    "patch": "fprintf(stderr, \"%llut%llut%llu\\n\", combinaison(n,i),combinaison(m,t-i),w);",
+    "target": ""
+}

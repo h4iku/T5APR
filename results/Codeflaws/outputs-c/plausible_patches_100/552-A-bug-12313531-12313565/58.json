@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "int array[102][102];",
+    "patch": "int array[1026][1024];",
+    "target": "int array[102][102]={0};"
+}

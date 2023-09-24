@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": true,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "final int n1n2prod = n1 * n2;",
+    "patch": "final long n1n2prod = n1 * n2;",
+    "target": "final double n1n2prod = n1 * n2;"
+}

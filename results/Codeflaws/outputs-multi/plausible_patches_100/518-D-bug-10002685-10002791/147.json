@@ -2,7 +2,7 @@
     "exact_match": true,
     "correct": true,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "double dp[2000][2000];",
     "patch": "double dp[2002][2002];",
     "target": "double dp[2002][2002];"

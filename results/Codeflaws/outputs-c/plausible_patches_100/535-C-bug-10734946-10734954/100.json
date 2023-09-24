@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "e=((t-a)/b)-1;",
+    "patch": "e=((t-a)/b)-1+2;",
+    "target": "e=((t-a)/b)+1;"
+}

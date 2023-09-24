@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if (min=1e9) min=5;",
+    "patch": "if (min>=1e9) min=5;",
+    "target": "if (min==1e9) min=5;"
+}

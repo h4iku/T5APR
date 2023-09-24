@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "int n, i, cont=0, limit, band = 0, penality, hora;",
+    "patch": "int n, i, cont=0, limit, band = 0, penality=0, hora;",
+    "target": "int n, i, cont=0, limit, band = 0, penality=0, hora;"
+}

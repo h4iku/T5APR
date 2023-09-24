@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "int visited[10001];",
     "patch": "int visited[1013];",
     "target": "int visited[100010];"

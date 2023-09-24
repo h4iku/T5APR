@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "while(str[len==' '])",
     "patch": "while(str && str[len]==' ')",
     "target": "while(str[len] == ' ')"

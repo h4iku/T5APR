@@ -1,9 +1,0 @@
-{
-    "exact_match": true,
-    "correct": true,
-    "plausible": true,
-    "hunks": false,
-    "source": "jsDocParameter.getJSType(), true);",
-    "patch": "jsDocParameter.getJSType(), false);",
-    "target": "jsDocParameter.getJSType(), false);"
-}

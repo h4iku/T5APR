@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "",
     "patch": "if (j%2==0) { string1[j]='.'; } else { string1[j]=string1[i]+32; }",
     "target": "string2[j]='\\0';"

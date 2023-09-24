@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if (R[i] - L[i] == best && ans[ansCnt-1] != L[i])",
+    "patch": "if (R[i] - L[i] == best && (ansCnt - 1)!= L[i])",
+    "target": "if (R[i] - L[i] == best && (!ansCnt || ans[ansCnt-1] != L[i]))"
+}

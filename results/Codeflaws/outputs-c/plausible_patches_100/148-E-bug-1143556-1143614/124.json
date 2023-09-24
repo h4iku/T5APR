@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "for (j = 0; j < k[i]; j++) {",
+    "patch": "for (int j = 0; j <= k[i]; j++) {",
+    "target": "for (j = 0; j <= k[i]; j++) {"
+}

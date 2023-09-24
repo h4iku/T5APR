@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "for (i=pivot+1; i<strlen(lever); i++)",
+    "patch": "for (i=pivot+1; i<(int)max; i++)",
+    "target": "for (i=pivot+1; i<max; i++)"
+}

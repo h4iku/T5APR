@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "strcpy(neww[i],neww[j]);",
     "patch": "sscanf(str,old[j],neww[j]);",
     "target": ""

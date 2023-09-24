@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "return BlobId.of(uri.getHost(),",
+    "patch": "return BlobId.of(uri.getAuthority(),",
+    "target": "return BlobId.of(uri.getAuthority(),"
+}

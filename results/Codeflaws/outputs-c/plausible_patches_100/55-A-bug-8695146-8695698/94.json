@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "flea=((flea+i)%n);",
+    "patch": "flea=((flea+n)%n);",
+    "target": "flea=(flea%n);"
+}

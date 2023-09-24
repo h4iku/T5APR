@@ -2,7 +2,7 @@
     "exact_match": true,
     "correct": true,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "yield flatten(x)",
     "patch": "yield (x)",
     "target": "yield x"

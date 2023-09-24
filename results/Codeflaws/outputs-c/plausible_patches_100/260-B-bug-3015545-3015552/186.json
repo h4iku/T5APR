@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "printf(\"%d-%d-%d\\n\", dates[t].day, dates[t].month, dates[t].year);",
+    "patch": "printf(\"%02d-%02d-%02d\\n\", dates[t].day, dates[t].month, dates[t].year);",
+    "target": "printf(\"%02d-%02d-%d\\n\", dates[t].day, dates[t].month, dates[t].year);"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "",
+    "patch": "if (eof) { resizeBuffer(); }",
+    "target": "if (buffer == null || buffer.length - pos < decodeSize) { resizeBuffer(); }"
+}

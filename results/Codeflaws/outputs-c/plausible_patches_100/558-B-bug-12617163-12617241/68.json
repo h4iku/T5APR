@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if(mx < count[tmp] || ( mx == count[tmp] && (end[tmp] - start[tmp]) > (mxed - mxst)   ) ){",
+    "patch": "if(mx < count[tmp] || ( mx == count[tmp] && start[tmp] - start[tmp]) > (mxed - mxst)   ) {",
+    "target": "if(mx < count[tmp] || ( mx == count[tmp] && (end[tmp] - start[tmp]) < (mxed - mxst)   ) ){"
+}

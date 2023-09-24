@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": true,
     "plausible": true,
-    "hunks": true,
+    "multi-hunk": true,
     "source": "continue; }  if (buffer.readIdProperty(propName)) {",
     "patch": "if (buffer.readIdProperty(propName)) continue;",
     "target": ""

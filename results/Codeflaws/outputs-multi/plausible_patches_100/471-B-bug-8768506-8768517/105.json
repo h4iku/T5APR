@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if (cnt++ || i == 2) {",
     "patch": "if (cnt++ || i == 1 || cnt == 2) {",
     "target": "if (cnt++ || i) {"

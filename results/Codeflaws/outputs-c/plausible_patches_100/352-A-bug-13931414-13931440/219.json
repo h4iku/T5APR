@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "",
+    "patch": "else if (f==0) { printf(\"-1\"); }",
+    "target": "else if (f==0 && l!=0){ printf(\"-1\"); }"
+}

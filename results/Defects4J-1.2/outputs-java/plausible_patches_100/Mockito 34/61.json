@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if (m instanceof CapturesArguments) {",
+    "patch": "if (m instanceof CapturesArguments && i.getArguments().length > k) {",
+    "target": "if (m instanceof CapturesArguments && i.getArguments().length > k) {"
+}

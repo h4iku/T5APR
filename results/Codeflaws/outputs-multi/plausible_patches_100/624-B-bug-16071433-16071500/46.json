@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": true,
+    "multi-hunk": true,
     "source": "if(a[i] == 0) break;",
     "patch": "if(!a[i]) continue;",
     "target": ""

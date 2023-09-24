@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if(count%e==0 && fi==0 && ew==c-1)",
     "patch": "if(count%e==0 && fi>=0 && ew>=c-1)",
     "target": "if((count%e==0 && fi==0 && ew==c-1) || (count==e+s%c && fi==1 && ew==c-1))"

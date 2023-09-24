@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if(temp=='H' || temp=='Q' || temp=='+' || temp=='9'){",
+    "patch": "if(temp == 'H' || temp == 'Q' || temp == '9') {",
+    "target": "if(temp=='H' || temp=='Q'  || temp=='9'){"
+}

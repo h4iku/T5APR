@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "printf(\"gyan  %d  %lld\",j,arr[j]);",
+    "patch": "warnx(\"gyan  %d  %lld\",j,arr[j]);",
+    "target": ""
+}

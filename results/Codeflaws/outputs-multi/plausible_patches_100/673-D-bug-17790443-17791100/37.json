@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "",
     "patch": "vet[a] = 1; vet[b] = 1; ordem[0] = a;",
     "target": "vet[c] = 1; vet[d] = 1;"

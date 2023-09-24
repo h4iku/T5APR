@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "float arr[11][11]={0};",
     "patch": "float arr[110][110]={0};",
     "target": "float arr[12][12]={0};"

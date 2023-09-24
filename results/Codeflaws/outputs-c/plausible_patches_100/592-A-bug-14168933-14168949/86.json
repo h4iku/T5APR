@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if(minW < minB){",
+    "patch": "if(minW - 1 < minB){",
+    "target": "if(minW <= minB){"
+}

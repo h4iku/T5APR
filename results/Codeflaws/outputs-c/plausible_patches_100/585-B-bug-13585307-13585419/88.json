@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if ('.' == m[1][idx+1] && '.' == m[1][idx+3]) return dfs(idx + 3, 1);",
+    "patch": "if ('.' == m[1][idx+1] && '.' == m[1][idx+3] && '.' == m[1][idx+4]) return dfs(idx + 3, 1);",
+    "target": "if ('.' == m[1][idx+1] && '.' == m[1][idx+3] && '.' == m[1][idx+4]) return dfs(idx + 3, 1);"
+}

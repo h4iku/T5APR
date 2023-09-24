@@ -1,9 +1,0 @@
-{
-    "exact_match": false,
-    "correct": false,
-    "plausible": true,
-    "hunks": false,
-    "source": "",
-    "patch": "options.messageBundle = null;",
-    "target": "options.setWarningLevel(JsMessageVisitor.MSG_CONVENTIONS, CheckLevel.OFF);"
-}

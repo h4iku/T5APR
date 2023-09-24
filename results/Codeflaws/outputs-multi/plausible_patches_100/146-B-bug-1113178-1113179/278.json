@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "while (c <= 100000) {",
     "patch": "for (;;) {",
     "target": "while (c < 1000000) {"

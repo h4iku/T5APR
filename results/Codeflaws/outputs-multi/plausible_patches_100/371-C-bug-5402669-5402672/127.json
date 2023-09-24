@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "ll lf = 0, rg = 10*r+cb+cs+cc, ans = 0;",
     "patch": "ll lf = 0, rg = 10*r+cb+ns+cc, ans = 0;",
     "target": "ll lf = 0, rg = 100*r+cb+cs+cc, ans = 0;"

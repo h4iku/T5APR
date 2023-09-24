@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": true,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "primitiveValues.put(double.class, 0);",
+    "patch": "primitiveValues.put(double.class, (double)0);",
+    "target": "primitiveValues.put(double.class, 0D);"
+}

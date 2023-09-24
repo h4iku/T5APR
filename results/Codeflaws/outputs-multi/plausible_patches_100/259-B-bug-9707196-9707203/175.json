@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "printf(\"%d\", mat[0][0]);",
     "patch": "printf(\"%r\", mat[0][0]);",
     "target": ""

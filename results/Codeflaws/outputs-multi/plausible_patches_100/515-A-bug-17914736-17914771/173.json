@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "s = s%(a+b);",
     "patch": "s += a+b;",
     "target": "s = s - (a + b);"

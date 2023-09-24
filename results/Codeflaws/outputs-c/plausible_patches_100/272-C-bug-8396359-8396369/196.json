@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "printf(\"%.0f\", stairs[i]);",
+    "patch": "printf(\"%.03d\", stairs[i]);",
+    "target": ""
+}

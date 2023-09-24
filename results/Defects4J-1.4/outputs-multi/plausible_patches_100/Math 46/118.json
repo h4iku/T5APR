@@ -1,9 +1,0 @@
-{
-    "exact_match": false,
-    "correct": true,
-    "plausible": true,
-    "hunks": true,
-    "source": "return isZero ? NaN : INF;",
-    "patch": "return isZero? NaN : NaN;",
-    "target": "return NaN;"
-}

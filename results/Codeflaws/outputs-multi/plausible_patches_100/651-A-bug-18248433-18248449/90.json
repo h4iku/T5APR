@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if(a<3&&b<3) {printf(\"0\");return 0;}",
     "patch": "if (a<2&& b<2) {printf(\"0\");return 0;}",
     "target": "if(a==1&&b==1) {printf(\"0\");return 0;}"

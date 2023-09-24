@@ -1,9 +1,0 @@
-{
-    "exact_match": false,
-    "correct": true,
-    "plausible": true,
-    "hunks": false,
-    "source": "return true;",
-    "patch": "{ return false; }",
-    "target": "return false;"
-}

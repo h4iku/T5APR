@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "break ;",
+    "patch": "} else { for(k = 0; k < player[i].t;k ++) { if(find(player[i].a[k],i)) flag = 1; } if(!flag) strcpy(player[i].str,\"NO\");",
+    "target": ""
+}

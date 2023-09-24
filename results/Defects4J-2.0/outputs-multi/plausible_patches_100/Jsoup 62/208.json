@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "String name = t.asEndTag().normalName();",
     "patch": "String name = t.asEndTag().name() + \"\";",
     "target": "String name = t.asEndTag().name();"

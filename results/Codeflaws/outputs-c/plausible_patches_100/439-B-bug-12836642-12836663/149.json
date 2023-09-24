@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "qsort(ara,n,sizeof(int),comp);",
+    "patch": "qsort(ara,n,sizeof(long),&comp);",
+    "target": "qsort(ara,n,sizeof(long long),comp);"
+}

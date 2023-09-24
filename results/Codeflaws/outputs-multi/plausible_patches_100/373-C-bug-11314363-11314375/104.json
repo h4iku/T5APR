@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "int i,j,k,s,yeni[200000],arr[200000],x,n,bas,orta,son;",
     "patch": "int i,j,k,s,yeni[2400000],arr[2400000],x,n,bas,orta,son;",
     "target": "int i,j,k,s,yeni[600000],arr[600000],x,n,bas,orta,son;"

@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": true,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "dtime = ((L-d) / (v1 + v2));",
     "patch": "dtime = ((L-d) / (double) (v1 + v2));",
     "target": "dtime = ((L-d)*1.0 / (v1 + v2));"

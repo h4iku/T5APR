@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "",
     "patch": "tmp=min=(Li+Ri)*(U)b+(r-l+1)*(U)a; for(i=Ri;i--;) if(min>(Z=tmp+(R[i]-r)*(U)a-(Ri-i)*(U)b))min=Z;",
     "target": "if(!Li){ans=0;break;}"

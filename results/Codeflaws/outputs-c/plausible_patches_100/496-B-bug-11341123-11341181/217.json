@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "results[i][j+1] = 9;",
+    "patch": "results[i][j+1] = size + 1;",
+    "target": "results[i][j+1] = 10000;"
+}

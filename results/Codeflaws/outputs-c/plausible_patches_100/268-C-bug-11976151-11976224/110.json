@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "k=(n>m)?n:m;",
+    "patch": "k=(n>m?m:m);",
+    "target": "k=m;"
+}

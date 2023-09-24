@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "",
     "patch": "free(sets[0].values[i]); free(sets[0].values[i]);",
     "target": "return 0;"

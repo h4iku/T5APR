@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "",
+    "patch": "char ch0 = str.charAt(0); char ch1 = str.charAt(1); return (ch0 == 'o' || ch0 == 'O') && (str.charAt(2) =='s' || str.charAt(2) =='s');",
+    "target": "return false;"
+}

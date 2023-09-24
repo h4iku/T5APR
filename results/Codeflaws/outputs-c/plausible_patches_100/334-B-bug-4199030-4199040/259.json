@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "for(i=0;i<8;i++) printf(\"\\n%d %d\\n\",a[i][0],a[i][1]);",
+    "patch": "qsort(a,8,2*sizeof(int),cmp); qsort(a,8,2*sizeof(int),cmp);",
+    "target": ""
+}

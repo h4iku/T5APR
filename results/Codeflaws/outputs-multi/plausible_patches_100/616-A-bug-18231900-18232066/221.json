@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "else if(d1==d2 && a[l-d1]==b[l-d2] && sum<sum2)",
     "patch": "else if(d1==d2)",
     "target": "else if(d1==d2 && a[l-d1]==b[ll-d2] && sum<sum2)"

@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "an=bin(0,n*m);",
     "patch": "an=bin(0,n * m + 1);",
     "target": "an=bin(0,n*m+1);"

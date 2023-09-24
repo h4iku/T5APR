@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "",
+    "patch": "m = n * (n - 1) / sizeof(int);",
+    "target": "return 0;"
+}

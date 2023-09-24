@@ -2,7 +2,7 @@
     "exact_match": true,
     "correct": true,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "} else if (contains(value, index + 1, 4, \"IER\")) {",
     "patch": "}else if (contains(value, index + 1, 3, \"IER\")) {",
     "target": "} else if (contains(value, index + 1, 3, \"IER\")) {"

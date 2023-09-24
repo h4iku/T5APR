@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "long a[n],b[100000]={0};",
     "patch": "long a[n],b[600000]={0};",
     "target": "long a[n],b[100001]={0};"

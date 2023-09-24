@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if (c[k - i - 1] == 0) {",
+    "patch": "if (c[k - i - 1] == 0 && c[k - i - 1] == 0) {",
+    "target": "if (i < k && c[k - i - 1] == 0) {"
+}

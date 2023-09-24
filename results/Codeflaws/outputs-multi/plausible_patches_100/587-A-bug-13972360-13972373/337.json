@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "#define BUF 2",
     "patch": "#define BUF 21",
     "target": "#define BUF 16384"

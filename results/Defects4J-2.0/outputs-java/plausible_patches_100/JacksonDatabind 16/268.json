@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "return (previous != null) && previous.equals(ann);",
+    "patch": "return (previous == null) || (previous.equals(ann));",
+    "target": "return (previous == null) || !previous.equals(ann);"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "return y==0?x:(y,x%y);",
+    "patch": "return y==0?x:gcd(y,x%y);",
+    "target": "return y==0?x:gcd(y,x%y);"
+}

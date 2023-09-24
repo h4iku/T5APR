@@ -1,9 +1,0 @@
-{
-    "exact_match": true,
-    "correct": true,
-    "plausible": true,
-    "hunks": false,
-    "source": "this.dataset = dataset;",
-    "patch": "setDataset( dataset);",
-    "target": "setDataset(dataset);"
-}

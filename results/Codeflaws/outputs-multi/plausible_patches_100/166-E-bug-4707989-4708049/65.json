@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "int data[4][4];",
     "patch": "unsigned long int data[4][4];",
     "target": "long long data[4][4];"

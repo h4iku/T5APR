@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "",
+    "patch": "} while(j==0&&ncost<ans){",
+    "target": "dc[ar[i].d]++;"
+}

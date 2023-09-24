@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "",
+    "patch": "for(j = 0; j < 4; j++){ scanf(\"%d \", &a[i][j]); sum += a[i][j]; }",
+    "target": "return 0;"
+}

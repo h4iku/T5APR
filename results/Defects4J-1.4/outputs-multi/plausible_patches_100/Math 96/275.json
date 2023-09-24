@@ -1,9 +1,0 @@
-{
-    "exact_match": false,
-    "correct": true,
-    "plausible": true,
-    "hunks": false,
-    "source": "ret = (Double.doubleToRawLongBits(real) == Double.doubleToRawLongBits(rhs.getReal())) && (Double.doubleToRawLongBits(imaginary) == Double.doubleToRawLongBits(rhs.getImaginary()));",
-    "patch": "ret = (real == rhs.getReal() && imaginary == rhs.getImaginary());",
-    "target": "ret = (real == rhs.real) && (imaginary == rhs.imaginary);"
-}

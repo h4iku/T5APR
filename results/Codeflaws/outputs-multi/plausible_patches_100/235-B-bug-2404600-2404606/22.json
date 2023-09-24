@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "scanf(\"%f\",&p);",
     "patch": "scanf(\"%jf\",&p);",
     "target": "scanf(\"%lf\",&p);"

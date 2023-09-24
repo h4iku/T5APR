@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "for(k=0;k<(left-right);k++) printf(\"%c\",added[k+j+i]);",
+    "patch": "for(k=0;k<(right-right);k++) printf(\"%s\", added[k+j+i]);",
+    "target": "for(k=i+j;k<strlen(added);k++) printf(\"%c\",added[k]);"
+}

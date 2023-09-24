@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "while(--n){",
+    "patch": "int n; while(--n){",
+    "target": "while(n--){"
+}

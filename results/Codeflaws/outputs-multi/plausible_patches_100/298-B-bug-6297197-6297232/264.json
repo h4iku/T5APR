@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if(arr[i]==my && X+1 <=couny)",
     "patch": "if(arr[i]==my && Y<couny)",
     "target": "if(arr[i]==my && Y+1 <=couny)"

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "l = (l << 8) | a[i];",
+    "patch": "l = l << 8 | (a[i] & 0xff);",
+    "target": "l = (l << 8) | a[i] & 0xFF;"
+}

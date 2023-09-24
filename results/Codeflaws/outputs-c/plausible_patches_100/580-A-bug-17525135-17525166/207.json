@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if (kefa == -1)",
+    "patch": "if (sequence > kefa)",
+    "target": "if (kefa < sequence)"
+}

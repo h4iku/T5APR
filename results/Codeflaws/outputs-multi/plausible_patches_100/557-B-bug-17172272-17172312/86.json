@@ -2,7 +2,7 @@
     "exact_match": true,
     "correct": true,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "printf(\"%lf\", arr[a]*a + arr[0]/2.0*a);",
     "patch": "printf(\"%lf\", arr[a]*a + (arr[a]/2.0*a));",
     "target": "printf(\"%lf\", arr[a]*a + arr[a]/2.0*a);"

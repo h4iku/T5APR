@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "printf(\"%s\", n&(n-1) ? \"YES\" : \"NO\");",
+    "patch": "printf(\"%s\", n&(n-1)? \"NO\" : \"YES\");",
+    "target": "printf(\"%s\", n&(n-1) ? \"NO\" : \"YES\");"
+}

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": true,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "description.appendText(wanted.toString());",
+    "patch": "description.appendText(\"\" +wanted);",
+    "target": "description.appendText(wanted == null ? \"null\" : wanted.toString());"
+}

@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "blacklistLibOrExtJars(libOrExtJar);",
     "patch": "break;",
     "target": "blacklistLibOrExtJars(JarUtils.leafName(libOrExtJar));"

@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "else if (weight < j) {",
+    "patch": "else if (j >= weight) {",
+    "target": "else if (weight <= j) {"
+}

@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if(s[y]=='\\0')",
     "patch": "if(s)",
     "target": "if(s[y]=='\\0' || s[y]=='/')"

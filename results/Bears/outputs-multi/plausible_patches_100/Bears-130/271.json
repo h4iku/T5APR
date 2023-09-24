@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": true,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": ".number(\"(x+),\")",
     "patch": ".number(\"(x+|)\")",
     "target": ".number(\"(x+)?,\")"

@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if(c==t[i]&&i<y)",
+    "patch": "if(c==t[i]&&i<y*y)",
+    "target": "if(c==t[i])"
+}

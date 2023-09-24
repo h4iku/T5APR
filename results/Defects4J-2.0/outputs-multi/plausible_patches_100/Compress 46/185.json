@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "final long TWO_TO_32 = 0x100000000L; if (l >= TWO_TO_32) {",
     "patch": "final long TWO_TO_32 = Integer.MAX_VALUE; if (l >= TWO_TO_32) {",
     "target": "if (l < Integer.MIN_VALUE || l > Integer.MAX_VALUE) {"

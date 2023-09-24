@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "scanf(\"%d\",&x,&y);",
+    "patch": "scanf(\"%d %d\",&x,&y);",
+    "target": "scanf(\"%d%d\",&x,&y);"
+}

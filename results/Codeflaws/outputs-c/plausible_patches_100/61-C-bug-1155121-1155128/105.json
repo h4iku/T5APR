@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "",
+    "patch": "d[dn++] = c % b; c /= b;",
+    "target": "if (c == 0) d[dn++] = 0;"
+}

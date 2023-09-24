@@ -2,7 +2,7 @@
     "exact_match": true,
     "correct": true,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "fiveMin[0][0].two=fiveNum(board[0][0]);",
     "patch": "fiveMin[0][0].five =fiveNum(board[0][0]);",
     "target": "fiveMin[0][0].five=fiveNum(board[0][0]);"

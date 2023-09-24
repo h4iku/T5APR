@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if (A[k][l]) continue;",
+    "patch": "p = k-i+l-j;",
+    "target": "if (A[k][l]=='1') continue;"
+}

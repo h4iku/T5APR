@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "else count_draw=1;",
     "patch": "else { count_draw += 1; }",
     "target": "else count_draw++;"

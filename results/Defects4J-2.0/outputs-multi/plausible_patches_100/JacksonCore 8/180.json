@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if (!_hasSegments)  return _currentSegment;",
     "patch": "contentsAsArray();",
     "target": "if (!_hasSegments && _currentSegment != null)  return _currentSegment;"

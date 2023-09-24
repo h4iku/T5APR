@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if (d > abs(x - min)) d = abs(x - max);",
     "patch": "if (d >= abs(x - min)) d = abs(x - min);",
     "target": "if (d > abs(x - min)) d = abs(x - min);"

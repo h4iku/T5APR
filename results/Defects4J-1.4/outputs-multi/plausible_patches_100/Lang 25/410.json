@@ -1,9 +1,0 @@
-{
-    "exact_match": false,
-    "correct": false,
-    "plausible": true,
-    "hunks": false,
-    "source": "{\"\\u00CB\", \"&Ecirc;\"}, {\"\\u00CC\", \"&Euml;\"}, {\"\\u00CD\", \"&Igrave;\"}, {\"\\u00CE\", \"&Iacute;\"}, {\"\\u00CF\", \"&Icirc;\"}, {\"\\u00D0\", \"&Iuml;\"}, {\"\\u00D1\", \"&ETH;\"}, {\"\\u00D2\", \"&Ntilde;\"}, {\"\\u00D3\", \"&Ograve;\"}, {\"\\u00D4\", \"&Oacute;\"}, {\"\\u00D5\", \"&Ocirc;\"}, {\"\\u00D6\", \"&Otilde;\"}, {\"\\u00D7\", \"&Ouml;\"}, {\"\\u00D8\", \"&times;\"}, {\"\\u00D9\", \"&Oslash;\"}, {\"\\u00DA\", \"&Ugrave;\"}, {\"\\u00DB\", \"&Uacute;\"}, {\"\\u00DC\", \"&Ucirc;\"}, {\"\\u00DD\", \"&Uuml;\"}, {\"\\u00DE\", \"&Yacute;\"}, {\"\\u00DF\", \"&THORN;\"}, {\"\\u00E0\", \"&szlig;\"}, {\"\\u00E1\", \"&agrave;\"}, {\"\\u00E2\", \"&aacute;\"}, {\"\\u00E3\", \"&acirc;\"}, {\"\\u00E4\", \"&atilde;\"}, {\"\\u00E5\", \"&auml;\"},",
-    "patch": "{\"\\u00CB\", \"&Ecirc;\"},",
-    "target": "{\"\\u00CA\", \"&Ecirc;\"}, {\"\\u00CB\", \"&Euml;\"}, {\"\\u00CC\", \"&Igrave;\"}, {\"\\u00CD\", \"&Iacute;\"}, {\"\\u00CE\", \"&Icirc;\"}, {\"\\u00CF\", \"&Iuml;\"}, {\"\\u00D0\", \"&ETH;\"}, {\"\\u00D1\", \"&Ntilde;\"}, {\"\\u00D2\", \"&Ograve;\"}, {\"\\u00D3\", \"&Oacute;\"}, {\"\\u00D4\", \"&Ocirc;\"}, {\"\\u00D5\", \"&Otilde;\"}, {\"\\u00D6\", \"&Ouml;\"}, {\"\\u00D7\", \"&times;\"}, {\"\\u00D8\", \"&Oslash;\"}, {\"\\u00D9\", \"&Ugrave;\"}, {\"\\u00DA\", \"&Uacute;\"}, {\"\\u00DB\", \"&Ucirc;\"}, {\"\\u00DC\", \"&Uuml;\"}, {\"\\u00DD\", \"&Yacute;\"}, {\"\\u00DE\", \"&THORN;\"}, {\"\\u00DF\", \"&szlig;\"}, {\"\\u00E0\", \"&agrave;\"}, {\"\\u00E1\", \"&aacute;\"}, {\"\\u00E2\", \"&acirc;\"}, {\"\\u00E3\", \"&atilde;\"}, {\"\\u00E4\", \"&auml;\"},"
-}

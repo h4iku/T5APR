@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "steps.add(new Pair<Integer,Integer>(start, helper));",
+    "patch": "steps.add(new Pair<Integer, Integer>(start, end));",
+    "target": "steps.add(new Pair<Integer,Integer>(start, end));"
+}

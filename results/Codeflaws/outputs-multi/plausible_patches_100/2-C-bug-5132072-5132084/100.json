@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "#define fequ(a, b) (fabs(a - b) < 0.000000001)",
     "patch": "#define fequ(a, b) (abs(a - b) < 0.000000001)",
     "target": "#define fequ(a, b) (fabs(a - b) < 0.0000001)"

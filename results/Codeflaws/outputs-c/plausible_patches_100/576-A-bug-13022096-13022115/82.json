@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "",
+    "patch": "for(l=2,ans=0;l<=n;l++) { if(num[l]) ans++; } putchar('\\n');",
+    "target": "return 0;"
+}

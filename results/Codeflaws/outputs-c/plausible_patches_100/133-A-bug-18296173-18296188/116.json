@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if(a[i]=='+'){flag=1;break;}",
+    "patch": "if(a[i]=='<<'){flag=1;break;}",
+    "target": ""
+}

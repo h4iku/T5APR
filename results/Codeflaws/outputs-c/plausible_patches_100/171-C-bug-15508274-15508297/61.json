@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "s=1;",
+    "patch": "while(temp!= '\\n') s++;",
+    "target": "s=0;"
+}

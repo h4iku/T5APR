@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "printf(\"enter X if you want to press that particular no. otherwise press . \\n\");",
+    "patch": "scanf (\"enter X if you want to press that particular no. otherwise press.\\n\");",
+    "target": ""
+}

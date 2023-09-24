@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "long long int s[20000],a,b;",
+    "patch": "long long int s[20000],a,b,e;",
+    "target": "long long int s[100500],a,b;"
+}

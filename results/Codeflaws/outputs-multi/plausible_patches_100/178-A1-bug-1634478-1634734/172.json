@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "else for(m = n ; m != (m & -m) ; m &= -m);",
     "patch": "else for(m = n ; m!= (m & -m) ; m &= m - 1);",
     "target": "else for(m = n ; m != (m & -m) ; m ^= (m & -m));"

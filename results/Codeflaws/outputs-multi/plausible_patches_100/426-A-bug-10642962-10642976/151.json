@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if(total-max>=threshold)",
     "patch": "if((total-max)<=threshold)",
     "target": "if(total-max<=threshold)"

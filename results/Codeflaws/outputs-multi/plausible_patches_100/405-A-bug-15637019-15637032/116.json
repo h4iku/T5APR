@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if(ara[i]>ara[j+1]){",
     "patch": "if(ara[j] > ara[j+1]){",
     "target": "if(ara[j]>ara[j+1]){"

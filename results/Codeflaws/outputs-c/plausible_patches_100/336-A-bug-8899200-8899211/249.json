@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "printf(\"%d %d %d %d\",0,(y-x),0,(x-y));",
+    "patch": "printf(\"%d %d %d %d\",0,(y-x),(x-y),0,(x-y));",
+    "target": "printf(\"%d %d %d %d\",0,(y-x),(x-y),0);"
+}

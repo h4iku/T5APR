@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "else if((a<c&&b>d)||(a>c&&b<d)||(a>=c&&b>d)){",
     "patch": "else if((a<c&&b>d)||(a>c&&b<d)||(a>=c&&b>d)||(a>=c&&b==d)){",
     "target": "else if((a<c&&b>d)||(a>c&&b<=d)||(a>=c&&b>d)){"

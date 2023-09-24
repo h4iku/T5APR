@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": true,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "",
     "patch": "m=n%10; n/=10; print(m);",
     "target": "if(n==0){printf(\"O-|-OOOO\");}"

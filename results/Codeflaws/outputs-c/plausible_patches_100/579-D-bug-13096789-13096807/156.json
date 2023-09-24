@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "post[n+1-i] = post[n+2-i] | ar[n+i-1];",
+    "patch": "post[n+1-i] = post[n+2-i] | ar[n+2-i-1];",
+    "target": "post[n+1-i] = post[n+2-i] | ar[n+1-i];"
+}

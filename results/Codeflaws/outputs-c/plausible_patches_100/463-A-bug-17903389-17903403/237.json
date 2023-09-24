@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "int a,b,c,q=0,d,t=10000,k=1;",
+    "patch": "int a,b,c,q=0,d,t=100000, k=1;",
+    "target": "int a,b,c,q=0,d,t=100000,k=1;"
+}

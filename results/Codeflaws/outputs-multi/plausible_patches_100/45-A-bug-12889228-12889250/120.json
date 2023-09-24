@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "printf(\"%s\",months[i+k%12]);",
     "patch": "printf(\"%s\",months[(i+k) % 12]);",
     "target": "printf(\"%s\",months[(i+k)%12]);"

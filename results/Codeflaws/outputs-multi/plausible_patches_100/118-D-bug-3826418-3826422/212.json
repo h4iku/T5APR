@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "int F[102][102],G[102][102];",
     "patch": "int F[150][150],G[150][150];",
     "target": "int F[112][112],G[112][112];"

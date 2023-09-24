@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if (a[islower(p) - 'a'] == 1) c++;",
+    "patch": "if (a[tolower(p) - 'a'] == 1) c++;",
+    "target": "if (a[tolower(p) - 'a'] == 1) c++;"
+}

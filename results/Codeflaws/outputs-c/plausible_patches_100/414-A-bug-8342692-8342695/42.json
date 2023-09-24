@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if (n == 1 && k == 0) puts(\"0\");",
+    "patch": "if (n == 1 && k == 0) puts (\"1\");",
+    "target": "if (n == 1 && k == 0) puts(\"1\");"
+}

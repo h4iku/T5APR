@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if(o&&!(x&(x+1)))r-=2;",
     "patch": "if(o&&!(x&(x+1))){ r-=2; }",
     "target": "if(o)r-=2;"

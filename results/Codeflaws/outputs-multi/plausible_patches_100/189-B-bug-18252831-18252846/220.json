@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "printf(\"%lld\", ((w*w)/4 * (h*h)/4));",
     "patch": "printf(\"%lld\", (w*w/4 * (h*h/4)));",
     "target": "printf(\"%lld\", ((w*w)/4) * ((h*h)/4));"

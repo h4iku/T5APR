@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": true,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "max=a[i]+a[2*c-1+1];",
+    "patch": "max=a[i]+a[2*c-i + 1];",
+    "target": "max=a[i]+a[2*c-i+1];"
+}

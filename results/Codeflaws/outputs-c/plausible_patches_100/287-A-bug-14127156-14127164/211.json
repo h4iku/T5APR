@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if(p==2){",
+    "patch": "if(x==3){",
+    "target": "if(p==3){"
+}

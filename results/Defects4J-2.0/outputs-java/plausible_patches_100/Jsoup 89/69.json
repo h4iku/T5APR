@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "String oldVal = parent.get(this.key);",
+    "patch": "String oldVal = this.val;",
+    "target": "String oldVal = this.val;"
+}

@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": true,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "int i , teams , pos , prob , time , max_prob = 0 ,found = 0, max_time = 0 , mat[50][50] = {0} , counter=0;",
     "patch": "int i, teams, pos, prob, time, max_prob = 0,found = 0, max_time = 0, mat[60][60] = {0}, counter=0;",
     "target": "int i , teams , pos , prob , time , max_prob = 0 ,found = 0, max_time = 0 , mat[55][55] = {0} , counter=0;"

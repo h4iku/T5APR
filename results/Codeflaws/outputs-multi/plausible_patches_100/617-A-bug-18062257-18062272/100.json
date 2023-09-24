@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "steps = steps + n/4;",
     "patch": "steps = steps + n/4+n;",
     "target": "steps = steps + n;"

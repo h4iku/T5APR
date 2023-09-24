@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if (options.checkGlobalThisLevel.isOn()) {",
+    "patch": "if (!options.checkSymbols && options.checkGlobalThisLevel.isOn()) {",
+    "target": "if (options.checkGlobalThisLevel.isOn() && !options.disables(DiagnosticGroups.GLOBAL_THIS)) {"
+}

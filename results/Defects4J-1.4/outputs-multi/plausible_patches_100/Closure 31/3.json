@@ -1,9 +1,0 @@
-{
-    "exact_match": false,
-    "correct": false,
-    "plausible": true,
-    "hunks": false,
-    "source": "!options.skipAllPasses &&",
-    "patch": "!options.skipAllPasses ||",
-    "target": ""
-}

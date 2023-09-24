@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if(Color[b] > 3)",
     "patch": "if( Color[b] >= 3)",
     "target": "if(Color[c] > 3)"

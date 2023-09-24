@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "visitFloatFormat(visitor, typeHint, JsonParser.NumberType.BIG_INTEGER);",
+    "patch": "visitFloatFormat(visitor, typeHint,JsonParser.NumberType.BIG_DECIMAL);",
+    "target": "visitFloatFormat(visitor, typeHint, JsonParser.NumberType.BIG_DECIMAL);"
+}

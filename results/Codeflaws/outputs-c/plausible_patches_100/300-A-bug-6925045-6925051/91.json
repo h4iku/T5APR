@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "",
+    "patch": "printf(\"%d \",a1[1],a2[1],a3[1]);",
+    "target": "if(c1%2==0) a3[c3++]=a1[--c1];"
+}

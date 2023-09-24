@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "",
     "patch": "ret |= count[i] < maxd;",
     "target": "ret |= k < 2 && n > 2;"

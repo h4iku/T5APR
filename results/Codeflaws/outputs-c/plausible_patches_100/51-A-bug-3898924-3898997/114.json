@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "scanf(\"%d\",&a[i][j]);",
+    "patch": "scanf(\"%1d\",&a[i][j]);",
+    "target": "scanf(\"%1d\",&a[i][j]);"
+}

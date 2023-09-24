@@ -1,0 +1,9 @@
+{
+    "exact_match": true,
+    "correct": true,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "int indexOfDot = namespace.indexOf('.');",
+    "patch": "int indexOfDot = namespace.lastIndexOf('.');",
+    "target": "int indexOfDot = namespace.lastIndexOf('.');"
+}

@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "",
     "patch": "i = j = 0; while(i < sets[0].size && j < sets[1].size) i++;",
     "target": "return 0;"

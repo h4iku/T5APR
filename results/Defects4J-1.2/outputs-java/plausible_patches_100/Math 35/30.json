@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": true,
+    "plausible": true,
+    "multi-hunk": true,
+    "source": "this.elitismRate = elitismRate;",
+    "patch": "this.setElitismRate(elitismRate);",
+    "target": "setElitismRate(elitismRate);"
+}

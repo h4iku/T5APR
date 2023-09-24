@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "#define DEBUG",
+    "patch": "DEBUG_INIT(CF_ENTRY_OPS);",
+    "target": ""
+}

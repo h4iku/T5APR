@@ -1,9 +1,0 @@
-{
-    "exact_match": false,
-    "correct": false,
-    "plausible": true,
-    "hunks": true,
-    "source": "StringBuilder buf = new StringBuilder((array[startIndex] == null ? 16 : array[startIndex].toString().length()) + separator.length());",
-    "patch": "StringBuilder buf = new StringBuilder(array.length + 1);",
-    "target": "StringBuilder buf = new StringBuilder(noOfItems * 16);"
-}

@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "while((p=Nx[r])>n)p=Pv[p];",
     "patch": "if((p=Nx[r])>n)p=Pv[p];",
     "target": "for(p=Nx[r];p>n;p=Pv[p]);"

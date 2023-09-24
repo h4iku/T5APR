@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "long long n,a,min=1e9+1,sum,i;",
+    "patch": "long long n,a,min = 1e9+1,sum = 0,i;",
+    "target": "long long n,a,min=1e9+1,sum=0,i;"
+}

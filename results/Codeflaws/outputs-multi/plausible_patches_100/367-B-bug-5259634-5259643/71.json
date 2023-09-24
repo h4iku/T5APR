@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if(n/p<n){printf(\"0\\n\");return 0;}",
     "patch": "if(n/p<p) {printf(\"0\\n\");return 0;}",
     "target": "if(n/p<m){printf(\"0\\n\");return 0;}"

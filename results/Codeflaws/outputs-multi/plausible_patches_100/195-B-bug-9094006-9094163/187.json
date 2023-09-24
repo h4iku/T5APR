@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "while(k!=n)",
     "patch": "while(k!=(n+1))",
     "target": "while(k<=n)"

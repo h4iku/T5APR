@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "else if ((s > a) && ((100-b) > max) && (b == 0) && (max == -1)) max = 0;",
     "patch": "else if ((s >= a) && ((100-b) >= max) && (b == 0) && (max == -1)) max = 0;",
     "target": "else if ((s >= a) && ((100-b) > max) && (b == 0) && (max == -1)) max = 0;"

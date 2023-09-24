@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "",
+    "patch": "scanf(\"%c\",&a); if(a=='Q') w=w+9;",
+    "target": "getchar();"
+}

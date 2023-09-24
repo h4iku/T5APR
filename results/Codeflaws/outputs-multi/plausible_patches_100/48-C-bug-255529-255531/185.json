@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "amax=13299290;",
     "patch": "amax=1329940;",
     "target": "amax=5299290;"

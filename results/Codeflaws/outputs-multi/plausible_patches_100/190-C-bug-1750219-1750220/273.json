@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "printf(\"Error occured\");",
     "patch": "printf(\"Error occurred \");",
     "target": "printf(\"Error occurred\");"

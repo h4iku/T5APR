@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": true,
+    "source": "printf(\"%d %d %d %d\\n\", paint[i], paint[1-i], paint[j], paint[5-j]);",
+    "patch": "scanf(\"%d %d %d %d\\n\", paint[i], paint[1-i], paint[j], paint[5-j]);",
+    "target": ""
+}

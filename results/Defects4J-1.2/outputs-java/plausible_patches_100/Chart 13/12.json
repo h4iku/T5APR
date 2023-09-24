@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "new Range(0.0, constraint.getWidth() - w[2]),",
+    "patch": "new Range(0.0, constraint.getWidth() - constraint.getWidth()),",
+    "target": "new Range(0.0, Math.max(constraint.getWidth() - w[2], 0.0)),"
+}

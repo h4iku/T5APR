@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "printf(\"%d %d %d\\n\", somaMaxima, quantidadeMinima, posicaoFinal);",
+    "patch": "somaMaxima, quantidadeMinima, posicaoFinal;",
+    "target": ""
+}

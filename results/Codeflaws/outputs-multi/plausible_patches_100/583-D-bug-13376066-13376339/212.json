@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "int time2 = t - time1 - time2;",
     "patch": "int time2 = t - time1 - time2 - MAX;",
     "target": "int time2 = t - time1 - time3;"

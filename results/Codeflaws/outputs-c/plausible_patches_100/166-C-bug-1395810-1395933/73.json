@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if(array[(n+1)/2]==x) printf(\"0\\n\");",
+    "patch": "if (array[(n-1)/2]==x) printf(\"0\\n\");",
+    "target": "if(array[(n+1)/2-1]==x) printf(\"0\\n\");"
+}

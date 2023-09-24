@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if (i >= 1)\tprintf(\"%d\\n\", a[1]);",
+    "patch": "if (i >= 2)\tprintf(\"%d\\n\", (unsigned long)a[1]);",
+    "target": "if (i > 1)\tprintf(\"%d\\n\", a[1]);"
+}

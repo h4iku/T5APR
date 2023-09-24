@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "printf(\"tmp = %.12lf\\n\", tmp);",
+    "patch": "fprintf(stderr, \"%.12lf\", tmp);",
+    "target": ""
+}

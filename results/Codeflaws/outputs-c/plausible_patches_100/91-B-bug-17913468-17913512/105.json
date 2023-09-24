@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "posmay=i;",
+    "patch": "const int posmay=i;",
+    "target": ""
+}

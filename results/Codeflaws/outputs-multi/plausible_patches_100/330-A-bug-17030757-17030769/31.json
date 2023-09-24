@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "for(j=0;j<y;j++) printf(\"%c\",arr[i][j]);",
     "patch": "for(j=0;j<y;j++) { dprintf(\"%c\",arr[i][j]); }",
     "target": ""

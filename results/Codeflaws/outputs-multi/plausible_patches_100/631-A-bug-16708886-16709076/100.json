@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "printf(\"%d\\n%d\\n%d\",n,n1,n+n1);",
     "patch": "fprintf(stdout, \"%ld\\n%ld\\n%ld\",n,n1,n+n1);",
     "target": "printf(\"\\n%d\",n+n1);"

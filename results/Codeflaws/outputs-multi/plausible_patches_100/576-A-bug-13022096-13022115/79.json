@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "",
     "patch": "for(l=2,num[1]=0;l<=1000;num[l]=1,l++); for(l=2,num[1]=0;l<=1000;num[l]=1,l++);",
     "target": "return 0;"

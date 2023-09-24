@@ -2,7 +2,7 @@
     "exact_match": true,
     "correct": true,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if (cnttwo != 0 && cntone != cnttwo)",
     "patch": "if (cntone < cnttwo)",
     "target": "if (cntone < cnttwo)"

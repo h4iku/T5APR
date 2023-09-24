@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "#define MAXN 52",
+    "patch": "#define MAXN 72",
+    "target": "#define MAXN 55"
+}

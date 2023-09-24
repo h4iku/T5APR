@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "while(l>rodada)",
     "patch": "while(l+1 > rodada)",
     "target": "while(l>=rodada)"

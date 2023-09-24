@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if (table[len-1]==1)",
+    "patch": "if (table[len-1]==1 && i < len)",
+    "target": "if ((len!=1)&&(table[len-1]==1))"
+}

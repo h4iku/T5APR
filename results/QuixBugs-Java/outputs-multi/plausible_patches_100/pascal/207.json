@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "for (int c=0; c<r; c++) {",
     "patch": "for (int c=r; c>=0; c-- ) {",
     "target": "for (int c=0; c<r+1; c++) {"

@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "sayac=0;",
     "patch": "sayac=argc;",
     "target": "sayac=1;"

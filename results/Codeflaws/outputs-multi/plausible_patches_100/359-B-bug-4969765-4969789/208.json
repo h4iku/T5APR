@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "int A[50001];",
     "patch": "unsigned int A[50001];;",
     "target": "int A[1000001];"

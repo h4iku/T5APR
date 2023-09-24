@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "for (j = i + 1; j < length-1; ++j)",
+    "patch": "for (j = (int)i + 1; j < length; ++j)",
+    "target": "for (j = i + 1; j < length; ++j)"
+}

@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "x = minof(x, b[i] / a[i]);",
     "patch": "x = minof(x, b[i] / (double) a[i]);",
     "target": "x = minof(x, (double) b[i] / a[i]);"

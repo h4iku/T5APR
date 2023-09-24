@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if(k > n*(n-1)/2)",
     "patch": "if((long int)k >= n*(n-1)/2)",
     "target": "if(k >= n*(n-1)/2)"

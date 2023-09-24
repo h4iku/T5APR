@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "count=n*n/4+((n/2)+1)*((n/2)+1);",
     "patch": "count=n*n/8 +((n/2)+1)*((n/2)+1);",
     "target": "count=(n/2)*(n/2)+((n/2)+1)*((n/2)+1);"

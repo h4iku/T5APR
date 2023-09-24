@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if(countb>=(num[2])*5) printf(\"ALIVE\");",
+    "patch": "if(countb>=(num[2])*5) { printf(\"LIVE\"); return 1; }",
+    "target": "if(countb>=(num[2])*5) printf(\"LIVE\");"
+}

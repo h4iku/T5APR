@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if(sum1>=x){",
     "patch": "if(sum1 > 0 && sum1 > x){",
     "target": "if(sum1>x){"

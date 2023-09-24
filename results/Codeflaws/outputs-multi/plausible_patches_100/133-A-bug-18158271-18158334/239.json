@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "if (x==72|| x==81 || x==57 || x==43)",
     "patch": "if (x==72|| x==81 || x==57 || x==39)",
     "target": "if (x==72|| x==81 || x==57 )"

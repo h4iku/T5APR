@@ -2,7 +2,7 @@
     "exact_match": false,
     "correct": false,
     "plausible": true,
-    "hunks": false,
+    "multi-hunk": false,
     "source": "unsigned int pi = 0, rub = 0;",
     "patch": "double pi = 0, rub = 0;",
     "target": "long long pi = 0, rub = 0;"

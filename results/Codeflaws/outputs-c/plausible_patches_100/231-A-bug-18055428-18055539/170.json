@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "if(total_problems[i]==011||total_problems[i]==101||total_problems[i]==110||total_problems[i]==111)",
+    "patch": "if(total_problems[i]==11||total_problems[i]==101 ||total_problems[i]==110||total_problems[i]==111)",
+    "target": "if(total_problems[i]==11||total_problems[i]==101||total_problems[i]==110||total_problems[i]==111)"
+}

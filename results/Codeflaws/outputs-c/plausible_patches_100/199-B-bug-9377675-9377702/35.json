@@ -1,0 +1,9 @@
+{
+    "exact_match": false,
+    "correct": false,
+    "plausible": true,
+    "multi-hunk": false,
+    "source": "printf(\"Disjoint with inner circle\\n\");",
+    "patch": "scanf(\"%lf%lf%lf\",&x[0],&y[0],&R[0]);",
+    "target": ""
+}
