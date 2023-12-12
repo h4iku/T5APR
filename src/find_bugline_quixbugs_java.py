@@ -159,6 +159,7 @@ def generate_data(programs_hunks: dict[str, list[DiffHunk]]) -> None:
         lines_concat = " ".join([line.strip() for line in hunk.splitlines()])
         return lines_concat.strip()
 
+    quixbugs_genjava_dir.mkdir(parents=True)
     with (
         open(quixbugs_genjava_dir / "QuixBugs_Java.jsonl", "w") as file,
         open(quixbugs_genjava_dir / "rem.txt", "w") as remfile,

@@ -152,6 +152,7 @@ def generate_data(bug_hunks: dict[str, list[DiffHunk]]) -> None:
         lines_concat = " ".join([line.strip() for line in hunk.splitlines()])
         return lines_concat.strip()
 
+    bugaid_gen_dir.mkdir(parents=True)
     with (
         open(bugaid_gen_dir / "BugAid.jsonl", "w") as file,
         open(bugaid_gen_dir / "rem.txt", "w") as remfile,
@@ -182,7 +183,7 @@ def cleanup(program: str, source: str, target: str) -> tuple[str, str]:
 def main():
     bug_hunks: dict[str, list[DiffHunk]] = {}
 
-    with open(bugaid_gen_dir / "metadata.txt", newline="") as metafile:
+    with open(bugaid_data_dir.parent / "metadata.txt", newline="") as metafile:
         reader = csv.reader(metafile)
         bug_ids, file_names = zip(*[row for row in reader])
 

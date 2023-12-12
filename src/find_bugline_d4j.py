@@ -1,5 +1,6 @@
 """Finding the buggy line in Defects4J dataset by comparing buggy and correct versions"""
 
+import contextlib
 import difflib
 import json
 import re
@@ -10,17 +11,9 @@ import threading
 from dataclasses import asdict, dataclass
 from pathlib import Path
 from typing import Iterable
-import contextlib
+
 import joblib
-
 import pygments
-from joblib import Parallel, delayed
-from pygments.lexers import JavaLexer
-from pygments.token import Comment, String
-from tqdm import tqdm
-from tree_sitter import Language, Parser
-from unidiff import PatchSet
-
 from d4j_datasets_conf import (
     d4j_bin,
     d4j_gen_dir,
@@ -28,7 +21,12 @@ from d4j_datasets_conf import (
     d4j_version,
     tree_sitter_lib,
 )
-
+from joblib import Parallel, delayed
+from pygments.lexers import JavaLexer
+from pygments.token import Comment, String
+from tqdm import tqdm
+from tree_sitter import Language, Parser
+from unidiff import PatchSet
 
 Language.build_library(
     str(tree_sitter_lib / "build/my-languages.so"),
@@ -87,15 +85,15 @@ def check_java_version():
         java_version_string = subprocess.run(
             ["java", "-version"], capture_output=True, text=True, check=True
         ).stderr
-    except subprocess.CalledProcessError as e:
+    except subprocess.CalledProcessError:
         print("Can't find `java`")
 
-    pattern = '"(\d+\.\d+).*"'
+    pattern = r'"(\d+\.\d+).*"'
     java_version = re.search(pattern, java_version_string).groups()[0]
 
-    if d4j_version == "1.4.0":
+    if d4j_version == "1.4":
         assert java_version == "1.7", "Wrong Java version, needs Java 7"
-    elif d4j_version == "2.0.0":
+    elif d4j_version == "2.0":
         assert java_version == "1.8", "Wrong Java version, needs Java 8"
 
 
@@ -198,7 +196,6 @@ def generate_data(bug_hunks: dict[str, list[DiffHunk]]) -> None:
         return lines_concat.strip()
 
     d4j_gen_dir.mkdir(parents=True)
-
     with (
         open(d4j_gen_dir / "Defects4J.jsonl", "w") as file,
         open(d4j_gen_dir / "rem.txt", "w") as remfile,
@@ -286,7 +283,7 @@ def main():
     bug_hunks: dict[str, list[DiffHunk]] = {}
 
     projects: dict[str, list[str]] = {}
-    if d4j_version == "2.0.0":
+    if d4j_version == "2.0":
         projects = {
             pid: run_d4j_cmd(f"bids -p {pid}").splitlines()
             for pid in run_d4j_cmd("pids").splitlines()
@@ -301,7 +298,7 @@ def main():
     for project_id, bug_ids in projects.items():
         print(project_id)
 
-        with tqdm_joblib(tqdm(total=len(bug_ids))) as progress_bar:
+        with tqdm_joblib(tqdm(total=len(bug_ids))):
             result = Parallel(n_jobs=n_jobs, backend="threading")(
                 delayed(worker_func)(project_id, bug_id) for bug_id in bug_ids
             )

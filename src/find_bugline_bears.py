@@ -1,28 +1,24 @@
 """Finding the buggy line in Bears benchmark by comparing buggy and correct versions"""
 
-
+import contextlib
 import difflib
 import json
-
 import shlex
 import shutil
 import subprocess
 from dataclasses import asdict, dataclass
 from pathlib import Path
 from typing import Any, Iterable
-import contextlib
-import joblib
 
+import joblib
 import pygments
+from d4j_datasets_conf import bears_gen_dir, bears_root, bears_tmp_dir, tree_sitter_lib
 from joblib import Parallel, delayed
 from pygments.lexers import JavaLexer
 from pygments.token import Comment, String
 from tqdm import tqdm
 from tree_sitter import Language, Parser
 from unidiff import PatchSet
-
-from d4j_datasets_conf import bears_root, bears_gen_dir, bears_tmp_dir, tree_sitter_lib
-
 
 Language.build_library(
     str(tree_sitter_lib / "build/my-languages.so"),
@@ -193,7 +189,6 @@ def generate_data(bug_hunks: dict[str, list[DiffHunk]]) -> None:
         return lines_concat.strip()
 
     bears_gen_dir.mkdir(parents=True)
-
     with (
         open(bears_gen_dir / "Bears.jsonl", "w") as file,
         open(bears_gen_dir / "rem.txt", "w") as remfile,
@@ -270,7 +265,7 @@ def main():
     with open(bears_bugs_meta) as meta_file:
         bears_bugs: list[dict[str, Any]] = json.load(meta_file)
 
-    with tqdm_joblib(tqdm(total=len(bears_bugs))) as progress_bar:
+    with tqdm_joblib(tqdm(total=len(bears_bugs))):
         result = Parallel(n_jobs=n_jobs, backend="threading")(
             delayed(worker_func)(bug) for bug in bears_bugs
         )

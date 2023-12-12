@@ -1,16 +1,13 @@
 from pathlib import Path
 
-# TODO: This is getting huge, maybe separate it into multiple config files using YAML or TOML
-
-project_root: Path = Path(__file__).parent / ".."
+project_root: Path = Path(__file__).parent.parent
 datasets_root: Path = project_root / "datasets"
 
-# Place to store models downloaded from Hugging Face Hub
-models_root: Path = project_root / "models"
-codet5_small = models_root / "codet5-small"
-codet5_base = models_root / "codet5-base"
-
 cache_dir: Path = project_root / ".cache"
+
+# Place to store models and data if they are downloaded from Hugging Face Hub
+models_root: Path = project_root / "models"
+codet5_small: Path = models_root / "codet5-small"
 
 coconut_data_dir: Path = datasets_root / "CoCoNuT"
 coconut_java2006: Path = coconut_data_dir / "java/2006"
@@ -20,13 +17,14 @@ coconut_c2005: Path = coconut_data_dir / "c/2005"
 
 coconut_preprocessed_data_dir: Path = datasets_root / "CoCoNuT_Preprocessed"
 
+# QuixBugs configs
 quixbugs_dir: Path = datasets_root / "QuixBugs"
 quixbugs_python_buggy_dir: Path = quixbugs_dir / "python_programs"
 quixbugs_python_correct_dir: Path = quixbugs_dir / "correct_python_programs"
 quixbugs_java_buggy_dir: Path = quixbugs_dir / "java_programs"
 quixbugs_java_correct_dir: Path = quixbugs_dir / "correct_java_programs"
-quixbugs_genpy_dir: Path = datasets_root / "GeneratedQuixBugs/python"
-quixbugs_genjava_dir: Path = datasets_root / "GeneratedQuixBugs/java"
+quixbugs_genpy_dir: Path = project_root / "generated_assets/QuixBugs-Python"
+quixbugs_genjava_dir: Path = project_root / "generated_assets/QuixBugs-Java"
 quixbugs_programs: list[str] = [
     "bitcount",
     "breadth_first_search",

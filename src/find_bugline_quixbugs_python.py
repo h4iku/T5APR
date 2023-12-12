@@ -68,14 +68,14 @@ class RemCom(Filter):
 
     def filter(self, lexer, stream):
         for ttype, tvalue in stream:
-            if not ttype in Token.Comment and not ttype in Token.Literal.String.Doc:
+            if ttype not in Token.Comment and ttype not in Token.Literal.String.Doc:
                 yield tvalue
 
 
 @simplefilter
 def rem_com(self, lexer, stream, options):
     for ttype, tvalue in stream:
-        if not ttype in Token.Comment and not ttype in Token.Literal.String.Doc:
+        if ttype not in Token.Comment and ttype not in Token.Literal.String.Doc:
             yield tvalue
 
 
@@ -168,26 +168,23 @@ def generate_data(programs_hunks: dict[str, list[DiffHunk]]) -> None:
         lines_concat = " ".join([line.strip() for line in hunk.splitlines()])
         return lines_concat.strip()
 
+    quixbugs_genpy_dir.mkdir(parents=True)
     with (
         open(quixbugs_genpy_dir / "QuixBugs_Python.jsonl", "w") as file,
         open(quixbugs_genpy_dir / "rem.txt", "w") as remfile,
         open(quixbugs_genpy_dir / "add.txt", "w") as addfile,
         open(quixbugs_genpy_dir / "context.txt", "w") as ctxfile,
-        # open(quixbugs_genpy_dir / "ident.txt", "w") as identfile,
     ):
         for program, hunks in programs_hunks.items():
             file.write(json.dumps({program: [asdict(h) for h in hunks]}) + "\n")
             remfile.writelines(prepare(h.removed_lines) + "\n" for h in hunks)
             addfile.writelines(prepare(h.added_lines) + "\n" for h in hunks)
             ctxfile.writelines(prepare(h.source_context) + "\n" for h in hunks)
-            # identfile.writelines(" ".join(h.source_identifiers) + "\n" for h in hunks)
 
 
 def get_identifiers(context: str) -> list[str]:
     lexed_code = pygments.lex(context, python_lexer)
-
     identifiers = {tvalue for ttype, tvalue in lexed_code if ttype in Name}
-
     return list(identifiers)
 
 
@@ -207,7 +204,7 @@ def main():
         for hunk in hunks:
             line_number = hunk.removed_line_numbers_range[0]
             hunk.source_context = get_context(buggy_python_program, line_number)
-            hunk.source_identifiers = get_identifiers(hunk.source_context)
+            # hunk.source_identifiers = get_identifiers(hunk.source_context)
 
         programs_hunks[program] = hunks
 

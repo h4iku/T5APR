@@ -1,6 +1,5 @@
 """Finding the buggy line in ManyBugs dataset by comparing buggy and correct versions"""
 
-
 import difflib
 import json
 from dataclasses import asdict, dataclass
@@ -94,8 +93,8 @@ def get_diff_lines(
     bug_id: str, fromfile: Path, tofile: Path, context_size: int = 0
 ) -> Iterable[str]:
     with (
-        open(fromfile) as source_file,
-        open(tofile) as target_file,
+        open(fromfile, encoding="cp1256") as source_file,
+        open(tofile, encoding="cp1256") as target_file,
     ):
         source = remove_comments(source_file.read())
         target = remove_comments(target_file.read())
@@ -159,6 +158,7 @@ def generate_data(bug_hunks: dict[str, list[DiffHunk]]) -> None:
         lines_concat = " ".join([line.strip() for line in hunk.splitlines()])
         return lines_concat.strip()
 
+    manybugs_gen_dir.mkdir(parents=True)
     with (
         open(manybugs_gen_dir / "ManyBugs.jsonl", "w", encoding="utf-8") as file,
         open(manybugs_gen_dir / "rem.txt", "w", encoding="utf-8") as remfile,

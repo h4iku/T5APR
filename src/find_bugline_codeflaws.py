@@ -162,6 +162,7 @@ def generate_data(bug_hunks: dict[str, list[DiffHunk]]) -> None:
         lines_concat = " ".join([line.strip() for line in hunk.splitlines()])
         return lines_concat.strip()
 
+    codeflaws_gen_dir.mkdir(parents=True)
     with (
         open(codeflaws_gen_dir / "Codeflaws.jsonl", "w", encoding="utf-8") as file,
         open(codeflaws_gen_dir / "rem.txt", "w", encoding="utf-8") as remfile,
