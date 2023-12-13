@@ -1,0 +1,40 @@
+n ^= n - 1
+while True:
+for i, count in enumerate(arr):
+
+if hare.successor is None:
+while lo <= hi:
+return binsearch(mid, end)
+yield flatten(x)
+return gcd(a % b, b)
+return []
+steps.append((start, helper))
+return True
+for x in arr:
+if weight < j:
+return kth(above, k)
+dp[i, j] = dp[i - 1, j] + 1
+return 1 + levenshtein(source[1:], target[1:])
+longest = length + 1
+return a[0] + longest_common_subsequence(a[1:], b)
+max_ending_here = max_ending_here + x
+if len(arr) == 0:
+group_by_node[node].update(group_by_node[u])
+return [1] + (len(digit_list)) * [0] + [1]
+if perm[j] < perm[i]:
+for c in range(0, r):
+if total < 0:
+return [[first] + subset for subset in rest_subsets]
+greater = quicksort([x for x in arr[1:] if x > pivot])
+
+op(token, a, b)
+get(unvisited_nodes, nextnode) + length_by_edge[node, nextnode]
+length_by_path[i, k] + length_by_path[j, k]
+weight_by_edge[u, v] = min(
+
+if any(n % p > 0 for p in primes):
+while abs(x - approx) > epsilon:
+return []
+result = result + alphabet[i]
+if set(ordered_nodes).issuperset(nextnode.outgoing_nodes) and nextnode not in ordered_nodes:
+

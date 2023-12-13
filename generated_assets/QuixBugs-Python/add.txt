@@ -1,0 +1,40 @@
+n &= n - 1
+while queue:
+for i, count in enumerate(counts):
+nodesvisited.add(node)
+if hare is None or hare.successor is None:
+while lo < hi:
+return binsearch(mid + 1, end)
+yield x
+return gcd(b, a % b)
+return [n]
+steps.append((start, end))
+return depth == 0
+for x in arr[k:]:
+if weight <= j:
+return kth(above, k - num_lessoreq)
+dp[i, j] = dp[i - 1, j - 1] + 1
+return levenshtein(source[1:], target[1:])
+longest = max(longest, length + 1)
+return a[0] + longest_common_subsequence(a[1:], b[1:])
+max_ending_here = max(0, max_ending_here + x)
+if len(arr) <= 1:
+group_by_node[node] = group_by_node[u]
+return [1] + (len(digit_list) - 1) * [0] + [1]
+if perm[i] < perm[j]:
+for c in range(0, r + 1):
+if total < 0 or not coins:
+return rest_subsets + [[first] + subset for subset in rest_subsets]
+greater = quicksort([x for x in arr[1:] if x >= pivot])
+prevnode = node
+op(token, b, a)
+distance + length_by_edge[node, nextnode]
+length_by_path[i, k] + length_by_path[k, j]
+weight_by_node[v] = min(
+opstack.append(token)
+if all(n % p > 0 for p in primes):
+while abs(x - approx ** 2) > epsilon:
+return [[]]
+result = alphabet[i] + result
+if set(ordered_nodes).issuperset(nextnode.incoming_nodes) and nextnode not in ordered_nodes:
+lines.append(text)

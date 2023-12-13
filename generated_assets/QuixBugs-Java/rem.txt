@@ -1,0 +1,45 @@
+n = (n ^ (n - 1));
+while (true) {
+for (Integer count : arr) {
+
+if (hare.getSuccessor() == null)
+while (lo <= hi) {
+return binsearch(arr, x, mid, end);
+result.add(flatten(x));
+return flatten(arr);
+return gcd(a % b, b);
+return new ArrayList<Integer>();
+steps.add(new Pair<Integer,Integer>(start, helper));
+return true;
+for (Integer x : arr) {
+else if (weight < j) {
+return kth(above, k);
+if (dp.containsKey(i-1)) {
+int insert_value = dp.get(i-1).get(j) + 1;
+return 1 + levenshtein(source.substring(1), target.substring(1));
+longest = length + 1;
+return a.charAt(0) + longest_common_subsequence(a.substring(1), b);
+max_ending_here = max_ending_here + x;
+if (arr.size() == 0) {
+groupByNode = update(groupByNode, node, vertex_u);
+otherwise.addAll(Collections.nCopies(digit_list.length, 0));
+if (perm.get(j) < perm.get(i)) {
+for (int c=0; c<r; c++) {
+if (total < 0) {
+to_add.add(first);
+to_add.addAll(subset);
+output.add(to_add);
+return output;
+} else if (x > pivot) {
+
+c = bin_op.apply(a,b);
+unvisitedNodes.get(nextnode) + length_by_edge.get(Arrays.asList(node, nextnode))));
+length_by_path.get(Arrays.asList(j,k))));
+weight_by_edge.put(edge, update_weight);
+
+if (any(list_comp(n, primes))) {
+while (Math.abs(x-approx) > epsilon) {
+return new ArrayList();
+result = result + String.valueOf(alphabet.charAt(i));
+if (orderedNodes.containsAll(nextNode.getSuccessors()) && !orderedNodes.contains(nextNode)) {
+
