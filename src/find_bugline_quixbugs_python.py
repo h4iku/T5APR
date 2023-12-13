@@ -106,7 +106,7 @@ class DiffHunk:
     removed_line_numbers_range: tuple[int, int]
     added_line_numbers_range: tuple[int, int]
     source_context: str = ""
-    source_identifiers: list[str] = field(default_factory=list)
+    # source_identifiers: list[str] = field(default_factory=list)
 
 
 def get_program_path(dir_path: Path, program_name: str) -> Path:
