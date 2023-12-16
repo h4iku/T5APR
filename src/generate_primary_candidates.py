@@ -4,12 +4,17 @@ from itertools import chain
 from pathlib import Path
 
 import torch
-from datasets import Dataset, concatenate_datasets
+from bugaid_datasets_conf import bugaid_gen_dir, codeflaws_gen_dir, manybugs_gen_dir
+from configs import models_root
+from d4j_datasets_conf import bears_gen_dir, d4j_gen_dir
+from datasets_conf import quixbugs_genjava_dir, quixbugs_genpy_dir
 from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
 
-from bugaid_datasets_conf import bugaid_gen_dir, codeflaws_gen_dir, manybugs_gen_dir
-from d4j_datasets_conf import d4j_gen_dir, bears_gen_dir
-from datasets_conf import quixbugs_genjava_dir, quixbugs_genpy_dir
+from datasets import Dataset, concatenate_datasets
+
+# Config
+dataset = "QuixBugs-Python"
+multi = True
 
 
 def get_checkpoints(checkpoints_dir: Path) -> list[tuple[str, Path]]:
@@ -112,53 +117,46 @@ def save_results(checkpoints_results: list[Dataset]) -> None:
     hunk_added.to_json(output_dir / f"sequences_{beam_size}.jsonl")
 
 
-## Config
-# TODO: Even better, this can be a data structure in a separate file that you
-# can look up each dataset's parameters.
-dataset = "QuixBugs-Python"
-multi = True
-
 if dataset == "QuixBugs-Python":
     gen_dir = quixbugs_genpy_dir
-    model_name = "multi-full" if multi else "python"
+    model_name = "multi" if multi else "python"
     bugs_metadata_file = "QuixBugs_Python.jsonl"
     prefix = "Python"
 elif dataset == "QuixBugs-Java":
     gen_dir = quixbugs_genjava_dir
-    model_name = "multi-full" if multi else "java"
+    model_name = "multi" if multi else "java"
     bugs_metadata_file = "QuixBugs_Java.jsonl"
     prefix = "Java"
 elif dataset == "Defects4J":
     gen_dir = d4j_gen_dir
-    model_name = "multi-full" if multi else "java"
+    model_name = "multi" if multi else "java"
     bugs_metadata_file = "Defects4J.jsonl"
     prefix = "Java"
 elif dataset == "BugAID":
     gen_dir = bugaid_gen_dir
-    model_name = "multi-full" if multi else "javascript"
+    model_name = "multi" if multi else "javascript"
     bugs_metadata_file = "BugAid.jsonl"
     prefix = "JavaScript"
 elif dataset == "Codeflaws":
     gen_dir = codeflaws_gen_dir
-    model_name = "multi-full" if multi else "c"
+    model_name = "multi" if multi else "c"
     bugs_metadata_file = "Codeflaws.jsonl"
     prefix = "C"
 elif dataset == "ManyBugs":
     gen_dir = manybugs_gen_dir
-    model_name = "multi-full" if multi else "c"
+    model_name = "multi" if multi else "c"
     bugs_metadata_file = "ManyBugs.jsonl"
     prefix = "C"
 elif dataset == "Bears":
     gen_dir = bears_gen_dir
-    model_name = "multi-full" if multi else "java"
+    model_name = "multi" if multi else "java"
     bugs_metadata_file = "Bears.jsonl"
     prefix = "Java"
 else:
     print("Wrong dataset name")
 
 
-root = Path(__file__).parent
-checkpoints_dir = root / f"codet5-small-{model_name}"
+checkpoints_dir = models_root / f"codet5-small-t5apr-{model_name}"
 output_dir = gen_dir / f"outputs-{model_name}"
 
 max_input_length = 512
@@ -170,7 +168,6 @@ batch_size = 1
 num_checkpoints = 5
 
 device = torch.device("cuda") if torch.cuda.is_available() else torch.device("cpu")
-# device = "cpu"
 
 checkpoints = get_checkpoints(checkpoints_dir)
 tokenizer = AutoTokenizer.from_pretrained(checkpoints[0][1])

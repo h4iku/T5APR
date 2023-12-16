@@ -15,16 +15,14 @@ from typing import Optional
 import joblib
 import numpy as np
 import pandas as pd
+from datasets_conf import quixbugs_dir, quixbugs_genpy_dir
 from joblib import Parallel, delayed
 from tqdm import tqdm
-
-from datasets_conf import quixbugs_dir, quixbugs_genpy_dir
-
 
 project_dir = quixbugs_dir
 gen_dir = quixbugs_genpy_dir
 bugs_metadata_file = "QuixBugs_Python.jsonl"
-output_dir = gen_dir / "outputs-multi-full"
+output_dir = gen_dir / "outputs-multi"
 # output_dir = gen_dir / "outputs-python"
 temp_dir = output_dir / "temp"
 save_state_dir = output_dir / "save-state"
@@ -120,7 +118,7 @@ def run_tests(bugid: str, project_copy_dir: Path) -> Status:
             capture_output=True,
             timeout=timeout,
         )
-    except subprocess.TimeoutExpired as e:
+    except subprocess.TimeoutExpired:
         return Status.TIMEOUT
 
     if result.returncode == 0:
@@ -222,7 +220,7 @@ def main():
 
     save_state_dir.mkdir(parents=True, exist_ok=True)
 
-    with tqdm_joblib(tqdm(total=len(bugs_metadata))) as progress_bar:
+    with tqdm_joblib(tqdm(total=len(bugs_metadata))):
         Parallel(n_jobs=n_jobs, backend="threading")(
             delayed(apply_patch)(
                 deepcopy(get_candidates(candidate_patches_df, bugid)), bugid, hunks

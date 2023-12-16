@@ -1,7 +1,9 @@
+from enum import Enum
 from math import ceil
 
 import torch
-from datasets import concatenate_datasets, load_dataset
+from configs import models_root
+from datasets_conf import cache_dir
 from transformers import (
     AutoModelForSeq2SeqLM,
     AutoTokenizer,
@@ -10,14 +12,19 @@ from transformers import (
     Seq2SeqTrainingArguments,
 )
 
+from datasets import concatenate_datasets, load_dataset
+
+ModelType = Enum("ModelType", ["MULTI", "PYTHON", "JAVA", "C", "JAVASCRIPT"])
+model_type: ModelType = ModelType.MULTI
+
 print("CUDA available:", torch.cuda.is_available())
 print("CUDA version:", torch.version.cuda)
 
 ### Load model and tokenizer
 model_checkpoint = "Salesforce/codet5-small"
 
-tokenizer = AutoTokenizer.from_pretrained(model_checkpoint)
-model = AutoModelForSeq2SeqLM.from_pretrained(model_checkpoint)
+tokenizer = AutoTokenizer.from_pretrained(model_checkpoint, cache_dir=cache_dir)
+model = AutoModelForSeq2SeqLM.from_pretrained(model_checkpoint, cache_dir=cache_dir)
 
 ### Load data
 dataset_names = {
@@ -27,8 +34,17 @@ dataset_names = {
     "C": "h4iku/coconut_c2005_preprocessed",
 }
 
+# Filter the datasets based on the model type
+if model_type is not ModelType.MULTI:
+    dataset_names = {
+        lang: name
+        for lang, name in dataset_names.items()
+        if lang.upper() == model_type.name
+    }
+
 raw_datasets = {
-    prefix: load_dataset(data, split="train") for prefix, data in dataset_names.items()
+    prefix: load_dataset(data, split="train", cache_dir=cache_dir)
+    for prefix, data in dataset_names.items()
 }
 print(raw_datasets)
 
@@ -100,7 +116,8 @@ eval_batch_size = 16
 model_name = model_checkpoint.split("/")[-1]
 epochs = 1
 lr = 1e-4
-output_dir = f"{model_name}-multi"
+
+output_dir = models_root / f"{model_name}-t5apr-{model_type.name.lower()}"
 
 checkpoints_each_epoch = 5
 epoch_steps = ceil(len(concatenated_dataset) / train_batch_size)

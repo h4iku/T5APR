@@ -17,15 +17,14 @@ import joblib
 import numpy as np
 import pandas as pd
 import psutil
+from d4j_datasets_conf import d4j_bin, d4j_gen_dir, d4j_tmp_dir, d4j_version
 from joblib import Parallel, delayed
 from tqdm import tqdm
-
-from d4j_datasets_conf import d4j_bin, d4j_gen_dir, d4j_tmp_dir, d4j_version
 
 gen_dir = d4j_gen_dir
 bugs_metadata_file = "Defects4J.jsonl"
 # output_dir = gen_dir / "outputs-java"
-output_dir = gen_dir / "outputs-multi-full"
+output_dir = gen_dir / "outputs-multi"
 d4j_tmp_dir = output_dir / "temp"
 save_state_dir = output_dir / "save-state"
 output_size = 100

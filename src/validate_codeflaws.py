@@ -15,15 +15,14 @@ from typing import Optional
 import joblib
 import numpy as np
 import pandas as pd
+from bugaid_datasets_conf import codeflaws_data_dir, codeflaws_gen_dir
 from joblib import Parallel, delayed
 from tqdm import tqdm
 
-from bugaid_datasets_conf import codeflaws_data_dir, codeflaws_gen_dir
-
 gen_dir = codeflaws_gen_dir
 bugs_metadata_file = "Codeflaws.jsonl"
-# output_dir = gen_dir / "outputs-multi-full"
-output_dir = gen_dir / "outputs-c"
+output_dir = gen_dir / "outputs-multi"
+# output_dir = gen_dir / "outputs-c"
 temp_dir = output_dir / "temp"
 save_state_dir = output_dir / "save-state"
 output_size = 100

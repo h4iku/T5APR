@@ -1,17 +1,15 @@
-import copy
 import json
 from itertools import chain
 
 import numpy as np
 import pandas as pd
+from bugaid_datasets_conf import bugaid_gen_dir, codeflaws_gen_dir, manybugs_gen_dir
+from d4j_datasets_conf import bears_gen_dir, d4j_gen_dir
+from datasets_conf import quixbugs_genjava_dir, quixbugs_genpy_dir
 from tqdm import tqdm
 
-from bugaid_datasets_conf import bugaid_gen_dir, codeflaws_gen_dir, manybugs_gen_dir
-from d4j_datasets_conf import d4j_gen_dir, bears_gen_dir
-from datasets_conf import quixbugs_genpy_dir, quixbugs_genjava_dir
-
 # Config
-dataset = "Defects4J"
+dataset = "QuixBugs-Python"
 multi = True
 rerank_method = 2
 empty_last = False
@@ -328,8 +326,8 @@ def exact_match_plausibility_check(patches_df: pd.DataFrame) -> None:
     if dataset in ["BugAID", "ManyBugs"]:
         return
 
-    not_plausible = patches_df[patches_df["plausible"] == False]
-    exact_match_not_plausible = not_plausible[not_plausible["exact_match"] == True]
+    not_plausible = patches_df[patches_df["plausible"] is False]
+    exact_match_not_plausible = not_plausible[not_plausible["exact_match"] is True]
 
     assert (
         exact_match_not_plausible.empty

@@ -3,27 +3,26 @@ import json
 import os
 import shutil
 import threading
+import timeit
 from collections import ChainMap
 from copy import deepcopy
+from enum import Enum, auto
 from pathlib import Path
 from typing import Optional
-from enum import Enum, auto
-import timeit
-import numpy as np
 
 import joblib
+import numpy as np
 import pandas as pd
+from bugaid_datasets_conf import bugaid_data_dir, bugaid_gen_dir
+from datasets_conf import tree_sitter_lib
 from joblib import Parallel, delayed
 from tqdm import tqdm
 from tree_sitter import Language, Parser
 
-from bugaid_datasets_conf import bugaid_data_dir, bugaid_gen_dir
-from datasets_conf import tree_sitter_lib
-
 gen_dir = bugaid_gen_dir
 bugs_metadata_file = "BugAid.jsonl"
-# output_dir = gen_dir / "outputs-multi-full"
-output_dir = gen_dir / "outputs-javascript"
+output_dir = gen_dir / "outputs-multi"
+# output_dir = gen_dir / "outputs-javascript"
 temp_dir = output_dir / "temp"
 save_state_dir = output_dir / "save-state"
 output_size = 100

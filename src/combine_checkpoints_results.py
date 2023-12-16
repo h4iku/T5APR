@@ -1,10 +1,7 @@
-import json
-from collections import ChainMap
 from itertools import chain
 
 import numpy as np
 import pandas as pd
-
 from bugaid_datasets_conf import bugaid_gen_dir, codeflaws_gen_dir, manybugs_gen_dir
 from d4j_datasets_conf import bears_gen_dir, d4j_gen_dir
 from datasets_conf import quixbugs_genjava_dir, quixbugs_genpy_dir
@@ -15,31 +12,31 @@ multi = True
 
 if dataset == "QuixBugs-Python":
     gen_dir = quixbugs_genpy_dir
-    model = "multi-full" if multi else "python"
+    model = "multi" if multi else "python"
     bugs_metadata_file = "QuixBugs_Python.jsonl"
 elif dataset == "QuixBugs-Java":
     gen_dir = quixbugs_genjava_dir
-    model = "multi-full" if multi else "java"
+    model = "multi" if multi else "java"
     bugs_metadata_file = "QuixBugs_Java.jsonl"
 elif dataset == "Defects4J":
     gen_dir = d4j_gen_dir
-    model = "multi-full" if multi else "java"
+    model = "multi" if multi else "java"
     bugs_metadata_file = "Defects4J.jsonl"
 elif dataset == "BugAID":
     gen_dir = bugaid_gen_dir
-    model = "multi-full" if multi else "javascript"
+    model = "multi" if multi else "javascript"
     bugs_metadata_file = "BugAid.jsonl"
 elif dataset == "Codeflaws":
     gen_dir = codeflaws_gen_dir
-    model = "multi-full" if multi else "c"
+    model = "multi" if multi else "c"
     bugs_metadata_file = "Codeflaws.jsonl"
 elif dataset == "ManyBugs":
     gen_dir = manybugs_gen_dir
-    model = "multi-full" if multi else "c"
+    model = "multi" if multi else "c"
     bugs_metadata_file = "ManyBugs.jsonl"
 elif dataset == "Bears":
     gen_dir = bears_gen_dir
-    model = "multi-full" if multi else "java"
+    model = "multi" if multi else "java"
     bugs_metadata_file = "Bears.jsonl"
 else:
     print("Wrong dataset name")
@@ -150,9 +147,6 @@ def set_exact_matches(df: pd.DataFrame) -> pd.DataFrame:
 
 
 def main():
-    with open(gen_dir / bugs_metadata_file) as meta_file:
-        bugs_metadata = ChainMap(*[json.loads(line) for line in meta_file][::-1])
-
     checkpoints_results = pd.read_json(
         output_dir / f"sequences_{output_size}.jsonl",
         orient="records",
@@ -167,11 +161,11 @@ def main():
     )
 
     checkpoints_results = checkpoints_results[column_index]
-    print(len(checkpoints_results))
+    print("All:", len(checkpoints_results))
     add_source_target(checkpoints_results)
 
     deduped_df = deduplicate_candidates(normalize(checkpoints_results))
-    print(len(deduped_df))
+    print("Deduped:", len(deduped_df))
     set_exact_matches(deduped_df)
 
     deduped_df.to_json(

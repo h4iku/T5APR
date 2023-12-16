@@ -14,15 +14,14 @@ from typing import Optional
 import joblib
 import numpy as np
 import pandas as pd
+from datasets_conf import quixbugs_dir, quixbugs_genjava_dir
 from joblib import Parallel, delayed
 from tqdm import tqdm
-
-from datasets_conf import quixbugs_dir, quixbugs_genjava_dir
 
 project_dir = quixbugs_dir
 gen_dir = quixbugs_genjava_dir
 bugs_metadata_file = "QuixBugs_Java.jsonl"
-output_dir = gen_dir / "outputs-multi-full"
+output_dir = gen_dir / "outputs-multi"
 # output_dir = gen_dir / "outputs-java"
 temp_dir = output_dir / "temp"
 save_state_dir = output_dir / "save-state"

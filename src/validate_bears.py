@@ -16,16 +16,14 @@ import joblib
 import numpy as np
 import pandas as pd
 import xmltodict
+from d4j_datasets_conf import bears_gen_dir, bears_root
 from joblib import Parallel, delayed
 from tqdm import tqdm
 
-from d4j_datasets_conf import bears_gen_dir, bears_root
-
-
 gen_dir = bears_gen_dir
 bugs_metadata_file = "Bears.jsonl"
+output_dir = gen_dir / "outputs-multi"
 # output_dir = gen_dir / "outputs-java"
-output_dir = gen_dir / "outputs-multi-full"
 bears_tmp_dir = output_dir / "temp"
 save_state_dir = output_dir / "save-state"
 output_size = 100
@@ -328,26 +326,26 @@ def check_java_version():
     except subprocess.CalledProcessError as e:
         print("Can't find `java`")
 
-    java_pattern = '"(\d+\.\d+).*"'
+    java_pattern = r'"(\d+\.\d+).*"'
     java_version = re.search(java_pattern, java_version_string).groups()[0]
 
     # RepairThemAll uses Java 8 for Bears
     # https://github.com/program-repair/RepairThemAll/blob/master/script/core/benchmarks/Bears.py
     # This Java version can be installed using SDKMAN (TravaOpenJDK)
-    assert java_version == "1.8", f"Wrong Java version, needs Java 1.8"
+    assert java_version == "1.8", "Wrong Java version, needs Java 1.8"
 
     # Check Maven installation
     try:
         maven_version_string = subprocess.run(
             ["mvn", "-version"], capture_output=True, text=True, check=True
         ).stdout
-    except subprocess.CalledProcessError as e:
+    except subprocess.CalledProcessError:
         print("Can't find `mvn`")
 
-    maven_pattern = " (\d+\.\d+)\.\d+ "
+    maven_pattern = r" (\d+\.\d+)\.\d+ "
     maven_version = re.search(maven_pattern, maven_version_string).groups()[0]
 
-    assert maven_version == "3.6", f"Wrong Maven version, needs Maven 3.6"
+    assert maven_version == "3.6", "Wrong Maven version, needs Maven 3.6"
 
 
 def get_bug_hunk_candidates(df: pd.DataFrame, bugid: str, hunk: int) -> pd.DataFrame:
@@ -649,7 +647,7 @@ def run_cmd(
             env=env,
             shell=True,
         )
-    except subprocess.TimeoutExpired as e:
+    except subprocess.TimeoutExpired:
         return subprocess.CompletedProcess(args, 124)
     return result
 
@@ -706,7 +704,7 @@ def main():
     # pandas DataFrame is neither thread-safe for reading nor for writing
     # https://stackoverflow.com/questions/13592618/python-pandas-dataframe-thread-safe
 
-    with tqdm_joblib(tqdm(total=len(bugs_metadata))) as progress_bar:
+    with tqdm_joblib(tqdm(total=len(bugs_metadata))):
         Parallel(n_jobs=n_jobs, backend="multiprocessing")(
             delayed(apply_patch)(
                 deepcopy(get_candidates(candidate_patches_df, bugid)), bugid, hunks
