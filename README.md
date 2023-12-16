@@ -18,7 +18,7 @@ This directory contains generated plausible patches for each benchmark. The `out
 1. Install Python 3.9 or higher and clone this repository:
 
     ```bash
-    git clone https://github.com/h4iku/T5APR.git
+    git clone --recurse-submodules https://github.com/h4iku/T5APR.git
     cd T5APR
     ```
 
