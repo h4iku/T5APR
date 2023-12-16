@@ -1,0 +1,12 @@
+DereferencedNonValues1 2015 https://github.com/jaruba/PowderPlayer/commit/56345bde40fe5ecd16111c29d26f36b1d3bda8a2 131 131
+DereferencedNonValues2 2012 https://github.com/jquery/jquery/commit/c078b83b3fea891e0c228a9f2d101481678b4c9d 414 414
+DereferencedNonValues3 2016 https://github.com/jaruba/PowderPlayer/commit/b46b19e9989d82a45ab7787032f59fdd0b6d912c 257 261
+IncorrectComparison1 2011 https://github.com/substack/node-optimist/commit/49f9047d762402e28ffd3bdb99bf48120b406a65 171 171
+IncorrectComparison2 2014 https://github.com/prawnsalad/KiwiIRC/commit/27bca914b2b921d6b0b08e2d6afac0cc9c9cfe80 463 463
+MissingArgument 2012 https://github.com/caolan/async/commit/639fb496f201c32b182a50f75db65d58348e4045 94 94
+IncorrectAPIConfigs 2015 https://github.com/Soundnode/soundnode-app/commit/a90d879e438746da5b9cff360c1b92cb8593034f 60 60
+thisNotCorrectlyBound1 2012 https://github.com/mongodb/node-mongodb-native/commit/d9b1390d3f9972e239d05c1cb48e0e98b0a8e8d8 1134 1134
+thisNotCorrectlyBound2 2014 https://github.com/prawnsalad/KiwiIRC/commit/cd6579b32808e9294479101e7bbb6bcbe23803dc 112 112
+UnhandledError1 2011 https://github.com/prawnsalad/KiwiIRC/commit/9dc939b73a7308b611045681657d61df471af48a 620 628
+UnhandledError2 2010 https://github.com/senchalabs/connect/commit/4638aea3d84e3b4b97f0df2fe1665d3e1c5c05ce 209 209
+UnhandledError3 2014 https://github.com/karma-runner/karma/commit/bb4edde9f15a07e6dac0d4dc01731f1e277d34a4 91 91

@@ -1,0 +1,12 @@
+DereferencedNonValues1,torrent.js
+DereferencedNonValues2,css.js
+DereferencedNonValues3,load.js
+IncorrectComparison1,index.js
+IncorrectComparison2,connection.js
+MissingArgument,async.js
+IncorrectAPIConfigs,Gruntfile.js
+thisNotCorrectlyBound1,db.js
+thisNotCorrectlyBound2,application.js
+UnhandledError1,app.js
+UnhandledError2,index.js
+UnhandledError3,preprocessor.js
