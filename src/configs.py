@@ -38,8 +38,8 @@ d4j_bin: Path = d4j_root / "framework/bin/defects4j"
 d4j_gen_dir: Path = generated_assets_root / "Defects4J"
 d4j_tmp_dir: Path = d4j_gen_dir / "tmp"
 
-d4j1_gen_dir: Path = d4j_gen_dir / "Defects4J-v1.2"
-d4j2_gen_dir: Path = d4j_gen_dir / "Defects4J-v2.0"
+d4j1_gen_dir: Path = generated_assets_root / "Defects4J-v1.2"
+d4j2_gen_dir: Path = generated_assets_root / "Defects4J-v2.0"
 
 # Bears configs
 bears_root: Path = benchmarks_root / "Bears"
@@ -58,6 +58,7 @@ manybugs_gen_dir: Path = generated_assets_root / "ManyBugs"
 bugaid_data_dir: Path = benchmarks_root / "BugAID/data"
 bugaid_gen_dir: Path = generated_assets_root / "BugAID"
 
+results_dir = project_root / "results"
 
 # Tree-sitter library
 tree_sitter_lib: Path = project_root / "tools/tree-sitter-lib"
