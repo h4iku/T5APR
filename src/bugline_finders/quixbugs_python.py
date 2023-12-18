@@ -1,19 +1,18 @@
-"""Finding the buggy line in QuixBugs(Python) dataset by comparing buggy and correct programs"""
+"""Finding the buggy lines in QuixBugs(Python) dataset by comparing buggy and correct programs"""
 
 import difflib
 import json
-from dataclasses import asdict, dataclass, field
+from dataclasses import asdict, dataclass
 from pathlib import Path
 from typing import Iterable
 
 import pygments
-from pygments.filter import Filter, simplefilter
 from pygments.lexers import PythonLexer
-from pygments.token import Comment, Name, String, Token
+from pygments.token import Comment, Name, String
 from tree_sitter import Language, Parser
 from unidiff import PatchSet
 
-from .datasets_conf import (
+from ..configs import (
     quixbugs_genpy_dir,
     quixbugs_programs,
     quixbugs_python_buggy_dir,
@@ -62,23 +61,6 @@ def get_context(program: Path, line_number: int) -> str:
 python_lexer = PythonLexer(stripnl=False)
 
 
-class RemCom(Filter):
-    def __init__(self, **options):
-        Filter.__init__(self, **options)
-
-    def filter(self, lexer, stream):
-        for ttype, tvalue in stream:
-            if ttype not in Token.Comment and ttype not in Token.Literal.String.Doc:
-                yield tvalue
-
-
-@simplefilter
-def rem_com(self, lexer, stream, options):
-    for ttype, tvalue in stream:
-        if ttype not in Token.Comment and ttype not in Token.Literal.String.Doc:
-            yield tvalue
-
-
 def remove_comments(code: str) -> str:
     """Remove comments and keep the line numbers intact
     so we can replace patched lines in the original file.
@@ -106,7 +88,6 @@ class DiffHunk:
     removed_line_numbers_range: tuple[int, int]
     added_line_numbers_range: tuple[int, int]
     source_context: str = ""
-    # source_identifiers: list[str] = field(default_factory=list)
 
 
 def get_program_path(dir_path: Path, program_name: str) -> Path:
@@ -198,13 +179,11 @@ def main():
         diff_lines = list(get_diff_lines(buggy_python_program, correct_python_program))
         hunks = process_hunks(diff_lines)
 
-        # if Quixbugs(Python)
         assert len(hunks) == 1, "QuixBugs Python programs should all have one hunk"
 
         for hunk in hunks:
             line_number = hunk.removed_line_numbers_range[0]
             hunk.source_context = get_context(buggy_python_program, line_number)
-            # hunk.source_identifiers = get_identifiers(hunk.source_context)
 
         programs_hunks[program] = hunks
 

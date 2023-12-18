@@ -15,9 +15,10 @@ from typing import Optional
 import joblib
 import numpy as np
 import pandas as pd
-from bugaid_datasets_conf import codeflaws_data_dir, codeflaws_gen_dir
 from joblib import Parallel, delayed
 from tqdm import tqdm
+
+from ..configs import codeflaws_data_dir, codeflaws_gen_dir
 
 gen_dir = codeflaws_gen_dir
 bugs_metadata_file = "Codeflaws.jsonl"
@@ -104,15 +105,15 @@ def check_gcc_version():
         gcc_version_string = subprocess.run(
             ["gcc", "--version"], capture_output=True, text=True, check=True
         ).stdout
-    except subprocess.CalledProcessError as e:
+    except subprocess.CalledProcessError:
         print("Can't find `gcc`")
 
-    gcc_pattern = "\) (\d+)\.\d+.*"
+    gcc_pattern = r"\) (\d+)\.\d+.*"
     gcc_version = re.search(gcc_pattern, gcc_version_string).groups()[0]
 
     # Any gcc version can be used, but I used gcc 7.5. There are some flaky tests in the
     # dataset that cause different gcc versions to trigger different behaviors.
-    assert gcc_version == "7", f"Wrong GCC version, needs GCC 7"
+    assert gcc_version == "7", "Wrong GCC version, needs GCC 7"
 
 
 def get_bug_hunk_candidates(df: pd.DataFrame, bugid: str, hunk: int) -> pd.DataFrame:
@@ -171,7 +172,7 @@ def get_passing_tests(bugid: str, project_dir: Path) -> list[tuple[Path, Path]]:
                         timeout=timeout,
                         encoding="cp1256",
                     )
-                except subprocess.TimeoutExpired as e:
+                except subprocess.TimeoutExpired:
                     continue
 
             testcase_output_path = testcase_path.parent / testcase_path.name.replace(
@@ -415,7 +416,7 @@ def run_tests(
                         timeout=timeout,
                         encoding="cp1256",
                     )
-                except subprocess.TimeoutExpired as e:
+                except subprocess.TimeoutExpired:
                     return Status.TIMEOUT
 
             if Path("stdout").stat().st_size / (1024 * 1024) > 100:
@@ -616,7 +617,7 @@ def main():
     temp_dir.mkdir(parents=True)
     save_state_dir.mkdir(parents=True, exist_ok=True)
 
-    with tqdm_joblib(tqdm(total=len(bugs_metadata), disable=False)) as progress_bar:
+    with tqdm_joblib(tqdm(total=len(bugs_metadata), disable=False)):
         Parallel(n_jobs=n_jobs, backend="loky")(
             delayed(apply_patch)(
                 deepcopy(get_candidates(candidate_patches_df, bugid)), bugid, hunks

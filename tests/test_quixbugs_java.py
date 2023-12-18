@@ -1,14 +1,14 @@
 from pathlib import Path
 
-from src.datasets_conf import (
-    quixbugs_java_buggy_dir,
-    quixbugs_java_correct_dir,
-)
-from src.find_bugline_quixbugs_java import (
+from src.bugline_finders.quixbugs_java import (
     get_diff_lines,
     get_program_path,
     process_hunks,
     remove_comments,
+)
+from src.configs import (
+    quixbugs_java_buggy_dir,
+    quixbugs_java_correct_dir,
 )
 
 fixtures_dir = Path(__file__).parent / "fixtures"

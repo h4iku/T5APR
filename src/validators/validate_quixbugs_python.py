@@ -1,9 +1,10 @@
 import contextlib
 import json
-import re
+import os
 import shutil
 import subprocess
 import threading
+import time
 import timeit
 from collections import ChainMap
 from copy import deepcopy
@@ -14,15 +15,16 @@ from typing import Optional
 import joblib
 import numpy as np
 import pandas as pd
-from datasets_conf import quixbugs_dir, quixbugs_genjava_dir
 from joblib import Parallel, delayed
 from tqdm import tqdm
 
+from ..configs import quixbugs_dir, quixbugs_genpy_dir
+
 project_dir = quixbugs_dir
-gen_dir = quixbugs_genjava_dir
-bugs_metadata_file = "QuixBugs_Java.jsonl"
+gen_dir = quixbugs_genpy_dir
+bugs_metadata_file = "QuixBugs_Python.jsonl"
 output_dir = gen_dir / "outputs-multi"
-# output_dir = gen_dir / "outputs-java"
+# output_dir = gen_dir / "outputs-python"
 temp_dir = output_dir / "temp"
 save_state_dir = output_dir / "save-state"
 output_size = 100
@@ -36,6 +38,16 @@ with (
 ):
     sources = [src.strip() for src in rem_file]
     targets = [tgt.strip() for tgt in add_file]
+
+
+@contextlib.contextmanager
+def change_directory(newdir):
+    prevdir = os.getcwd()
+    os.chdir(os.path.expanduser(newdir))
+    try:
+        yield
+    finally:
+        os.chdir(prevdir)
 
 
 @contextlib.contextmanager
@@ -55,20 +67,6 @@ def tqdm_joblib(tqdm_object):
     finally:
         joblib.parallel.Parallel.print_progress = original_print_progress
         tqdm_object.close()
-
-
-def check_java_version():
-    try:
-        java_version = subprocess.run(
-            ["java", "-version"], capture_output=True, text=True, check=True
-        ).stderr
-    except subprocess.CalledProcessError as e:
-        print("Can't find `java`")
-
-    pattern = '"(\d+)\.\d+.*"'
-    version = re.search(pattern, java_version).groups()[0]
-
-    assert version == "11", "Wrong Java version, needs Java 11"
 
 
 def get_bug_hunk_candidates(df: pd.DataFrame, bugid: str, hunk: int) -> pd.DataFrame:
@@ -100,55 +98,36 @@ def insert_patch(patch, source_file_path, target_file_path, bug_line, bug_len, i
 
 class Status(Enum):
     PLAUSIBLE = auto()
-    COMPILABLE = auto()
+    PARSABLE = auto()
     TIMEOUT = auto()
-    UNCOMPILABLE = auto()
+    UNPARSABLE = auto()
 
 
-def run_tests(bugid: str, project_dir: Path) -> Status:
+def run_tests(bugid: str, project_copy_dir: Path) -> Status:
     timeout = 60  # seconds
+    tests_dir = project_copy_dir / "python_testcases"
+    test_file = f"test_{bugid}.py"
 
-    compile_args = [
-        "gradle",
-        "build",
+    args = [
+        "pytest",
         "-x",
-        "test",
-        "-p",
-        str(project_dir),
-    ]
-    comp_result = subprocess.run(
-        compile_args,
-        stdout=subprocess.DEVNULL,
-        stderr=subprocess.STDOUT,
-    )
-
-    if comp_result.returncode != 0:
-        return Status.UNCOMPILABLE
-
-    test_file_name = f"{bugid.upper()}_TEST"
-    test_args = [
-        "gradle",
-        "test",
-        "--fail-fast",
-        "--tests",
-        test_file_name,
-        "-p",
-        str(project_dir),
+        str(tests_dir / test_file),
     ]
     try:
         result = subprocess.run(
-            test_args,
-            stdout=subprocess.DEVNULL,
-            stderr=subprocess.STDOUT,
+            args,
+            capture_output=True,
             timeout=timeout,
         )
-    except subprocess.TimeoutExpired as e:
+    except subprocess.TimeoutExpired:
         return Status.TIMEOUT
 
     if result.returncode == 0:
         return Status.PLAUSIBLE
+    elif result.returncode == 2:
+        return Status.UNPARSABLE
     else:
-        return Status.COMPILABLE
+        return Status.PARSABLE
 
 
 def set_plausible(df: pd.DataFrame, bugid: str, hunk: int, patch: str) -> None:
@@ -175,35 +154,16 @@ def apply_patch(cp_df: pd.DataFrame, bugid: str, hunks: list) -> Optional[pd.Dat
         project_copy_dir = temp_dir / str(pid) / "QuixBugs"
         copy_dataset_files(project_dir, project_copy_dir)
 
-        target_file_path = project_copy_dir / "java_programs" / f"{bugid.upper()}.java"
+        target_file_path = project_copy_dir / "python_programs" / f"{bugid}.py"
         bug_line, bug_len = hunk["removed_line_numbers_range"]
         bug_hunk_subset_df = get_hunk_candidates(cp_df, 0)
 
-        if bugid == "breadth_first_search":
-            with open(target_file_path, "r") as file:
-                source = file.read()
-                replaced_source = source.replace("// return false;", "return false;")
-            with open(target_file_path, "w") as file:
-                file.write(replaced_source)
-
-        # Copy initial file to a temp directory
-        # FIXME: This can later change to hunks source path to include parent dir as well
-        # FIXME: Put all these into a function that just returns the desired path.
-        source_file_path = (
-            temp_dir / str(pid) / "sources" / bugid / f"{bugid.upper()}.java"
-        )
+        source_file_path = temp_dir / str(pid) / "sources" / bugid / f"{bugid}.py"
         source_file_path.parent.mkdir(parents=True, exist_ok=True)
         shutil.copyfile(target_file_path, source_file_path)
 
         indent_size = len(hunk["added_lines"]) - len(hunk["added_lines"].lstrip(" \t"))
         indent = hunk["added_lines"][:indent_size]
-
-        # Change timeout
-        timeout = 60  # seconds
-        test_file_path = (
-            project_copy_dir / f"java_testcases/junit/{bugid.upper()}_TEST.java"
-        )
-        change_test_timeout(timeout, test_file_path, delete_timeout=True)
 
         for index, patch in bug_hunk_subset_df["decoded_sequences"].items():
             insert_patch(
@@ -218,12 +178,15 @@ def apply_patch(cp_df: pd.DataFrame, bugid: str, hunks: list) -> Optional[pd.Dat
 
             if passed is Status.PLAUSIBLE:
                 cp_df.at[index, "plausible"] = True
-                cp_df.at[index, "compilable"] = True
-            elif passed is Status.COMPILABLE:
-                cp_df.at[index, "compilable"] = True
+                cp_df.at[index, "parsable"] = True
+            elif passed is Status.PARSABLE:
+                cp_df.at[index, "parsable"] = True
             elif passed is Status.TIMEOUT:
                 cp_df.at[index, "timeout"] = True
-                cp_df.at[index, "compilable"] = True
+                cp_df.at[index, "parsable"] = True
+
+            # pytest shows some inconsistent behavior on some source files if ran fast!
+            time.sleep(1)
 
         # Save intermediate state
         cp_df.to_json(save_state_dir / f"{bugid}.jsonl", orient="records", lines=True)
@@ -238,30 +201,8 @@ def copy_dataset_files(dataset_dir, temp_dataset_dir):
     )
 
 
-def change_test_timeout(timeout, test_source_file, delete_timeout=False):
-    assert (
-        test_source_file.is_file()
-        and test_source_file.suffix == ".java"
-        and test_source_file.stem.endswith("TEST")
-    ), test_source_file
-
-    with open(test_source_file) as file:
-        lines = file.readlines()
-        for i, line in enumerate(lines):
-            if "@org.junit.Test" in line or "@Test" in line:
-                if delete_timeout:
-                    lines[i] = "    @org.junit.Test\n"
-                else:
-                    lines[i] = f"    @org.junit.Test(timeout = {timeout*1000})\n"
-
-    with open(test_source_file, "w") as file:
-        file.writelines(lines)
-
-
 def main():
-    check_java_version()
-
-    n_jobs = 4
+    n_jobs = 6
 
     with open(gen_dir / bugs_metadata_file) as meta_file:
         bugs_metadata = ChainMap(*[json.loads(line) for line in meta_file][::-1])
@@ -272,7 +213,7 @@ def main():
         lines=True,
     )
     candidate_patches_df["plausible"] = False
-    candidate_patches_df["compilable"] = False
+    candidate_patches_df["parsable"] = False
     candidate_patches_df["timeout"] = False
     candidate_patches_df["validation_time"] = np.nan
 
@@ -280,7 +221,7 @@ def main():
 
     save_state_dir.mkdir(parents=True, exist_ok=True)
 
-    with tqdm_joblib(tqdm(total=len(bugs_metadata))) as progress_bar:
+    with tqdm_joblib(tqdm(total=len(bugs_metadata))):
         Parallel(n_jobs=n_jobs, backend="threading")(
             delayed(apply_patch)(
                 deepcopy(get_candidates(candidate_patches_df, bugid)), bugid, hunks
@@ -293,6 +234,7 @@ def main():
         for cp in save_state_dir.iterdir()
     ]
     concatenated_cp_df = pd.concat(cp_dfs, ignore_index=True)
+    assert len(candidate_patches_df) == len(concatenated_cp_df)
 
     bugs_with_plausible_patch = (
         concatenated_cp_df.groupby(["bugid", "hunk"])["plausible"]

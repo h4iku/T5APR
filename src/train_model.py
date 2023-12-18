@@ -2,8 +2,7 @@ from enum import Enum
 from math import ceil
 
 import torch
-from configs import models_root
-from datasets_conf import cache_dir
+from datasets import concatenate_datasets, load_dataset
 from transformers import (
     AutoModelForSeq2SeqLM,
     AutoTokenizer,
@@ -12,7 +11,7 @@ from transformers import (
     Seq2SeqTrainingArguments,
 )
 
-from datasets import concatenate_datasets, load_dataset
+from .configs import cache_dir, models_root
 
 ModelType = Enum("ModelType", ["MULTI", "PYTHON", "JAVA", "C", "JAVASCRIPT"])
 model_type: ModelType = ModelType.MULTI
@@ -20,13 +19,13 @@ model_type: ModelType = ModelType.MULTI
 print("CUDA available:", torch.cuda.is_available())
 print("CUDA version:", torch.version.cuda)
 
-### Load model and tokenizer
+# Load model and tokenizer
 model_checkpoint = "Salesforce/codet5-small"
 
 tokenizer = AutoTokenizer.from_pretrained(model_checkpoint, cache_dir=cache_dir)
 model = AutoModelForSeq2SeqLM.from_pretrained(model_checkpoint, cache_dir=cache_dir)
 
-### Load data
+# Load data
 dataset_names = {
     "Python": "h4iku/coconut_python2010_preprocessed",
     "Java": "h4iku/coconut_java2006_preprocessed",
@@ -48,7 +47,7 @@ raw_datasets = {
 }
 print(raw_datasets)
 
-### Tokenize data
+# Tokenize data
 max_input_length = 512
 max_target_length = 256
 
@@ -91,7 +90,7 @@ tokenized_datasets = [
 ]
 
 
-### Filter data
+# Filter data
 def allowed_length(example):
     """Filter out long samples and samples with empty target"""
     return (
@@ -110,7 +109,7 @@ concatenated_dataset = concatenate_datasets(filtered_datasets)
 print(concatenated_dataset)
 
 
-### Training
+# Training
 train_batch_size = 8
 eval_batch_size = 16
 model_name = model_checkpoint.split("/")[-1]
@@ -139,7 +138,7 @@ args = Seq2SeqTrainingArguments(
 
 data_collator = DataCollatorForSeq2Seq(tokenizer=tokenizer, model=model)
 
-### Setting generate hyperparameters
+# Setting generate hyperparameters
 model.config.max_length = max_target_length
 model.config.min_length = 0
 model.config.early_stopping = True

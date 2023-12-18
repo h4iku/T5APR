@@ -1,6 +1,6 @@
 from pathlib import Path
 
-from src.find_bugline_quixbugs_python import (
+from src.bugline_finders.quixbugs_python import (
     get_context,
     get_diff_lines,
     process_hunks,
@@ -68,9 +68,7 @@ def test_get_diff_lines():
 +        if hare is None or hare.successor is None:
 @@ -27,0 +28 @@
 +
-""".splitlines(
-        keepends=True
-    )
+""".splitlines(keepends=True)
     assert list(get_diff_lines(source_path, target_path)) == result
 
 
@@ -87,9 +85,7 @@ def test_process_hunks():
 -
 -
 -
-""".splitlines(
-        keepends=True
-    )
+""".splitlines(keepends=True)
     diff_hunks = process_hunks(diff_lines)
     assert len(diff_hunks) == 1
     assert diff_hunks[0].removed_lines == "        n ^= n - 1\n"

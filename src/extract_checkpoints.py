@@ -1,8 +1,9 @@
 import shutil
 
-from configs import cloned_models_dir, models_root
 from git import Repo
 from tqdm import tqdm
+
+from .configs import cloned_models_dir, models_root
 
 repo_name = "codet5-small-t5apr-multi"
 clone_dir = cloned_models_dir / repo_name

@@ -1,5 +1,6 @@
-from configs import cache_dir, models_root
 from huggingface_hub import HfApi
+
+from .configs import cache_dir, models_root
 
 repo_name = "codet5-small-t5apr-multi"
 repo_id = f"h4iku/{repo_name}"
@@ -31,4 +32,3 @@ for commit in commits:
             local_dir_use_symlinks=False,
             allow_patterns=needed_files,
         )
-        break

@@ -17,14 +17,15 @@ import joblib
 import numpy as np
 import pandas as pd
 import psutil
-from d4j_datasets_conf import d4j_bin, d4j_gen_dir, d4j_tmp_dir, d4j_version
 from joblib import Parallel, delayed
 from tqdm import tqdm
 
+from ..configs import d4j_bin, d4j_gen_dir, d4j_version
+
 gen_dir = d4j_gen_dir
 bugs_metadata_file = "Defects4J.jsonl"
-# output_dir = gen_dir / "outputs-java"
 output_dir = gen_dir / "outputs-multi"
+# output_dir = gen_dir / "outputs-java"
 d4j_tmp_dir = output_dir / "temp"
 save_state_dir = output_dir / "save-state"
 output_size = 100
@@ -64,15 +65,15 @@ def check_java_version():
         java_version_string = subprocess.run(
             ["java", "-version"], capture_output=True, text=True, check=True
         ).stderr
-    except subprocess.CalledProcessError as e:
+    except subprocess.CalledProcessError:
         print("Can't find `java`")
 
-    pattern = '"(\d+\.\d+).*"'
+    pattern = r'"(\d+\.\d+).*"'
     java_version = re.search(pattern, java_version_string).groups()[0]
 
-    if d4j_version == "1.4.0":
+    if d4j_version == "1.4":
         assert java_version == "1.7", "Wrong Java version, needs Java 7"
-    elif d4j_version == "2.0.0":
+    elif d4j_version == "2.0":
         assert java_version == "1.8", "Wrong Java version, needs Java 8"
 
 
@@ -432,7 +433,7 @@ def run_d4j_cmd(
     try:
         output, error = process.communicate(timeout=timeout)
 
-    except subprocess.TimeoutExpired as e:
+    except subprocess.TimeoutExpired:
         kill(process.pid)
         output, error = process.communicate()
         process.returncode = 124
@@ -480,7 +481,7 @@ def main():
     shutil.rmtree(d4j_tmp_dir, ignore_errors=True)
     save_state_dir.mkdir(exist_ok=True)
 
-    with tqdm_joblib(tqdm(total=len(bugs_metadata))) as progress_bar:
+    with tqdm_joblib(tqdm(total=len(bugs_metadata))):
         Parallel(n_jobs=n_jobs, backend="multiprocessing")(
             delayed(apply_patch)(
                 deepcopy(get_candidates(candidate_patches_df, bugid)), bugid, hunks

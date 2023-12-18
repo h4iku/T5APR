@@ -2,9 +2,16 @@ from itertools import chain
 
 import numpy as np
 import pandas as pd
-from bugaid_datasets_conf import bugaid_gen_dir, codeflaws_gen_dir, manybugs_gen_dir
-from d4j_datasets_conf import bears_gen_dir, d4j_gen_dir
-from datasets_conf import quixbugs_genjava_dir, quixbugs_genpy_dir
+
+from .configs import (
+    bears_gen_dir,
+    bugaid_gen_dir,
+    codeflaws_gen_dir,
+    d4j_gen_dir,
+    manybugs_gen_dir,
+    quixbugs_genjava_dir,
+    quixbugs_genpy_dir,
+)
 
 # Config
 dataset = "QuixBugs-Python"

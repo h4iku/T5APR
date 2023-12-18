@@ -3,10 +3,17 @@ from itertools import chain
 
 import numpy as np
 import pandas as pd
-from bugaid_datasets_conf import bugaid_gen_dir, codeflaws_gen_dir, manybugs_gen_dir
-from d4j_datasets_conf import bears_gen_dir, d4j_gen_dir
-from datasets_conf import quixbugs_genjava_dir, quixbugs_genpy_dir
 from tqdm import tqdm
+
+from .configs import (
+    bears_gen_dir,
+    bugaid_gen_dir,
+    codeflaws_gen_dir,
+    d4j_gen_dir,
+    manybugs_gen_dir,
+    quixbugs_genjava_dir,
+    quixbugs_genpy_dir,
+)
 
 # Config
 dataset = "QuixBugs-Python"
@@ -16,31 +23,31 @@ empty_last = False
 
 if dataset == "QuixBugs-Python":
     gen_dir = quixbugs_genpy_dir
-    model = "multi-full" if multi else "python"
+    model = "multi" if multi else "python"
     bugs_metadata_file = "QuixBugs_Python.jsonl"
 elif dataset == "QuixBugs-Java":
     gen_dir = quixbugs_genjava_dir
-    model = "multi-full" if multi else "java"
+    model = "multi" if multi else "java"
     bugs_metadata_file = "QuixBugs_Java.jsonl"
 elif dataset == "Defects4J":
     gen_dir = d4j_gen_dir
-    model = "multi-full" if multi else "java"
+    model = "multi" if multi else "java"
     bugs_metadata_file = "Defects4J.jsonl"
 elif dataset == "BugAID":
     gen_dir = bugaid_gen_dir
-    model = "multi-full" if multi else "javascript"
+    model = "multi" if multi else "javascript"
     bugs_metadata_file = "BugAid.jsonl"
 elif dataset == "Codeflaws":
     gen_dir = codeflaws_gen_dir
-    model = "multi-full" if multi else "c"
+    model = "multi" if multi else "c"
     bugs_metadata_file = "Codeflaws.jsonl"
 elif dataset == "ManyBugs":
     gen_dir = manybugs_gen_dir
-    model = "multi-full" if multi else "c"
+    model = "multi" if multi else "c"
     bugs_metadata_file = "ManyBugs.jsonl"
 elif dataset == "Bears":
     gen_dir = bears_gen_dir
-    model = "multi-full" if multi else "java"
+    model = "multi" if multi else "java"
     bugs_metadata_file = "Bears.jsonl"
 else:
     print("Wrong dataset name")
@@ -346,7 +353,6 @@ def set_corrects(df: pd.DataFrame) -> pd.DataFrame:
                 if patch["correct"]:
                     df.loc[
                         (df["bugid"] == bug_dir.name)
-                        # & (df["hunk"] == hunk_num)
                         & (df["normalized_patch"] == " ".join(patch["patch"].split())),
                         ["exact_match", "correct"],
                     ] = [patch["exact_match"], patch["correct"]]
@@ -394,7 +400,7 @@ def main():
 
     print("All:  ", len(checkpoints_results))
     reranked_df = rerank(normalize(checkpoints_results), method=rerank_method)
-    print("Dedup:", len(reranked_df))
+    print("Deduped:", len(reranked_df))
     reranked_df = generate_candidates(reranked_df)
 
     # You can do this both using generated directories (to also check correct type)

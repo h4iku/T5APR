@@ -16,9 +16,10 @@ import joblib
 import numpy as np
 import pandas as pd
 import xmltodict
-from d4j_datasets_conf import bears_gen_dir, bears_root
 from joblib import Parallel, delayed
 from tqdm import tqdm
+
+from ..configs import bears_gen_dir, bears_root
 
 gen_dir = bears_gen_dir
 bugs_metadata_file = "Bears.jsonl"
@@ -323,7 +324,7 @@ def check_java_version():
         java_version_string = subprocess.run(
             ["java", "-version"], capture_output=True, text=True, check=True
         ).stderr
-    except subprocess.CalledProcessError as e:
+    except subprocess.CalledProcessError:
         print("Can't find `java`")
 
     java_pattern = r'"(\d+\.\d+).*"'

@@ -1,4 +1,16 @@
+"""Script to locally preprocess the training data downloaded from:
+https://github.com/lin-tan/CoCoNut-Artifact/releases/tag/training_data_1.0.0
+"""
+
 import pygments
+from configs import (
+    cache_dir,
+    coconut_c2005,
+    coconut_java2006,
+    coconut_javascript2010,
+    coconut_preprocessed_dir,
+    coconut_python2010,
+)
 from datasets import (
     Dataset,
     Features,
@@ -9,18 +21,9 @@ from datasets import (
 from pygments.lexers import get_lexer_by_name
 from pygments.token import Comment, String
 
-from datasets_conf import (
-    cache_dir,
-    coconut_c2005,
-    coconut_java2006,
-    coconut_javascript2010,
-    coconut_preprocessed_data_dir,
-    coconut_python2010,
-)
-
 
 def remove_comments(code: str, lexer) -> str:
-    """Remove comments from give code snippet"""
+    """Remove comments from given code snippet"""
 
     lexed_code = pygments.lex(code, lexer)
     comment_stripped_code = []
@@ -106,10 +109,7 @@ def main():
         print(filtered_dataset)
 
         filtered_dataset.to_json(
-            str(
-                coconut_preprocessed_data_dir
-                / f"{''.join(lang_dataset.parts[-2:])}.jsonl"
-            )
+            str(coconut_preprocessed_dir / f"{''.join(lang_dataset.parts[-2:])}.jsonl")
         )
 
 
