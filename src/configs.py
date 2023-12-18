@@ -38,8 +38,8 @@ d4j_bin: Path = d4j_root / "framework/bin/defects4j"
 d4j_gen_dir: Path = generated_assets_root / "Defects4J"
 d4j_tmp_dir: Path = d4j_gen_dir / "tmp"
 
-d4j1_gen_dir: Path = project_root / "generated_assets/d4j-1.4"
-d4j2_gen_dir: Path = project_root / "generated_assets/d4j-2.0"
+d4j1_gen_dir: Path = d4j_gen_dir / "Defects4J-v1.2"
+d4j2_gen_dir: Path = d4j_gen_dir / "Defects4J-v2.0"
 
 # Bears configs
 bears_root: Path = benchmarks_root / "Bears"

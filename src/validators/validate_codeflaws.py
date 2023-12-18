@@ -627,7 +627,7 @@ def main():
 
     cp_dfs = [
         pd.read_json(cp, orient="records", lines=True)
-        for cp in save_state_dir.iterdir()
+        for cp in sorted(save_state_dir.iterdir())
     ]
     concatenated_cp_df = pd.concat(cp_dfs, ignore_index=True)
 

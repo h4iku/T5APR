@@ -16,7 +16,7 @@ from .configs import (
 )
 
 # Config
-dataset = "QuixBugs-Python"
+dataset = "ManyBugs"
 multi = True
 rerank_method = 2
 empty_last = False
@@ -314,8 +314,11 @@ def get_corrects(df: pd.DataFrame) -> pd.DataFrame:
 
 
 def add_metadata(df: pd.DataFrame) -> pd.DataFrame:
+    if dataset in ["ManyBugs"]:
+        return df
+
     patches_df = pd.read_json(
-        output_dir / f"all_candidates_{output_size}.jsonl",
+        output_dir / f"plausible_candidates_{output_size}.jsonl",
         orient="records",
         lines=True,
     )
@@ -333,8 +336,8 @@ def exact_match_plausibility_check(patches_df: pd.DataFrame) -> None:
     if dataset in ["BugAID", "ManyBugs"]:
         return
 
-    not_plausible = patches_df[patches_df["plausible"] is False]
-    exact_match_not_plausible = not_plausible[not_plausible["exact_match"] is True]
+    not_plausible = patches_df[patches_df["plausible"] == False]
+    exact_match_not_plausible = not_plausible[not_plausible["exact_match"] == True]
 
     assert (
         exact_match_not_plausible.empty
@@ -364,7 +367,7 @@ def set_corrects_from_df(df: pd.DataFrame) -> pd.DataFrame:
     df["exact_match"] = False
 
     patches_df = pd.read_json(
-        output_dir / f"auto_validated_patches_{output_size}.jsonl",
+        output_dir / f"validated_reranked_candidates_{output_size}.jsonl",
         orient="records",
         lines=True,
     )
@@ -408,10 +411,16 @@ def main():
     # or use the primary candidates (can only use exact match)
 
     # set_exact_matches(reranked_df)
-    set_corrects(reranked_df)
+    # set_corrects(reranked_df)
 
     # set_corrects_from_df(reranked_df)
     reranked_df = add_metadata(reranked_df)
+
+    reranked_df.to_json(
+        output_dir / f"reranked_candidates_{output_size}.jsonl",
+        orient="records",
+        lines=True,
+    )
 
     first_em = reranked_df.groupby("bugid").first().value_counts("correct")
     print("1st Exact Match:", first_em.get(True, "0"))
@@ -420,12 +429,6 @@ def main():
     exact_match_plausibility_check(reranked_df)
     first_plausible = plausibles_df.groupby("bugid").first().value_counts("correct")
     print("1st Plausible:", first_plausible.get(True, "0"))
-
-    reranked_df.to_json(
-        output_dir / f"reranked_candidates_{output_size}.jsonl",
-        orient="records",
-        lines=True,
-    )
 
 
 if __name__ == "__main__":
