@@ -1,0 +1,25 @@
+# Environments
+.env*/
+.venv*/
+env*/
+venv*/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Hugging Face cache
+.cache
+
+benchmarks/
+models/
+
+generated_assets/**
+!generated_assets/**/
+!generated_assets/QuixBugs-Java/*.txt
+!generated_assets/QuixBugs-Java/QuixBugs_Java.jsonl
+!generated_assets/QuixBugs-Python/*.txt
+!generated_assets/QuixBugs-Python/QuixBugs_Python.jsonl
+
+tools/tree-sitter-lib/build/
