@@ -7,6 +7,7 @@ from .configs import generated_assets_root, results_dir
 
 # Config
 beam_size = 100
+# False is for generating final results, True is for patch assessment
 assessment = False
 
 
@@ -57,7 +58,7 @@ def save_patches(df: pd.DataFrame, benchmark: str, patches_path: Path) -> None:
                 / "/".join(patches_path.parts[-3:-1])
                 / f"plausible_patches_{beam_size}"
             )
-            save_dir = patches_dir / bugid
+            save_dir = patches_dir / str(bugid)
             save_dir.mkdir(parents=True, exist_ok=True)
             with open(
                 save_dir / f"{str(bug_patch.Index).zfill(3)}.json", "w"
@@ -87,10 +88,15 @@ def main():
                 generated_assets_root
                 / benchmark
                 / f"outputs-{model}"
-                / f"validated_reranked_candidates_{beam_size}.jsonl"
+                / (
+                    f"reranked_candidates_{beam_size}.jsonl"
+                    if assessment
+                    else f"validated_reranked_candidates_{beam_size}.jsonl"
+                )
             )
-            patches_df = pd.read_json(patches_path, orient="records", lines=True)
-            save_patches(patches_df, benchmark, patches_path)
+            if patches_path.exists():
+                patches_df = pd.read_json(patches_path, orient="records", lines=True)
+                save_patches(patches_df, benchmark, patches_path)
 
 
 if __name__ == "__main__":

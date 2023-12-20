@@ -105,8 +105,9 @@ def check_gcc_version():
         gcc_version_string = subprocess.run(
             ["gcc", "--version"], capture_output=True, text=True, check=True
         ).stdout
-    except subprocess.CalledProcessError:
+    except subprocess.CalledProcessError as e:
         print("Can't find `gcc`")
+        raise e
 
     gcc_pattern = r"\) (\d+)\.\d+.*"
     gcc_version = re.search(gcc_pattern, gcc_version_string).groups()[0]

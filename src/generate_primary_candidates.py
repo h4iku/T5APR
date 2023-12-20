@@ -117,8 +117,8 @@ def save_results(checkpoints_results: list[Dataset]) -> None:
     for colname, coldata in input_bugs_hunks.items():
         input_bugs_hunks[colname] = coldata * len(checkpoints_results)
 
-    budid_added = concatenated_results.add_column("bugid", input_bugs_hunks["bugid"])
-    hunk_added = budid_added.add_column("hunk", input_bugs_hunks["hunk"])
+    bugid_added = concatenated_results.add_column("bugid", input_bugs_hunks["bugid"])
+    hunk_added = bugid_added.add_column("hunk", input_bugs_hunks["hunk"])
 
     hunk_added.to_json(output_dir / f"sequences_{beam_size}.jsonl")
 
@@ -159,7 +159,7 @@ elif dataset == "Bears":
     bugs_metadata_file = "Bears.jsonl"
     prefix = "Java"
 else:
-    print("Wrong dataset name")
+    raise ValueError("Wrong dataset name")
 
 
 checkpoints_dir = models_root / f"codet5-small-t5apr-{model_name}"

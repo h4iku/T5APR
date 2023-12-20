@@ -22,9 +22,9 @@ from ..configs import quixbugs_dir, quixbugs_genpy_dir
 
 project_dir = quixbugs_dir
 gen_dir = quixbugs_genpy_dir
-# bugs_metadata_file = "QuixBugs_Python.jsonl"
+bugs_metadata_file = "QuixBugs_Python.jsonl"
 output_dir = gen_dir / "outputs-multi"
-output_dir = gen_dir / "outputs-python"
+# output_dir = gen_dir / "outputs-python"
 temp_dir = output_dir / "temp"
 save_state_dir = output_dir / "save-state"
 output_size = 100

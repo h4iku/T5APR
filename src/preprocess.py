@@ -79,7 +79,7 @@ def main():
                 "text",
                 data_files=f"{lang_dataset/column}.txt",
                 split="train",
-                cache_dir=cache_dir,
+                cache_dir=str(cache_dir),
                 features=Features({column: Value("string")}),
             )
             data_columns.append(dataset)

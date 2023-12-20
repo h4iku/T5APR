@@ -9,14 +9,17 @@ from .configs import (
     bears_gen_dir,
     bugaid_gen_dir,
     codeflaws_gen_dir,
+    d4j1_gen_dir,
+    d4j2_gen_dir,
     d4j_gen_dir,
     manybugs_gen_dir,
     quixbugs_genjava_dir,
     quixbugs_genpy_dir,
+    results_dir,
 )
 
 # Config
-dataset = "ManyBugs"
+dataset = "QuixBugs-Python"
 multi = True
 rerank_method = 2
 empty_last = False
@@ -31,6 +34,14 @@ elif dataset == "QuixBugs-Java":
     bugs_metadata_file = "QuixBugs_Java.jsonl"
 elif dataset == "Defects4J":
     gen_dir = d4j_gen_dir
+    model = "multi" if multi else "java"
+    bugs_metadata_file = "Defects4J.jsonl"
+elif dataset == "Defects4J-v1.2":
+    gen_dir = d4j1_gen_dir
+    model = "multi" if multi else "java"
+    bugs_metadata_file = "Defects4J.jsonl"
+elif dataset == "Defects4J-v2.0":
+    gen_dir = d4j2_gen_dir
     model = "multi" if multi else "java"
     bugs_metadata_file = "Defects4J.jsonl"
 elif dataset == "BugAID":
@@ -50,11 +61,14 @@ elif dataset == "Bears":
     model = "multi" if multi else "java"
     bugs_metadata_file = "Bears.jsonl"
 else:
-    print("Wrong dataset name")
+    raise ValueError("Wrong dataset name")
 
 output_dir = gen_dir / f"outputs-{model}"
 output_size = 100
-patches_dir = output_dir / f"plausible_patches_{output_size}"
+# patches_dir = output_dir / f"plausible_patches_{output_size}"
+patches_dir = (
+    results_dir / dataset / f"outputs-{model}" / f"plausible_patches_{output_size}"
+)
 
 
 def add_source_target(df: pd.DataFrame) -> pd.DataFrame:
@@ -348,6 +362,10 @@ def set_corrects(df: pd.DataFrame) -> pd.DataFrame:
     df["correct"] = False
     df["exact_match"] = False
 
+    if not patches_dir.exists():
+        # set_exact_matches(df)
+        return df
+
     for bug_dir in patches_dir.iterdir():
         for patch_path in bug_dir.iterdir():
             with open(bug_dir / patch_path) as patch_file:
@@ -359,28 +377,6 @@ def set_corrects(df: pd.DataFrame) -> pd.DataFrame:
                         & (df["normalized_patch"] == " ".join(patch["patch"].split())),
                         ["exact_match", "correct"],
                     ] = [patch["exact_match"], patch["correct"]]
-    return df
-
-
-def set_corrects_from_df(df: pd.DataFrame) -> pd.DataFrame:
-    df["correct"] = False
-    df["exact_match"] = False
-
-    patches_df = pd.read_json(
-        output_dir / f"validated_reranked_candidates_{output_size}.jsonl",
-        orient="records",
-        lines=True,
-    )
-
-    corrects_df = get_corrects(patches_df)
-
-    for ppatch in corrects_df.itertuples(name="Patch"):
-        df.loc[
-            (df["bugid"] == ppatch.bugid)
-            & (df["normalized_patch"] == ppatch.normalized_patch),
-            "correct",
-        ] = True
-
     return df
 
 
@@ -406,14 +402,7 @@ def main():
     print("Deduped:", len(reranked_df))
     reranked_df = generate_candidates(reranked_df)
 
-    # You can do this both using generated directories (to also check correct type)
-    # or using plausible DataFrame (can only check plausible and exact match)
-    # or use the primary candidates (can only use exact match)
-
-    # set_exact_matches(reranked_df)
-    # set_corrects(reranked_df)
-
-    # set_corrects_from_df(reranked_df)
+    set_corrects(reranked_df)
     reranked_df = add_metadata(reranked_df)
 
     reranked_df.to_json(
@@ -428,7 +417,7 @@ def main():
     plausibles_df = get_plausibles(reranked_df)
     exact_match_plausibility_check(reranked_df)
     first_plausible = plausibles_df.groupby("bugid").first().value_counts("correct")
-    print("1st Plausible:", first_plausible.get(True, "0"))
+    print("1st in Plausibles:", first_plausible.get(True, "0"))
 
 
 if __name__ == "__main__":

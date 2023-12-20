@@ -46,7 +46,7 @@ elif dataset == "Bears":
     model = "multi" if multi else "java"
     bugs_metadata_file = "Bears.jsonl"
 else:
-    print("Wrong dataset name")
+    raise ValueError("Wrong dataset name")
 
 output_dir = gen_dir / f"outputs-{model}"
 

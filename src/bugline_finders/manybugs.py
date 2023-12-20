@@ -228,7 +228,7 @@ def main():
         ],
     }
 
-    for bug_dir in tqdm(manybugs_data_dir.iterdir()):
+    for bug_dir in tqdm(sorted(manybugs_data_dir.iterdir())):
         bug_id = bug_dir.name
         metadata = bug_id.split("-")
         with open(bug_dir / "bugged-program.txt") as metafile:

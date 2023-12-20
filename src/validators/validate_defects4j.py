@@ -65,8 +65,9 @@ def check_java_version():
         java_version_string = subprocess.run(
             ["java", "-version"], capture_output=True, text=True, check=True
         ).stderr
-    except subprocess.CalledProcessError:
+    except subprocess.CalledProcessError as e:
         print("Can't find `java`")
+        raise e
 
     pattern = r'"(\d+\.\d+).*"'
     java_version = re.search(pattern, java_version_string).groups()[0]
