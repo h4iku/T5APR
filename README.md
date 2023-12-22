@@ -43,7 +43,7 @@ The ‍`results` directory contains generated plausible patches for each benchma
     ```
     For further information, follow [Defects4J set up instructions](https://github.com/rjust/defects4j/#setting-up-defects4j).
 
-    For [Codeflaws](https://codeflaws.github.io/) benchmark, download [codeflaws.tar.gz](http://www.comp.nus.edu.sg/%7Erelease/codeflaws/codeflaws.tar.gz) archive and extract it in the `benchmarks/Codeflaws` directory. For [ManyBugs](https://repairbenchmarks.cs.umass.edu/) benchmarks, the necessary files are in `benchmarks/ManyBugs.7z`, which you can directly extract in the `benchmarks` directory, but you can also download the complete [scenario tarballs](https://repairbenchmarks.cs.umass.edu/ManyBugs/scenarios/) and extract them in the `benchmarks/ManyBugs/scenarios` directory.
+    For the [Codeflaws](https://codeflaws.github.io/) benchmark, download [codeflaws.tar.gz](http://www.comp.nus.edu.sg/%7Erelease/codeflaws/codeflaws.tar.gz) archive and extract it in the `benchmarks/Codeflaws` directory. For [ManyBugs](https://repairbenchmarks.cs.umass.edu/) benchmarks, the necessary files are in `benchmarks/ManyBugs.7z`, which you can directly extract in the `benchmarks` directory, but you can also download the complete [scenario tarballs](https://repairbenchmarks.cs.umass.edu/ManyBugs/scenarios/) and extract them in the `benchmarks/ManyBugs/scenarios` directory.
     
     Submodules for tree-sitter language grammars are in the `tools/tree-sitter-lib/vendor` directory, and the compiled library will be in the `tools/tree-sitter-lib/build`. If you didn't download the submodules, you can follow the [tree-sitter](https://github.com/tree-sitter/py-tree-sitter) instructions to clone the required language grammars into the same directory.
 
@@ -75,7 +75,7 @@ After fine-tuning, you will have five checkpoints in the `models/codet5-small-t5
 The training data is also on the [🤗 Hub](https://huggingface.co/collections/h4iku/t5apr-6514a09a8f20a8ccf7b07f5d), and there are both raw and preprocessed versions. If you want to locally preprocess the data obtained from [CoCoNuT repository](https://github.com/lin-tan/CoCoNut-Artifact/releases/tag/training_data_1.0.0), you can download and follow [their instructions](https://github.com/lin-tan/CoCoNut-Artifact/releases/download/training_data_1.0.0/readme.md) to put them in the `data` directory (The uncompressing process will take some time!) and use `preprocess.py` to preprocess it. The preprocessed data will be in the same directory.
 
 
-### Bug Line Finding & Patch Generation
+### Finding Bug Lines & Patch Generation
 
 Scripts in the `bugline_finders` directory are used to extract buggy lines and other metadata from bugs in the evaluation benchmark programs by comparing buggy and correct diffs. The outputs will be saved in the `generated_assets` folder under the name of each benchmark.
 
@@ -86,7 +86,7 @@ The `sequences_{beam_size}.jsonl` file has the candidate patches generated from 
 
 ### Patch Validation
 
-To validate candidate patches for each benchmark use scripts in the `validators` folder. Change the `output_dir` variable to choose if you want validation to run on candidate patches from the multilingual or monolingual checkpoints. Validation result of each bug is saved in the `save-state` folder under the bugid filename. Execution of these modules are all resumable, and if they get interrupted in the middle of execution, they will continue validating the remaining bugs next time they run. Final aggregate results of plausible patches are saved in `plausible_candidates_{beam_size}.jsonl` file.
+To validate candidate patches for each benchmark, use scripts in the `validators` folder. Change the `output_dir` variable to choose if you want validation to run on candidate patches from the multilingual or monolingual checkpoints. Validation result of each bug is saved in the `save-state` folder under the bugid filename. Execution of these modules are all resumable, and if they get interrupted in the middle of execution, they will continue validating the remaining bugs next time they run. Final aggregate results of plausible patches are saved in `plausible_candidates_{beam_size}.jsonl` file.
 
 At this point after validation, you can use `separate_d4j_versions.py` script to generate separate folders for bugs in the v1.2 and v2.0 of Defects4J benchmark.
 
