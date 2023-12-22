@@ -12,7 +12,8 @@ __pycache__/
 # Hugging Face cache
 .cache
 
-benchmarks/
+benchmarks/Codeflaws/
+benchmarks/ManyBugs/
 models/
 
 generated_assets/**
