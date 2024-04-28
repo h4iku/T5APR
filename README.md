@@ -110,15 +110,12 @@ The complete content of the `generated_assets` directory for all the benchmarks 
 If you use T5APR in your research, please cite the following paper:
 
 ```bibtex
-@misc{gharibiT5APREmpoweringAutomated2023,
+@article{gharibiT5APREmpoweringAutomated2023,
   title = {T5APR: Empowering Automated Program Repair across Languages through Checkpoint Ensemble},
   shorttitle = {T5APR},
   author = {Gharibi, Reza and Sadreddini, Mohammad Hadi and Fakhrahmad, Seyed Mostafa},
-  year = {2023},
-  number = {arXiv:2309.15742},
-  eprint = {2309.15742},
-  primaryclass = {cs.SE},
-  doi = {10.48550/arXiv.2309.15742},
-  archiveprefix = {arxiv},
+  year = {2024},
+  journal = {Journal of Systems and Software},
+  doi = {10.1016/j.jss.2024.112083},
 }
 ```
