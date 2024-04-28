@@ -1,6 +1,7 @@
 # T5APR: Empowering Automated Program Repair across Languages through Checkpoint Ensemble
-[![arXiv](https://img.shields.io/badge/arXiv-2309.15742-b31b1b.svg)](https://arxiv.org/abs/2309.15742)
-[![Hugging Face Collection](https://img.shields.io/badge/🤗_Collection-Data_&_Model-ffd21e.svg)](https://huggingface.co/collections/h4iku/t5apr-6514a09a8f20a8ccf7b07f5d)
+[![arXiv](https://img.shields.io/badge/arXiv-2309.15742-b31b1b)](https://arxiv.org/abs/2309.15742)
+[![DOI:10.1016/j.jss.2024.112083](https://img.shields.io/badge/DOI-10.1016/j.jss.2024.112083-0274b4)](https://doi.org/10.1016/j.jss.2024.112083)
+[![Hugging Face Collection](https://img.shields.io/badge/🤗_Collection-Data_&_Model-ffd21e)](https://huggingface.co/collections/h4iku/t5apr-6514a09a8f20a8ccf7b07f5d)
 
 ![T5APR overview](T5APR.png)
 
@@ -25,8 +26,8 @@ The ‍`results` directory contains generated plausible patches for each benchma
 2. Create a virtual environment and install the dependencies:
 
     ```bash
-    python -m venv .env
-    source .env/bin/activate
+    python -m venv .venv
+    source .venv/bin/activate
 
     python -m pip install -U pip setuptools
     pip install -r requirements.txt
