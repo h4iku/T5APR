@@ -116,6 +116,8 @@ If you use T5APR in your research, please cite the following paper:
   author = {Gharibi, Reza and Sadreddini, Mohammad Hadi and Fakhrahmad, Seyed Mostafa},
   year = {2024},
   journal = {Journal of Systems and Software},
+  volume = {214},
+  pages = {112083},
   doi = {10.1016/j.jss.2024.112083},
 }
 ```
